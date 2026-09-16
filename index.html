@@ -282,14 +282,9 @@ dialog::backdrop{background:rgba(27,23,38,.55)}
     </div>
   </div>
 
-<footer class="pie" id="pie" hidden>
-  <p id="notaPie"></p>
-  <p style="margin-top:10px;">
-    © 2026–2030 Sebastián Hernández Mora — @sebashmora en todas las plataformas.
-    Este es un proyecto de código abierto, desarrollado con apoyo de Claude (Anthropic). Puede reutilizarse y adaptarse libremente, siempre citando al autor original.
-    Los casos se actualizan cada semana. Si vas a usar esta herramienta de forma manual (descargando los archivos en vez de la versión publicada), haz respaldos periódicos de tu propio casos-adle.json — los cambios que hagas solo existen en tu copia local.
-  </p>
-</footer>
+  <footer class="pie" id="pie" hidden>
+    <p id="notaPie"></p>
+  </footer>
 </div>
 
 <dialog id="dlg">
@@ -331,6 +326,8 @@ dialog::backdrop{background:rgba(27,23,38,.55)}
 <script>
 (function(){
 "use strict";
+
+var PIE_TEXTO = "\u00A9 2026. Sebasti\u00e1n Hern\u00e1ndez Mora \u2014 @sebashmora en todas las plataformas. Este es un proyecto de c\u00f3digo abierto, desarrollado con apoyo de Claude (Anthropic). Puede reutilizarse y adaptarse libremente, siempre citando al autor original. Los casos se actualizan cada semana. Si vas a usar esta herramienta de forma manual (descargando los archivos en vez de la versi\u00f3n publicada), haz respaldos peri\u00f3dicos de tu propio casos-adle.json \u2014 los cambios que hagas solo existen en tu copia local.";
 
 var VOC = {
   estado:["Abierto","Sin investigación formal","Con decisión judicial o administrativa","Cerrado"],
@@ -379,7 +376,7 @@ function lista(v){
 }
 
 /* ---------- Mostrar tablero ---------- */
-function mostrarTablero(mensajePie){
+function mostrarTablero(){
   $("vacio").hidden = true;
   $("tablero").hidden = false;
   $("pulso").hidden = false;
@@ -388,7 +385,7 @@ function mostrarTablero(mensajePie){
   llenarSelects();
   construirFiltros();
   pintar();
-  $("notaPie").textContent = mensajePie;
+  $("notaPie").textContent = PIE_TEXTO;
 }
 
 /* ---------- Carga ---------- */
@@ -414,17 +411,7 @@ function cargarTexto(txt, remoto){
   datos.meta = datos.meta || {};
   datos.meta.vocabulario = VOC;
   abierta = null;
-  var m = datos.meta || {};
-  var mensaje = (m.descripcion ? m.descripcion + " " : "") +
-    "Los casos marcados como denuncia periodística u opinión no equivalen a hechos probados judicialmente. ";
-  if(remoto){
-    mensaje += "Estás viendo la versión publicada de este expediente" +
-      (m.actualizado ? " (actualizada el " + m.actualizado + ")" : "") +
-      ". Los casos que agregues aquí quedan solo en tu navegador — para publicarlos, edita casos-adle.json en el repositorio.";
-  } else {
-    mensaje += "Este registro vive en la memoria del navegador: descarga el JSON para conservar lo que agregues.";
-  }
-  mostrarTablero(mensaje);
+  mostrarTablero();
   if(!remoto) avisar(casos.length + " casos cargados.");
 }
 function abrirArchivo(f){
@@ -466,7 +453,7 @@ function inicializarVacio(){
   };
   casos = [];
   abierta = null;
-  mostrarTablero("Registro iniciado manualmente. Descarga el JSON para conservar los casos que agregues.");
+  mostrarTablero();
 }
 function iniciarAgregar(){ inicializarVacio(); abrirForm(null); }
 $("btnNuevo").onclick = iniciarAgregar;
