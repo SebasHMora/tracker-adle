@@ -70,6 +70,22 @@ h1 span{display:block;font-weight:400;font-style:italic;font-size:.42em;letter-s
 .btn.fantasma:hover{border-color:var(--fondo);background:rgba(251,247,238,.09)}
 .btn.peligro{background:var(--fondo);border-color:var(--marca-osc);color:var(--marca-osc)}
 .btn.peligro:hover{background:var(--marca-osc);color:#fff;border-color:var(--marca-osc)}
+.btn.fantasma.peligro{border-color:var(--marca);color:var(--marca)}
+.btn.fantasma.peligro:hover{background:var(--marca);color:#fff;border-color:var(--marca)}
+
+/* ---------- Banner de cambios sin respaldar ---------- */
+.banner-aviso{
+  background:var(--dorado);border-bottom:1.5px solid var(--tinta);
+  position:sticky;top:0;z-index:45;
+}
+.banner-aviso[hidden]{display:none}
+.banner-aviso-interior{
+  max-width:1420px;margin:0 auto;padding:10px 22px;
+  display:flex;flex-wrap:wrap;gap:8px 18px;align-items:center;justify-content:space-between;
+}
+.banner-aviso-interior span{font-family:var(--sans);font-size:13.5px;font-weight:600;color:var(--tinta);flex:1;min-width:240px}
+.banner-aviso-interior .btn{background:var(--tinta);color:var(--dorado);border-color:var(--tinta);padding:7px 14px;font-size:13px}
+.banner-aviso-interior .btn:hover{background:#000;border-color:#000}
 
 /* ---------- Pulso ---------- */
 .pulso{padding:20px 0 24px;border-bottom:1.5px solid var(--linea-fuerte)}
@@ -183,7 +199,7 @@ dialog::backdrop{background:rgba(27,23,38,.55)}
 }
 .dlg-cuerpo textarea{resize:vertical;min-height:78px;line-height:1.5}
 .dlg-cuerpo .pista{font-weight:400;font-size:11.5px;color:var(--carbon)}
-.dlg-pie{display:flex;justify-content:flex-end;gap:8px;padding:14px 22px;border-top:1.5px solid var(--tinta)}
+.dlg-pie{display:flex;flex-wrap:wrap;justify-content:flex-end;gap:8px;padding:14px 22px;border-top:1.5px solid var(--tinta)}
 
 .aviso{
   position:fixed;left:50%;bottom:26px;transform:translateX(-50%);
@@ -217,11 +233,19 @@ dialog::backdrop{background:rgba(27,23,38,.55)}
         <button class="btn fantasma" id="btnGuardar" disabled>Guardar JSON</button>
         <button class="btn fantasma" id="btnExcel" disabled>Exportar Excel</button>
         <button class="btn fantasma" id="btnCsv" disabled>Exportar CSV</button>
+        <button class="btn fantasma peligro" id="btnVaciar" disabled>Borrar todo y empezar de cero</button>
       </div>
     </div>
     <input type="file" id="archivo" accept=".json,application/json" hidden>
   </div>
 </header>
+
+<div class="banner-aviso" id="bannerSinGuardar" hidden>
+  <div class="banner-aviso-interior">
+    <span>⚠ Tienes cambios que solo existen en este navegador — si cierras la pestaña o recargas la página sin respaldar, se pierden.</span>
+    <button class="btn" id="btnBannerGuardar">Descargar respaldo .json</button>
+  </div>
+</div>
 
 <div class="marco">
   <section class="pulso" id="pulso" hidden>
@@ -250,6 +274,18 @@ dialog::backdrop{background:rgba(27,23,38,.55)}
       <div class="grupo">
         <h2>Verificación</h2>
         <div class="opciones" id="fVerif"></div>
+      </div>
+      <div class="grupo">
+        <h2>Actor</h2>
+        <select class="campo" id="fActor"></select>
+      </div>
+      <div class="grupo">
+        <h2>Etiqueta</h2>
+        <select class="campo" id="fEtiqueta"></select>
+      </div>
+      <div class="grupo">
+        <h2>Fuente</h2>
+        <select class="campo" id="fFuente"></select>
       </div>
       <button class="limpiar" id="btnLimpiar">Quitar todos los filtros</button>
     </aside>
@@ -321,6 +357,20 @@ dialog::backdrop{background:rgba(27,23,38,.55)}
   </form>
 </dialog>
 
+<dialog id="dlgCarga">
+  <div class="dlg-tope">
+    <h2>¿Qué quieres hacer con este archivo?</h2>
+  </div>
+  <div class="dlg-cuerpo" style="grid-template-columns:1fr;">
+    <p id="dlgCargaMsg" style="font-family:var(--sans);font-size:14.5px;color:var(--carbon);margin:0;line-height:1.5;"></p>
+  </div>
+  <div class="dlg-pie">
+    <button class="btn" id="btnCargaCancelar">Cancelar</button>
+    <button class="btn peligro" id="btnCargaReemplazar">Reemplazar todo</button>
+    <button class="btn fuerte" id="btnCargaAgregar">Agregar a los que ya tengo</button>
+  </div>
+</dialog>
+
 <div class="aviso" id="aviso" hidden></div>
 
 <script>
@@ -354,10 +404,11 @@ var CORTO = {
   "Cerrado":"Cerrado"
 };
 
-var datos = null, casos = [], abierta = null, editando = null;
+var datos = null, casos = [], abierta = null, editando = null, pendienteCarga = null;
+var sinGuardar = false;
 var modo = "compacta";
 var orden = {col:"fecha", asc:false};
-var filtros = {busca:"", estado:new Set(), tematica:new Set(), periodo:new Set(), verificacion:new Set()};
+var filtros = {busca:"", estado:new Set(), tematica:new Set(), periodo:new Set(), verificacion:new Set(), actores:"", etiquetas:"", fuentes:""};
 
 var $ = function(id){ return document.getElementById(id); };
 var esc = function(s){
@@ -375,57 +426,132 @@ function lista(v){
   return String(v).split(",").map(function(s){return s.trim();}).filter(Boolean);
 }
 
+/* ---------- Cambios sin respaldar ---------- */
+function marcarSinGuardar(v){
+  sinGuardar = v;
+  $("bannerSinGuardar").hidden = !v;
+}
+window.addEventListener("beforeunload", function(e){
+  if(sinGuardar){ e.preventDefault(); e.returnValue = ""; }
+});
+
 /* ---------- Mostrar tablero ---------- */
 function mostrarTablero(){
   $("vacio").hidden = true;
   $("tablero").hidden = false;
   $("pulso").hidden = false;
   $("pie").hidden = false;
-  ["btnGuardar","btnExcel","btnCsv"].forEach(function(b){ $(b).disabled = false; });
+  ["btnGuardar","btnExcel","btnCsv","btnVaciar"].forEach(function(b){ $(b).disabled = false; });
   llenarSelects();
   construirFiltros();
   pintar();
   $("notaPie").textContent = PIE_TEXTO;
 }
 
-/* ---------- Carga ---------- */
-function cargarTexto(txt, remoto){
+/* ---------- Carga: parseo, fusión y aplicación ---------- */
+function parsearExpediente(txt){
   var j;
-  try { j = JSON.parse(txt); }
-  catch(e){ if(!remoto) avisar("El archivo no es JSON válido. Revisa comas y comillas."); return; }
+  try { j = JSON.parse(txt); } catch(e){ return null; }
   var arr = Array.isArray(j) ? j : j.casos;
-  if(!Array.isArray(arr)){ if(!remoto) avisar("No se encontró la lista \u201ccasos\u201d en el archivo."); return; }
-  datos = Array.isArray(j) ? {meta:{}, casos:arr} : j;
-  casos = arr.map(function(c,i){
+  if(!Array.isArray(arr)) return null;
+  return j;
+}
+function normalizarCasos(arr){
+  return arr.map(function(c,i){
     c.id = c.id || ("X-" + (i+1));
     c.gravedad = Number(c.gravedad) || 3;
     ["fuentes","actores","etiquetas"].forEach(function(k){ c[k] = lista(c[k]); });
     c.enlaces = Array.isArray(c.enlaces) ? c.enlaces : [];
     return c;
   });
-  if(datos.meta && datos.meta.vocabulario){
-    Object.keys(VOC).forEach(function(k){
-      if(Array.isArray(datos.meta.vocabulario[k]) && datos.meta.vocabulario[k].length) VOC[k] = datos.meta.vocabulario[k];
-    });
+}
+function fusionarVocabulario(nuevoVoc){
+  if(!nuevoVoc) return;
+  Object.keys(VOC).forEach(function(k){
+    if(Array.isArray(nuevoVoc[k])){
+      nuevoVoc[k].forEach(function(v){ if(VOC[k].indexOf(v) === -1) VOC[k].push(v); });
+    }
+  });
+}
+function fusionarCasos(nuevosCasos){
+  var mapa = {};
+  casos.forEach(function(c, i){ mapa[c.id] = i; });
+  var agregados = 0, actualizados = 0;
+  nuevosCasos.forEach(function(nc){
+    if(mapa.hasOwnProperty(nc.id)){
+      casos[mapa[nc.id]] = nc;
+      actualizados++;
+    } else {
+      casos.push(nc);
+      mapa[nc.id] = casos.length - 1;
+      agregados++;
+    }
+  });
+  return {agregados:agregados, actualizados:actualizados};
+}
+function aplicarCarga(json, remoto, modoCarga){
+  var arr = Array.isArray(json) ? json : json.casos;
+  if(!Array.isArray(arr)) return;
+  var nuevosCasos = normalizarCasos(arr);
+  var nuevoMeta = Array.isArray(json) ? {} : (json.meta || {});
+  var habiaAntes = casos.length > 0;
+
+  if(modoCarga === "reemplazar" || !datos){
+    datos = {meta: nuevoMeta, casos: nuevosCasos};
+    casos = nuevosCasos;
+    if(nuevoMeta.vocabulario){
+      Object.keys(VOC).forEach(function(k){
+        if(Array.isArray(nuevoMeta.vocabulario[k]) && nuevoMeta.vocabulario[k].length) VOC[k] = nuevoMeta.vocabulario[k];
+      });
+    }
+    marcarSinGuardar(false);
+    if(!remoto) avisar(casos.length + " casos cargados.");
+  } else {
+    var res = fusionarCasos(nuevosCasos);
+    fusionarVocabulario(nuevoMeta.vocabulario);
+    datos = datos || {meta:{}, casos:casos};
+    datos.meta = datos.meta || {};
+    datos.meta.contador = Math.max(datos.meta.contador || 0, nuevoMeta.contador || 0);
+    if(nuevoMeta.actualizado) datos.meta.actualizado = nuevoMeta.actualizado;
+    marcarSinGuardar(habiaAntes);
+    avisar(res.agregados + " casos nuevos, " + res.actualizados + " actualizados.");
   }
   datos.meta = datos.meta || {};
   datos.meta.vocabulario = VOC;
   abierta = null;
   mostrarTablero();
-  if(!remoto) avisar(casos.length + " casos cargados.");
+}
+function procesarTexto(txt, remoto, modoCarga){
+  var j = parsearExpediente(txt);
+  if(!j){ if(!remoto) avisar("El archivo no es JSON válido, o no tiene una lista \u201ccasos\u201d."); return; }
+  aplicarCarga(j, remoto, modoCarga);
 }
 function abrirArchivo(f){
   if(!f) return;
-  if(casos && casos.length){
-    if(!confirm("Cargar este archivo reemplazará los " + casos.length + " casos actuales en pantalla. ¿Continuar?")) return;
-  }
   var r = new FileReader();
-  r.onload = function(){ cargarTexto(String(r.result)); };
+  r.onload = function(){
+    var txt = String(r.result);
+    var j = parsearExpediente(txt);
+    if(!j){ avisar("El archivo no es JSON válido, o no tiene una lista \u201ccasos\u201d."); return; }
+    var arr = Array.isArray(j) ? j : j.casos;
+    if(casos.length){
+      pendienteCarga = j;
+      $("dlgCargaMsg").textContent = "El archivo trae " + arr.length + " casos. Ya tienes " + casos.length +
+        " casos cargados en este navegador. \u201cAgregar\u201d conserva ambos (si coincide un ID, se actualiza con la versión del archivo); \u201cReemplazar\u201d borra lo que tienes y deja solo lo del archivo.";
+      $("dlgCarga").showModal();
+    } else {
+      aplicarCarga(j, false, "reemplazar");
+    }
+  };
   r.onerror = function(){ avisar("No se pudo leer el archivo."); };
   r.readAsText(f, "utf-8");
 }
 $("btnCargar").onclick = $("btnCargar2").onclick = function(){ $("archivo").click(); };
 $("archivo").onchange = function(e){ abrirArchivo(e.target.files[0]); e.target.value = ""; };
+$("btnCargaCancelar").onclick = function(){ $("dlgCarga").close(); };
+$("btnCargaReemplazar").onclick = function(){ aplicarCarga(pendienteCarga, false, "reemplazar"); $("dlgCarga").close(); };
+$("btnCargaAgregar").onclick = function(){ aplicarCarga(pendienteCarga, false, "agregar"); $("dlgCarga").close(); };
+$("dlgCarga").addEventListener("close", function(){ pendienteCarga = null; });
 
 ["dragenter","dragover"].forEach(function(ev){
   document.addEventListener(ev, function(e){ e.preventDefault(); $("vacio").classList.add("encima"); });
@@ -437,7 +563,7 @@ document.addEventListener("drop", function(e){
   if(e.dataTransfer && e.dataTransfer.files.length) abrirArchivo(e.dataTransfer.files[0]);
 });
 
-/* ---------- Empezar desde cero ---------- */
+/* ---------- Empezar desde cero / vaciar todo ---------- */
 function inicializarVacio(){
   if(datos) return;
   datos = {
@@ -453,11 +579,29 @@ function inicializarVacio(){
   };
   casos = [];
   abierta = null;
+  marcarSinGuardar(false);
   mostrarTablero();
 }
 function iniciarAgregar(){ inicializarVacio(); abrirForm(null); }
 $("btnNuevo").onclick = iniciarAgregar;
 $("btnNuevoVacio").onclick = iniciarAgregar;
+
+function vaciarTodo(){
+  if(!casos.length && !datos) return;
+  if(!confirm("Esto borra los " + casos.length + " casos cargados en este navegador y no se puede deshacer. ¿Seguro que quieres empezar de cero?")) return;
+  datos = null; casos = []; abierta = null; editando = null;
+  filtros = {busca:"", estado:new Set(), tematica:new Set(), periodo:new Set(), verificacion:new Set(), actores:"", etiquetas:"", fuentes:""};
+  $("busca").value = "";
+  marcarSinGuardar(false);
+  $("tablero").hidden = true;
+  $("pulso").hidden = true;
+  $("pie").hidden = true;
+  $("vacio").hidden = false;
+  ["btnGuardar","btnExcel","btnCsv","btnVaciar"].forEach(function(b){ $(b).disabled = true; });
+  avisar("Expediente vaciado. Puedes cargar un archivo o empezar uno nuevo.");
+}
+$("btnVaciar").onclick = vaciarTodo;
+$("btnBannerGuardar").onclick = function(){ $("btnGuardar").click(); };
 
 /* ---------- Filtros ---------- */
 function conteoPor(campo, valor){
@@ -476,17 +620,35 @@ function bloqueFiltro(cont, campo, valores){
     };
   });
 }
+function valoresUnicos(campo){
+  var set = new Set();
+  casos.forEach(function(c){ (c[campo]||[]).forEach(function(v){ if(v) set.add(v); }); });
+  return Array.from(set).sort(function(a,b){ return a.localeCompare(b, "es"); });
+}
+function bloqueSelect(cont, campo, etiquetaTodos){
+  var valores = valoresUnicos(campo);
+  cont.innerHTML = '<option value="">'+esc(etiquetaTodos)+'</option>' +
+    valores.map(function(v){
+      var n = casos.filter(function(c){ return (c[campo]||[]).indexOf(v) !== -1; }).length;
+      return '<option value="'+esc(v)+'"'+(filtros[campo]===v?' selected':'')+'>'+esc(v)+' ('+n+')</option>';
+    }).join("");
+  cont.onchange = function(){ filtros[campo] = cont.value; pintar(); };
+}
 function construirFiltros(){
   bloqueFiltro($("fEstado"), "estado", VOC.estado);
   bloqueFiltro($("fTema"), "tematica", VOC.tematica.filter(function(t){ return conteoPor("tematica", t) > 0; }));
   bloqueFiltro($("fPeriodo"), "periodo", VOC.periodo);
   bloqueFiltro($("fVerif"), "verificacion", VOC.verificacion);
+  bloqueSelect($("fActor"), "actores", "Todos los actores");
+  bloqueSelect($("fEtiqueta"), "etiquetas", "Todas las etiquetas");
+  bloqueSelect($("fFuente"), "fuentes", "Todas las fuentes");
 }
 $("busca").oninput = function(e){ filtros.busca = e.target.value.toLowerCase().trim(); pintar(); };
 $("btnLimpiar").onclick = function(){
-  filtros = {busca:"", estado:new Set(), tematica:new Set(), periodo:new Set(), verificacion:new Set()};
+  filtros = {busca:"", estado:new Set(), tematica:new Set(), periodo:new Set(), verificacion:new Set(), actores:"", etiquetas:"", fuentes:""};
   $("busca").value = "";
   document.querySelectorAll("aside input[type=checkbox]").forEach(function(i){ i.checked = false; });
+  construirFiltros();
   pintar();
 };
 
@@ -496,6 +658,9 @@ function filtrados(){
     if(filtros.tematica.size && !filtros.tematica.has(c.tematica)) return false;
     if(filtros.periodo.size && !filtros.periodo.has(c.periodo)) return false;
     if(filtros.verificacion.size && !filtros.verificacion.has(c.verificacion)) return false;
+    if(filtros.actores && (c.actores||[]).indexOf(filtros.actores) === -1) return false;
+    if(filtros.etiquetas && (c.etiquetas||[]).indexOf(filtros.etiquetas) === -1) return false;
+    if(filtros.fuentes && (c.fuentes||[]).indexOf(filtros.fuentes) === -1) return false;
     if(filtros.busca){
       var heno = [c.id,c.caso,c.alegato,c.respuesta_adle,c.notas,c.tematica,c.periodo,
                   (c.actores||[]).join(" "),(c.etiquetas||[]).join(" "),(c.fuentes||[]).join(" ")]
@@ -729,7 +894,9 @@ $("form").onsubmit = function(e){
     if(!confirm("¿Eliminar el caso " + editando + "? No se puede deshacer.")) { e.preventDefault(); return; }
     casos = casos.filter(function(c){ return c.id !== editando; });
     if(abierta === editando) abierta = null;
-    construirFiltros(); pintar(); avisar("Caso eliminado. Descarga el JSON para conservarlo.");
+    construirFiltros(); pintar();
+    marcarSinGuardar(true);
+    avisar("Caso eliminado. Descarga el JSON para conservarlo.");
     return;
   }
   var f = e.target;
@@ -757,6 +924,7 @@ $("form").onsubmit = function(e){
   if(i >= 0) casos[i] = nuevo; else casos.unshift(nuevo);
   abierta = nuevo.id;
   construirFiltros(); pintar();
+  marcarSinGuardar(true);
   avisar(i >= 0 ? "Caso actualizado." : "Caso agregado (" + nuevo.id + "). Descarga el JSON para conservarlo.");
 };
 
@@ -774,6 +942,7 @@ $("btnGuardar").onclick = function(){
   var salida = JSON.stringify({meta:meta, casos:casos}, null, 2);
   bajar("casos-adle.json", salida, "application/json");
   avisar("JSON descargado con " + casos.length + " casos.");
+  marcarSinGuardar(false);
 };
 var CAMPOS_EXPORT = [
   {k:"id", t:"ID"}, {k:"fecha", t:"Fecha"}, {k:"fecha_texto", t:"Fecha (texto)"},
@@ -822,7 +991,7 @@ $("btnExcel").onclick = function(){
 function intentarAutocarga(){
   fetch("./casos-adle.json", {cache:"no-store"})
     .then(function(r){ if(!r.ok) throw new Error("sin archivo publicado"); return r.text(); })
-    .then(function(txt){ cargarTexto(txt, true); })
+    .then(function(txt){ procesarTexto(txt, true, "reemplazar"); })
     .catch(function(){ /* No hay archivo publicado junto a esta página, o se abrió como archivo local:
                            se deja la pantalla de carga manual tal cual, sin mostrar error. */ });
 }
