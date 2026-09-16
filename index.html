@@ -1,0 +1,848 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tracker Político ADLE</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+<style>
+:root{
+  --fondo:#FBF7EE;
+  --superficie:#FFFFFF;
+  --tinta:#1B1726;
+  --carbon:#655F76;
+  --carbon-claro:#B8AEC9;
+  --linea:#E7DFCB;
+  --linea-fuerte:#CDBFA0;
+  --marca:#E8384F;
+  --marca-osc:#B31F35;
+  --dorado:#F2A900;
+  --verde:#128A5E;
+  --gris:#6B7280;
+  --enlace:#1450C4;
+  --realce:#FFF1CE;
+  --tricolor-1:#FCD116;
+  --tricolor-2:#003893;
+  --tricolor-3:#CE1126;
+  --sans:"Space Grotesk",system-ui,sans-serif;
+  --serif:"Newsreader",Georgia,serif;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{
+  margin:0;background:var(--fondo);color:var(--tinta);
+  font-family:var(--serif);font-size:16px;line-height:1.55;
+}
+button,input,select,textarea{font:inherit;color:inherit}
+a{color:var(--enlace)}
+:focus-visible{outline:2.5px solid var(--enlace);outline-offset:2px}
+
+/* ---------- Encabezado ---------- */
+.marco{max-width:1420px;margin:0 auto;padding:0 22px}
+.franja{height:6px;display:flex}
+.franja i{flex:1;display:block}
+.franja i:nth-child(1){background:var(--tricolor-1)}
+.franja i:nth-child(2){background:var(--tricolor-2)}
+.franja i:nth-child(3){background:var(--tricolor-3)}
+header.tope{background:var(--tinta)}
+.tope-interior{max-width:1420px;margin:0 auto;padding:32px 22px 24px}
+.rotulo{display:flex;flex-wrap:wrap;gap:26px;align-items:flex-end;justify-content:space-between}
+h1{
+  font-family:var(--sans);font-weight:700;font-size:clamp(28px,4.2vw,42px);
+  letter-spacing:-.02em;line-height:1.0;margin:0;max-width:16ch;color:var(--fondo);
+}
+h1 span{display:block;font-weight:400;font-style:italic;font-size:.42em;letter-spacing:0;color:var(--carbon-claro);margin-top:11px;font-family:var(--serif)}
+.acciones{display:flex;flex-wrap:wrap;gap:9px}
+.btn{
+  font-family:var(--sans);font-size:13.5px;font-weight:600;
+  background:var(--fondo);border:1.5px solid var(--linea-fuerte);color:var(--tinta);
+  border-radius:4px;padding:9px 16px;cursor:pointer;white-space:nowrap;
+  transition:transform .12s ease,background .12s ease,border-color .12s ease;
+}
+.btn:hover{transform:translateY(-1px);border-color:var(--tinta)}
+.btn:disabled{opacity:.35;cursor:not-allowed;transform:none}
+.btn.fuerte{background:var(--marca);border-color:var(--marca);color:#fff;box-shadow:0 2px 0 var(--marca-osc)}
+.btn.fuerte:hover{background:#d92e46;border-color:#d92e46}
+.btn.fantasma{background:transparent;border-color:rgba(251,247,238,.35);color:var(--fondo)}
+.btn.fantasma:hover{border-color:var(--fondo);background:rgba(251,247,238,.09)}
+.btn.peligro{background:var(--fondo);border-color:var(--marca-osc);color:var(--marca-osc)}
+.btn.peligro:hover{background:var(--marca-osc);color:#fff;border-color:var(--marca-osc)}
+
+/* ---------- Pulso ---------- */
+.pulso{padding:20px 0 24px;border-bottom:1.5px solid var(--linea-fuerte)}
+.pulso[hidden]{display:none}
+.barra{display:flex;height:26px;border:1.5px solid var(--tinta);border-radius:4px;overflow:hidden}
+.barra i{display:block;height:100%;transition:width .4s ease}
+.barra i:not(:last-child){border-right:1.5px solid var(--tinta)}
+.claves{display:flex;flex-wrap:wrap;gap:6px 26px;margin-top:11px;font-size:13.5px;font-family:var(--sans)}
+.clave{display:flex;align-items:center;gap:7px;color:var(--carbon)}
+.punto{width:11px;height:11px;flex:none;border:1px solid var(--tinta);border-radius:2px}
+.clave b{color:var(--tinta);font-weight:700;font-variant-numeric:tabular-nums}
+
+/* ---------- Tablero ---------- */
+.tablero{display:grid;grid-template-columns:236px minmax(0,1fr);gap:30px;padding:24px 0 70px;align-items:start}
+aside{position:sticky;top:16px}
+.grupo{margin-bottom:22px}
+.grupo h2{
+  font-family:var(--sans);font-size:12.5px;font-weight:700;margin:0 0 9px;
+  letter-spacing:.01em;color:var(--carbon);
+}
+.campo{width:100%;background:var(--superficie);border:1.5px solid var(--linea-fuerte);border-radius:4px;padding:9px 11px;font-size:14px;font-family:var(--sans)}
+.campo:hover{border-color:var(--tinta)}
+.opciones{display:flex;flex-direction:column;gap:2px}
+.op{
+  display:flex;align-items:center;gap:8px;font-family:var(--sans);font-size:13.5px;
+  padding:5px 6px;cursor:pointer;border-radius:4px;
+}
+.op:hover{background:var(--superficie)}
+.op input{margin:0;accent-color:var(--marca);flex:none}
+.op span{flex:1;min-width:0}
+.op em{font-style:normal;color:var(--carbon);font-variant-numeric:tabular-nums;font-size:12.5px}
+.limpiar{background:none;border:0;padding:0;font-family:var(--sans);font-size:13px;font-weight:600;color:var(--enlace);cursor:pointer;text-decoration:underline}
+
+/* ---------- Tabla ---------- */
+.utileria{display:flex;flex-wrap:wrap;gap:12px;align-items:center;justify-content:space-between;margin-bottom:12px}
+.conteo{font-family:var(--sans);font-size:13.5px;color:var(--carbon);font-variant-numeric:tabular-nums}
+.conteo b{color:var(--tinta);font-weight:700}
+.modo{display:flex;border:1.5px solid var(--linea-fuerte);border-radius:4px;overflow:hidden}
+.modo button{background:var(--superficie);border:0;padding:7px 14px;font-family:var(--sans);font-size:13px;font-weight:600;cursor:pointer;color:var(--tinta)}
+.modo button[aria-pressed="true"]{background:var(--marca);color:#fff}
+.envoltura{overflow-x:auto;border:1.5px solid var(--tinta);border-radius:4px;background:var(--superficie)}
+table{width:100%;border-collapse:collapse;font-size:14.5px}
+thead th{
+  font-family:var(--sans);font-size:12.5px;font-weight:700;text-align:left;
+  padding:11px 12px;border-bottom:2px solid var(--tinta);background:var(--fondo);
+  position:sticky;top:0;z-index:2;white-space:nowrap;
+}
+thead th.orden{cursor:pointer;user-select:none}
+thead th.orden:hover{color:var(--enlace)}
+thead th .flecha{color:var(--enlace);font-size:11px}
+tbody tr.fila{border-bottom:1px solid var(--linea);cursor:pointer}
+tbody tr.fila:hover{background:var(--realce)}
+tbody tr.fila.abierta{background:var(--realce)}
+td{padding:11px 12px;vertical-align:top}
+.cid{font-family:var(--sans);font-weight:700;font-size:13px;white-space:nowrap;font-variant-numeric:tabular-nums}
+.cfecha{font-family:var(--sans);font-size:13px;color:var(--carbon);white-space:nowrap;font-variant-numeric:tabular-nums}
+.ctema{font-family:var(--sans);font-size:12.5px;line-height:1.35}
+.ccaso{font-weight:500;max-width:44ch;line-height:1.35}
+.ccaso small{display:block;font-family:var(--sans);font-size:12px;color:var(--carbon);font-weight:400;margin-top:3px}
+.texto{max-width:52ch;font-size:14px;line-height:1.5}
+.estado{
+  display:inline-block;font-family:var(--sans);font-size:11.5px;font-weight:700;
+  padding:4px 10px;border-radius:4px;white-space:nowrap;letter-spacing:.01em;
+}
+.grav{display:flex;gap:2px;align-items:center}
+.grav i{width:6px;height:16px;background:var(--linea-fuerte);display:block;border-radius:1px}
+.grav i.on{background:var(--marca)}
+.grav i.on.medio{background:var(--dorado)}
+.grav i.on.bajo{background:var(--verde)}
+
+/* ---------- Detalle ---------- */
+tr.detalle>td{padding:0;background:var(--superficie);border-bottom:1.5px solid var(--tinta)}
+.ficha{padding:20px 22px 24px;display:grid;grid-template-columns:minmax(0,1.55fr) minmax(0,1fr);gap:26px 34px}
+.bloque h3{
+  font-family:var(--sans);font-size:12.5px;font-weight:700;margin:0 0 5px;color:var(--carbon);
+}
+.bloque p{margin:0 0 15px;max-width:74ch}
+.bloque p:last-child{margin-bottom:0}
+.cita{border-left:3px solid var(--marca);padding-left:13px;font-style:italic;color:#3A314A}
+.metas{display:flex;flex-direction:column;gap:14px}
+.meta{font-family:var(--sans);font-size:13.5px}
+.meta strong{display:block;font-size:12.5px;color:var(--carbon);font-weight:700;margin-bottom:3px}
+.chips{display:flex;flex-wrap:wrap;gap:5px}
+.chip{font-family:var(--sans);font-size:12px;border:1px solid var(--linea-fuerte);border-radius:4px;padding:3px 8px;background:var(--fondo)}
+.enlaces{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:5px}
+.enlaces a{font-family:var(--sans);font-size:13px}
+.herr-fila{grid-column:1/-1;display:flex;gap:8px;flex-wrap:wrap;border-top:1px solid var(--linea);padding-top:15px}
+
+/* ---------- Vacío ---------- */
+.vacio{border:2px dashed var(--linea-fuerte);background:var(--superficie);padding:56px 30px;text-align:center;border-radius:6px}
+.vacio.encima{border-color:var(--marca);background:var(--realce)}
+.vacio h2{font-family:var(--sans);font-size:21px;margin:0 0 8px;font-weight:700}
+.vacio p{margin:0 auto 20px;max-width:54ch;color:var(--carbon)}
+.vacio code{font-family:var(--sans);font-size:13px;background:var(--fondo);padding:2px 6px;border:1px solid var(--linea-fuerte);border-radius:3px}
+.acciones-vacio{display:flex;gap:10px;justify-content:center;flex-wrap:wrap}
+
+/* ---------- Formulario ---------- */
+dialog{
+  border:1.5px solid var(--tinta);border-top:4px solid var(--marca);border-radius:6px;padding:0;background:var(--superficie);
+  width:min(760px,94vw);color:var(--tinta);
+}
+dialog::backdrop{background:rgba(27,23,38,.55)}
+.dlg-tope{display:flex;justify-content:space-between;align-items:center;gap:16px;padding:16px 22px;border-bottom:1.5px solid var(--tinta)}
+.dlg-tope h2{font-family:var(--sans);font-size:17px;margin:0;font-weight:700}
+.dlg-cuerpo{padding:20px 22px;max-height:66vh;overflow:auto;display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.dlg-cuerpo label{display:flex;flex-direction:column;gap:4px;font-family:var(--sans);font-size:12.5px;font-weight:700;color:var(--carbon)}
+.dlg-cuerpo label.ancho{grid-column:1/-1}
+.dlg-cuerpo input,.dlg-cuerpo select,.dlg-cuerpo textarea{
+  background:var(--fondo);border:1.5px solid var(--linea-fuerte);border-radius:4px;padding:9px 11px;
+  font-family:var(--serif);font-size:14.5px;font-weight:400;color:var(--tinta);width:100%;
+}
+.dlg-cuerpo textarea{resize:vertical;min-height:78px;line-height:1.5}
+.dlg-cuerpo .pista{font-weight:400;font-size:11.5px;color:var(--carbon)}
+.dlg-pie{display:flex;justify-content:flex-end;gap:8px;padding:14px 22px;border-top:1.5px solid var(--tinta)}
+
+.aviso{
+  position:fixed;left:50%;bottom:26px;transform:translateX(-50%);
+  background:var(--tinta);color:var(--fondo);font-family:var(--sans);font-size:14px;font-weight:500;
+  padding:12px 20px;border-radius:6px;border-left:4px solid var(--marca);z-index:60;max-width:90vw;
+}
+.aviso[hidden]{display:none}
+.pie{border-top:1.5px solid var(--linea-fuerte);padding:18px 0 40px;font-size:13.5px;color:var(--carbon);max-width:78ch}
+
+@media (max-width:960px){
+  .tablero{grid-template-columns:1fr;gap:20px}
+  aside{position:static}
+  .ficha{grid-template-columns:1fr}
+  .dlg-cuerpo{grid-template-columns:1fr}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
+</style>
+</head>
+<body>
+
+<header class="tope">
+  <div class="franja"><i></i><i></i><i></i></div>
+  <div class="tope-interior">
+    <div class="rotulo">
+      <h1>Tracker Político ADLE
+        <span>Casos y controversias de Abelardo de la Espriella · 2026&ndash;2030</span>
+      </h1>
+      <div class="acciones">
+        <button class="btn fuerte" id="btnCargar">Cargar expediente</button>
+        <button class="btn fantasma" id="btnNuevo">Agregar caso</button>
+        <button class="btn fantasma" id="btnGuardar" disabled>Guardar JSON</button>
+        <button class="btn fantasma" id="btnExcel" disabled>Exportar Excel</button>
+        <button class="btn fantasma" id="btnCsv" disabled>Exportar CSV</button>
+      </div>
+    </div>
+    <input type="file" id="archivo" accept=".json,application/json" hidden>
+  </div>
+</header>
+
+<div class="marco">
+  <section class="pulso" id="pulso" hidden>
+    <div class="barra" id="barra"></div>
+    <div class="claves" id="claves"></div>
+  </section>
+
+  <div class="tablero" id="tablero" hidden>
+    <aside>
+      <div class="grupo">
+        <h2>Buscar</h2>
+        <input class="campo" type="search" id="busca" placeholder="Caso, actor, etiqueta…" autocomplete="off">
+      </div>
+      <div class="grupo">
+        <h2>Estado</h2>
+        <div class="opciones" id="fEstado"></div>
+      </div>
+      <div class="grupo">
+        <h2>Temática</h2>
+        <div class="opciones" id="fTema"></div>
+      </div>
+      <div class="grupo">
+        <h2>Periodo</h2>
+        <div class="opciones" id="fPeriodo"></div>
+      </div>
+      <div class="grupo">
+        <h2>Verificación</h2>
+        <div class="opciones" id="fVerif"></div>
+      </div>
+      <button class="limpiar" id="btnLimpiar">Quitar todos los filtros</button>
+    </aside>
+
+    <main>
+      <div class="utileria">
+        <p class="conteo" id="conteo"></p>
+        <div class="modo" role="group" aria-label="Densidad de la tabla">
+          <button type="button" id="modoCompacta" aria-pressed="true">Compacta</button>
+          <button type="button" id="modoAmpliada" aria-pressed="false">Ampliada</button>
+        </div>
+      </div>
+      <div class="envoltura">
+        <table id="tabla">
+          <thead>
+            <tr id="cabecera"></tr>
+          </thead>
+          <tbody id="cuerpo"></tbody>
+        </table>
+      </div>
+    </main>
+  </div>
+
+  <div class="vacio" id="vacio">
+    <h2>Sin expediente cargado</h2>
+    <p>Arrastra aquí el archivo <code>casos-adle.json</code>, ábrelo desde el botón, o empieza un expediente nuevo agregando el primer caso a mano. Los datos se quedan en tu navegador; para conservarlos, descarga el JSON actualizado.</p>
+    <div class="acciones-vacio">
+      <button class="btn fuerte" id="btnCargar2">Abrir archivo</button>
+      <button class="btn" id="btnNuevoVacio">Agregar caso manualmente</button>
+    </div>
+  </div>
+
+  <footer class="pie" id="pie" hidden>
+    <p id="notaPie"></p>
+  </footer>
+</div>
+
+<dialog id="dlg">
+  <form method="dialog" id="form">
+    <div class="dlg-tope">
+      <h2 id="dlgTitulo">Agregar caso</h2>
+      <button class="btn" value="cancelar" type="submit" formnovalidate>Cerrar</button>
+    </div>
+    <div class="dlg-cuerpo">
+      <label>Temática <span class="pista">Elige una existente o escribe una nueva</span>
+        <input name="tematica" list="temasList" required placeholder="Política exterior, Seguridad…">
+      </label>
+      <datalist id="temasList"></datalist>
+      <label>Periodo<select name="periodo" id="selPeriodo"></select></label>
+      <label>Fecha del hecho<input name="fecha" type="date" required></label>
+      <label>Última actualización<input name="ultima_actualizacion" type="date"></label>
+      <label class="ancho">Fecha como se publica <span class="pista">Texto libre: “8 de septiembre de 2026”, “2013–2019”</span><input name="fecha_texto"></label>
+      <label class="ancho">Caso<input name="caso" required placeholder="Título corto y descriptivo"></label>
+      <label class="ancho">Qué se alega<textarea name="alegato" required></textarea></label>
+      <label class="ancho">Respuesta de ADLE<textarea name="respuesta_adle" placeholder="Sin pronunciamiento al cierre de este registro."></textarea></label>
+      <label>Estado<select name="estado" id="selEstado"></select></label>
+      <label>Verificación<select name="verificacion" id="selVerif"></select></label>
+      <label>Gravedad 1&ndash;5<input name="gravedad" type="number" min="1" max="5" value="3"></label>
+      <label class="ancho">Fuentes <span class="pista">Separadas por coma</span><input name="fuentes" placeholder="Cambio, La Silla Vacía"></label>
+      <label class="ancho">Actores <span class="pista">Separados por coma</span><input name="actores"></label>
+      <label class="ancho">Etiquetas <span class="pista">Separadas por coma</span><input name="etiquetas"></label>
+      <label class="ancho">Enlaces <span class="pista">Uno por línea, formato: Título | https://…</span><textarea name="enlaces" placeholder="Cambio — la exclusiva | https://ejemplo.com"></textarea></label>
+      <label class="ancho">Notas de seguimiento<textarea name="notas"></textarea></label>
+    </div>
+    <div class="dlg-pie">
+      <button class="btn peligro" value="borrar" type="submit" formnovalidate id="btnBorrar" hidden>Eliminar caso</button>
+      <button class="btn fuerte" value="guardar" type="submit">Guardar caso</button>
+    </div>
+  </form>
+</dialog>
+
+<div class="aviso" id="aviso" hidden></div>
+
+<script>
+(function(){
+"use strict";
+
+var VOC = {
+  estado:["Abierto","Sin investigación formal","Con decisión judicial o administrativa","Cerrado"],
+  verificacion:["Documentado","Denuncia periodística","Opinión / sin verificar"],
+  periodo:["Ejercicio como abogado","Campaña 2026","Transición","Gobierno 2026-2030"],
+  tematica:["Financiación política","Prensa y libertad de expresión","Nombramientos","Política exterior","Economía y fiscal","Seguridad y DDHH","Género","Institucionalidad","Trayectoria profesional","Gestión de emergencias","Ambiente","Coherencia discursiva"]
+};
+var COLOR = {
+  "Abierto":"var(--marca)",
+  "Sin investigación formal":"var(--dorado)",
+  "Con decisión judicial o administrativa":"var(--verde)",
+  "Cerrado":"var(--gris)"
+};
+var TEXTO = {
+  "Abierto":"#fff",
+  "Sin investigación formal":"var(--tinta)",
+  "Con decisión judicial o administrativa":"#fff",
+  "Cerrado":"#fff"
+};
+var CORTO = {
+  "Abierto":"Abierto",
+  "Sin investigación formal":"Sin investigar",
+  "Con decisión judicial o administrativa":"Con decisión",
+  "Cerrado":"Cerrado"
+};
+
+var datos = null, casos = [], abierta = null, editando = null;
+var modo = "compacta";
+var orden = {col:"fecha", asc:false};
+var filtros = {busca:"", estado:new Set(), tematica:new Set(), periodo:new Set(), verificacion:new Set()};
+
+var $ = function(id){ return document.getElementById(id); };
+var esc = function(s){
+  return String(s==null?"":s).replace(/[&<>"']/g, function(c){
+    return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c];
+  });
+};
+function avisar(txt){
+  var a = $("aviso"); a.textContent = txt; a.hidden = false;
+  clearTimeout(avisar._t); avisar._t = setTimeout(function(){ a.hidden = true; }, 3400);
+}
+function lista(v){
+  if(Array.isArray(v)) return v;
+  if(!v) return [];
+  return String(v).split(",").map(function(s){return s.trim();}).filter(Boolean);
+}
+
+/* ---------- Mostrar tablero ---------- */
+function mostrarTablero(mensajePie){
+  $("vacio").hidden = true;
+  $("tablero").hidden = false;
+  $("pulso").hidden = false;
+  $("pie").hidden = false;
+  ["btnGuardar","btnExcel","btnCsv"].forEach(function(b){ $(b).disabled = false; });
+  llenarSelects();
+  construirFiltros();
+  pintar();
+  $("notaPie").textContent = mensajePie;
+}
+
+/* ---------- Carga ---------- */
+function cargarTexto(txt, remoto){
+  var j;
+  try { j = JSON.parse(txt); }
+  catch(e){ if(!remoto) avisar("El archivo no es JSON válido. Revisa comas y comillas."); return; }
+  var arr = Array.isArray(j) ? j : j.casos;
+  if(!Array.isArray(arr)){ if(!remoto) avisar("No se encontró la lista \u201ccasos\u201d en el archivo."); return; }
+  datos = Array.isArray(j) ? {meta:{}, casos:arr} : j;
+  casos = arr.map(function(c,i){
+    c.id = c.id || ("X-" + (i+1));
+    c.gravedad = Number(c.gravedad) || 3;
+    ["fuentes","actores","etiquetas"].forEach(function(k){ c[k] = lista(c[k]); });
+    c.enlaces = Array.isArray(c.enlaces) ? c.enlaces : [];
+    return c;
+  });
+  if(datos.meta && datos.meta.vocabulario){
+    Object.keys(VOC).forEach(function(k){
+      if(Array.isArray(datos.meta.vocabulario[k]) && datos.meta.vocabulario[k].length) VOC[k] = datos.meta.vocabulario[k];
+    });
+  }
+  datos.meta = datos.meta || {};
+  datos.meta.vocabulario = VOC;
+  abierta = null;
+  var m = datos.meta || {};
+  var mensaje = (m.descripcion ? m.descripcion + " " : "") +
+    "Los casos marcados como denuncia periodística u opinión no equivalen a hechos probados judicialmente. ";
+  if(remoto){
+    mensaje += "Estás viendo la versión publicada de este expediente" +
+      (m.actualizado ? " (actualizada el " + m.actualizado + ")" : "") +
+      ". Los casos que agregues aquí quedan solo en tu navegador — para publicarlos, edita casos-adle.json en el repositorio.";
+  } else {
+    mensaje += "Este registro vive en la memoria del navegador: descarga el JSON para conservar lo que agregues.";
+  }
+  mostrarTablero(mensaje);
+  if(!remoto) avisar(casos.length + " casos cargados.");
+}
+function abrirArchivo(f){
+  if(!f) return;
+  if(casos && casos.length){
+    if(!confirm("Cargar este archivo reemplazará los " + casos.length + " casos actuales en pantalla. ¿Continuar?")) return;
+  }
+  var r = new FileReader();
+  r.onload = function(){ cargarTexto(String(r.result)); };
+  r.onerror = function(){ avisar("No se pudo leer el archivo."); };
+  r.readAsText(f, "utf-8");
+}
+$("btnCargar").onclick = $("btnCargar2").onclick = function(){ $("archivo").click(); };
+$("archivo").onchange = function(e){ abrirArchivo(e.target.files[0]); e.target.value = ""; };
+
+["dragenter","dragover"].forEach(function(ev){
+  document.addEventListener(ev, function(e){ e.preventDefault(); $("vacio").classList.add("encima"); });
+});
+["dragleave","drop"].forEach(function(ev){
+  document.addEventListener(ev, function(e){ e.preventDefault(); $("vacio").classList.remove("encima"); });
+});
+document.addEventListener("drop", function(e){
+  if(e.dataTransfer && e.dataTransfer.files.length) abrirArchivo(e.dataTransfer.files[0]);
+});
+
+/* ---------- Empezar desde cero ---------- */
+function inicializarVacio(){
+  if(datos) return;
+  datos = {
+    meta:{
+      titulo:"Tracker Político ADLE",
+      descripcion:"",
+      version:"1.0",
+      actualizado:new Date().toISOString().slice(0,10),
+      contador:0,
+      vocabulario:VOC
+    },
+    casos:[]
+  };
+  casos = [];
+  abierta = null;
+  mostrarTablero("Registro iniciado manualmente. Descarga el JSON para conservar los casos que agregues.");
+}
+function iniciarAgregar(){ inicializarVacio(); abrirForm(null); }
+$("btnNuevo").onclick = iniciarAgregar;
+$("btnNuevoVacio").onclick = iniciarAgregar;
+
+/* ---------- Filtros ---------- */
+function conteoPor(campo, valor){
+  return casos.filter(function(c){ return c[campo] === valor; }).length;
+}
+function bloqueFiltro(cont, campo, valores){
+  cont.innerHTML = valores.map(function(v){
+    var n = conteoPor(campo, v);
+    return '<label class="op"><input type="checkbox" value="'+esc(v)+'">'+
+           '<span>'+esc(CORTO[v] || v)+'</span><em>'+n+'</em></label>';
+  }).join("");
+  cont.querySelectorAll("input").forEach(function(inp){
+    inp.onchange = function(){
+      if(inp.checked) filtros[campo].add(inp.value); else filtros[campo].delete(inp.value);
+      pintar();
+    };
+  });
+}
+function construirFiltros(){
+  bloqueFiltro($("fEstado"), "estado", VOC.estado);
+  bloqueFiltro($("fTema"), "tematica", VOC.tematica.filter(function(t){ return conteoPor("tematica", t) > 0; }));
+  bloqueFiltro($("fPeriodo"), "periodo", VOC.periodo);
+  bloqueFiltro($("fVerif"), "verificacion", VOC.verificacion);
+}
+$("busca").oninput = function(e){ filtros.busca = e.target.value.toLowerCase().trim(); pintar(); };
+$("btnLimpiar").onclick = function(){
+  filtros = {busca:"", estado:new Set(), tematica:new Set(), periodo:new Set(), verificacion:new Set()};
+  $("busca").value = "";
+  document.querySelectorAll("aside input[type=checkbox]").forEach(function(i){ i.checked = false; });
+  pintar();
+};
+
+function filtrados(){
+  return casos.filter(function(c){
+    if(filtros.estado.size && !filtros.estado.has(c.estado)) return false;
+    if(filtros.tematica.size && !filtros.tematica.has(c.tematica)) return false;
+    if(filtros.periodo.size && !filtros.periodo.has(c.periodo)) return false;
+    if(filtros.verificacion.size && !filtros.verificacion.has(c.verificacion)) return false;
+    if(filtros.busca){
+      var heno = [c.id,c.caso,c.alegato,c.respuesta_adle,c.notas,c.tematica,c.periodo,
+                  (c.actores||[]).join(" "),(c.etiquetas||[]).join(" "),(c.fuentes||[]).join(" ")]
+                  .join(" ").toLowerCase();
+      if(heno.indexOf(filtros.busca) === -1) return false;
+    }
+    return true;
+  });
+}
+
+/* ---------- Pulso ---------- */
+function pintarPulso(){
+  var total = casos.length || 1;
+  $("barra").innerHTML = VOC.estado.map(function(e){
+    var n = conteoPor("estado", e);
+    if(!n) return "";
+    return '<i style="width:'+(n/total*100)+'%;background:'+COLOR[e]+'" title="'+esc(e)+': '+n+'"></i>';
+  }).join("");
+  $("claves").innerHTML = VOC.estado.map(function(e){
+    var n = conteoPor("estado", e);
+    return '<span class="clave"><i class="punto" style="background:'+COLOR[e]+'"></i>'+
+           esc(e)+' <b>'+n+'</b></span>';
+  }).join("") + (casos.length ? '<span class="clave">Gravedad media <b>'+
+    (casos.reduce(function(a,c){return a+c.gravedad;},0)/total).toFixed(1)+'</b></span>' : "");
+}
+
+/* ---------- Tabla ---------- */
+var COLS_COMPACTA = [
+  {k:"id",     t:"ID",        ord:true},
+  {k:"fecha",  t:"Fecha",     ord:true},
+  {k:"tematica", t:"Temática", ord:true},
+  {k:"caso",   t:"Caso",      ord:true},
+  {k:"estado", t:"Estado",    ord:true},
+  {k:"gravedad", t:"Gravedad", ord:true}
+];
+var COLS_AMPLIADA = [
+  {k:"id",     t:"ID",        ord:true},
+  {k:"fecha",  t:"Fecha",     ord:true},
+  {k:"tematica", t:"Temática", ord:true},
+  {k:"caso",   t:"Caso",      ord:true},
+  {k:"alegato", t:"Qué se alega", ord:false},
+  {k:"respuesta_adle", t:"Respuesta de ADLE", ord:false},
+  {k:"fuentes", t:"Fuentes",  ord:false},
+  {k:"enlaces", t:"Enlace",   ord:false},
+  {k:"estado", t:"Estado",    ord:true}
+];
+
+function cols(){ return modo === "compacta" ? COLS_COMPACTA : COLS_AMPLIADA; }
+
+function pintarCabecera(){
+  $("cabecera").innerHTML = cols().map(function(c){
+    if(!c.ord) return '<th>'+esc(c.t)+'</th>';
+    var f = orden.col === c.k ? ' <span class="flecha">'+(orden.asc?"↑":"↓")+'</span>' : "";
+    return '<th class="orden" data-col="'+c.k+'" tabindex="0" role="button">'+esc(c.t)+f+'</th>';
+  }).join("");
+  $("cabecera").querySelectorAll("th.orden").forEach(function(th){
+    var act = function(){
+      var k = th.dataset.col;
+      if(orden.col === k) orden.asc = !orden.asc; else { orden.col = k; orden.asc = (k==="id"||k==="tematica"||k==="caso"); }
+      pintar();
+    };
+    th.onclick = act;
+    th.onkeydown = function(e){ if(e.key==="Enter"||e.key===" "){ e.preventDefault(); act(); } };
+  });
+}
+function ordenar(arr){
+  var k = orden.col, s = orden.asc ? 1 : -1;
+  return arr.slice().sort(function(a,b){
+    var x = a[k], y = b[k];
+    if(k === "gravedad") return (x-y)*s;
+    x = String(x==null?"":x); y = String(y==null?"":y);
+    return x.localeCompare(y, "es")*s;
+  });
+}
+function barrasGravedad(g){
+  var clase = g >= 4 ? "" : (g === 3 ? " medio" : " bajo");
+  var h = "";
+  for(var i=1;i<=5;i++) h += '<i class="'+(i<=g?"on"+clase:"")+'"></i>';
+  return '<span class="grav" title="Gravedad '+g+' de 5">'+h+'</span>';
+}
+function insignia(e){
+  return '<span class="estado" style="background:'+(COLOR[e]||"var(--gris)")+';color:'+(TEXTO[e]||"#fff")+'">'+esc(CORTO[e]||e)+'</span>';
+}
+function celda(c, k){
+  if(k === "id") return '<td class="cid">'+esc(c.id)+'</td>';
+  if(k === "fecha") return '<td class="cfecha">'+esc(c.fecha||"")+'</td>';
+  if(k === "tematica") return '<td class="ctema">'+esc(c.tematica||"")+'</td>';
+  if(k === "caso") return '<td class="ccaso">'+esc(c.caso||"")+'<small>'+esc(c.fecha_texto||"")+'</small></td>';
+  if(k === "estado") return '<td>'+insignia(c.estado)+'</td>';
+  if(k === "gravedad") return '<td>'+barrasGravedad(c.gravedad)+'</td>';
+  if(k === "alegato" || k === "respuesta_adle"){
+    var t = c[k] || "—";
+    if(t.length > 260) t = t.slice(0,258).replace(/\s+\S*$/,"") + "…";
+    return '<td class="texto">'+esc(t)+'</td>';
+  }
+  if(k === "fuentes") return '<td class="ctema">'+esc((c.fuentes||[]).join(", "))+'</td>';
+  if(k === "enlaces"){
+    var e0 = (c.enlaces||[])[0];
+    if(!e0 || !e0.url) return '<td class="ctema">—</td>';
+    return '<td class="ctema"><a href="'+esc(e0.url)+'" target="_blank" rel="noopener">Abrir</a>'+
+           ((c.enlaces.length>1) ? ' <em style="font-style:normal;color:var(--carbon)">+'+(c.enlaces.length-1)+'</em>' : '')+'</td>';
+  }
+  return '<td></td>';
+}
+function ficha(c){
+  var enl = (c.enlaces||[]).filter(function(e){return e && e.url;});
+  return '<div class="ficha">'+
+    '<div class="bloque">'+
+      '<h3>Qué se alega</h3><p>'+esc(c.alegato||"—")+'</p>'+
+      '<h3>Respuesta de Abelardo de la Espriella</h3>'+
+      '<p class="cita">'+esc(c.respuesta_adle || "Sin pronunciamiento registrado.")+'</p>'+
+      (c.notas ? '<h3>Notas de seguimiento</h3><p>'+esc(c.notas)+'</p>' : '')+
+    '</div>'+
+    '<div class="metas">'+
+      '<div class="meta"><strong>Estado</strong>'+insignia(c.estado)+'</div>'+
+      '<div class="meta"><strong>Verificación</strong>'+esc(c.verificacion||"—")+'</div>'+
+      '<div class="meta"><strong>Periodo</strong>'+esc(c.periodo||"—")+'</div>'+
+      '<div class="meta"><strong>Gravedad</strong>'+barrasGravedad(c.gravedad)+'</div>'+
+      '<div class="meta"><strong>Fuentes</strong>'+esc((c.fuentes||[]).join(", ")||"—")+'</div>'+
+      ((c.actores||[]).length ? '<div class="meta"><strong>Actores</strong><div class="chips">'+
+        c.actores.map(function(a){return '<span class="chip">'+esc(a)+'</span>';}).join("")+'</div></div>' : '')+
+      ((c.etiquetas||[]).length ? '<div class="meta"><strong>Etiquetas</strong><div class="chips">'+
+        c.etiquetas.map(function(a){return '<span class="chip">'+esc(a)+'</span>';}).join("")+'</div></div>' : '')+
+      (enl.length ? '<div class="meta"><strong>Enlaces</strong><ul class="enlaces">'+
+        enl.map(function(e){return '<li><a href="'+esc(e.url)+'" target="_blank" rel="noopener">'+esc(e.t||e.url)+'</a></li>';}).join("")+
+        '</ul></div>' : '')+
+      '<div class="meta"><strong>Actualizado</strong>'+esc(c.ultima_actualizacion||"—")+'</div>'+
+    '</div>'+
+    '<div class="herr-fila">'+
+      '<button class="btn" data-editar="'+esc(c.id)+'">Editar este caso</button>'+
+      '<button class="btn" data-copiar="'+esc(c.id)+'">Copiar resumen</button>'+
+    '</div>'+
+  '</div>';
+}
+function pintar(){
+  pintarPulso();
+  pintarCabecera();
+  var vis = ordenar(filtrados());
+  var n = cols().length;
+  $("conteo").innerHTML = '<b>'+vis.length+'</b> de '+casos.length+' casos'+
+    (vis.length !== casos.length ? ' · filtro activo' : '');
+  if(!vis.length){
+    var msg = casos.length === 0
+      ? "Aún no hay casos en este expediente. Usa \u201cAgregar caso\u201d para crear el primero."
+      : "Ningún caso coincide con estos filtros. Quítalos para ver el expediente completo.";
+    $("cuerpo").innerHTML = '<tr><td colspan="'+n+'" style="padding:36px;text-align:center;color:var(--carbon)">'+msg+'</td></tr>';
+    return;
+  }
+  $("cuerpo").innerHTML = vis.map(function(c){
+    var raya = COLOR[c.estado] || "var(--gris)";
+    var fila = '<tr class="fila'+(abierta===c.id?" abierta":"")+'" data-id="'+esc(c.id)+'" '+
+               'style="box-shadow:inset 4px 0 0 '+raya+'" tabindex="0" '+
+               'aria-expanded="'+(abierta===c.id)+'">'+cols().map(function(col){return celda(c,col.k);}).join("")+'</tr>';
+    if(abierta === c.id) fila += '<tr class="detalle"><td colspan="'+n+'">'+ficha(c)+'</td></tr>';
+    return fila;
+  }).join("");
+
+  $("cuerpo").querySelectorAll("tr.fila").forEach(function(tr){
+    var act = function(){ abierta = (abierta === tr.dataset.id) ? null : tr.dataset.id; pintar(); };
+    tr.onclick = function(e){ if(e.target.closest("a")) return; act(); };
+    tr.onkeydown = function(e){ if(e.key==="Enter"||e.key===" "){ e.preventDefault(); act(); } };
+  });
+  $("cuerpo").querySelectorAll("[data-editar]").forEach(function(b){
+    b.onclick = function(e){ e.stopPropagation(); abrirForm(b.dataset.editar); };
+  });
+  $("cuerpo").querySelectorAll("[data-copiar]").forEach(function(b){
+    b.onclick = function(e){
+      e.stopPropagation();
+      var c = casos.find(function(x){return x.id === b.dataset.copiar;});
+      var txt = c.id+" · "+c.caso+" ("+c.fecha_texto+")\n\nQué se alega: "+c.alegato+
+                "\n\nRespuesta de ADLE: "+(c.respuesta_adle||"Sin pronunciamiento.")+
+                "\n\nEstado: "+c.estado+" · Verificación: "+c.verificacion+
+                "\nFuentes: "+(c.fuentes||[]).join(", ")+
+                "\n"+(c.enlaces||[]).map(function(x){return x.url;}).join("\n");
+      if(navigator.clipboard) navigator.clipboard.writeText(txt).then(function(){ avisar("Resumen copiado."); });
+    };
+  });
+}
+$("modoCompacta").onclick = function(){ modo="compacta"; this.setAttribute("aria-pressed","true"); $("modoAmpliada").setAttribute("aria-pressed","false"); pintar(); };
+$("modoAmpliada").onclick = function(){ modo="ampliada"; this.setAttribute("aria-pressed","true"); $("modoCompacta").setAttribute("aria-pressed","false"); pintar(); };
+
+/* ---------- Formulario ---------- */
+function llenarSelects(){
+  $("temasList").innerHTML = VOC.tematica.map(function(v){ return '<option value="'+esc(v)+'">'; }).join("");
+  var pares = [["selPeriodo", VOC.periodo],["selEstado", VOC.estado],["selVerif", VOC.verificacion]];
+  pares.forEach(function(p){
+    $(p[0]).innerHTML = p[1].map(function(v){ return '<option>'+esc(v)+'</option>'; }).join("");
+  });
+}
+function siguienteId(){
+  if(!datos.meta) datos.meta = {};
+  if(datos.meta.contador == null){
+    var maxN = 0;
+    casos.forEach(function(c){
+      var m = String(c.id||"").match(/(\d+)\s*$/);
+      if(m){ var n = parseInt(m[1],10); if(n > maxN) maxN = n; }
+    });
+    datos.meta.contador = maxN;
+  }
+  datos.meta.contador += 1;
+  return "C-" + String(datos.meta.contador).padStart(3,"0");
+}
+function abrirForm(id){
+  editando = id || null;
+  var f = $("form");
+  f.reset();
+  llenarSelects();
+  $("dlgTitulo").textContent = id ? "Editar caso " + id : "Agregar caso";
+  $("btnBorrar").hidden = !id;
+  if(id){
+    var c = casos.find(function(x){return x.id===id;});
+    ["fecha","fecha_texto","tematica","periodo","caso","alegato","respuesta_adle","estado","verificacion","gravedad","ultima_actualizacion"]
+      .forEach(function(k){ if(f.elements[k]) f.elements[k].value = c[k] || ""; });
+    f.elements.fuentes.value = (c.fuentes||[]).join(", ");
+    f.elements.actores.value = (c.actores||[]).join(", ");
+    f.elements.etiquetas.value = (c.etiquetas||[]).join(", ");
+    f.elements.enlaces.value = (c.enlaces||[]).map(function(e){return (e.t||"")+" | "+(e.url||"");}).join("\n");
+    f.elements.notas.value = c.notas || "";
+  } else {
+    var hoy = new Date().toISOString().slice(0,10);
+    f.elements.fecha.value = hoy;
+    f.elements.ultima_actualizacion.value = hoy;
+  }
+  $("dlg").showModal();
+}
+
+$("form").onsubmit = function(e){
+  var accion = e.submitter ? e.submitter.value : "cancelar";
+  if(accion === "cancelar") return;
+  if(accion === "borrar"){
+    if(!confirm("¿Eliminar el caso " + editando + "? No se puede deshacer.")) { e.preventDefault(); return; }
+    casos = casos.filter(function(c){ return c.id !== editando; });
+    if(abierta === editando) abierta = null;
+    construirFiltros(); pintar(); avisar("Caso eliminado. Descarga el JSON para conservarlo.");
+    return;
+  }
+  var f = e.target;
+  if(!f.checkValidity()){ e.preventDefault(); f.reportValidity(); return; }
+  var d = Object.fromEntries(new FormData(f).entries());
+  var temaVal = (d.tematica||"").trim();
+  if(temaVal && VOC.tematica.indexOf(temaVal) === -1) VOC.tematica.push(temaVal);
+  var nuevo = {
+    id: editando || siguienteId(),
+    fecha: d.fecha, fecha_texto: d.fecha_texto || d.fecha,
+    periodo: d.periodo, tematica: temaVal, caso: d.caso.trim(),
+    alegato: d.alegato.trim(), respuesta_adle: d.respuesta_adle.trim(),
+    estado: d.estado, verificacion: d.verificacion, gravedad: Number(d.gravedad)||3,
+    actores: lista(d.actores), fuentes: lista(d.fuentes), etiquetas: lista(d.etiquetas),
+    enlaces: (d.enlaces||"").split("\n").map(function(l){
+      var p = l.split("|");
+      var url = (p[1]||p[0]||"").trim();
+      if(!url) return null;
+      return {t:(p[1]?p[0]:url).trim(), url:url};
+    }).filter(Boolean),
+    notas: d.notas.trim(),
+    ultima_actualizacion: d.ultima_actualizacion || new Date().toISOString().slice(0,10)
+  };
+  var i = casos.findIndex(function(c){ return c.id === (editando || nuevo.id); });
+  if(i >= 0) casos[i] = nuevo; else casos.unshift(nuevo);
+  abierta = nuevo.id;
+  construirFiltros(); pintar();
+  avisar(i >= 0 ? "Caso actualizado." : "Caso agregado (" + nuevo.id + "). Descarga el JSON para conservarlo.");
+};
+
+/* ---------- Exportar ---------- */
+function bajar(nombre, texto, tipo){
+  var b = new Blob([texto], {type: tipo + ";charset=utf-8"});
+  var a = document.createElement("a");
+  a.href = URL.createObjectURL(b); a.download = nombre;
+  document.body.appendChild(a); a.click(); document.body.removeChild(a);
+  setTimeout(function(){ URL.revokeObjectURL(a.href); }, 1500);
+}
+$("btnGuardar").onclick = function(){
+  var meta = Object.assign({}, datos.meta || {});
+  meta.actualizado = new Date().toISOString().slice(0,10);
+  var salida = JSON.stringify({meta:meta, casos:casos}, null, 2);
+  bajar("casos-adle.json", salida, "application/json");
+  avisar("JSON descargado con " + casos.length + " casos.");
+};
+var CAMPOS_EXPORT = [
+  {k:"id", t:"ID"}, {k:"fecha", t:"Fecha"}, {k:"fecha_texto", t:"Fecha (texto)"},
+  {k:"periodo", t:"Periodo"}, {k:"tematica", t:"Temática"}, {k:"caso", t:"Caso"},
+  {k:"alegato", t:"Qué se alega"}, {k:"respuesta_adle", t:"Respuesta de ADLE"},
+  {k:"estado", t:"Estado"}, {k:"verificacion", t:"Verificación"}, {k:"gravedad", t:"Gravedad"},
+  {k:"fuentes", t:"Fuentes"}, {k:"actores", t:"Actores"}, {k:"etiquetas", t:"Etiquetas"},
+  {k:"enlaces", t:"Enlaces"}, {k:"notas", t:"Notas"}, {k:"ultima_actualizacion", t:"Actualizado"}
+];
+function filaExport(c){
+  var o = {};
+  CAMPOS_EXPORT.forEach(function(col){
+    var v = c[col.k];
+    if(col.k === "enlaces") v = (c.enlaces||[]).map(function(e){return e.url;}).join(" | ");
+    else if(Array.isArray(v)) v = v.join(", ");
+    o[col.t] = v == null ? "" : v;
+  });
+  return o;
+}
+$("btnCsv").onclick = function(){
+  var q = function(v){ return '"' + String(v==null?"":v).replace(/"/g,'""') + '"'; };
+  var filas = [CAMPOS_EXPORT.map(function(c){return q(c.t);}).join(",")];
+  ordenar(filtrados()).forEach(function(c){
+    var fila = filaExport(c);
+    filas.push(CAMPOS_EXPORT.map(function(col){ return q(fila[col.t]); }).join(","));
+  });
+  bajar("casos-adle.csv", "\uFEFF" + filas.join("\r\n"), "text/csv");
+  avisar("CSV exportado con los casos visibles.");
+};
+$("btnExcel").onclick = function(){
+  if(typeof XLSX === "undefined"){ avisar("No se pudo cargar el motor de Excel. Revisa tu conexión e inténtalo de nuevo."); return; }
+  var filas = ordenar(filtrados()).map(filaExport);
+  var hoja = XLSX.utils.json_to_sheet(filas, {header: CAMPOS_EXPORT.map(function(c){return c.t;})});
+  hoja["!cols"] = [
+    {wch:7},{wch:11},{wch:20},{wch:16},{wch:18},{wch:40},{wch:60},{wch:50},
+    {wch:22},{wch:20},{wch:9},{wch:24},{wch:24},{wch:24},{wch:50},{wch:40},{wch:12}
+  ];
+  hoja["!autofilter"] = {ref: hoja["!ref"]};
+  var libro = XLSX.utils.book_new();
+  XLSX.utils.book_append_sheet(libro, hoja, "Casos ADLE");
+  XLSX.writeFile(libro, "casos-adle.xlsx");
+  avisar("Excel exportado con " + filas.length + " casos.");
+};
+
+/* ---------- Autocarga (para uso publicado en la web) ---------- */
+function intentarAutocarga(){
+  fetch("./casos-adle.json", {cache:"no-store"})
+    .then(function(r){ if(!r.ok) throw new Error("sin archivo publicado"); return r.text(); })
+    .then(function(txt){ cargarTexto(txt, true); })
+    .catch(function(){ /* No hay archivo publicado junto a esta página, o se abrió como archivo local:
+                           se deja la pantalla de carga manual tal cual, sin mostrar error. */ });
+}
+intentarAutocarga();
+
+document.addEventListener("keydown", function(e){
+  if(e.key === "/" && document.activeElement.tagName !== "INPUT" && document.activeElement.tagName !== "TEXTAREA"){
+    if($("tablero").hidden) return;
+    e.preventDefault(); $("busca").focus();
+  }
+});
+})();
+</script>
+</body>
+</html>
