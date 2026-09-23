@@ -3,7 +3,7 @@
     "titulo": "Rastreador de polémicas — Abelardo de la Espriella",
     "descripcion": "Registro de escándalos, controversias y cambios de rumbo. Periodo de seguimiento 2026-2030.",
     "version": "1.0",
-    "actualizado": "2026-09-16",
+    "actualizado": "2026-09-23",
     "responsable": "",
     "vocabulario": {
       "estado": ["Abierto", "Sin investigación formal", "Con decisión judicial o administrativa", "Cerrado"],
@@ -485,17 +485,20 @@
       "periodo": "Gobierno 2026-2030",
       "tematica": "Política exterior",
       "caso": "Posibles operaciones militares de EE.UU. en territorio colombiano",
-      "alegato": "Se discute la participación de unidades estadounidenses en operaciones contra carteles dentro de Colombia. En campaña, De la Espriella pidió un 'Plan Colombia 2' y el regreso de las bases americanas para interdicción aérea.",
-      "respuesta_adle": "Lo enmarca en la lucha contra el narcotráfico y el terrorismo.",
+      "alegato": "Se discute la participación de unidades estadounidenses en operaciones contra carteles dentro de Colombia. En campaña, De la Espriella pidió un 'Plan Colombia 2' y el regreso de las bases americanas para interdicción aérea. El 21 de septiembre, el senador Iván Cepeda anunció que instauraría una acción de tutela contra el presidente alegando que no fue consultado, en su condición de congresista, sobre el ingreso y permanencia de tropas extranjeras en el espacio aéreo y terrestre del país ni sobre operaciones militares conjuntas con Estados Unidos, lo que a su juicio vulnera su derecho fundamental a la participación política. El reclamo se vincula concretamente con el sobrevuelo, el 27 de agosto, de dos helicópteros UH-1Y Venom del Cuerpo de Marines de EE.UU. sobre Tumaco (Nariño); el Comando Sur estadounidense publicó el 9 de septiembre imágenes de la operación y la describió como una 'evaluación operacional'. Según Cambio, tres helicópteros estadounidenses participaron además en el desplazamiento del comandante del Comando Sur, general Francis Donovan, durante una visita oficial a Colombia y Ecuador.",
+      "respuesta_adle": "Lo enmarca en la lucha contra el narcotráfico y el terrorismo. Hasta el anuncio de la tutela, el presidente no había respondido públicamente al planteamiento de Cepeda.",
       "estado": "Abierto",
-      "verificacion": "Denuncia periodística",
+      "verificacion": "Documentado",
       "gravedad": 5,
-      "actores": ["Estados Unidos", "Iván Cepeda", "Congreso"],
-      "fuentes": ["Colombia.com", "Semana", "France 24"],
-      "enlaces": [],
-      "etiquetas": ["soberanía", "Estados Unidos", "frente principal"],
-      "notas": "La oposición lo considera intromisión y violación de la soberanía nacional. Es probablemente el frente de conflicto político más grande de los próximos meses.",
-      "ultima_actualizacion": "2026-09-09"
+      "actores": ["Estados Unidos", "Iván Cepeda", "Congreso", "Francis Donovan (Comando Sur)"],
+      "fuentes": ["Colombia.com", "Semana", "France 24", "El Universal", "El País (Cali)", "Publimetro", "Asuntos Legales"],
+      "enlaces": [
+        {"t": "El Universal — Cepeda anuncia tutela", "url": "https://www.eluniversal.com.co/colombia/2026/09/21/ivan-cepeda-anuncia-tutela-contra-de-la-espriella-por-presencia-de-tropas-de-ee-uu/"},
+        {"t": "Publimetro — antecedente del Consejo de Estado", "url": "https://www.publimetro.co/noticias/2026/09/21/ivan-cepeda-anuncia-tutela-contra-abelardo-de-la-espriella-por-presencia-de-tropas-de-eeuu-en-colombia/"}
+      ],
+      "etiquetas": ["soberanía", "Estados Unidos", "frente principal", "tutela"],
+      "notas": "La oposición lo considera intromisión y violación de la soberanía nacional. Es probablemente el frente de conflicto político más grande de los próximos meses. Publimetro señala que existe un proceso previo ante el Consejo de Estado que ya examinó la diferencia entre 'tránsito' de tropas extranjeras y el ingreso de personal de países aliados para cooperación, precedente que probablemente se invoque en esta tutela. A vigilar: admisión y fallo de la tutela.",
+      "ultima_actualizacion": "2026-09-23"
     },
     {
       "id": "D-06",
@@ -536,6 +539,29 @@
       "ultima_actualizacion": "2026-09-16"
     },
     {
+      "id": "D-08",
+      "fecha": "2026-09-17",
+      "fecha_texto": "17 de septiembre de 2026",
+      "periodo": "Gobierno 2026-2030",
+      "tematica": "Género",
+      "caso": "Retiro de Colombia de la Equal Rights Coalition (coalición internacional LGBTIQ+)",
+      "alegato": "Mediante nota diplomática S-DVAMCP-26-024300 del 17 de septiembre, la Cancillería formalizó el retiro inmediato de Colombia de la Equal Rights Coalition (ERC), mecanismo intergubernamental de 43-45 países que promueve los derechos de personas LGBTIQ+. La decisión llama la atención porque Colombia ejercía en ese momento la copresidencia de la coalición junto con España, para el periodo 2025-2027, liderazgo asumido en diciembre de 2024. La carta no incluyó una justificación detallada; según fuentes oficiales consultadas por la organización Caribe Afirmativo, el argumento gubernamental sería que la participación en la coalición constituía un 'legado del Gobierno anterior'.",
+      "respuesta_adle": "El Viceministerio de Asuntos Migratorios, Consulares y Protección Internacional se limitó a agradecer a España y a la sociedad civil el trabajo conjunto durante la copresidencia, sin dar mayores explicaciones públicas sobre los motivos del retiro.",
+      "estado": "Abierto",
+      "verificacion": "Documentado",
+      "gravedad": 3,
+      "actores": ["Iris Marín (Defensoría del Pueblo)", "Mauricio Toro", "Caribe Afirmativo", "Temblores ONG", "Omar Bula Escobar"],
+      "fuentes": ["Semana", "La Silla Vacía", "El Espectador", "El Universal"],
+      "enlaces": [
+        {"t": "Semana \u2014 Canciller\u00eda se pronunci\u00f3", "url": "https://www.semana.com/politica/articulo/gobierno-de-la-espriella-retira-a-colombia-de-la-coalicion-internacional-por-derechos-lgbti-cancilleria-se-pronuncio/202654/"},
+        {"t": "La Silla Vac\u00eda \u2014 retiro de la coalici\u00f3n LGBTIQ+", "url": "https://www.lasillavacia.com/en-vivo/gobierno-retiro-a-colombia-de-coalicion-por-los-derechos-lgbtiq/"},
+        {"t": "El Espectador \u2014 \u00bfpor qu\u00e9?", "url": "https://www.elespectador.com/genero-y-diversidad/la-disidencia/gobierno-de-de-la-espriella-retira-a-colombia-de-coalicion-internacional-lgbtiq-por-que/"}
+      ],
+      "etiquetas": ["LGBTIQ+", "ERC", "derechos humanos"],
+      "notas": "La defensora del Pueblo, Iris Marín, cuestionó públicamente la decisión y pidió a la Cancillería aclarar si responde a una postura ideológica, recordando que los derechos humanos 'no pertenecen a ninguna ideología, partido ni expresión política'. El representante Mauricio Toro calificó la salida de 'oso internacional', la relacionó con homofobia y anunció acciones judiciales contra la decisión. Caribe Afirmativo y Temblores ONG (esta última calificándolo de 'retroceso que el país no puede normalizar') también se pronunciaron en contra. Clasificado con prefijo D (política exterior) porque el acto en sí es un retiro diplomático, en la misma línea que D-02; la temática de fondo es de género.",
+      "ultima_actualizacion": "2026-09-18"
+    },
+    {
       "id": "E-01",
       "fecha": "2026-08-07",
       "fecha_texto": "7 de agosto de 2026",
@@ -563,18 +589,22 @@
       "fecha_texto": "9 de septiembre de 2026",
       "periodo": "Gobierno 2026-2030",
       "tematica": "Economía y fiscal",
-      "caso": "Vuelos presidenciales por 1.117 millones en 18 días",
-      "alegato": "Un informe del Ministerio de Defensa, entregado en respuesta a una acción de tutela del representante José Luis Bohórquez y divulgado por Caracol Radio, señala que en sus primeros 18 días de mandato el presidente acumuló 1.117 millones de pesos en vuelos oficiales en aeronaves de la Fuerza Aérea Colombiana. Contrasta con el decreto de austeridad expedido en su primer día.",
-      "respuesta_adle": "Sin pronunciamiento al cierre de este registro.",
+      "caso": "Vuelos presidenciales: de 1.117 a 2.286 millones tras orden judicial de ampliar el reporte",
+      "alegato": "Un primer informe del Ministerio de Defensa, entregado en respuesta a una acción del representante José Luis Bohórquez y divulgado por Caracol Radio, señaló que en sus primeros 18 días de mandato (7 al 24 de agosto) el presidente acumuló 1.117 millones de pesos en 103 movimientos de aeronaves oficiales. Bohórquez consideró la respuesta incompleta y llevó el caso ante el Juzgado IX Penal del Circuito Especializado de Bogotá, que ordenó a MinDefensa entregar la información completa. Con el periodo ampliado hasta el 8 de septiembre (32 días), el consolidado pasó a 219 movimientos de aviones y helicópteros de la Fuerza Pública, con un costo aproximado de 2.286 millones de pesos, 74 horas y 27 minutos de vuelo y más de 37.000 galones de combustible. El 63% de los trayectos (138 de 219) duraron menos de 10 minutos, con un costo conjunto de esos vuelos cortos de 356 millones de pesos. Por tipo de aeronave: el avión presidencial hizo 41 trayectos por 1.342 millones (59% del total), los helicópteros Black Hawk 109 movimientos por 384 millones, los aviones C-295 15 trayectos por 341 millones, y los helicópteros AW139 54 operaciones por 219 millones.",
+      "respuesta_adle": "Sin pronunciamiento directo al cierre de este registro. Fuentes citadas por los medios precisan que los 219 movimientos no equivalen a viajes personales del presidente: incluyen desplazamientos logísticos, transporte de funcionarios, posicionamiento de aeronaves y esquemas de seguridad, y que parte de los vuelos correspondió a la atención de la emergencia del terremoto del 10 de agosto.",
       "estado": "Abierto",
       "verificacion": "Documentado",
       "gravedad": 4,
       "actores": ["José Luis Bohórquez", "María José Pizarro", "Alejandro Ocampo", "Isabel Zuleta", "Daniel Briceño"],
-      "fuentes": ["Infobae", "Caracol Radio"],
-      "enlaces": [{"t": "Infobae — la polémica de los vuelos", "url": "https://www.infobae.com/colombia/2026/09/09/vuelos-de-abelardo-de-la-espriella-que-costaron-1117-millones-desataron-criticas-de-la-oposicion-esto-era-lo-de-austeridad/"}],
-      "etiquetas": ["austeridad", "gasto público", "novedad"],
-      "notas": "Pizarro: 'no sabe vivir austeramente porque su estilo de vida es opulento y extravagante'. Ocampo: 'le pagamos paseos para ir a visitar a los Char'. Llamó la atención el silencio de Daniel Briceño, el 'Mr. Secop' que fiscalizó la contratación durante el gobierno anterior.",
-      "ultima_actualizacion": "2026-09-09"
+      "fuentes": ["Infobae", "Caracol Radio", "Publimetro", "Portafolio", "El Universal"],
+      "enlaces": [
+        {"t": "Infobae — la polémica de los vuelos (primer reporte)", "url": "https://www.infobae.com/colombia/2026/09/09/vuelos-de-abelardo-de-la-espriella-que-costaron-1117-millones-desataron-criticas-de-la-oposicion-esto-era-lo-de-austeridad/"},
+        {"t": "Publimetro — costaron 2.286 millones en 32 días", "url": "https://www.publimetro.co/noticias/2026/09/21/vuelos-de-abelardo-de-la-espriella-costaron-2286-millones-en-sus-primeros-32-dias-de-gobierno/"},
+        {"t": "Portafolio — seis de cada diez vuelos de menos de 10 minutos", "url": "https://www.portafolio.co/economia/gobierno/seis-de-cada-10-vuelos-del-presidente-de-la-espriella-fueron-de-menos-de-10-minutos-durante-su-primer-mes-502905"}
+      ],
+      "etiquetas": ["austeridad", "gasto público", "orden judicial"],
+      "notas": "Pizarro: 'no sabe vivir austeramente porque su estilo de vida es opulento y extravagante'. Ocampo: 'le pagamos paseos para ir a visitar a los Char'. Bohórquez calculó un promedio de 69,3 millones diarios y, como proyección matemática (no una cifra oficial ni confirmada), estimó que a ese ritmo el gasto anual llegaría a 25.293 millones; el propio reporte periodístico aclara que es una proyección, no un presupuesto real. Contrastar con E-12 (renuncia al salario presidencial), anunciada el mismo mes.",
+      "ultima_actualizacion": "2026-09-23"
     },
     {
       "id": "E-03",
@@ -872,18 +902,22 @@
       "fecha_texto": "3 de septiembre de 2026",
       "periodo": "Gobierno 2026-2030",
       "tematica": "Seguridad y DDHH",
-      "caso": "Muerte de tres menores en el bombardeo del Guaviare",
-      "alegato": "Tres menores de edad habrían muerto en la Operación Azarías. La senadora Jennifer Pedraza radicó proposición para un debate de control político al ministro de Defensa Jorge Eduardo Mora y al director del DAPRE, Carlos Andrés Ríos.",
-      "respuesta_adle": "El Gobierno defiende la legitimidad del uso de la fuerza contra grupos que reclutan menores.",
-      "estado": "Abierto",
-      "verificacion": "Denuncia periodística",
+      "caso": "Muerte de menores en bombardeos: moción de censura a MinDefensa y suspensión judicial de operativos",
+      "alegato": "Tres menores de edad murieron el 27 de agosto en una operación contra el bloque Jorge Suárez Briceño (disidencias de las Farc) en El Retorno, Guaviare, que dejó diez integrantes muertos en total; a ese hecho se suma otro bombardeo del 10 de agosto en Catatumbo (Norte de Santander) contra el ELN en el que murió un menor de 16 años. La bancada del Pacto Histórico presentó el 12 de septiembre una moción de censura contra el ministro de Defensa, Jorge Eduardo Mora, por su presunta responsabilidad política en la planeación, dirección y supervisión de esas operaciones. El Senado debatió la moción el 16 de septiembre y la votó el 23 de septiembre; la Cámara de Representantes citó por separado a Mora y debatió su propia moción el 22 de septiembre, pese a que el Senado ya había tramitado el mismo asunto. En paralelo, distintos jueces examinaron tutelas por los bombardeos: el Juzgado Tercero Penal del Circuito de San José del Guaviare ordenó el 5 de septiembre la suspensión provisional de los bombardeos en ese departamento, y el Juzgado 34 de Familia de Bogotá levantó esa suspensión el 16 de septiembre pero impuso condiciones para proteger a menores en zonas de operación.",
+      "respuesta_adle": "El ministro Mora sostuvo en el Senado que las operaciones se basaron en informes de inteligencia y cumplieron las normas del Derecho Internacional Humanitario (DIH): 'No descansaremos en nuestra misión de defender a los colombianos'. El Gobierno defiende en general la legitimidad del uso de la fuerza contra grupos que reclutan menores.",
+      "estado": "Con decisión judicial o administrativa",
+      "verificacion": "Documentado",
       "gravedad": 5,
-      "actores": ["Jennifer Pedraza", "Jorge Eduardo Mora", "Carlos Andrés Ríos", "Ariel Ávila"],
-      "fuentes": ["Infobae"],
-      "enlaces": [{"t": "Infobae — la exhibición de cadáveres", "url": "https://www.infobae.com/colombia/2026/09/03/petro-critico-a-de-la-espriella-por-la-exhibicion-de-cadaveres-de-criminales-de-las-disidencias-de-las-farc-hacer-de-la-muerte-un-trofeo/"}],
-      "etiquetas": ["menores reclutados", "control político", "DIH"],
-      "notas": "Pedraza: 'los grupos son responsables de reclutarlos, sí; pero el Estado les falló al no protegerlos'. Debate de control pendiente de fecha.",
-      "ultima_actualizacion": "2026-09-04"
+      "actores": ["Jennifer Pedraza", "Jorge Eduardo Mora", "Carlos Andrés Ríos", "Ariel Ávila", "Daniel Briceño", "Nicolás Barguil"],
+      "fuentes": ["Infobae", "Pulzo", "Minuto60", "Cámara de Representantes (comunicado oficial)"],
+      "enlaces": [
+        {"t": "Infobae — la exhibición de cadáveres", "url": "https://www.infobae.com/colombia/2026/09/03/petro-critico-a-de-la-espriella-por-la-exhibicion-de-cadaveres-de-criminales-de-las-disidencias-de-las-farc-hacer-de-la-muerte-un-trofeo/"},
+        {"t": "Infobae — la Cámara adelanta su propia moción pese al trámite en el Senado", "url": "https://www.infobae.com/colombia/2026/09/22/camara-de-representantes-realizara-mocion-de-censura-contra-el-ministro-de-defensa-jorge-mora-a-pesar-de-que-ya-hay-un-tramite-igual-en-el-senado/"},
+        {"t": "Cámara de Representantes — crónica del debate", "url": "https://www.camara.gov.co/plenaria-de-la-camara-realizo-el-debate-de-mocion-de-censura-al-ministro-de-la-defensa"}
+      ],
+      "etiquetas": ["menores reclutados", "control político", "DIH", "moción de censura"],
+      "notas": "Pedraza: 'los grupos son responsables de reclutarlos, sí; pero el Estado les falló al no protegerlos'. Es el segundo ministro del Gobierno en enfrentar una moción de censura, después de Beltrán en Vivienda (ver H-02). Según Infobae, el pronóstico de ambas mociones (Senado y Cámara) era desfavorable a la oposición, por lo que se esperaba que no prosperaran; pendiente confirmar el resultado final de la votación del 23 de septiembre. Daniel Briceño respaldó públicamente al ministro Mora y calificó de 'absurda' la moción del Pacto Histórico.",
+      "ultima_actualizacion": "2026-09-23"
     },
     {
       "id": "G-03",
@@ -920,11 +954,14 @@
       "verificacion": "Documentado",
       "gravedad": 4,
       "actores": ["Consejo Nacional de Estupefacientes", "ANLA", "Corte Constitucional", "Irene Vélez"],
-      "fuentes": ["Infobae"],
-      "enlaces": [{"t": "Infobae — críticas al retorno de las fumigaciones", "url": "https://www.infobae.com/colombia/2026/09/01/gabinete-a-la-sombra-de-ivan-cepeda-y-gustavo-petro-critico-nuevas-fumigaciones-para-erradicar-cultivos-ilicitos-que-anuncio-abelardo-de-la-espriella-ineficaz/"}],
+      "fuentes": ["Infobae", "Cerosetenta (opinión)"],
+      "enlaces": [
+        {"t": "Infobae — críticas al retorno de las fumigaciones", "url": "https://www.infobae.com/colombia/2026/09/01/gabinete-a-la-sombra-de-ivan-cepeda-y-gustavo-petro-critico-nuevas-fumigaciones-para-erradicar-cultivos-ilicitos-que-anuncio-abelardo-de-la-espriella-ineficaz/"},
+        {"t": "Cerosetenta — Nuevas botellas para una vieja medicina", "url": "https://cerosetenta.uniandes.edu.co/nuevas-botellas-para-una-vieja-medicina/"}
+      ],
       "etiquetas": ["glifosato", "cultivos ilícitos", "consulta previa"],
-      "notas": "El 'gabinete a la sombra' de la oposición la calificó de 'política ineficaz, riesgosa y profundamente injusta'. Punto de control: si la ANLA otorga o no el plan de manejo ambiental.",
-      "ultima_actualizacion": "2026-09-09"
+      "notas": "El 'gabinete a la sombra' de la oposición la calificó de 'política ineficaz, riesgosa y profundamente injusta'. Punto de control: si la ANLA otorga o no el plan de manejo ambiental. Cerosetenta reforzó la crítica citando literatura empírica del CESED (Mejía, Restrepo y Rozo): asperjar una hectárea adicional reduciría la coca en apenas 0,022 a 0,03 hectáreas al año, con base en la franja de 10 km junto a la frontera con Ecuador que Colombia dejó de fumigar en 2006.",
+      "ultima_actualizacion": "2026-09-23"
     },
     {
       "id": "G-05",
@@ -1107,11 +1144,12 @@
       "enlaces": [
         {"t": "Infobae — la Flip pide garantías reales", "url": "https://www.infobae.com/colombia/2026/09/10/la-flip-y-organizaciones-sociales-piden-garantias-para-la-libertad-de-prensa-al-gobierno-de-de-la-espriella-han-profundizado-la-autocensura/"},
         {"t": "Cambio — exigencias de la FLIP", "url": "https://cambiocolombia.com/poder/articulo/2026/9/la-flip-le-exige-a-abelardo-de-la-espriella-garantias-reales-para-la-libertad-de-prensa-tras-un-mes-de-gobierno"},
-        {"t": "Volc\u00e1nicas \u2014 censura a la prensa erosiona la democracia", "url": "https://volcanicas.com/censura-a-la-prensa-en-gobierno-de-abelardo-de-la-espriella-erosiona-la-democracia/"}
+        {"t": "Volc\u00e1nicas \u2014 censura a la prensa erosiona la democracia", "url": "https://volcanicas.com/censura-a-la-prensa-en-gobierno-de-abelardo-de-la-espriella-erosiona-la-democracia/"},
+        {"t": "Cambio \u2014 De la Espriella impone un gobierno de una sola voz", "url": "https://cambiocolombia.com/poder/articulo/2026/9/de-la-espriella-impone-un-gobierno-de-una-sola-voz"}
       ],
       "etiquetas": ["FLIP", "emisoras de paz", "Directiva 01", "novedad"],
-      "notas": "Caso central: agrupa la Directiva Presidencial 01, el cierre de las emisoras de paz y su reapertura bajo otro nombre. Ver I-03 (Vladdo) e I-04 (Duzán) como episodios individuales dentro del mismo patrón. Volcánicas, citando un acta interna revelada por Caracol Radio, añade detalle previo a la Directiva 01: esa acta habría ordenado suspender ruedas de prensa y entrevistas con medios considerados 'no amigos' salvo autorización previa de Presidencia, excluir a los viceministros de toda vocería oficial, concentrar los anuncios en el propio presidente y en el abogado Miller Soto como vocero único (tres intervenciones diarias), y exigir que las entidades adscritas sometan sus comunicados a revisión antes de publicarlos. No está confirmado si esa acta es un borrador previo de la Directiva 01 o un documento aparte.",
-      "ultima_actualizacion": "2026-09-16"
+      "notas": "Caso central: agrupa la Directiva Presidencial 01, el cierre de las emisoras de paz y su reapertura bajo otro nombre. Ver I-03 (Vladdo) e I-04 (Duzán) como episodios individuales dentro del mismo patrón. Volcánicas, citando un acta interna revelada por Caracol Radio, añade detalle previo a la Directiva 01: esa acta habría ordenado suspender ruedas de prensa y entrevistas con medios considerados 'no amigos' salvo autorización previa de Presidencia, excluir a los viceministros de toda vocería oficial, concentrar los anuncios en el propio presidente y en el abogado Miller Soto como vocero único (tres intervenciones diarias), y exigir que las entidades adscritas sometan sus comunicados a revisión antes de publicarlos. No está confirmado si esa acta es un borrador previo de la Directiva 01 o un documento aparte. Cambio documentó un caso concreto que ilustra el patrón: el director del DANE, Ricardo Valencia Ramírez, salió del cargo tras solo 26 días, oficialmente por haber dado una rueda de prensa sin autorización (31 de agosto). Cambio señala una contradicción cronológica en la justificación oficial: la Directiva Presidencial 01, que establece el requisito de autorización previa, se firmó el 3 de septiembre — después de la rueda de prensa que supuestamente motivó la salida. Ver también K-02 (veto informal a gremios) como parte del mismo patrón de control de mensaje y de interlocutores independientes.",
+      "ultima_actualizacion": "2026-09-23"
     },
     {
       "id": "I-03",
@@ -1167,8 +1205,50 @@
       "fuentes": ["Infobae"],
       "enlaces": [{"t": "Infobae — renuncia a su primer sueldo", "url": "https://www.infobae.com/america/agencias/2026/09/13/de-la-espriella-renuncia-a-su-primer-sueldo-en-favor-de-dos-geriatricos-afectados-por-el-terremoto/"}],
       "etiquetas": ["gesto simbólico", "austeridad"],
-      "notas": "Se incluye como contrapunto directo a E-02 (vuelos por 1.117 millones): el mismo mes en que se cuestiona su gasto en vuelos oficiales, anuncia un gesto de renuncia salarial. Útil para evaluar coherencia entre discurso y gasto.",
+      "notas": "Se incluye como contrapunto directo a E-02 (vuelos por 1.117 millones, luego ampliados a 2.286 millones): el mismo mes en que se cuestiona su gasto en vuelos oficiales, anuncia un gesto de renuncia salarial. Útil para evaluar coherencia entre discurso y gasto.",
       "ultima_actualizacion": "2026-09-13"
+    },
+    {
+      "id": "E-13",
+      "fecha": "2026-09-20",
+      "fecha_texto": "19–21 de septiembre de 2026",
+      "periodo": "Gobierno 2026-2030",
+      "tematica": "Institucionalidad",
+      "caso": "Recorte presupuestal a la JEP: choque con su presidente y escalada a la Corte Penal Internacional",
+      "alegato": "En el trámite del Presupuesto General de la Nación para 2027 (ver E-03), el senador Enrique Gómez, del partido Salvación Nacional y hermano del ministro de Hacienda Miguel Gómez, radicó dos proposiciones para trasladar recursos de la JEP al Consejo Superior de la Judicatura; el presidente respaldó la iniciativa. El presidente de la JEP, Alejandro Ramelli, lanzó el viernes 18 de septiembre un \u2018SOS\u2019 a la comunidad internacional y llevó sus preocupaciones ante la Corte Penal Internacional (CPI), advirtiendo sobre el impacto operativo del recorte. Las cifras difieren según la fuente: algunos medios hablan de un recorte de 100.000 millones de pesos (unos 31 millones de dólares) sobre los 947.642 millones solicitados por la JEP para 2027, mientras que un titular de Vanguardia menciona 170.000 millones; no fue posible confirmar cuál cifra es la vigente. El debate llega mientras la JEP, en paralelo, imputó cargos en el Caso 05 por persecución contra personas LGBTIQ+, y ocurre en el primer mes y medio de un Gobierno que en campaña propuso eliminar la JEP por completo, algo que no puede hacer unilateralmente porque el tribunal tiene rango constitucional.",
+      "respuesta_adle": "'No es asfixia ni venganza'. En un extenso mensaje en X, el presidente sostuvo: 'Una reasignación fundada en las prioridades públicas no constituye una interferencia: es gobernar. No tengo una política de venganza contra la JEP'. Cuestionó los resultados de la jurisdicción: 'la JEP ha recibido más de tres billones de pesos desde 2018 (...) considero que el volumen de sus resultados judiciales no corresponde con el tamaño de su aparato burocrático'. Sobre la carta de Ramelli a la CPI: 'No comparto ni acepto el contenido, el alcance ni el tono de esa comunicación (...) hoy no existe una sola decisión de mi Gobierno que permita afirmar, irresponsablemente, que Colombia incumple sus compromisos internacionales'.",
+      "estado": "Abierto",
+      "verificacion": "Documentado",
+      "gravedad": 4,
+      "actores": ["Alejandro Ramelli (presidente de la JEP)", "Enrique Gómez", "Miguel Gómez"],
+      "fuentes": ["Vanguardia", "El Espectador", "Cambio", "El Colombiano", "EFE"],
+      "enlaces": [
+        {"t": "Vanguardia — De la Espriella defiende el recorte", "url": "https://www.vanguardia.com/colombia/2026/09/21/de-la-espriella-defiende-recorte-de-100000-millones-al-presupuesto-de-la-jep-en-2027/"},
+        {"t": "El Espectador — \u00bfPor qu\u00e9 necesita m\u00e1s dinero?", "url": "https://www.elespectador.com/politica/de-la-espriella-respondio-al-presidente-de-la-jep-alejandro-ramelli-por-criticas-a-recorte-de-presupuesto-esto-dijo/"},
+        {"t": "Cambio — respuesta a Ramelli", "url": "https://cambiocolombia.com/pais/articulo/2026/9/no-es-asfixia-ni-venganza-de-la-espriella-al-presidente-de-la-jep-por-recorte-presupuestal"}
+      ],
+      "etiquetas": ["JEP", "presupuesto", "justicia transicional", "CPI"],
+      "notas": "Conecta directamente con E-03 (Presupuesto 2027) y con la promesa de campaña de eliminar la JEP (ver G-05). Tensión institucional de fondo: el Gobierno tiene la potestad constitucional de asignar presupuesto, pero la JEP es un organismo con autonomía constitucional ligado al cumplimiento de los acuerdos de paz. La Silla Vac\u00eda public\u00f3 un an\u00e1lisis de opini\u00f3n bajo el t\u00edtulo 'El Estado no es el partido de gobierno' advirtiendo sobre el riesgo de confundir los recursos del Estado con los intereses del movimiento gobernante. A vigilar: desenlace del tr\u00e1mite presupuestal y respuesta de la CPI.",
+      "ultima_actualizacion": "2026-09-23"
+    },
+    {
+      "id": "E-14",
+      "fecha": "2026-09-23",
+      "fecha_texto": "23 de septiembre de 2026",
+      "periodo": "Gobierno 2026-2030",
+      "tematica": "Economía y fiscal",
+      "caso": "El Presupuesto 2027 recorta 40% los subsidios a los más pobres",
+      "alegato": "La Silla Vacía, tras revisar el libro de regionalización que el DNP publicó la semana pasada (el documento que reparte el presupuesto proyecto por proyecto y departamento por departamento), encontró que los diez subsidios dirigidos a población vulnerable pasan de 22 a 13 billones de pesos entre el Presupuesto 2026 y el de 2027: una caída de 9 billones, equivalente a 40% descontando inflación. El más golpeado es el subsidio a menores tarifas de energía, que baja de 6 billones a poco más de 1 billón (pierde tres cuartas partes); le sigue el de transferencias monetarias de Prosperidad Social (Renta Ciudadana, devolución del IVA, Renta Joven, Colombia Mayor), de 9 a 7 billones; y los subsidios de vivienda, con el subsidio familiar de vivienda cayendo de 890 mil a 80 mil millones y el programa Frech (cobertura de crédito de vivienda) desapareciendo por completo, de 750 mil millones a cero. Según el análisis, el recorte a subsidios es proporcionalmente mayor que el ajuste que el propio Gobierno necesitaba hacer para pagar más deuda, y para los subsidios específicamente la plata asignada cae del 109% de lo solicitado por las entidades en 2026 al 32% en 2027. El medio identifica una causa estructural adicional: el gobierno Petro dejó, en sus últimos meses, vigencias futuras récord (107 billones de pesos, de los cuales 46 billones recaen sobre la administración De la Espriella) que obligan al nuevo gobierno a mantener ciertos proyectos, dejando la inversión de libre reasignación (donde están los subsidios) como la única caja disponible para recortar.",
+      "respuesta_adle": "El documento de regionalización sostiene que 'se mantiene el valor de las transferencias a las poblaciones más vulnerables', lo que implica, según el análisis de La Silla Vacía, una mayor focalización: con el mismo monto por hogar y una bolsa 40% más pequeña, el resultado matemático es que menos hogares reciben el subsidio. El Gobierno atribuye en general el ajuste presupuestal a la necesidad de pagar deuda y a los compromisos heredados del gobierno anterior (ver E-03 y E-05).",
+      "estado": "Abierto",
+      "verificacion": "Documentado",
+      "gravedad": 4,
+      "actores": ["Miguel Gómez Martínez (ministro de Hacienda)", "María Nohemí Arboleda (ministra de Minas y Energía)", "Sara Jimena Castellanos", "DNP"],
+      "fuentes": ["La Silla Vacía"],
+      "enlaces": [{"t": "La Silla Vac\u00eda \u2014 Presupuesto de Abelardo pide cortar subsidios a los pobres en 40%", "url": "https://www.lasillavacia.com/silla-nacional/presupuesto-de-abelardo-pide-cortar-subsidios-a-los-pobres-en-40/"}],
+      "etiquetas": ["subsidios", "pobreza", "presupuesto 2027", "focalización"],
+      "notas": "Conecta directamente con E-03 (Presupuesto 2027) y E-13 (recorte a la JEP): los tres casos documentan de dónde sale el ajuste fiscal del Gobierno. La región Caribe es la más expuesta (los subsidios pesan 41% de su inversión); Atlántico es el departamento grande más golpeado. La ministra de Minas, María Nohemí Arboleda, advirtió el 9 de septiembre ante la Comisión Quinta de la Cámara que las tarifas de energía van a subir: 'Yo no les voy a prometer lo que no les puedo prometer'. La senadora Sara Jimena Castellanos (Partido Liberal) alertó que con lo asignado solo se podrán ejecutar 3,5 de los 12 ciclos previstos de Colombia Mayor. El presupuesto seguía en negociación en el Congreso al momento de esta nota; La Silla Vacía señala que el Gobierno mantiene abierta la opción de pagar menos deuda para recuperar el nivel de subsidios, pero no la ha usado. Nota de fuente única: por ahora solo está confirmado por La Silla Vacía; conviene buscar corroboración adicional en próximas actualizaciones.",
+      "ultima_actualizacion": "2026-09-23"
     },
     {
       "id": "G-09",
@@ -1177,17 +1257,20 @@
       "periodo": "Gobierno 2026-2030",
       "tematica": "Seguridad y DDHH",
       "caso": "Ultimátum público a alias 'Pinocho' tras portada de Semana",
-      "alegato": "Tras una portada de Semana con una entrevista de Salud Hernández-Mora a un jefe de las Autodefensas Conquistadoras de la Sierra Nevada (ACSN), que se declaró dispuesto a someterse a la justicia 'con garantías', el presidente exigió públicamente en X a los ministros de Defensa y Justicia coordinar en un plazo de una semana la entrega de Fredy Castillo, alias Pinocho, líder de las ACSN. La presión se da después de que la Policía abatiera el 4 de septiembre en La Guajira a Naín Pérez Toncel, alias Bendito Menor, otro cabecilla de esa organización de origen paramilitar vinculada a narcotráfico. El grupo había participado en espacios de diálogo de la política de 'paz total' del gobierno Petro.",
-      "respuesta_adle": "'Aquí no hay negociaciones, dilaciones ni exigencias. Si no se entrega y continúa...' (mensaje en X dirigido a los ministros de Defensa y Justicia).",
+      "alegato": "Tras una portada de Semana con una entrevista de Salud Hernández-Mora a un jefe de las Autodefensas Conquistadoras de la Sierra Nevada (ACSN), que se declaró dispuesto a someterse a la justicia 'con garantías', el presidente exigió públicamente en X a los ministros de Defensa y Justicia coordinar en un plazo de una semana la entrega de Fredy Castillo, alias Pinocho, líder de las ACSN. La presión se da después de que la Policía abatiera el 4 de septiembre en La Guajira a Naín Pérez Toncel, alias Bendito Menor, otro cabecilla de esa organización de origen paramilitar vinculada a narcotráfico. El grupo había participado en espacios de diálogo de la política de 'paz total' del gobierno Petro. El 17 de septiembre, durante un Consejo de Seguridad en San Juan del Cesar (La Guajira), el presidente amplió la advertencia a otros dos cabecillas de la región: Rufino José Morales, alias 'Mario' (identificado como jefe regional del Clan del Golfo), y alias Gonzalo Ochalo, de la Segunda Marquetalia. La medida se formalizó mediante la Resolución 0-0284 del 11 de septiembre de 2026, que además incluye a alias 'Rodrigo Flechas', alias 'El Cura' y alias 'Bruno' o 'Jerónimo'.",
+      "respuesta_adle": "'Aquí no hay negociaciones, dilaciones ni exigencias. Si no se entrega y continúa...' (mensaje en X dirigido a los ministros de Defensa y Justicia, 12 de septiembre). El 17 de septiembre, en La Guajira: 'Al jefe del clan del Golfo en la región, Rufino José Morales, alias Mario; al bandido alias Pinocho, jefe de las Autodefensas Conquistadoras de la Sierra; y al bandido alias Gonzalo Ochalo de la Segunda Marquetalia, tienen fecha de expiración porque se metieron con San Juan'. Añadió: 'Bandido que no se someta será dado de baja'.",
       "estado": "Abierto",
       "verificacion": "Documentado",
-      "gravedad": 2,
-      "actores": ["Fredy Castillo (alias Pinocho)", "Salud Hernández-Mora", "Naín Pérez Toncel (alias Bendito Menor)"],
-      "fuentes": ["Vanguardia", "Infobae", "Semana"],
-      "enlaces": [{"t": "Vanguardia — ultimátum a Pinocho", "url": "https://www.vanguardia.com/colombia/2026/09/12/de-la-espriella-lanza-ultimatum-a-alias-pinocho-tiene-una-semana-para-entregarse/"}],
+      "gravedad": 3,
+      "actores": ["Fredy Castillo (alias Pinocho)", "Salud Hernández-Mora", "Naín Pérez Toncel (alias Bendito Menor)", "Rufino José Morales (alias Mario)", "alias Gonzalo Ochalo"],
+      "fuentes": ["Vanguardia", "Infobae", "Semana", "El Heraldo"],
+      "enlaces": [
+        {"t": "Vanguardia — ultimátum a Pinocho", "url": "https://www.vanguardia.com/colombia/2026/09/12/de-la-espriella-lanza-ultimatum-a-alias-pinocho-tiene-una-semana-para-entregarse/"},
+        {"t": "Infobae \u2014 nueva advertencia a Pinocho y jefes de bandas", "url": "https://www.infobae.com/colombia/2026/09/18/presidente-abelardo-de-la-espriella-le-lanzo-nueva-advertencia-a-alias-pinocho-y-a-jefes-de-bandas-delincuenciales-de-la-guajira-bandido-que-no-se-someta-sera-dado-de-baja/"}
+      ],
       "etiquetas": ["gobierno vía redes sociales", "paz total", "ultimátum"],
-      "notas": "Ejemplo del patrón de gobernar mediante instrucciones públicas por X en vez de canales institucionales formales. A vigilar: si se cumple el plazo de una semana.",
-      "ultima_actualizacion": "2026-09-13"
+      "notas": "Ejemplo del patrón de gobernar mediante instrucciones públicas (X, ruedas de prensa) en vez de canales institucionales formales; ver también G-06 (exhibición de cadáveres en La Guajira, mismo escenario regional). El plazo original de una semana (vencía alrededor del 19 de septiembre) fue superado por la escalada del 17 de septiembre, que amplió el número de objetivos señalados públicamente por nombre. A vigilar: si se producen sometimientos, capturas o bajas de los mencionados, y cualquier cuestionamiento sobre el debido proceso de señalar públicamente objetivos con 'fecha de expiración'.",
+      "ultima_actualizacion": "2026-09-18"
     },
     {
       "id": "G-10",
@@ -1207,6 +1290,29 @@
       "etiquetas": ["Buenaventura", "Inpec", "mano dura"],
       "notas": "Se enmarca en la misma política de endurecimiento penitenciario que el plan de las diez megacárceles (G-07).",
       "ultima_actualizacion": "2026-09-16"
+    },
+    {
+      "id": "G-11",
+      "fecha": "2026-09-22",
+      "fecha_texto": "22–23 de septiembre de 2026",
+      "periodo": "Gobierno 2026-2030",
+      "tematica": "Seguridad y DDHH",
+      "caso": "El presidente patrulla Santa Marta con arma de fuego al cinto durante un paro armado",
+      "alegato": "Las Autodefensas Conquistadoras de la Sierra Nevada (ACSN, también conocidas como 'Los Pachenca') decretaron un paro armado en Santa Marta como retaliación por una operación de la Fuerza Pública en la que murieron varios de sus integrantes, entre ellos alias 'Cholo'. Hubo quema de vehículos, cierre forzado de comercios e intimidación a transportadores. El presidente suspendió su agenda en Barranquilla, ordenó la militarización de Santa Marta y, la noche del 22 de septiembre, se puso un chaleco antibalas y recorrió personalmente varios barrios (Cristo Rey, Gaira, 11 de Noviembre) junto a la Policía y el Ejército. Las imágenes que él mismo publicó lo muestran con un arma de fuego visible en la cintura \u2014descrita por El Colombiano como 'una imagen inédita en un mandatario'\u2014, lo que abrió preguntas en varios medios sobre si un presidente colombiano tiene autorización legal para portar armas y bajo qué figura lo estaría haciendo, sin que se haya aclarado oficialmente de qué arma se trata ni su respaldo legal.",
+      "respuesta_adle": "'Los vamos a cazar como ratas miserables'. También dijo: 'El Estado, con toda su fuerza legítima, no dará un solo paso atrás ante sus cobardes amenazas' y, sobre los responsables: 'cuando esos bandidos se enfrentan a nuestra Fuerza Pública, ahí quedan, por eso acuden al terror. Tiran la piedra y esconden la mano'. Nombró públicamente a varios cabecillas de 'Los Pachenca' (alias Pinocho, Pati Liso, Flash y Jacob) y prometió: 'les garantizo su seguridad (...) tengan la certeza de que dentro de poco vamos a dar con los causantes de esa estrategia de terror'.",
+      "estado": "Abierto",
+      "verificacion": "Documentado",
+      "gravedad": 3,
+      "actores": ["alias Cholo", "alias Pinocho (Pachenca)", "Carlos Pinedo (alcalde de Santa Marta)"],
+      "fuentes": ["Semana", "La Silla Vacía", "El Colombiano", "Publimetro", "El Universal", "Infobae"],
+      "enlaces": [
+        {"t": "La Silla Vac\u00eda \u2014 con arma en el cinto", "url": "https://www.lasillavacia.com/en-vivo/con-arma-en-cinto-abelardo-anuncia-medidas-de-seguridad-para-santa-marta/"},
+        {"t": "El Colombiano \u2014 el at\u00edpico patrullaje", "url": "https://www.elcolombiano.com/colombia/santa-marta-paro-armado-los-pachenca-abelardo-de-la-espriella-OA41412639"},
+        {"t": "Publimetro \u2014 \u00bfqu\u00e9 arma es y bajo qu\u00e9 autorizaci\u00f3n?", "url": "https://www.publimetro.co/noticias/2026/09/23/arma-en-la-cintura-el-detalle-que-llamo-la-atencion-en-el-video-de-de-la-espriella-durante-su-visita-a-santa-marta/"}
+      ],
+      "etiquetas": ["militarización", "arma de fuego", "personalización de la seguridad"],
+      "notas": "Conecta con el patrón retórico de G-06 y G-09, y con el decreto de levantamiento de restricciones al porte de armas (G-03): aquí es el propio presidente quien aparece armado en público. Hasta el cierre de este registro no se había establecido oficialmente qué arma porta, si es de su propiedad o bajo qué autorización específica, pregunta que motivó coberturas explicativas sobre el marco legal (ej. Infobae/Minuto60: '¿Tiene permitido el presidente de Colombia portar un arma de fuego?').",
+      "ultima_actualizacion": "2026-09-23"
     },
     {
       "id": "J-01",
@@ -1248,6 +1354,51 @@
       "etiquetas": ["simbolismo"],
       "notas": "Menor en sustancia, útil como registro del patrón de anuncios revertidos.",
       "ultima_actualizacion": "2026-09-04"
+    },
+    {
+      "id": "K-01",
+      "fecha": "2026-09-08",
+      "fecha_texto": "8 de septiembre de 2026",
+      "periodo": "Gobierno 2026-2030",
+      "tematica": "Institucionalidad",
+      "caso": "MinAgricultura propone dejar de llamar \u2018campesinos\u2019 y usar \u2018empresarios del campo\u2019",
+      "alegato": "Ante las comisiones económicas del Senado y la Cámara, el ministro de Agricultura y Desarrollo Rural, Indalecio Dangond, anunció que el Gobierno sustituirá la palabra 'campesino' por expresiones como 'productor agropecuario' o 'pequeño empresario del campo'. La representante María Fernanda Carrascal (Pacto Histórico) cuestionó la medida por desconocer una identidad construida durante décadas de lucha por la tierra; el representante Renzo García (Tolima) también defendió la permanencia del término, que tiene reconocimiento constitucional como sujeto de derechos ('campesinado').",
+      "respuesta_adle": "Dangond: 'No se van a llamar campesinos, se van a llamar pequeños empresarios del campo. Campesino es despectivo. Aquí vamos a elevarle el estatus a los que producen los alimentos del país'. Ante las críticas, precisó que el cambio de categorías no busca negar la existencia ni los derechos del campesinado: '\u2018Campesino\u2019 y \u2018productor agropecuario\u2019 no son sinónimos (...) reconocer las diferencias no divide al campo. Por el contrario, nos permite diseñar mejores políticas para todos'.",
+      "estado": "Abierto",
+      "verificacion": "Documentado",
+      "gravedad": 2,
+      "actores": ["Indalecio Dangond (ministro de Agricultura)", "María Fernanda Carrascal", "Renzo García"],
+      "fuentes": ["Infobae", "Semana", "Pulzo"],
+      "enlaces": [
+        {"t": "Infobae \u2014 el Ministerio tuvo que salir a aclarar", "url": "https://www.infobae.com/colombia/2026/09/09/ministro-de-agricultura-propuso-cambiar-la-palabra-campesinos-para-elevarles-el-estatus-y-armo-polemica-el-ministerio-tuvo-que-salir-a-aclarar/"},
+        {"t": "Semana \u2014 as\u00ed lo explic\u00f3 el ministro", "url": "https://www.semana.com/confidenciales/articulo/gobierno-no-usara-la-palabra-campesino-asi-lo-explico-el-ministro-de-agricultura/202632/"}
+      ],
+      "etiquetas": ["campesinado", "lenguaje oficial", "identidad rural"],
+      "notas": "Primer caso registrado bajo la letra K (gabinete y funcionarios), incorporada a partir de esta actualización a pedido del usuario para cubrir también polémicas de ministros, no solo del presidente. Clasificado en tematica 'Institucionalidad' por el trasfondo de reconocimiento constitucional del campesinado como sujeto de derechos; es un caso límite que también podría leerse como de política agropecuaria.",
+      "ultima_actualizacion": "2026-09-23"
+    },
+    {
+      "id": "K-02",
+      "fecha": "2026-09-22",
+      "fecha_texto": "Septiembre de 2026 (reportado el 22)",
+      "periodo": "Gobierno 2026-2030",
+      "tematica": "Institucionalidad",
+      "caso": "Veto informal a Bruce Mac Master (presidente de la Andi) y precedente de Carolina Soto en la CCI",
+      "alegato": "La Silla Vacía verificó que existe un veto informal del Gobierno hacia Bruce Mac Master, presidente de la Andi (el gremio empresarial más influyente del país): no ha sido una orden directa del presidente a sus ministros ni bajó al nivel de viceministros, pero el mensaje de no reunirse con él circula informalmente en el gabinete. La periodista Vicky Dávila fue la primera en reportar, citando fuentes del Gobierno, que 'ningún ministro se puede reunir' con Mac Master y que se evaluaba ampliar el veto a la junta directiva. Pese a ello, la junta de la Andi ratificó a Mac Master en el cargo el 8 de septiembre. El caso tiene un precedente más claro documentado por Cambio: dos semanas antes, Carolina Soto había sido designada presidenta ejecutiva de la Cámara Colombiana de la Infraestructura (CCI) y renunció al cargo un día después, en medio de una presión del Gobierno que, según Cambio, esta vez sí quedó registrada por escrito.",
+      "respuesta_adle": "No se ha conocido una confirmación oficial de la Casa de Nariño sobre una prohibición a sus ministros para reunirse con el dirigente gremial. El exministro Alejandro Gaviria, sin nombrar directamente al presidente, calificó al Ejecutivo de 'cada vez más prepotente, aislado e ineficaz' y afirmó: 'la orden es clara: no hablar con los gremios, periodistas o empresarios que muestren alguna independencia'.",
+      "estado": "Abierto",
+      "verificacion": "Documentado",
+      "gravedad": 3,
+      "actores": ["Bruce Mac Master (presidente de la Andi)", "Alejandro Gaviria", "Carolina Soto", "Vicky Dávila"],
+      "fuentes": ["La Silla Vacía", "Infobae", "Cambio"],
+      "enlaces": [
+        {"t": "La Silla Vac\u00eda \u2014 Abelardo va por la cabeza de la Andi", "url": "https://www.lasillavacia.com/silla-nacional/abelardo-va-por-la-cabeza-de-la-andi-y-pone-a-prueba-a-los-empresarios/"},
+        {"t": "Cambio \u2014 Mac Master sigue en la Andi pese a la presi\u00f3n", "url": "https://cambiocolombia.com/economia/articulo/2026/9/bruce-mac-master-seguira-al-frente-de-la-andi-pese-a-presiones-para-que-no-hubiera-reeleccion-tambien-hay-nueva-mesa-directiva"},
+        {"t": "Infobae \u2014 Gaviria arremete por el presunto veto", "url": "https://www.infobae.com/colombia/2026/09/22/exministro-alejandro-gaviria-arremetio-contra-abelardo-de-la-espriella-por-presunto-veto-a-bruce-mac-master-gobierno-cada-vez-mas-prepotente-aislado-e-ineficaz/"}
+      ],
+      "etiquetas": ["gremios", "autonomía empresarial", "Andi", "veto informal"],
+      "notas": "La Silla Vacía apunta dos posibles motivaciones: el respaldo de Mac Master a Paloma Valencia en campaña, y el malestar presidencial porque las donaciones empresariales de la Andi para el terremoto no se canalizaron a través de la fundación de la primera dama (esto último sin confirmar oficialmente). Se relaciona con el patrón de centralización de la comunicación oficial documentado en I-02 (Directiva Presidencial 01) y con el caso del director del DANE (ver actualización a I-02). A vigilar: si el veto se formaliza o se extiende a otros gremios.",
+      "ultima_actualizacion": "2026-09-23"
     }
   ]
 }
