@@ -884,17 +884,19 @@
       "caso": "Video caminando entre cadáveres tras la Operación Azarías",
       "alegato": "Difundió un video en el que aparece, con ropa de estilo militar y acompañado de la cúpula militar, caminando entre cuerpos en bolsas blancas tras un bombardeo en Miraflores, Guaviare. La operación dejó 23 muertos del Frente Carolina Ramírez, seis capturados y un menor recuperado. El encuadre fue comparado con el usado por Donald Trump en sus ataques a supuestas narcolanchas.",
       "respuesta_adle": "'Les prometí enfrentar el terrorismo sin contemplaciones y estoy cumpliendo. No vine a contemporizar con asesinos, extorsionistas y reclutadores de menores'. Reiteró el ultimátum: quien no se someta será dado de baja.",
-      "estado": "Abierto",
+      "estado": "Con decisión judicial o administrativa",
       "verificacion": "Documentado",
       "gravedad": 4,
-      "actores": ["Jorge Eduardo Mora", "Gustavo Petro", "María José Pizarro", "Daniel Monroy"],
-      "fuentes": ["Infobae", "teleSUR", "Prensa Latina", "El Colombiano"],
+      "actores": ["Jorge Eduardo Mora", "Gustavo Petro", "María José Pizarro", "Daniel Monroy", "Santiago Osorio Marín", "Javier Ricardo Cabrera Cruz"],
+      "fuentes": ["Infobae", "teleSUR", "Prensa Latina", "El Colombiano", "Vanguardia", "El Diario"],
       "enlaces": [
-        {"t": "Infobae — políticos cuestionaron el video", "url": "https://www.infobae.com/colombia/2026/09/03/politicos-cuestionaron-a-abelardo-de-la-espriella-por-caminar-sobre-cadaveres-tras-bombardeo-a-las-disidencias-siguen-teniendo-dignidad/"}
+        {"t": "Infobae — políticos cuestionaron el video", "url": "https://www.infobae.com/colombia/2026/09/03/politicos-cuestionaron-a-abelardo-de-la-espriella-por-caminar-sobre-cadaveres-tras-bombardeo-a-las-disidencias-siguen-teniendo-dignidad/"},
+        {"t": "Vanguardia — el Gobierno gana la tutela definitiva", "url": "https://www.vanguardia.com/colombia/2026/09/23/gobierno-de-la-espriella-gana-tutela-por-difusion-de-imagenes-de-abatidos-en-operativos/"},
+        {"t": "El Diario — juez niega tutela pero pide moderaci\u00f3n", "url": "https://www.eldiario.com.co/actualidad/de-la-espriella-podra-seguir-apareciendo-entre-cadaveres-juez-niega-tutela-pero-pide-moderacion/"}
       ],
-      "etiquetas": ["necropolítica", "dignidad humana", "comunicación de gobierno"],
-      "notas": "Petro: 'solo asesinos acostumbrados a asesinar pueden pasearse orondos y alegres entre los cadáveres'. Pizarro comparó la lógica con la de los falsos positivos: 'se reduce la seguridad al conteo de muertos'. Una semana antes el Gobierno había publicado imágenes de reclusos rapados en traslados penitenciarios, en la estética asociada a Nayib Bukele.",
-      "ultima_actualizacion": "2026-09-04"
+      "etiquetas": ["necropolítica", "dignidad humana", "comunicación de gobierno", "tutela"],
+      "notas": "Petro: 'solo asesinos acostumbrados a asesinar pueden pasearse orondos y alegres entre los cadáveres'. Pizarro comparó la lógica con la de los falsos positivos: 'se reduce la seguridad al conteo de muertos'. Una semana antes el Gobierno había publicado imágenes de reclusos rapados en traslados penitenciarios, en la estética asociada a Nayib Bukele. Desenlace judicial: el representante Santiago Osorio Marín (Alianza Verde) y el ciudadano Javier Ricardo Cabrera Cruz presentaron una tutela contra las publicaciones de este video y del de G-06 (La Guajira). El 9 de septiembre el Juzgado Catorce Laboral del Circuito de Bogotá ordenó retirarlas temporalmente. El caso pasó al Juzgado Treinta Civil del Circuito de Bogotá, que el 23 de septiembre negó el amparo de forma definitiva: concluyó que los accionantes no tenían legitimidad para representar en general a los niños, niñas y adolescentes de Colombia, y que ningún familiar de los fallecidos había reclamado por la difusión. El fallo sí recomendó a la Presidencia comunicar los resultados de operaciones militares 'mediante recursos menos invasivos de la dignidad, memoria e imagen' de los fallecidos, aunque aclaró que esa exhortación no constituye una prohibición. Para cuando se resolvió la tutela, las publicaciones ya no estaban en las cuentas oficiales de Instagram de la Presidencia, aunque sí seguían en los perfiles personales del presidente.",
+      "ultima_actualizacion": "2026-09-23"
     },
     {
       "id": "G-02",
@@ -916,7 +918,7 @@
         {"t": "Cámara de Representantes — crónica del debate", "url": "https://www.camara.gov.co/plenaria-de-la-camara-realizo-el-debate-de-mocion-de-censura-al-ministro-de-la-defensa"}
       ],
       "etiquetas": ["menores reclutados", "control político", "DIH", "moción de censura"],
-      "notas": "Pedraza: 'los grupos son responsables de reclutarlos, sí; pero el Estado les falló al no protegerlos'. Es el segundo ministro del Gobierno en enfrentar una moción de censura, después de Beltrán en Vivienda (ver H-02). Según Infobae, el pronóstico de ambas mociones (Senado y Cámara) era desfavorable a la oposición, por lo que se esperaba que no prosperaran; pendiente confirmar el resultado final de la votación del 23 de septiembre. Daniel Briceño respaldó públicamente al ministro Mora y calificó de 'absurda' la moción del Pacto Histórico.",
+      "notas": "Pedraza: 'los grupos son responsables de reclutarlos, sí; pero el Estado les falló al no protegerlos'. Es el segundo ministro del Gobierno en enfrentar una moción de censura, después de Beltrán en Vivienda (ver H-02). Según Infobae, el pronóstico de ambas mociones (Senado y Cámara) era desfavorable a la oposición, por lo que se esperaba que no prosperaran; pendiente confirmar el resultado final de la votación del 23 de septiembre. Daniel Briceño respaldó públicamente al ministro Mora y calificó de 'absurda' la moción del Pacto Histórico. El 13 de septiembre, ante la acumulación de fallos judiciales que han frenado operaciones aéreas con presencia de menores (cuatro fallos según el conteo de Semana), el presidente habló de una 'guerra judicial' y sostuvo: 'una cosa es el control judicial, otra, sustituir al Gobierno'. Defendió los bombardeos argumentando que no actuar 'produciría un incentivo perverso, premiaría precisamente al criminal que viola el derecho internacional humanitario reclutando niños'. Semana, en su sección de opinión/confidenciales, adoptó explícitamente el marco del Gobierno en una pieza que afirma que 'los beneficiados son los narcotraficantes, que están felices' con estas decisiones judiciales — una valoración editorial, no un hecho verificado.",
       "ultima_actualizacion": "2026-09-23"
     },
     {
@@ -960,7 +962,7 @@
         {"t": "Cerosetenta — Nuevas botellas para una vieja medicina", "url": "https://cerosetenta.uniandes.edu.co/nuevas-botellas-para-una-vieja-medicina/"}
       ],
       "etiquetas": ["glifosato", "cultivos ilícitos", "consulta previa"],
-      "notas": "El 'gabinete a la sombra' de la oposición la calificó de 'política ineficaz, riesgosa y profundamente injusta'. Punto de control: si la ANLA otorga o no el plan de manejo ambiental. Cerosetenta reforzó la crítica citando literatura empírica del CESED (Mejía, Restrepo y Rozo): asperjar una hectárea adicional reduciría la coca en apenas 0,022 a 0,03 hectáreas al año, con base en la franja de 10 km junto a la frontera con Ecuador que Colombia dejó de fumigar en 2006.",
+      "notas": "El 'gabinete a la sombra' de la oposición la calificó de 'política ineficaz, riesgosa y profundamente injusta'. Punto de control: si la ANLA otorga o no el plan de manejo ambiental. Cerosetenta reforzó la crítica citando literatura empírica del CESED (Mejía, Restrepo y Rozo): asperjar una hectárea adicional reduciría la coca en apenas 0,022 a 0,03 hectáreas al año, con base en la franja de 10 km junto a la frontera con Ecuador que Colombia dejó de fumigar en 2006. Alrededor del 13 de septiembre, un juez de Puerto Asís suspendió los efectos de una resolución que fijaba un plan piloto para reiniciar la erradicación con glufosinato de amonio (un herbicida distinto al glifosato) en esa zona; Semana incluyó esta decisión dentro de lo que el Gobierno llama 'guerra judicial' (ver G-02).",
       "ultima_actualizacion": "2026-09-23"
     },
     {
@@ -969,18 +971,21 @@
       "fecha_texto": "Agosto–septiembre de 2026",
       "periodo": "Gobierno 2026-2030",
       "tematica": "Seguridad y DDHH",
-      "caso": "Tres bombardeos de gran escala en el primer mes",
-      "alegato": "Operaciones aéreas de alta intensidad en Catatumbo y Guaviare contra campamentos del ELN y de las disidencias de las Farc, sumadas al cierre definitivo de las mesas de diálogo y a un ultimátum a los grupos armados.",
-      "respuesta_adle": "No mantendrá ceses al fuego ni conversaciones de carácter político con grupos criminales.",
-      "estado": "Abierto",
+      "caso": "Desmonte de la Paz Total: bombardeos, cierre de mesas de diálogo y revocatoria a Mancuso",
+      "alegato": "Operaciones aéreas de alta intensidad en Catatumbo y Guaviare contra campamentos del ELN y de las disidencias de las Farc, sumadas al cierre definitivo de las mesas de diálogo y a un ultimátum a los grupos armados. A finales de agosto, la Presidencia anunció el cierre de tres procesos de diálogo heredados del gobierno Petro y adelantó que dejaría sin efecto los reconocimientos y designaciones asociados a esos espacios. Durante septiembre se expidieron resoluciones para revocar representantes y terminar los espacios de conversación con el ELN, el Clan del Golfo y la Coordinadora Nacional Ejército Bolivariano (CNEB), además de anunciar el cierre de una Zona de Ubicación Temporal (ZUT) en Putumayo, de la que cerca de 50 excombatientes de Comandos de Frontera salieron tras el anuncio. El 21 de septiembre, mediante la Resolución 429 de 2026, el presidente también revocó la designación de Salvatore Mancuso Gómez (exjefe de las AUC) como gestor de paz, condición que le había otorgado el gobierno Petro en 2023 mediante la Resolución 244. La revocatoria llegó después de que el Consejo de Estado suspendiera provisionalmente esa designación el 4 de agosto, al considerar que el acto administrativo original no fijaba límites de tiempo, territorio ni funciones, lo que podía afectar los derechos de las víctimas.",
+      "respuesta_adle": "'Dimos por terminados todos los procesos de diálogo y espacios sociojurídicos' heredados del gobierno anterior. No mantendrá ceses al fuego ni conversaciones de carácter político con grupos criminales. La resolución sobre Mancuso invoca las facultades constitucionales y legales del presidente para dirigir la política de paz y preservar el orden público.",
+      "estado": "Con decisión judicial o administrativa",
       "verificacion": "Documentado",
       "gravedad": 4,
-      "actores": ["Iván Cepeda", "Comisión Primera del Senado", "ELN"],
-      "fuentes": ["Infobae"],
-      "enlaces": [{"t": "Infobae — Cepeda sobre la política de seguridad", "url": "https://www.infobae.com/colombia/2026/09/02/ivan-cepeda-critico-a-de-la-espriella-por-su-politica-de-seguridad-y-lucha-contra-el-narcotrafico-es-la-perpetuacion-del-desastre/"}],
-      "etiquetas": ["bombardeos", "paz total", "control político"],
-      "notas": "Cepeda: retomar la vía de la fuerza es 'la perpetuación del desastre'; después añadió que el presidente 'se ufana de matar'. Pidió al Congreso abrir una discusión nacional sobre el rumbo de la política de seguridad.",
-      "ultima_actualizacion": "2026-09-09"
+      "actores": ["Iván Cepeda", "Comisión Primera del Senado", "ELN", "Salvatore Mancuso", "Consejo de Estado"],
+      "fuentes": ["Infobae", "El Tiempo", "El País (Cali)", "Diario del Huila"],
+      "enlaces": [
+        {"t": "Infobae — Cepeda sobre la política de seguridad", "url": "https://www.infobae.com/colombia/2026/09/02/ivan-cepeda-critico-a-de-la-espriella-por-su-politica-de-seguridad-y-lucha-contra-el-narcotrafico-es-la-perpetuacion-del-desastre/"},
+        {"t": "El Tiempo — revoca designaci\u00f3n de Mancuso", "url": "https://www.eltiempo.com/politica/proceso-de-paz/gobierno-de-abelardo-de-la-espriella-revoco-la-designacion-de-salvatore-mancuso-como-gestor-de-paz-3588076"}
+      ],
+      "etiquetas": ["bombardeos", "paz total", "control político", "Mancuso"],
+      "notas": "Cepeda: retomar la vía de la fuerza es 'la perpetuación del desastre'; después añadió que el presidente 'se ufana de matar'. Pidió al Congreso abrir una discusión nacional sobre el rumbo de la política de seguridad. La suspensión cautelar del Consejo de Estado sobre la designación de Mancuso no era una decisión de fondo sobre la controversia, por lo que la revocatoria presidencial se produce en paralelo a ese proceso judicial, no como su resultado final. Mancuso había sido designado gestor de paz en 2023 tras ofrecer aportar verdad sobre el conflicto armado.",
+      "ultima_actualizacion": "2026-09-23"
     },
     {
       "id": "G-06",
@@ -991,7 +996,7 @@
       "caso": "Segunda exhibición de cadáveres ante la prensa, esta vez en La Guajira",
       "alegato": "Días después del video caminando entre cadáveres en Guaviare (ver G-01), De la Espriella presentó ante la prensa en Riohacha cuatro cuerpos cubiertos con lonas blancas, resultado de una operación policial contra las Autodefensas Conquistadoras de la Sierra Nevada (ACSN) en el barrio Los Olivos. Entre los muertos estaba el cabecilla Naín Andrés Pérez Toncel, alias 'Bendito Menor', su pareja sentimental Rosa Angélica Tarazona, alias 'La Bebesita', y dos de sus escoltas. El presidente llegó acompañado de la cúpula militar y policial y dijo frente a los cuerpos: 'gracias a una operación impecable... se dio de baja a uno de los más peligrosos delincuentes de nuestro país'.",
       "respuesta_adle": "Presentó la escena como resultado de una 'operación impecable' de la Policía Nacional y como muestra de los resultados de su política de seguridad; sostuvo que Bendito Menor tenía 'arrodillada' a la población de La Guajira y el Caribe con narcotráfico y extorsión.",
-      "estado": "Abierto",
+      "estado": "Con decisión judicial o administrativa",
       "verificacion": "Documentado",
       "gravedad": 4,
       "actores": ["Naín Andrés Pérez Toncel (alias Bendito Menor)", "Rosa Angélica Tarazona (alias La Bebesita)"],
@@ -1000,9 +1005,9 @@
         {"t": "Público — De la Espriella exhibe cad\u00e1veres en La Guajira", "url": "https://www.publico.es/internacional/espriella-exhibe-prensa-cadaveres-cuatro-personas-abatidas-guajira-criticas-oposicion.html"},
         {"t": "Euronews \u2014 vuelve a mostrar cad\u00e1veres", "url": "https://es.euronews.com/2026/09/04/espriella-cadaveres-de-presuntos-narcoterroristas-abatidos"}
       ],
-      "etiquetas": ["necropolítica", "La Guajira", "patrón repetido"],
-      "notas": "Confirma que la escena de G-01 no fue un hecho aislado sino un patrón de comunicación de gobierno: exhibir cuerpos como prueba de resultados de seguridad. Ver también G-09 (ultimátum a alias Pinocho) como parte del mismo estilo comunicativo.",
-      "ultima_actualizacion": "2026-09-16"
+      "etiquetas": ["necropolítica", "La Guajira", "patrón repetido", "tutela"],
+      "notas": "Confirma que la escena de G-01 no fue un hecho aislado sino un patrón de comunicación de gobierno: exhibir cuerpos como prueba de resultados de seguridad. Ver también G-09 (ultimátum a alias Pinocho) como parte del mismo estilo comunicativo. Este video (identificado en el proceso judicial como parte de la operación 'Centinela de la Patria') fue objeto de la misma tutela que el de G-01; ver el desenlace judicial completo (negación definitiva del amparo, 23 de septiembre) en las notas de ese caso.",
+      "ultima_actualizacion": "2026-09-23"
     },
     {
       "id": "G-07",
@@ -1148,7 +1153,7 @@
         {"t": "Cambio \u2014 De la Espriella impone un gobierno de una sola voz", "url": "https://cambiocolombia.com/poder/articulo/2026/9/de-la-espriella-impone-un-gobierno-de-una-sola-voz"}
       ],
       "etiquetas": ["FLIP", "emisoras de paz", "Directiva 01", "novedad"],
-      "notas": "Caso central: agrupa la Directiva Presidencial 01, el cierre de las emisoras de paz y su reapertura bajo otro nombre. Ver I-03 (Vladdo) e I-04 (Duzán) como episodios individuales dentro del mismo patrón. Volcánicas, citando un acta interna revelada por Caracol Radio, añade detalle previo a la Directiva 01: esa acta habría ordenado suspender ruedas de prensa y entrevistas con medios considerados 'no amigos' salvo autorización previa de Presidencia, excluir a los viceministros de toda vocería oficial, concentrar los anuncios en el propio presidente y en el abogado Miller Soto como vocero único (tres intervenciones diarias), y exigir que las entidades adscritas sometan sus comunicados a revisión antes de publicarlos. No está confirmado si esa acta es un borrador previo de la Directiva 01 o un documento aparte. Cambio documentó un caso concreto que ilustra el patrón: el director del DANE, Ricardo Valencia Ramírez, salió del cargo tras solo 26 días, oficialmente por haber dado una rueda de prensa sin autorización (31 de agosto). Cambio señala una contradicción cronológica en la justificación oficial: la Directiva Presidencial 01, que establece el requisito de autorización previa, se firmó el 3 de septiembre — después de la rueda de prensa que supuestamente motivó la salida. Ver también K-02 (veto informal a gremios) como parte del mismo patrón de control de mensaje y de interlocutores independientes.",
+      "notas": "Caso central: agrupa la Directiva Presidencial 01, el cierre de las emisoras de paz y su reapertura bajo otro nombre. Ver I-03 (Vladdo) e I-04 (Duzán) como episodios individuales dentro del mismo patrón. Volcánicas, citando un acta interna revelada por Caracol Radio, añade detalle previo a la Directiva 01: esa acta habría ordenado suspender ruedas de prensa y entrevistas con medios considerados 'no amigos' salvo autorización previa de Presidencia, excluir a los viceministros de toda vocería oficial, concentrar los anuncios en el propio presidente y en el abogado Miller Soto como vocero único (tres intervenciones diarias), y exigir que las entidades adscritas sometan sus comunicados a revisión antes de publicarlos. No está confirmado si esa acta es un borrador previo de la Directiva 01 o un documento aparte. Cambio documentó un caso concreto que ilustra el patrón: el director del DANE, Ricardo Valencia Ramírez, salió del cargo tras solo 26 días, oficialmente por haber dado una rueda de prensa sin autorización (31 de agosto). Cambio señala una contradicción cronológica en la justificación oficial: la Directiva Presidencial 01, que establece el requisito de autorización previa, se firmó el 3 de septiembre — después de la rueda de prensa que supuestamente motivó la salida. En su comunicado oficial del 14 de septiembre, la Presidencia dio dos razones para la salida de Valencia: que aseguró 'no había encontrado anomalía alguna' en los indicadores del DANE de julio (último mes del gobierno Petro) sin que se hubieran adelantado auditorías profundas previas, y que 'hizo caso omiso' de la Directiva 001 sobre relacionamiento con medios. En su reemplazo, el presidente designó al economista Juan Manuel Alvarado Nivia, con maestría de la Universidad del Norte y máster en la Universidad de Oxford; el Gobierno dijo conocer su trabajo por su participación en la organización de ayudas tras el terremoto del 10 de agosto. Ver también K-02 (veto informal a gremios) como parte del mismo patrón de control de mensaje y de interlocutores independientes.",
       "ultima_actualizacion": "2026-09-23"
     },
     {
@@ -1298,20 +1303,21 @@
       "periodo": "Gobierno 2026-2030",
       "tematica": "Seguridad y DDHH",
       "caso": "El presidente patrulla Santa Marta con arma de fuego al cinto durante un paro armado",
-      "alegato": "Las Autodefensas Conquistadoras de la Sierra Nevada (ACSN, también conocidas como 'Los Pachenca') decretaron un paro armado en Santa Marta como retaliación por una operación de la Fuerza Pública en la que murieron varios de sus integrantes, entre ellos alias 'Cholo'. Hubo quema de vehículos, cierre forzado de comercios e intimidación a transportadores. El presidente suspendió su agenda en Barranquilla, ordenó la militarización de Santa Marta y, la noche del 22 de septiembre, se puso un chaleco antibalas y recorrió personalmente varios barrios (Cristo Rey, Gaira, 11 de Noviembre) junto a la Policía y el Ejército. Las imágenes que él mismo publicó lo muestran con un arma de fuego visible en la cintura \u2014descrita por El Colombiano como 'una imagen inédita en un mandatario'\u2014, lo que abrió preguntas en varios medios sobre si un presidente colombiano tiene autorización legal para portar armas y bajo qué figura lo estaría haciendo, sin que se haya aclarado oficialmente de qué arma se trata ni su respaldo legal.",
-      "respuesta_adle": "'Los vamos a cazar como ratas miserables'. También dijo: 'El Estado, con toda su fuerza legítima, no dará un solo paso atrás ante sus cobardes amenazas' y, sobre los responsables: 'cuando esos bandidos se enfrentan a nuestra Fuerza Pública, ahí quedan, por eso acuden al terror. Tiran la piedra y esconden la mano'. Nombró públicamente a varios cabecillas de 'Los Pachenca' (alias Pinocho, Pati Liso, Flash y Jacob) y prometió: 'les garantizo su seguridad (...) tengan la certeza de que dentro de poco vamos a dar con los causantes de esa estrategia de terror'.",
+      "alegato": "Las Autodefensas Conquistadoras de la Sierra Nevada (ACSN, también conocidas como 'Los Pachenca') decretaron un paro armado de 48 horas en Santa Marta como retaliación por una operación de la Policía Nacional, coordinada con la Fiscalía y apoyada por la Fuerza Aérea, en la que murieron siete presuntos integrantes de la organización —entre ellos su cabecilla José Luis Pérez Villanueva, alias 'Cholo'— y otros tres fueron capturados; según el balance oficial se incautaron diez fusiles (entre ellos un Barrett calibre .50), dos lanzagranadas, dos pistolas y ocho granadas de 40 milímetros. Hubo quema de vehículos, cierre forzado de comercios e intimidación a transportadores. El presidente suspendió su agenda en Barranquilla, ordenó la militarización de Santa Marta y, la noche del 22 de septiembre, se puso un chaleco antibalas y recorrió personalmente varios barrios (Cristo Rey, Gaira, 11 de Noviembre) junto a la Policía y el Ejército. Las imágenes que él mismo publicó lo muestran con un arma de fuego visible en la cintura \u2014descrita por El Colombiano como 'una imagen inédita en un mandatario'\u2014, lo que abrió preguntas en varios medios sobre si un presidente colombiano tiene autorización legal para portar armas y bajo qué figura lo estaría haciendo, sin que se haya aclarado oficialmente de qué arma se trata ni su respaldo legal.",
+      "respuesta_adle": "'Los vamos a cazar como ratas miserables'. Desde la Base Antinarcóticos No. 8, dirigiéndose directamente a las ACSN: 'Los vamos a poner a buen recaudo de la Justicia o los vamos a mandar al infierno en una bolsa como la que ven aquí. No vamos a permitir que los delincuentes sigan arrodillando al pueblo colombiano. Hoy más que nunca estoy firme por la patria y que viva Cristo Rey'. También dijo: 'El Estado, con toda su fuerza legítima, no dará un solo paso atrás ante sus cobardes amenazas' y, sobre los responsables: 'cuando esos bandidos se enfrentan a nuestra Fuerza Pública, ahí quedan, por eso acuden al terror. Tiran la piedra y esconden la mano'. Nombró públicamente a varios cabecillas de 'Los Pachenca' (alias Pinocho, Pati Liso, Flash y Jacob) y prometió: 'les garantizo su seguridad (...) tengan la certeza de que dentro de poco vamos a dar con los causantes de esa estrategia de terror'.",
       "estado": "Abierto",
       "verificacion": "Documentado",
       "gravedad": 3,
-      "actores": ["alias Cholo", "alias Pinocho (Pachenca)", "Carlos Pinedo (alcalde de Santa Marta)"],
-      "fuentes": ["Semana", "La Silla Vacía", "El Colombiano", "Publimetro", "El Universal", "Infobae"],
+      "actores": ["José Luis Pérez Villanueva (alias Cholo)", "alias Pinocho (Pachenca)", "Carlos Pinedo (alcalde de Santa Marta)"],
+      "fuentes": ["Semana", "La Silla Vacía", "El Colombiano", "Publimetro", "El Universal", "Infobae", "El País (Cali)", "NTN24"],
       "enlaces": [
         {"t": "La Silla Vac\u00eda \u2014 con arma en el cinto", "url": "https://www.lasillavacia.com/en-vivo/con-arma-en-cinto-abelardo-anuncia-medidas-de-seguridad-para-santa-marta/"},
         {"t": "El Colombiano \u2014 el at\u00edpico patrullaje", "url": "https://www.elcolombiano.com/colombia/santa-marta-paro-armado-los-pachenca-abelardo-de-la-espriella-OA41412639"},
-        {"t": "Publimetro \u2014 \u00bfqu\u00e9 arma es y bajo qu\u00e9 autorizaci\u00f3n?", "url": "https://www.publimetro.co/noticias/2026/09/23/arma-en-la-cintura-el-detalle-que-llamo-la-atencion-en-el-video-de-de-la-espriella-durante-su-visita-a-santa-marta/"}
+        {"t": "Publimetro \u2014 \u00bfqu\u00e9 arma es y bajo qu\u00e9 autorizaci\u00f3n?", "url": "https://www.publimetro.co/noticias/2026/09/23/arma-en-la-cintura-el-detalle-que-llamo-la-atencion-en-el-video-de-de-la-espriella-durante-su-visita-a-santa-marta/"},
+        {"t": "El Pa\u00eds (Cali) \u2014 al infierno en una bolsa", "url": "https://www.elpais.com.co/colombia/de-la-espriella-anuncia-ofensiva-contra-las-acsn-tras-paro-armado-en-magdalena-los-vamos-a-mandar-al-infierno-en-una-bolsa-2226.html"}
       ],
       "etiquetas": ["militarización", "arma de fuego", "personalización de la seguridad"],
-      "notas": "Conecta con el patrón retórico de G-06 y G-09, y con el decreto de levantamiento de restricciones al porte de armas (G-03): aquí es el propio presidente quien aparece armado en público. Hasta el cierre de este registro no se había establecido oficialmente qué arma porta, si es de su propiedad o bajo qué autorización específica, pregunta que motivó coberturas explicativas sobre el marco legal (ej. Infobae/Minuto60: '¿Tiene permitido el presidente de Colombia portar un arma de fuego?').",
+      "notas": "Conecta con el patrón retórico de G-06 y G-09, y con el decreto de levantamiento de restricciones al porte de armas (G-03): aquí es el propio presidente quien aparece armado en público. Hasta el cierre de este registro no se había establecido oficialmente qué arma porta, si es de su propiedad o bajo qué autorización específica, pregunta que motivó coberturas explicativas sobre el marco legal (ej. Infobae/Minuto60: '¿Tiene permitido el presidente de Colombia portar un arma de fuego?'). El paro armado fue anunciado por 48 horas específicamente como retaliación por la operación que mató a alias Cholo.",
       "ultima_actualizacion": "2026-09-23"
     },
     {
@@ -1398,6 +1404,50 @@
       ],
       "etiquetas": ["gremios", "autonomía empresarial", "Andi", "veto informal"],
       "notas": "La Silla Vacía apunta dos posibles motivaciones: el respaldo de Mac Master a Paloma Valencia en campaña, y el malestar presidencial porque las donaciones empresariales de la Andi para el terremoto no se canalizaron a través de la fundación de la primera dama (esto último sin confirmar oficialmente). Se relaciona con el patrón de centralización de la comunicación oficial documentado en I-02 (Directiva Presidencial 01) y con el caso del director del DANE (ver actualización a I-02). A vigilar: si el veto se formaliza o se extiende a otros gremios.",
+      "ultima_actualizacion": "2026-09-23"
+    },
+    {
+      "id": "K-03",
+      "fecha": "2026-09-14",
+      "fecha_texto": "10–15 de septiembre de 2026",
+      "periodo": "Gobierno 2026-2030",
+      "tematica": "Institucionalidad",
+      "caso": "El presidente cierra la puerta a una alianza con el cuestionado Julián Bedoya",
+      "alegato": "El 10 de septiembre, en una reunión política en un centro comercial de Medellín, el exsenador Julián Bedoya —procesado por un presunto escándalo de títulos falsos y señalado por presunto clientelismo, director del movimiento Renovación Liberal— presentó ante sus copartidarios una estrategia de acercamiento a la coalición de Gobierno de cara a las regionales de 2027, con la frase 'para mí todos los presidentes son iguales (...) por eso mi bandera ha sido: no hago oposición, soy de gobierno'. El episodio ocurrió en momentos en que la senadora María Eugenia Lopera, antigua ficha de Bedoya en el Congreso, ya había pasado de defender al gobierno Petro a respaldar a De la Espriella, y mientras el Partido Liberal se declaraba bancada de Gobierno.",
+      "respuesta_adle": "'Se equivoca Julián Bedoya. En el gobierno del Tigre no hay ni habrá alianza politiquera con usted, con Renovación Liberal ni con ningún operador que confunda el Congreso con un mercado de puestos y prebendas: conmigo, NO'. Añadió, dirigiéndose a su gabinete: 'las relaciones con el Congreso se conducen a la luz del día, sin transacciones ocultas, sin prebendas, sin cuotas o repartijas a cambio de votos y sin intermediarios' y 'yo no vine a administrar la misma podredumbre con otro apellido'. Bedoya respondió al día siguiente bajando el tono: 'Si mis palabras se prestaron para algún malentendido, ofrezco sinceramente mis excusas', y negó buscar cargos o cuotas.",
+      "estado": "Cerrado",
+      "verificacion": "Documentado",
+      "gravedad": 2,
+      "actores": ["Julián Bedoya", "María Eugenia Lopera", "Rodrigo Lara (ministro del Interior)"],
+      "fuentes": ["El Tiempo", "Cambio", "El Heraldo", "El Espectador", "Infobae", "Semana"],
+      "enlaces": [
+        {"t": "El Tiempo \u2014 el presidente rechaza a Bedoya", "url": "https://www.eltiempo.com/politica/abelardo-de-la-espriella/polemico-julian-bedoya-intenta-llegar-a-la-coalicion-de-gobierno-y-el-presidente-de-la-espriella-lo-rechaza-no-habra-alianza-politiquera-con-usted-3586264"},
+        {"t": "Cambio \u2014 as\u00ed fue la rencilla", "url": "https://cambiocolombia.com/poder/articulo/2026/9/asi-fue-la-rencilla-entre-abelardo-de-la-espriella-y-julian-bedoya-por-el-acercamiento-de-renovacion-liberal"}
+      ],
+      "etiquetas": ["clientelismo", "coalición de gobierno", "Congreso"],
+      "notas": "Se incluye como ejemplo de cómo el presidente gestiona públicamente sus relaciones políticas, en tono confrontativo incluso con posibles aliados. No se trata de una denuncia de irregularidad del propio Gobierno, sino de un episodio de tensión política pública que retrata su estilo de gobernar.",
+      "ultima_actualizacion": "2026-09-23"
+    },
+    {
+      "id": "G-12",
+      "fecha": "2026-09-17",
+      "fecha_texto": "17 de septiembre de 2026",
+      "periodo": "Gobierno 2026-2030",
+      "tematica": "Seguridad y DDHH",
+      "caso": "Rechazo tajante a un canje con el ELN por policías secuestrados",
+      "alegato": "El ELN confirmó el 17 de septiembre que mantiene secuestrados, desde el 17 de agosto en zona rural de Bucarasica (Norte de Santander), al mayor Fredy Alexis Russi González y los patrulleros Erika Tatiana Monroy Hurtado y Edinson Yesid Medina Traslaviña, integrantes de la Dijín, junto con la ciudadana Angi Jácome. El grupo armado difundió una prueba de supervivencia y, en su comunicado, señaló que 'la posibilidad de recuperación de la libertad o canje siempre es una posibilidad que el ELN valora', además de acusar a los secuestrados de tener nexos con una banda paramilitar. El presidente respondió de inmediato descartando cualquier negociación.",
+      "respuesta_adle": "'El ELN confirmó que mantiene secuestrados (...) y ahora pretende hablar de un posible canje. Que les quede claro: No habrá canje. La vida y la libertad de los colombianos no son moneda de negociación'. Reiteró que desde el 17 de agosto ordenó desplegar todas las capacidades de la Fuerza Pública para ubicarlos y anunció que intensificaría las operaciones: 'cada secuestro, cada ataque contra nuestros soldados y policías y cada acción terrorista tendrá una respuesta contundente del Estado'.",
+      "estado": "Abierto",
+      "verificacion": "Documentado",
+      "gravedad": 2,
+      "actores": ["Fredy Alexis Russi González", "Erika Tatiana Monroy Hurtado", "Edinson Yesid Medina Traslaviña", "Angi Jácome", "ELN"],
+      "fuentes": ["Vanguardia", "El Tiempo", "Infobae", "Pulzo", "Minuto60"],
+      "enlaces": [
+        {"t": "Vanguardia \u2014 no habr\u00e1 canje", "url": "https://www.vanguardia.com/colombia/2026/09/17/no-habra-canje-de-la-espriella-responde-al-eln-por-policias-secuestrados/"},
+        {"t": "El Tiempo \u2014 rechaza propuesta de intercambio", "url": "https://www.eltiempo.com/politica/abelardo-de-la-espriella/no-habra-canje-presidente-de-la-espriella-rechaza-propuesta-de-intercambio-del-eln-por-tres-miembros-de-la-dijin-que-secuestro-hace-un-mes-3586852"}
+      ],
+      "etiquetas": ["ELN", "secuestro", "Norte de Santander"],
+      "notas": "A diferencia de otros casos de este rastreador, en la búsqueda no se encontró una reacción crítica organizada (de oposición, familiares o gremios policiales) contra esta decisión puntual; la cobertura reporta la postura presidencial de forma prácticamente unánime como una respuesta firme, sin cuestionamiento público documentado hasta el cierre de este registro. Se incluye por su relevancia como definición de política de seguridad (no negociación bajo ninguna circunstancia), no porque haya generado la controversia pública que sí tienen otros casos de este archivo. Relacionado con el patrón general de desmonte de la Paz Total (ver G-05).",
       "ultima_actualizacion": "2026-09-23"
     }
   ]
