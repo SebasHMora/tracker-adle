@@ -3,13 +3,40 @@
     "titulo": "Rastreador de polémicas — Abelardo de la Espriella",
     "descripcion": "Registro de escándalos, controversias y cambios de rumbo. Periodo de seguimiento 2026-2030.",
     "version": "1.0",
-    "actualizado": "2026-09-23",
+    "actualizado": "2026-09-25",
     "responsable": "",
     "vocabulario": {
-      "estado": ["Abierto", "Sin investigación formal", "Con decisión judicial o administrativa", "Cerrado"],
-      "verificacion": ["Documentado", "Denuncia periodística", "Opinión / sin verificar"],
-      "periodo": ["Ejercicio como abogado", "Campaña 2026", "Transición", "Gobierno 2026-2030"],
-      "tematica": ["Financiación política", "Prensa y libertad de expresión", "Nombramientos", "Política exterior", "Economía y fiscal", "Seguridad y DDHH", "Género", "Institucionalidad", "Trayectoria profesional", "Gestión de emergencias", "Ambiente", "Coherencia discursiva"]
+      "estado": [
+        "Abierto",
+        "Sin investigación formal",
+        "Con decisión judicial o administrativa",
+        "Cerrado"
+      ],
+      "verificacion": [
+        "Documentado",
+        "Denuncia periodística",
+        "Opinión / sin verificar"
+      ],
+      "periodo": [
+        "Ejercicio como abogado",
+        "Campaña 2026",
+        "Transición",
+        "Gobierno 2026-2030"
+      ],
+      "tematica": [
+        "Financiación política",
+        "Prensa y libertad de expresión",
+        "Nombramientos",
+        "Política exterior",
+        "Economía y fiscal",
+        "Seguridad y DDHH",
+        "Género",
+        "Institucionalidad",
+        "Trayectoria profesional",
+        "Gestión de emergencias",
+        "Ambiente",
+        "Coherencia discursiva"
+      ]
     }
   },
   "casos": [
@@ -25,13 +52,29 @@
       "estado": "Sin investigación formal",
       "verificacion": "Denuncia periodística",
       "gravedad": 4,
-      "actores": ["Álex Saab", "Germán Calderón España"],
-      "fuentes": ["El Tiempo", "La Silla Vacía", "Asuntos Legales"],
-      "enlaces": [
-        {"t": "El Tiempo — cómo conoció a Saab", "url": "https://www.eltiempo.com/politica/elecciones-colombia-2026/abelardo-de-la-espriella-conto-como-conocio-a-alex-saab-y-por-que-fue-abogado-del-aliado-de-nicolas-maduro-no-atendio-mi-consejo-y-termino-mal-3530610"},
-        {"t": "La Silla Vacía — estrategia judicial", "url": "https://www.lasillavacia.com/silla-nacional/asi-funciona-la-estrategia-judicial-de-de-la-espriella-contra-periodistas/"}
+      "actores": [
+        "Álex Saab",
+        "Germán Calderón España"
       ],
-      "etiquetas": ["Venezuela", "lavado de activos"],
+      "fuentes": [
+        "El Tiempo",
+        "La Silla Vacía",
+        "Asuntos Legales"
+      ],
+      "enlaces": [
+        {
+          "t": "El Tiempo — cómo conoció a Saab",
+          "url": "https://www.eltiempo.com/politica/elecciones-colombia-2026/abelardo-de-la-espriella-conto-como-conocio-a-alex-saab-y-por-que-fue-abogado-del-aliado-de-nicolas-maduro-no-atendio-mi-consejo-y-termino-mal-3530610"
+        },
+        {
+          "t": "La Silla Vacía — estrategia judicial",
+          "url": "https://www.lasillavacia.com/silla-nacional/asi-funciona-la-estrategia-judicial-de-de-la-espriella-contra-periodistas/"
+        }
+      ],
+      "etiquetas": [
+        "Venezuela",
+        "lavado de activos"
+      ],
       "notas": "",
       "ultima_actualizacion": "2026-09-04"
     },
@@ -47,10 +90,22 @@
       "estado": "Sin investigación formal",
       "verificacion": "Documentado",
       "gravedad": 2,
-      "actores": ["David Murcia Guzmán"],
-      "fuentes": ["Pares", "La Silla Vacía"],
-      "enlaces": [{"t": "Pares — clientes de De la Espriella", "url": "https://www.pares.com.co/los-nule-alex-saab-y-jorge-visbal-estos-son-algunos-de-los-delincuentes-que-ha-defendido-abelardo-de-la-espriella/"}],
-      "etiquetas": ["estafa"],
+      "actores": [
+        "David Murcia Guzmán"
+      ],
+      "fuentes": [
+        "Pares",
+        "La Silla Vacía"
+      ],
+      "enlaces": [
+        {
+          "t": "Pares — clientes de De la Espriella",
+          "url": "https://www.pares.com.co/los-nule-alex-saab-y-jorge-visbal-estos-son-algunos-de-los-delincuentes-que-ha-defendido-abelardo-de-la-espriella/"
+        }
+      ],
+      "etiquetas": [
+        "estafa"
+      ],
       "notas": "Existe una denuncia posterior por audios del caso DMG reportada por Noticias Uno; sin desarrollo conocido.",
       "ultima_actualizacion": "2026-09-04"
     },
@@ -66,10 +121,19 @@
       "estado": "Sin investigación formal",
       "verificacion": "Documentado",
       "gravedad": 3,
-      "actores": ["Jorge Pretelt Chaljub", "Manuel Alejandro Pretelt"],
-      "fuentes": ["Pares", "El País (España)"],
+      "actores": [
+        "Jorge Pretelt Chaljub",
+        "Manuel Alejandro Pretelt"
+      ],
+      "fuentes": [
+        "Pares",
+        "El País (España)"
+      ],
       "enlaces": [],
-      "etiquetas": ["corrupción judicial", "conflicto de interés"],
+      "etiquetas": [
+        "corrupción judicial",
+        "conflicto de interés"
+      ],
       "notas": "Ver caso F-06: el hijo del exmagistrado hoy es alto funcionario del Gobierno.",
       "ultima_actualizacion": "2026-09-04"
     },
@@ -85,10 +149,24 @@
       "estado": "Sin investigación formal",
       "verificacion": "Documentado",
       "gravedad": 3,
-      "actores": ["Salvatore Mancuso", "Rocío Arias", "Eleonora Pineda"],
-      "fuentes": ["La Silla Vacía", "Pares"],
-      "enlaces": [{"t": "La Silla Vacía — una marca importada", "url": "https://www.lasillavacia.com/silla-nacional/abelardo-de-la-espriella-una-marca-importada-para-la-epoca/"}],
-      "etiquetas": ["paramilitarismo"],
+      "actores": [
+        "Salvatore Mancuso",
+        "Rocío Arias",
+        "Eleonora Pineda"
+      ],
+      "fuentes": [
+        "La Silla Vacía",
+        "Pares"
+      ],
+      "enlaces": [
+        {
+          "t": "La Silla Vacía — una marca importada",
+          "url": "https://www.lasillavacia.com/silla-nacional/abelardo-de-la-espriella-una-marca-importada-para-la-epoca/"
+        }
+      ],
+      "etiquetas": [
+        "paramilitarismo"
+      ],
       "notas": "",
       "ultima_actualizacion": "2026-09-04"
     },
@@ -104,10 +182,17 @@
       "estado": "Sin investigación formal",
       "verificacion": "Documentado",
       "gravedad": 2,
-      "actores": ["Hermanos Nule"],
-      "fuentes": ["Pares", "La Silla Vacía"],
+      "actores": [
+        "Hermanos Nule"
+      ],
+      "fuentes": [
+        "Pares",
+        "La Silla Vacía"
+      ],
       "enlaces": [],
-      "etiquetas": ["corrupción"],
+      "etiquetas": [
+        "corrupción"
+      ],
       "notas": "",
       "ultima_actualizacion": "2026-09-04"
     },
@@ -123,10 +208,23 @@
       "estado": "Sin investigación formal",
       "verificacion": "Denuncia periodística",
       "gravedad": 3,
-      "actores": ["Mónica Mazzilli", "Jaime Durán"],
-      "fuentes": ["Cuestión Pública"],
-      "enlaces": [{"t": "Cuestión Pública", "url": "https://cuestionpublica.com/ladron-que-roba-ladron-al-parecer-abelardo-de-la-espriella-se-chupo-la-plata-de-otra-clienta/"}],
-      "etiquetas": ["honorarios", "ética profesional"],
+      "actores": [
+        "Mónica Mazzilli",
+        "Jaime Durán"
+      ],
+      "fuentes": [
+        "Cuestión Pública"
+      ],
+      "enlaces": [
+        {
+          "t": "Cuestión Pública",
+          "url": "https://cuestionpublica.com/ladron-que-roba-ladron-al-parecer-abelardo-de-la-espriella-se-chupo-la-plata-de-otra-clienta/"
+        }
+      ],
+      "etiquetas": [
+        "honorarios",
+        "ética profesional"
+      ],
       "notas": "La queja fue presentada por el abogado Arcadio Martínez Pumarejo, contendor suyo en otros procesos.",
       "ultima_actualizacion": "2026-09-04"
     },
@@ -142,10 +240,16 @@
       "estado": "Sin investigación formal",
       "verificacion": "Denuncia periodística",
       "gravedad": 3,
-      "actores": ["DAS"],
-      "fuentes": ["La Silla Vacía"],
+      "actores": [
+        "DAS"
+      ],
+      "fuentes": [
+        "La Silla Vacía"
+      ],
       "enlaces": [],
-      "etiquetas": ["vigilancia ilegal"],
+      "etiquetas": [
+        "vigilancia ilegal"
+      ],
       "notas": "Episodio poco documentado en las coberturas recientes. Pendiente de profundizar.",
       "ultima_actualizacion": "2026-09-04"
     },
@@ -161,13 +265,32 @@
       "estado": "Abierto",
       "verificacion": "Documentado",
       "gravedad": 5,
-      "actores": ["FLIP", "Ignacio Gómez", "Jonathan Bock", "Melquisedec Torres"],
-      "fuentes": ["FLIP", "Vorágine", "La Silla Vacía", "LatAm Journalism Review"],
-      "enlaces": [
-        {"t": "Vorágine — arruinar periodistas para silenciarlos", "url": "https://voragine.co/historias/investigacion/la-apuesta-de-de-la-espriella-arruinar-periodistas-para-silenciarlos/"},
-        {"t": "LJR — años litigando contra la prensa", "url": "https://www.servindi.org/seccion-comunicacion-actualidad-reportaje/06/08/2026/de-la-espriella-anos-litigando-contra-la-prensa"}
+      "actores": [
+        "FLIP",
+        "Ignacio Gómez",
+        "Jonathan Bock",
+        "Melquisedec Torres"
       ],
-      "etiquetas": ["SLAPP", "libertad de prensa"],
+      "fuentes": [
+        "FLIP",
+        "Vorágine",
+        "La Silla Vacía",
+        "LatAm Journalism Review"
+      ],
+      "enlaces": [
+        {
+          "t": "Vorágine — arruinar periodistas para silenciarlos",
+          "url": "https://voragine.co/historias/investigacion/la-apuesta-de-de-la-espriella-arruinar-periodistas-para-silenciarlos/"
+        },
+        {
+          "t": "LJR — años litigando contra la prensa",
+          "url": "https://www.servindi.org/seccion-comunicacion-actualidad-reportaje/06/08/2026/de-la-espriella-anos-litigando-contra-la-prensa"
+        }
+      ],
+      "etiquetas": [
+        "SLAPP",
+        "libertad de prensa"
+      ],
       "notas": "Patrón que continúa activo. Ver casos B-06, B-07 e I-02.",
       "ultima_actualizacion": "2026-09-04"
     },
@@ -183,10 +306,24 @@
       "estado": "Sin investigación formal",
       "verificacion": "Denuncia periodística",
       "gravedad": 2,
-      "actores": ["Hidroituango", "EPM"],
-      "fuentes": ["La Oreja Roja"],
-      "enlaces": [{"t": "La Oreja Roja — ¿la firma De la Espriella \u201cestafó\u201d a Hidroituango?", "url": "https://m.laorejaroja.com/la-firma-de-la-espriella-estafo-a-hidroituango"}],
-      "etiquetas": ["Hidroituango", "honorarios", "litigio"],
+      "actores": [
+        "Hidroituango",
+        "EPM"
+      ],
+      "fuentes": [
+        "La Oreja Roja"
+      ],
+      "enlaces": [
+        {
+          "t": "La Oreja Roja — ¿la firma De la Espriella “estafó” a Hidroituango?",
+          "url": "https://m.laorejaroja.com/la-firma-de-la-espriella-estafo-a-hidroituango"
+        }
+      ],
+      "etiquetas": [
+        "Hidroituango",
+        "honorarios",
+        "litigio"
+      ],
       "notas": "Episodio anterior a su candidatura (2019-2020), incluido porque documenta cómo operaba comercialmente su firma en litigios contra entidades públicas — un patrón que la prensa retomó durante la campaña de 2026.",
       "ultima_actualizacion": "2026-09-16"
     },
@@ -202,14 +339,35 @@
       "estado": "Abierto",
       "verificacion": "Documentado",
       "gravedad": 5,
-      "actores": ["Nova Soporte Integral SAS", "CNE", "Revista Cambio"],
-      "fuentes": ["Cambio", "La Silla Vacía", "Infobae"],
-      "enlaces": [
-        {"t": "Cambio — la exclusiva original", "url": "https://cambiocolombia.com/poder/articulo/2026/6/exclusivo-campana-de-abelardo-de-la-espriella-registro-pagos-por-1299-millones-a-una-empresa-fantasma"},
-        {"t": "Cambio — 344 millones en segunda vuelta", "url": "https://cambiocolombia.com/poder/articulo/2026/7/campana-de-abelardo-de-la-espriella-le-pago-344-millones-en-segunda-vuelta-a-la-cuestionada-empresa-nova-soporte"},
-        {"t": "Cambio — web y dirección creadas en cuatro días", "url": "https://cambiocolombia.com/poder/articulo/2026/6/la-empresa-fantasma-en-la-campana-de-de-la-espriella-en-cuatro-dias-creo-pagina-web-redes-sociales-y-registro-una-direccion-que-no-existe"}
+      "actores": [
+        "Nova Soporte Integral SAS",
+        "CNE",
+        "Revista Cambio"
       ],
-      "etiquetas": ["CNE", "financiación de campañas", "caso emblemático"],
+      "fuentes": [
+        "Cambio",
+        "La Silla Vacía",
+        "Infobae"
+      ],
+      "enlaces": [
+        {
+          "t": "Cambio — la exclusiva original",
+          "url": "https://cambiocolombia.com/poder/articulo/2026/6/exclusivo-campana-de-abelardo-de-la-espriella-registro-pagos-por-1299-millones-a-una-empresa-fantasma"
+        },
+        {
+          "t": "Cambio — 344 millones en segunda vuelta",
+          "url": "https://cambiocolombia.com/poder/articulo/2026/7/campana-de-abelardo-de-la-espriella-le-pago-344-millones-en-segunda-vuelta-a-la-cuestionada-empresa-nova-soporte"
+        },
+        {
+          "t": "Cambio — web y dirección creadas en cuatro días",
+          "url": "https://cambiocolombia.com/poder/articulo/2026/6/la-empresa-fantasma-en-la-campana-de-de-la-espriella-en-cuatro-dias-creo-pagina-web-redes-sociales-y-registro-una-direccion-que-no-existe"
+        }
+      ],
+      "etiquetas": [
+        "CNE",
+        "financiación de campañas",
+        "caso emblemático"
+      ],
       "notas": "Hasta julio de 2026 el CNE no había abierto investigación formal sobre este contrato, pese a que la Asociación Colombiana de Medios de Información respaldó el trabajo periodístico. Es el caso con mayor potencial de consecuencias institucionales.",
       "ultima_actualizacion": "2026-09-04"
     },
@@ -225,10 +383,22 @@
       "estado": "Abierto",
       "verificacion": "Documentado",
       "gravedad": 4,
-      "actores": ["CNE"],
-      "fuentes": ["Infobae"],
-      "enlaces": [{"t": "Infobae — aportantes con cargos", "url": "https://www.infobae.com/colombia/2026/09/03/estos-fueron-los-principales-aportantes-a-la-campana-de-abelardo-de-la-espriella-en-segunda-vuelta-varios-terminaron-con-cargos-en-el-gobierno/"}],
-      "etiquetas": ["CNE", "puerta giratoria"],
+      "actores": [
+        "CNE"
+      ],
+      "fuentes": [
+        "Infobae"
+      ],
+      "enlaces": [
+        {
+          "t": "Infobae — aportantes con cargos",
+          "url": "https://www.infobae.com/colombia/2026/09/03/estos-fueron-los-principales-aportantes-a-la-campana-de-abelardo-de-la-espriella-en-segunda-vuelta-varios-terminaron-con-cargos-en-el-gobierno/"
+        }
+      ],
+      "etiquetas": [
+        "CNE",
+        "puerta giratoria"
+      ],
       "notas": "La cercanía al tope hará parte de la revisión obligatoria del CNE. Iván Cepeda quedó aún más cerca del límite.",
       "ultima_actualizacion": "2026-09-04"
     },
@@ -244,10 +414,17 @@
       "estado": "Sin investigación formal",
       "verificacion": "Denuncia periodística",
       "gravedad": 3,
-      "actores": ["La Silla Vacía"],
-      "fuentes": ["La Silla Vacía"],
+      "actores": [
+        "La Silla Vacía"
+      ],
+      "fuentes": [
+        "La Silla Vacía"
+      ],
       "enlaces": [],
-      "etiquetas": ["patrimonio", "Rey Midas"],
+      "etiquetas": [
+        "patrimonio",
+        "Rey Midas"
+      ],
       "notas": "Relevante como contexto de B-01: la narrativa de autofinanciación es el argumento con el que descarta cuestionamientos sobre el origen de los recursos.",
       "ultima_actualizacion": "2026-09-04"
     },
@@ -263,13 +440,32 @@
       "estado": "Con decisión judicial o administrativa",
       "verificacion": "Documentado",
       "gravedad": 4,
-      "actores": ["Laura Rodríguez", "María Lucía Fernández", "Juzgado 129 Penal Municipal de Bogotá"],
-      "fuentes": ["El Espectador", "Infobae", "EFE", "Revista Raya", "El Colombiano"],
-      "enlaces": [
-        {"t": "El Espectador — machismo en campaña", "url": "https://www.elespectador.com/genero-y-diversidad/las-igualadas/del-no-seas-timida-al-tu-no-entiendes-abelardo-de-la-espriella-y-el-machismo-en-la-campana-presidencial/"},
-        {"t": "Revista Raya — cronología completa", "url": "https://revistaraya.com/asi-se-refiere-de-la-espriella-a-las-mujeres-periodistas-que-lo-cuestionan.html"}
+      "actores": [
+        "Laura Rodríguez",
+        "María Lucía Fernández",
+        "Juzgado 129 Penal Municipal de Bogotá"
       ],
-      "etiquetas": ["violencia de género", "tutela"],
+      "fuentes": [
+        "El Espectador",
+        "Infobae",
+        "EFE",
+        "Revista Raya",
+        "El Colombiano"
+      ],
+      "enlaces": [
+        {
+          "t": "El Espectador — machismo en campaña",
+          "url": "https://www.elespectador.com/genero-y-diversidad/las-igualadas/del-no-seas-timida-al-tu-no-entiendes-abelardo-de-la-espriella-y-el-machismo-en-la-campana-presidencial/"
+        },
+        {
+          "t": "Revista Raya — cronología completa",
+          "url": "https://revistaraya.com/asi-se-refiere-de-la-espriella-a-las-mujeres-periodistas-que-lo-cuestionan.html"
+        }
+      ],
+      "etiquetas": [
+        "violencia de género",
+        "tutela"
+      ],
       "notas": "El Juzgado 129 concedió tutela el 1 de junio de 2026: ordenó retractarse, pedir disculpas públicas y reconocer que las mujeres votan con inteligencia, discernimiento y opinión. Rechazó la tesis de 'hecho superado' porque el mensaje del 13 de mayo se refería solo a Rodríguez y no desautorizaba la expresión sobre el electorado femenino.",
       "ultima_actualizacion": "2026-09-04"
     },
@@ -285,13 +481,32 @@
       "estado": "Abierto",
       "verificacion": "Documentado",
       "gravedad": 5,
-      "actores": ["FLIP", "AMI", "Daniel Coronell", "María Jimena Duzán", "Cambio"],
-      "fuentes": ["FLIP", "Cambio", "Radio Nacional"],
-      "enlaces": [
-        {"t": "FLIP — discurso hostil contra la prensa", "url": "https://flip.org.co/pronunciamientos/abelardo-de-la-espriella-y-su-campana-profundizan-su-discurso-hostil-contra-la-prensa"},
-        {"t": "Cambio — FLIP y AMI alertan", "url": "https://cambiocolombia.com/elecciones-colombia-2026/articulo/2026/6/flip-ami-y-medios-alertan-ataques-contra-la-prensa-luego-de-investigacion-de-cambio-sobre-campana-de-de-la-espriella"}
+      "actores": [
+        "FLIP",
+        "AMI",
+        "Daniel Coronell",
+        "María Jimena Duzán",
+        "Cambio"
       ],
-      "etiquetas": ["doxxing", "libertad de prensa"],
+      "fuentes": [
+        "FLIP",
+        "Cambio",
+        "Radio Nacional"
+      ],
+      "enlaces": [
+        {
+          "t": "FLIP — discurso hostil contra la prensa",
+          "url": "https://flip.org.co/pronunciamientos/abelardo-de-la-espriella-y-su-campana-profundizan-su-discurso-hostil-contra-la-prensa"
+        },
+        {
+          "t": "Cambio — FLIP y AMI alertan",
+          "url": "https://cambiocolombia.com/elecciones-colombia-2026/articulo/2026/6/flip-ami-y-medios-alertan-ataques-contra-la-prensa-luego-de-investigacion-de-cambio-sobre-campana-de-de-la-espriella"
+        }
+      ],
+      "etiquetas": [
+        "doxxing",
+        "libertad de prensa"
+      ],
       "notas": "",
       "ultima_actualizacion": "2026-09-04"
     },
@@ -307,10 +522,20 @@
       "estado": "Abierto",
       "verificacion": "Documentado",
       "gravedad": 4,
-      "actores": ["FLIP", "Caracol TV"],
-      "fuentes": ["FLIP", "Diario del Sur", "Pulzo"],
+      "actores": [
+        "FLIP",
+        "Caracol TV"
+      ],
+      "fuentes": [
+        "FLIP",
+        "Diario del Sur",
+        "Pulzo"
+      ],
       "enlaces": [],
-      "etiquetas": ["libertad de prensa", "amenaza institucional"],
+      "etiquetas": [
+        "libertad de prensa",
+        "amenaza institucional"
+      ],
       "notas": "Indicador clave a monitorear durante los cuatro años: asignación de publicidad oficial, acceso a ruedas de prensa, uso de acciones judiciales desde el poder.",
       "ultima_actualizacion": "2026-09-04"
     },
@@ -320,16 +545,29 @@
       "fecha_texto": "Mayo de 2026",
       "periodo": "Campaña 2026",
       "tematica": "Trayectoria profesional",
-      "caso": "Sus dos fincas y el discurso de \u201cser campesino de tiempo completo\u201d",
+      "caso": "Sus dos fincas y el discurso de “ser campesino de tiempo completo”",
       "alegato": "Mutante accedió a la información catastral de las dos propiedades rurales que De La Espriella tiene a su nombre en la región Caribe, entre las ciénagas La Cruz y La Hormiga (Sucre): 391 hectáreas en total, unas 156 a 190 veces el promedio de un predio privado en el departamento (el 43% de las propiedades tienen 2,5 hectáreas o menos). El hallazgo contrasta con declaraciones suyas en campaña, como en abril de 2026 en el encuentro 'Las regiones proponen, los candidatos responden': 'Vengo a pagar el servicio militar, porque esto es un servicio militar, y luego me regreso a ser lo que siempre he querido ser, que es campesino'. El medio no encontró evidencia de conductas ilegales en la tenencia de los predios.",
       "respuesta_adle": "Sin respuesta directa a la investigación; en público ha presentado su vínculo con el campo como una aspiración personal y no ha detallado la extensión de sus propiedades.",
       "estado": "Sin investigación formal",
       "verificacion": "Denuncia periodística",
       "gravedad": 2,
-      "actores": ["Mutante"],
-      "fuentes": ["Mutante"],
-      "enlaces": [{"t": "Mutante \u2014 sus dos propiedades y el sue\u00f1o de ser campesino", "url": "https://mutante.org/contenidos/abelardo-de-la-espriella-sus-dos-propiedades-y-su-sueno-de-ser-campesino-de-tiempo-completo/"}],
-      "etiquetas": ["tierra", "patrimonio", "Sucre"],
+      "actores": [
+        "Mutante"
+      ],
+      "fuentes": [
+        "Mutante"
+      ],
+      "enlaces": [
+        {
+          "t": "Mutante — sus dos propiedades y el sueño de ser campesino",
+          "url": "https://mutante.org/contenidos/abelardo-de-la-espriella-sus-dos-propiedades-y-su-sueno-de-ser-campesino-de-tiempo-completo/"
+        }
+      ],
+      "etiquetas": [
+        "tierra",
+        "patrimonio",
+        "Sucre"
+      ],
       "notas": "Mutante aclara que no halló ilegalidad; el valor del reportaje está en el contraste entre la extensión de las propiedades y el relato de cercanía con el campesinado que ha usado en su discurso político.",
       "ultima_actualizacion": "2026-09-16"
     },
@@ -345,10 +583,25 @@
       "estado": "Cerrado",
       "verificacion": "Documentado",
       "gravedad": 3,
-      "actores": ["Gustavo Petro", "Consejo de Estado"],
-      "fuentes": ["Semana", "El Espectador", "HSB Noticias"],
-      "enlaces": [{"t": "Semana — así se fracturó el empalme", "url": "https://www.semana.com/politica/articulo/cero-shows-y-nada-de-titulares-asi-se-fracturo-el-empalme-entre-abelardo-de-la-espriella-y-gustavo-petro-que-inicio-roto/202647/"}],
-      "etiquetas": ["transición", "polarización"],
+      "actores": [
+        "Gustavo Petro",
+        "Consejo de Estado"
+      ],
+      "fuentes": [
+        "Semana",
+        "El Espectador",
+        "HSB Noticias"
+      ],
+      "enlaces": [
+        {
+          "t": "Semana — así se fracturó el empalme",
+          "url": "https://www.semana.com/politica/articulo/cero-shows-y-nada-de-titulares-asi-se-fracturo-el-empalme-entre-abelardo-de-la-espriella-y-gustavo-petro-que-inicio-roto/202647/"
+        }
+      ],
+      "etiquetas": [
+        "transición",
+        "polarización"
+      ],
       "notas": "La ruptura tuvo consecuencia práctica: el cortocircuito en el traspaso complicó la gestión inicial del terremoto del 10 de agosto.",
       "ultima_actualizacion": "2026-09-04"
     },
@@ -364,10 +617,26 @@
       "estado": "Cerrado",
       "verificacion": "Documentado",
       "gravedad": 3,
-      "actores": ["Congreso de la República", "Universidad Santiago de Cali"],
-      "fuentes": ["El País (Cali)", "El Espectador", "Infobae", "El País (España)"],
-      "enlaces": [{"t": "El País Cali — tensión por la posesión", "url": "https://www.elpais.com.co/politica/presidente-petro-arremetio-contra-posesion-de-de-la-espriella-en-cali-la-politica-no-es-teatro-barato-2811.html"}],
-      "etiquetas": ["simbolismo militar", "ruptura de tradición republicana"],
+      "actores": [
+        "Congreso de la República",
+        "Universidad Santiago de Cali"
+      ],
+      "fuentes": [
+        "El País (Cali)",
+        "El Espectador",
+        "Infobae",
+        "El País (España)"
+      ],
+      "enlaces": [
+        {
+          "t": "El País Cali — tensión por la posesión",
+          "url": "https://www.elpais.com.co/politica/presidente-petro-arremetio-contra-posesion-de-de-la-espriella-en-cali-la-politica-no-es-teatro-barato-2811.html"
+        }
+      ],
+      "etiquetas": [
+        "simbolismo militar",
+        "ruptura de tradición republicana"
+      ],
       "notas": "",
       "ultima_actualizacion": "2026-09-04"
     },
@@ -377,21 +646,55 @@
       "fecha_texto": "7 de agosto — 1 de septiembre de 2026",
       "periodo": "Gobierno 2026-2030",
       "tematica": "Institucionalidad",
-      "caso": "Acto religioso en la posesión y laicidad del Estado",
-      "alegato": "La ceremonia en la Arena USC incluyó intervenciones de líderes religiosos. Un juez concluyó que se desconoció el deber de neutralidad religiosa del Estado.",
-      "respuesta_adle": "Acató la orden con una alocución de disculpas el 30 de agosto, pero cerró el mismo mensaje con '¡Que viva Cristo Rey! Que Dios bendiga a Colombia'. Simultáneamente impugnó el fallo con un escrito de 29 páginas: alega que la decisión no diferenció las obligaciones institucionales del jefe de Estado de sus derechos individuales como ciudadano. Su asesor Carlos Suárez pidió que el caso llegue a la Corte Constitucional.",
+      "caso": "Actos religiosos del presidente y laicidad del Estado (dos tutelas)",
+      "alegato": "La ceremonia en la Arena USC incluyó intervenciones de líderes religiosos. Un juez concluyó que se desconoció el deber de neutralidad religiosa del Estado. Segunda tutela, por un hecho distinto: durante la 'Gran velatón por las víctimas del terremoto' convocada por el Gobierno en la Plaza de Bolívar (29 de agosto según El Tiempo; algunos medios dicen 28), el presidente impuso una corona a una imagen de la Virgen de Fátima tras ser invitado por el presentador en razón de su cargo. El 15 de septiembre, el juez Ricardo Veloza Veloza (Juzgado 804 Transitorio de Familia de Bogotá) concedió en primera instancia la tutela del abogado Julio Jair Mizger Díaz, apoyada por la Asociación de Ateos de Bogotá, y ordenó al presidente abstenerse, en ejercicio de sus funciones, de participar en actos religiosos que impliquen adhesión o identificación del Estado con una confesión. El juez consideró legítima la finalidad solidaria del evento y precisó que el problema fue la participación activa en un acto inequívocamente religioso, no la asistencia; negó las peticiones de reparación simbólica y de oficiar a la Procuraduría. Se apoyó en la sentencia T-124 de 2021, que limitó a la entonces vicepresidenta Marta Lucía Ramírez por consagrar el país a la Virgen de Fátima.",
+      "respuesta_adle": "Acató la orden con una alocución de disculpas el 30 de agosto, pero cerró el mismo mensaje con '¡Que viva Cristo Rey! Que Dios bendiga a Colombia'. Simultáneamente impugnó el fallo con un escrito de 29 páginas: alega que la decisión no diferenció las obligaciones institucionales del jefe de Estado de sus derechos individuales como ciudadano. Su asesor Carlos Suárez pidió que el caso llegue a la Corte Constitucional. Sobre la segunda tutela, la Presidencia argumentó en el proceso que las expresiones de la velatón correspondían a 'espiritualidad y solidaridad general', sin imposición de ritos ni exclusión de participantes, y cuestionó que no se hubiera presentado antes un derecho de petición (argumento que el juez descartó). El fallo es de primera instancia e impugnable.",
       "estado": "Con decisión judicial o administrativa",
       "verificacion": "Documentado",
       "gravedad": 3,
-      "actores": ["Juzgado Quinto Laboral del Circuito de Bogotá", "Carlos Suárez", "Clara Lucía Sandoval"],
-      "fuentes": ["El Espectador", "Infobae", "El Colombiano", "El Diario"],
-      "enlaces": [
-        {"t": "El Espectador — disculpas y nueva mención a Cristo Rey", "url": "https://www.elespectador.com/politica/disculpas-de-de-la-espriella-y-nueva-mencion-a-cristo-rey-desataron-otra-polemica-reacciones-a-la-alocucion/"},
-        {"t": "Infobae — impugnación", "url": "https://www.infobae.com/colombia/2026/09/01/acto-religioso-en-la-posesion-presidencial-de-abelardo-de-la-espriella-llega-a-otra-instancia-impugnaran-tutela-y-piden-que-vuelva-al-consejo-de-estado/"}
+      "actores": [
+        "Juzgado Quinto Laboral del Circuito de Bogotá",
+        "Carlos Suárez",
+        "Clara Lucía Sandoval",
+        "Julio Jair Mizger Díaz",
+        "Ricardo Veloza Veloza (juez)",
+        "Asociación de Ateos de Bogotá"
       ],
-      "etiquetas": ["laicidad", "tutela", "conversión religiosa"],
-      "notas": "Fecha límite del fallo de primera instancia: 30 de septiembre de 2026. Caso pendiente de segunda instancia.",
-      "ultima_actualizacion": "2026-09-04"
+      "fuentes": [
+        "El Espectador",
+        "Infobae",
+        "El Colombiano",
+        "El Diario",
+        "El Tiempo",
+        "El Heraldo",
+        "Cambio",
+        "Asuntos Legales"
+      ],
+      "enlaces": [
+        {
+          "t": "El Espectador — disculpas y nueva mención a Cristo Rey",
+          "url": "https://www.elespectador.com/politica/disculpas-de-de-la-espriella-y-nueva-mencion-a-cristo-rey-desataron-otra-polemica-reacciones-a-la-alocucion/"
+        },
+        {
+          "t": "Infobae — impugnación",
+          "url": "https://www.infobae.com/colombia/2026/09/01/acto-religioso-en-la-posesion-presidencial-de-abelardo-de-la-espriella-llega-a-otra-instancia-impugnaran-tutela-y-piden-que-vuelva-al-consejo-de-estado/"
+        },
+        {
+          "t": "El Tiempo — juez le ordena no participar como presidente en actos religiosos",
+          "url": "https://www.eltiempo.com/justicia/investigacion/juez-le-ordena-a-de-la-espriella-no-participar-como-presidente-en-actos-religiosos-tutela-en-su-contra-3588476"
+        },
+        {
+          "t": "Cambio — ¿tiene futuro el fallo?",
+          "url": "https://cambiocolombia.com/poder/articulo/2026/9/tiene-futuro-el-fallo-que-le-ordena-a-abelardo-de-la-espriella-abstenerse-de-participar-en-actos-religiosos"
+        }
+      ],
+      "etiquetas": [
+        "laicidad",
+        "tutela",
+        "conversión religiosa"
+      ],
+      "notas": "Primera tutela (posesión): fecha límite de cumplimiento 30 de septiembre de 2026; impugnada, pendiente de segunda instancia. Segunda tutela (velatón): primera instancia del 15 de septiembre, revelada el 23-24 por El Tiempo. Expertos consultados por Cambio y El Tiempo coinciden en que el fallo sigue la jurisprudencia constitucional, aunque algunos señalan que la laicidad colombiana es menos estricta que la francesa y piden que la Corte Constitucional seleccione estos casos.",
+      "ultima_actualizacion": "2026-09-25"
     },
     {
       "id": "D-01",
@@ -405,13 +708,32 @@
       "estado": "Abierto",
       "verificacion": "Documentado",
       "gravedad": 4,
-      "actores": ["Omar Bula Escobar", "Liga Árabe", "Gideon Sa'ar"],
-      "fuentes": ["El Tiempo", "El Universal", "El Diario", "eldiarioAR"],
-      "enlaces": [
-        {"t": "El Tiempo — redefinición de la política exterior", "url": "https://www.eltiempo.com/mundo/latinoamerica/de-la-espriella-redefine-politica-exterior-priorizando-alianzas-en-seguridad-y-comercio-que-implica-privilegiar-a-israel-y-distanciarse-de-la-onu-3578573"},
-        {"t": "El Universal — primeros líos en política exterior", "url": "https://www.eluniversal.com.co/colombia/2026/08/16/abelardo-de-la-espriella-y-sus-primeros-lios-en-politica-exterior/"}
+      "actores": [
+        "Omar Bula Escobar",
+        "Liga Árabe",
+        "Gideon Sa'ar"
       ],
-      "etiquetas": ["Israel", "derecho internacional", "giro diplomático"],
+      "fuentes": [
+        "El Tiempo",
+        "El Universal",
+        "El Diario",
+        "eldiarioAR"
+      ],
+      "enlaces": [
+        {
+          "t": "El Tiempo — redefinición de la política exterior",
+          "url": "https://www.eltiempo.com/mundo/latinoamerica/de-la-espriella-redefine-politica-exterior-priorizando-alianzas-en-seguridad-y-comercio-que-implica-privilegiar-a-israel-y-distanciarse-de-la-onu-3578573"
+        },
+        {
+          "t": "El Universal — primeros líos en política exterior",
+          "url": "https://www.eluniversal.com.co/colombia/2026/08/16/abelardo-de-la-espriella-y-sus-primeros-lios-en-politica-exterior/"
+        }
+      ],
+      "etiquetas": [
+        "Israel",
+        "derecho internacional",
+        "giro diplomático"
+      ],
       "notas": "Cerca de veinte países árabes rechazaron la decisión. El secretario general de la Liga Árabe, Nabil Fahmy: la declaración 'carece de efecto jurídico'. La internacionalista Sandra Borda la calificó de sobreactuación innecesaria que puede dejar aislado al país.",
       "ultima_actualizacion": "2026-09-04"
     },
@@ -427,13 +749,33 @@
       "estado": "Abierto",
       "verificacion": "Documentado",
       "gravedad": 3,
-      "actores": ["Omar Bula Escobar", "Vivian Aisen", "José Manuel Restrepo", "Mauricio Gómez Amín"],
-      "fuentes": ["El Espectador", "La República", "Infobae", "AFP"],
-      "enlaces": [
-        {"t": "El Espectador — por qué Israel vuelve a ser socio", "url": "https://www.elespectador.com/mundo/mas-paises/probado-en-combate-por-que-israel-vuelve-a-ser-socio-de-colombia/"},
-        {"t": "La República — alianza política, militar y comercial", "url": "https://www.larepublica.co/globoeconomia/colombia-e-israel-avanzan-en-la-reconstruccion-de-su-alianza-politica-militar-y-comercial-4473800"}
+      "actores": [
+        "Omar Bula Escobar",
+        "Vivian Aisen",
+        "José Manuel Restrepo",
+        "Mauricio Gómez Amín"
       ],
-      "etiquetas": ["Israel", "cooperación militar", "Jerusalén"],
+      "fuentes": [
+        "El Espectador",
+        "La República",
+        "Infobae",
+        "AFP"
+      ],
+      "enlaces": [
+        {
+          "t": "El Espectador — por qué Israel vuelve a ser socio",
+          "url": "https://www.elespectador.com/mundo/mas-paises/probado-en-combate-por-que-israel-vuelve-a-ser-socio-de-colombia/"
+        },
+        {
+          "t": "La República — alianza política, militar y comercial",
+          "url": "https://www.larepublica.co/globoeconomia/colombia-e-israel-avanzan-en-la-reconstruccion-de-su-alianza-politica-militar-y-comercial-4473800"
+        }
+      ],
+      "etiquetas": [
+        "Israel",
+        "cooperación militar",
+        "Jerusalén"
+      ],
       "notas": "Delegaciones israelíes de Defensa y Cancillería visitan Colombia en septiembre. Restrepo viaja a Israel en octubre. Interés declarado: tecnología antidrones y ciberseguridad.",
       "ultima_actualizacion": "2026-09-09"
     },
@@ -449,10 +791,19 @@
       "estado": "Abierto",
       "verificacion": "Documentado",
       "gravedad": 2,
-      "actores": ["Marruecos", "RASD"],
-      "fuentes": ["El Universal", "Canal Abierto"],
+      "actores": [
+        "Marruecos",
+        "RASD"
+      ],
+      "fuentes": [
+        "El Universal",
+        "Canal Abierto"
+      ],
       "enlaces": [],
-      "etiquetas": ["Sáhara Occidental", "ocupación territorial"],
+      "etiquetas": [
+        "Sáhara Occidental",
+        "ocupación territorial"
+      ],
       "notas": "Segundo caso, junto al Golán, en que el Gobierno reconoce una ocupación territorial como soberanía.",
       "ultima_actualizacion": "2026-09-04"
     },
@@ -468,13 +819,32 @@
       "estado": "Abierto",
       "verificacion": "Documentado",
       "gravedad": 3,
-      "actores": ["Marco Rubio", "María Consuelo Araújo", "Iván Cepeda"],
-      "fuentes": ["El País (Cali)", "Infobae", "CNN", "El Tiempo"],
-      "enlaces": [
-        {"t": "El País Cali — Rubio valoró el encuentro", "url": "https://www.elpais.com.co/politica/marco-rubio-valoro-su-encuentro-con-de-la-espriella-y-lanzo-una-fuerte-critica-a-petro-se-ha-heredado-una-serie-de-desastres-0953.html"},
-        {"t": "CNN — el pedido sin respuesta", "url": "https://cnnespanol.cnn.com/2026/09/08/colombia/marco-rubio-colombia-de-la-espriella-necesidad-orix"}
+      "actores": [
+        "Marco Rubio",
+        "María Consuelo Araújo",
+        "Iván Cepeda"
       ],
-      "etiquetas": ["Estados Unidos", "aranceles", "soberanía"],
+      "fuentes": [
+        "El País (Cali)",
+        "Infobae",
+        "CNN",
+        "El Tiempo"
+      ],
+      "enlaces": [
+        {
+          "t": "El País Cali — Rubio valoró el encuentro",
+          "url": "https://www.elpais.com.co/politica/marco-rubio-valoro-su-encuentro-con-de-la-espriella-y-lanzo-una-fuerte-critica-a-petro-se-ha-heredado-una-serie-de-desastres-0953.html"
+        },
+        {
+          "t": "CNN — el pedido sin respuesta",
+          "url": "https://cnnespanol.cnn.com/2026/09/08/colombia/marco-rubio-colombia-de-la-espriella-necesidad-orix"
+        }
+      ],
+      "etiquetas": [
+        "Estados Unidos",
+        "aranceles",
+        "soberanía"
+      ],
       "notas": "Iván Cepeda rechazó públicamente la visita recordando que Trump y Rubio intervinieron de manera directa y abierta en el proceso electoral colombiano.",
       "ultima_actualizacion": "2026-09-09"
     },
@@ -490,13 +860,37 @@
       "estado": "Abierto",
       "verificacion": "Documentado",
       "gravedad": 5,
-      "actores": ["Estados Unidos", "Iván Cepeda", "Congreso", "Francis Donovan (Comando Sur)"],
-      "fuentes": ["Colombia.com", "Semana", "France 24", "El Universal", "El País (Cali)", "Publimetro", "Asuntos Legales"],
-      "enlaces": [
-        {"t": "El Universal — Cepeda anuncia tutela", "url": "https://www.eluniversal.com.co/colombia/2026/09/21/ivan-cepeda-anuncia-tutela-contra-de-la-espriella-por-presencia-de-tropas-de-ee-uu/"},
-        {"t": "Publimetro — antecedente del Consejo de Estado", "url": "https://www.publimetro.co/noticias/2026/09/21/ivan-cepeda-anuncia-tutela-contra-abelardo-de-la-espriella-por-presencia-de-tropas-de-eeuu-en-colombia/"}
+      "actores": [
+        "Estados Unidos",
+        "Iván Cepeda",
+        "Congreso",
+        "Francis Donovan (Comando Sur)"
       ],
-      "etiquetas": ["soberanía", "Estados Unidos", "frente principal", "tutela"],
+      "fuentes": [
+        "Colombia.com",
+        "Semana",
+        "France 24",
+        "El Universal",
+        "El País (Cali)",
+        "Publimetro",
+        "Asuntos Legales"
+      ],
+      "enlaces": [
+        {
+          "t": "El Universal — Cepeda anuncia tutela",
+          "url": "https://www.eluniversal.com.co/colombia/2026/09/21/ivan-cepeda-anuncia-tutela-contra-de-la-espriella-por-presencia-de-tropas-de-ee-uu/"
+        },
+        {
+          "t": "Publimetro — antecedente del Consejo de Estado",
+          "url": "https://www.publimetro.co/noticias/2026/09/21/ivan-cepeda-anuncia-tutela-contra-abelardo-de-la-espriella-por-presencia-de-tropas-de-eeuu-en-colombia/"
+        }
+      ],
+      "etiquetas": [
+        "soberanía",
+        "Estados Unidos",
+        "frente principal",
+        "tutela"
+      ],
       "notas": "La oposición lo considera intromisión y violación de la soberanía nacional. Es probablemente el frente de conflicto político más grande de los próximos meses. Publimetro señala que existe un proceso previo ante el Consejo de Estado que ya examinó la diferencia entre 'tránsito' de tropas extranjeras y el ingreso de personal de países aliados para cooperación, precedente que probablemente se invoque en esta tutela. A vigilar: admisión y fallo de la tutela.",
       "ultima_actualizacion": "2026-09-23"
     },
@@ -512,10 +906,23 @@
       "estado": "Abierto",
       "verificacion": "Documentado",
       "gravedad": 3,
-      "actores": ["José Manuel Restrepo", "Delcy Rodríguez"],
-      "fuentes": ["France 24"],
-      "enlaces": [{"t": "France 24 — giro radical", "url": "https://www.france24.com/es/am%C3%A9rica-latina/20260806-giro-radical-en-colombia-la-pol%C3%ADtica-exterior-que-de-la-espriella-derrumba-y-la-que-promete-construir"}],
-      "etiquetas": ["Venezuela", "alineamiento ideológico"],
+      "actores": [
+        "José Manuel Restrepo",
+        "Delcy Rodríguez"
+      ],
+      "fuentes": [
+        "France 24"
+      ],
+      "enlaces": [
+        {
+          "t": "France 24 — giro radical",
+          "url": "https://www.france24.com/es/am%C3%A9rica-latina/20260806-giro-radical-en-colombia-la-pol%C3%ADtica-exterior-que-de-la-espriella-derrumba-y-la-que-promete-construir"
+        }
+      ],
+      "etiquetas": [
+        "Venezuela",
+        "alineamiento ideológico"
+      ],
       "notas": "Tensión interna: el Gobierno también busca restablecimiento comercial con Venezuela con apoyo de empresarios antioqueños.",
       "ultima_actualizacion": "2026-09-04"
     },
@@ -525,16 +932,29 @@
       "fecha_texto": "15 de septiembre de 2026",
       "periodo": "Gobierno 2026-2030",
       "tematica": "Política exterior",
-      "caso": "Cepeda: De la Espriella busca convertir a Colombia en \u201cla principal colonia del siglo XXI\u201d",
+      "caso": "Cepeda: De la Espriella busca convertir a Colombia en “la principal colonia del siglo XXI”",
       "alegato": "El líder de la oposición en el Senado, Iván Cepeda, advirtió que el presidente busca convertir a Colombia en 'la principal colonia del siglo XXI en el hemisferio occidental'. Deploró los elogios del mandatario hacia Estados Unidos, la visita de Marco Rubio (ver D-04) y el plan de convertirse en 'el principal socio de seguridad de Estados Unidos en Suramérica', que a su juicio haría del país 'la principal plataforma y el principal laboratorio' de las políticas de seguridad de Washington en la región.",
       "respuesta_adle": "Sin respuesta directa registrada a esta declaración puntual de Cepeda.",
       "estado": "Abierto",
       "verificacion": "Documentado",
       "gravedad": 2,
-      "actores": ["Iván Cepeda"],
-      "fuentes": ["Prensa Latina"],
-      "enlaces": [{"t": "Prensa Latina \u2014 De la Espriella volver\u00e1 a Colombia colonia, alerta l\u00edder opositor", "url": "https://www.prensa-latina.cu/2026/09/15/de-la-espriella-volvera-a-colombia-colonia-alerta-lider-opositor/"}],
-      "etiquetas": ["oposición", "soberanía", "Estados Unidos"],
+      "actores": [
+        "Iván Cepeda"
+      ],
+      "fuentes": [
+        "Prensa Latina"
+      ],
+      "enlaces": [
+        {
+          "t": "Prensa Latina — De la Espriella volverá a Colombia colonia, alerta líder opositor",
+          "url": "https://www.prensa-latina.cu/2026/09/15/de-la-espriella-volvera-a-colombia-colonia-alerta-lider-opositor/"
+        }
+      ],
+      "etiquetas": [
+        "oposición",
+        "soberanía",
+        "Estados Unidos"
+      ],
       "notas": "Prensa Latina es la agencia estatal cubana; su cobertura tiene línea editorial marcadamente crítica del Gobierno. La cita de Cepeda es verificable como declaración propia, independientemente de la fuente que la recoge. Relacionado con D-04 y D-05.",
       "ultima_actualizacion": "2026-09-16"
     },
@@ -550,16 +970,126 @@
       "estado": "Abierto",
       "verificacion": "Documentado",
       "gravedad": 3,
-      "actores": ["Iris Marín (Defensoría del Pueblo)", "Mauricio Toro", "Caribe Afirmativo", "Temblores ONG", "Omar Bula Escobar"],
-      "fuentes": ["Semana", "La Silla Vacía", "El Espectador", "El Universal"],
-      "enlaces": [
-        {"t": "Semana \u2014 Canciller\u00eda se pronunci\u00f3", "url": "https://www.semana.com/politica/articulo/gobierno-de-la-espriella-retira-a-colombia-de-la-coalicion-internacional-por-derechos-lgbti-cancilleria-se-pronuncio/202654/"},
-        {"t": "La Silla Vac\u00eda \u2014 retiro de la coalici\u00f3n LGBTIQ+", "url": "https://www.lasillavacia.com/en-vivo/gobierno-retiro-a-colombia-de-coalicion-por-los-derechos-lgbtiq/"},
-        {"t": "El Espectador \u2014 \u00bfpor qu\u00e9?", "url": "https://www.elespectador.com/genero-y-diversidad/la-disidencia/gobierno-de-de-la-espriella-retira-a-colombia-de-coalicion-internacional-lgbtiq-por-que/"}
+      "actores": [
+        "Iris Marín (Defensoría del Pueblo)",
+        "Mauricio Toro",
+        "Caribe Afirmativo",
+        "Temblores ONG",
+        "Omar Bula Escobar"
       ],
-      "etiquetas": ["LGBTIQ+", "ERC", "derechos humanos"],
+      "fuentes": [
+        "Semana",
+        "La Silla Vacía",
+        "El Espectador",
+        "El Universal"
+      ],
+      "enlaces": [
+        {
+          "t": "Semana — Cancillería se pronunció",
+          "url": "https://www.semana.com/politica/articulo/gobierno-de-la-espriella-retira-a-colombia-de-la-coalicion-internacional-por-derechos-lgbti-cancilleria-se-pronuncio/202654/"
+        },
+        {
+          "t": "La Silla Vacía — retiro de la coalición LGBTIQ+",
+          "url": "https://www.lasillavacia.com/en-vivo/gobierno-retiro-a-colombia-de-coalicion-por-los-derechos-lgbtiq/"
+        },
+        {
+          "t": "El Espectador — ¿por qué?",
+          "url": "https://www.elespectador.com/genero-y-diversidad/la-disidencia/gobierno-de-de-la-espriella-retira-a-colombia-de-coalicion-internacional-lgbtiq-por-que/"
+        }
+      ],
+      "etiquetas": [
+        "LGBTIQ+",
+        "ERC",
+        "derechos humanos"
+      ],
       "notas": "La defensora del Pueblo, Iris Marín, cuestionó públicamente la decisión y pidió a la Cancillería aclarar si responde a una postura ideológica, recordando que los derechos humanos 'no pertenecen a ninguna ideología, partido ni expresión política'. El representante Mauricio Toro calificó la salida de 'oso internacional', la relacionó con homofobia y anunció acciones judiciales contra la decisión. Caribe Afirmativo y Temblores ONG (esta última calificándolo de 'retroceso que el país no puede normalizar') también se pronunciaron en contra. Clasificado con prefijo D (política exterior) porque el acto en sí es un retiro diplomático, en la misma línea que D-02; la temática de fondo es de género.",
       "ultima_actualizacion": "2026-09-18"
+    },
+    {
+      "id": "D-09",
+      "fecha": "2026-09-19",
+      "fecha_texto": "Vigente desde el 19 de septiembre; anunciada el 24 de septiembre de 2026",
+      "periodo": "Gobierno 2026-2030",
+      "tematica": "Política exterior",
+      "caso": "Ruptura de relaciones diplomáticas con Irán",
+      "alegato": "La Cancillería anunció el 24 de septiembre la ruptura formal de relaciones diplomáticas con la República Islámica de Irán, vigente desde el 19 de septiembre, aunque mantiene las relaciones consulares (artículo 45 de la Convención de Viena de 1961). La justificó por razones de seguridad nacional y hemisférica y por 'presuntos vínculos del gobierno de Irán con grupos terroristas internacionales y otros grupos narcoterroristas'; según Semana, también cuestionó la obstrucción iraní a las verificaciones del OIEA sobre su programa nuclear. Varios medios reportan además que Colombia designó a la Guardia Revolucionaria iraní como organización terrorista. Las relaciones databan de 1975; Irán tiene embajada en Bogotá y Colombia las atendía desde su embajada en Turquía.",
+      "respuesta_adle": "Comunicado de la Cancillería: se trata de una 'decisión soberana' que responde a los pilares de la política exterior en seguridad y lucha contra el crimen transnacional. El canciller israelí Gideon Sa'ar felicitó a Colombia y la embajadora de Israel en Bogotá, Vivian Aisen, respaldó la medida. Irán rechazó los argumentos y acusó al Gobierno de actuar bajo la influencia de Estados Unidos e Israel.",
+      "estado": "Con decisión judicial o administrativa",
+      "verificacion": "Documentado",
+      "gravedad": 3,
+      "actores": [
+        "Cancillería",
+        "Gideon Sa'ar",
+        "Vivian Aisen",
+        "Gobierno de Irán"
+      ],
+      "fuentes": [
+        "Cancillería (comunicado oficial)",
+        "EFE",
+        "Semana",
+        "Vanguardia",
+        "La República (Perú)"
+      ],
+      "enlaces": [
+        {
+          "t": "Cancillería — comunicado oficial",
+          "url": "https://www.cancilleria.gov.co/sala-de-prensa/noticias/colombia-anuncia-la-ruptura-de-relaciones-diplomaticas-con-iran"
+        },
+        {
+          "t": "Semana — las razones de la decisión",
+          "url": "https://www.semana.com/mundo/articulo/colombia-rompe-relaciones-diplomaticas-con-iran-gobierno-revelo-las-razones-de-la-decision/202637/"
+        }
+      ],
+      "etiquetas": [
+        "Irán",
+        "realineamiento",
+        "Israel",
+        "Estados Unidos"
+      ],
+      "notas": "Se suma a la serie de realineamientos de política exterior (D-01 Golán, D-02 Israel, D-08 coalición LGBTIQ+). El comunicado oficial no detalla cuáles serían los vínculos alegados. La designación de la Guardia Revolucionaria como grupo terrorista aparece en medios (La Prensa de Argentina, Zolo Noticias) pero no en el texto del comunicado consultado: conviene verificarla con un acto oficial. Precedentes regionales: Perú rompió con Irán a comienzos de septiembre y Argentina expulsó al encargado de negocios iraní en abril sin cortar relaciones.",
+      "ultima_actualizacion": "2026-09-25"
+    },
+    {
+      "id": "D-10",
+      "fecha": "2026-09-17",
+      "fecha_texto": "Hacia el 17 de septiembre (conocido el 20–22 de septiembre de 2026)",
+      "periodo": "Gobierno 2026-2030",
+      "tematica": "Política exterior",
+      "caso": "Retiro de la candidatura de Carolina Olarte-Bácares a magistrada de la Corte Penal Internacional",
+      "alegato": "El Gobierno retiró la candidatura de la exembajadora en Países Bajos Carolina Olarte-Bácares a una de las seis plazas de juez de la Corte Penal Internacional para 2027-2036, que se eligen del 7 al 17 de diciembre en Nueva York. Habría sido la primera colombiana en ese tribunal. Había sido postulada en marzo de 2026 por el gobierno Petro, tras la nominación del Grupo Nacional de la Corte Permanente de Arbitraje. Olarte dijo haberse enterado por otro Estado parte y no por la Cancillería, y afirmó que le habían dicho que era una 'candidatura del Estado'. Según Infobae, el retiro podría dejar a América Latina y el Caribe sin aspirantes. La decisión coincide con versiones, no confirmadas oficialmente, sobre un eventual retiro de Colombia del Estatuto de Roma, y con la petición de Estados Unidos a países del Escudo de las Américas de retirarse de ese tribunal.",
+      "respuesta_adle": "En la cobertura revisada no aparece una explicación oficial de la Cancillería sobre los motivos del retiro. Olarte: 'Espero que no se trate de una postura adversa contra la Corte Penal Internacional' y la decisión 'trunca el derecho y aspiración que tiene Colombia de integrar, por primera vez en su historia' un órgano de ese tipo. La excanciller Rosa Villavicencio criticó públicamente el retiro.",
+      "estado": "Con decisión judicial o administrativa",
+      "verificacion": "Documentado",
+      "gravedad": 3,
+      "actores": [
+        "Carolina Olarte-Bácares",
+        "Rosa Villavicencio",
+        "Cancillería"
+      ],
+      "fuentes": [
+        "El Tiempo",
+        "Infobae",
+        "Semana",
+        "El Colombiano",
+        "La Silla Vacía"
+      ],
+      "enlaces": [
+        {
+          "t": "El Tiempo — entrevista con Olarte-Bácares",
+          "url": "https://www.eltiempo.com/politica/gobierno/espero-que-no-se-trate-de-una-postura-adversa-contra-la-corte-penal-internacional-carolina-olarte-bacares-sobre-retiro-de-su-candidatura-a-la-cpi-3587851"
+        },
+        {
+          "t": "Infobae — a ella nadie le contó",
+          "url": "https://www.infobae.com/colombia/2026/09/22/candidatura-de-carolina-olarte-bacares-para-integrar-la-corte-penal-internacional-fue-retirada-por-el-gobierno-de-abelardo-de-la-espriella-pero-a-ella-nadie-le-conto/"
+        }
+      ],
+      "etiquetas": [
+        "CPI",
+        "Estatuto de Roma",
+        "justicia internacional"
+      ],
+      "notas": "Conecta con E-13 (el presidente de la JEP llevó el recorte presupuestal ante la CPI) y con D-02 (retiro de Colombia del caso contra Israel en la CIJ). A vigilar: cualquier anuncio formal sobre el Estatuto de Roma; por ahora son versiones sin confirmación oficial.",
+      "ultima_actualizacion": "2026-09-25"
     },
     {
       "id": "E-01",
@@ -568,20 +1098,46 @@
       "periodo": "Gobierno 2026-2030",
       "tematica": "Economía y fiscal",
       "caso": "Eliminación del impuesto al patrimonio",
-      "alegato": "Anunciada en el discurso de posesión. El tributo grava a personas naturales con patrimonio líquido igual o superior a 72.000 UVT, unos 3.771 millones de pesos en 2026. En 2024 lo pagaron 32.397 contribuyentes, cerca del 0,5% de los declarantes de renta. Recaudó 1,2 billones en 2025, aproximadamente el 0,4% del recaudo total de la DIAN. Simultáneamente, la reforma contempla ampliar la base del impuesto de renta para que más personas naturales declaren o paguen, y modificar aportes al SENA y al ICBF.",
-      "respuesta_adle": "'Dejar de castigar a quienes invierten'. Argumenta que el impuesto incentiva el traslado de grandes patrimonios a otras jurisdicciones y grava el capital con independencia de su rentabilidad. Promete preservar los programas para población vulnerable.",
+      "alegato": "Anunciada en el discurso de posesión. El tributo grava a personas naturales con patrimonio líquido igual o superior a 72.000 UVT, unos 3.771 millones de pesos en 2026. En 2024 lo pagaron 32.397 contribuyentes, cerca del 0,5% de los declarantes de renta. Recaudó 1,2 billones en 2025, aproximadamente el 0,4% del recaudo total de la DIAN. Simultáneamente, la reforma contempla ampliar la base del impuesto de renta para que más personas naturales declaren o paguen, y modificar aportes al SENA y al ICBF. Actualización: la reforma no se radicó en septiembre como se había anunciado. El ministro de Hacienda, Miguel Gómez, informó que el Gobierno presentará en la segunda quincena de octubre la llamada 'Ley de Rescate', que incluiría el desmonte del impuesto al patrimonio y de la sobretasa asociada a las grandes fortunas, además de una reducción gradual (no inmediata) del 4x1.000 y la propuesta de reducir a cuatro los impuestos que administra la DIAN. En paralelo sigue en el Congreso el Proyecto de Ley 004 de 2026, radicado por el gobierno saliente el 20 de julio, que propone lo contrario: endurecer el impuesto al patrimonio.",
+      "respuesta_adle": "'Dejar de castigar a quienes invierten'. Argumenta que el impuesto incentiva el traslado de grandes patrimonios a otras jurisdicciones y grava el capital con independencia de su rentabilidad. Promete preservar los programas para población vulnerable. Gómez: 'No podemos eliminarlo de la noche a la mañana' (sobre el 4x1.000). El Gobierno sostiene que prioriza la reducción del gasto antes que aumentar la carga tributaria, y según El Espectador ha insistido en que no presentará una reforma tributaria para sumarle recursos directamente al Presupuesto 2027.",
       "estado": "Abierto",
       "verificacion": "Documentado",
       "gravedad": 4,
-      "actores": ["Miguel Gómez Martínez", "Congreso", "DIAN"],
-      "fuentes": ["El Colombiano", "El Espectador", "Publimetro", "NoticiasBQ"],
-      "enlaces": [
-        {"t": "El Espectador — cómo funciona el impuesto", "url": "https://www.elespectador.com/economia/impuesto-al-patrimonio-como-funciona-y-por-que-de-la-espriella-quiere-eliminarlo-noticias-hoy/"},
-        {"t": "El Colombiano — hoja de ruta económica", "url": "https://www.elcolombiano.com/negocios/reforma-tributaria-de-la-espriella-impuesto-patrimonio-fracking-PI39758520"}
+      "actores": [
+        "Miguel Gómez Martínez",
+        "Congreso",
+        "DIAN"
       ],
-      "etiquetas": ["reforma tributaria", "progresividad", "desigualdad"],
-      "notas": "Reforma a radicar en septiembre de 2026. Contraargumento técnico del Gobierno: hubo caída de 24% en declarantes y de 36% en patrimonio reportado entre quienes tienen más de 12.000 millones, y quienes trasladaron su patrimonio ya no pagan ni patrimonio ni renta.",
-      "ultima_actualizacion": "2026-09-09"
+      "fuentes": [
+        "El Colombiano",
+        "El Espectador",
+        "Publimetro",
+        "NoticiasBQ",
+        "Bloomberg Línea",
+        "El Universal",
+        "El Cronista"
+      ],
+      "enlaces": [
+        {
+          "t": "El Espectador — cómo funciona el impuesto",
+          "url": "https://www.elespectador.com/economia/impuesto-al-patrimonio-como-funciona-y-por-que-de-la-espriella-quiere-eliminarlo-noticias-hoy/"
+        },
+        {
+          "t": "El Colombiano — hoja de ruta económica",
+          "url": "https://www.elcolombiano.com/negocios/reforma-tributaria-de-la-espriella-impuesto-patrimonio-fracking-PI39758520"
+        },
+        {
+          "t": "Bloomberg Línea — Ley de Rescate en octubre",
+          "url": "https://www.bloomberglinea.com/latinoamerica/colombia/adios-al-4x1000-hacienda-llevara-al-congreso-en-octubre-el-desmonte-gradual-del-impuesto/"
+        }
+      ],
+      "etiquetas": [
+        "reforma tributaria",
+        "progresividad",
+        "desigualdad"
+      ],
+      "notas": "Nueva fecha a vigilar: radicación de la 'Ley de Rescate' en la segunda quincena de octubre de 2026 (antes anunciada para septiembre). Expertos citados por Póngase al Día señalan que la eliminación no cobijaría, en principio, el impuesto extraordinario al patrimonio de personas jurídicas del Decreto 0173, cuya suerte depende de la Corte Constitucional. Contraargumento técnico del Gobierno: hubo caída de 24% en declarantes y de 36% en patrimonio reportado entre quienes tienen más de 12.000 millones, y quienes trasladaron su patrimonio ya no pagan ni patrimonio ni renta.",
+      "ultima_actualizacion": "2026-09-25"
     },
     {
       "id": "E-02",
@@ -595,14 +1151,39 @@
       "estado": "Abierto",
       "verificacion": "Documentado",
       "gravedad": 4,
-      "actores": ["José Luis Bohórquez", "María José Pizarro", "Alejandro Ocampo", "Isabel Zuleta", "Daniel Briceño"],
-      "fuentes": ["Infobae", "Caracol Radio", "Publimetro", "Portafolio", "El Universal"],
-      "enlaces": [
-        {"t": "Infobae — la polémica de los vuelos (primer reporte)", "url": "https://www.infobae.com/colombia/2026/09/09/vuelos-de-abelardo-de-la-espriella-que-costaron-1117-millones-desataron-criticas-de-la-oposicion-esto-era-lo-de-austeridad/"},
-        {"t": "Publimetro — costaron 2.286 millones en 32 días", "url": "https://www.publimetro.co/noticias/2026/09/21/vuelos-de-abelardo-de-la-espriella-costaron-2286-millones-en-sus-primeros-32-dias-de-gobierno/"},
-        {"t": "Portafolio — seis de cada diez vuelos de menos de 10 minutos", "url": "https://www.portafolio.co/economia/gobierno/seis-de-cada-10-vuelos-del-presidente-de-la-espriella-fueron-de-menos-de-10-minutos-durante-su-primer-mes-502905"}
+      "actores": [
+        "José Luis Bohórquez",
+        "María José Pizarro",
+        "Alejandro Ocampo",
+        "Isabel Zuleta",
+        "Daniel Briceño"
       ],
-      "etiquetas": ["austeridad", "gasto público", "orden judicial"],
+      "fuentes": [
+        "Infobae",
+        "Caracol Radio",
+        "Publimetro",
+        "Portafolio",
+        "El Universal"
+      ],
+      "enlaces": [
+        {
+          "t": "Infobae — la polémica de los vuelos (primer reporte)",
+          "url": "https://www.infobae.com/colombia/2026/09/09/vuelos-de-abelardo-de-la-espriella-que-costaron-1117-millones-desataron-criticas-de-la-oposicion-esto-era-lo-de-austeridad/"
+        },
+        {
+          "t": "Publimetro — costaron 2.286 millones en 32 días",
+          "url": "https://www.publimetro.co/noticias/2026/09/21/vuelos-de-abelardo-de-la-espriella-costaron-2286-millones-en-sus-primeros-32-dias-de-gobierno/"
+        },
+        {
+          "t": "Portafolio — seis de cada diez vuelos de menos de 10 minutos",
+          "url": "https://www.portafolio.co/economia/gobierno/seis-de-cada-10-vuelos-del-presidente-de-la-espriella-fueron-de-menos-de-10-minutos-durante-su-primer-mes-502905"
+        }
+      ],
+      "etiquetas": [
+        "austeridad",
+        "gasto público",
+        "orden judicial"
+      ],
       "notas": "Pizarro: 'no sabe vivir austeramente porque su estilo de vida es opulento y extravagante'. Ocampo: 'le pagamos paseos para ir a visitar a los Char'. Bohórquez calculó un promedio de 69,3 millones diarios y, como proyección matemática (no una cifra oficial ni confirmada), estimó que a ese ritmo el gasto anual llegaría a 25.293 millones; el propio reporte periodístico aclara que es una proyección, no un presupuesto real. Contrastar con E-12 (renuncia al salario presidencial), anunciada el mismo mes.",
       "ultima_actualizacion": "2026-09-23"
     },
@@ -613,17 +1194,41 @@
       "periodo": "Gobierno 2026-2030",
       "tematica": "Economía y fiscal",
       "caso": "Presupuesto General 2027 por 634,9 billones",
-      "alegato": "El ministro Miguel Gómez radicó un presupuesto de 634,9 billones de pesos, casi 60 billones más que los 575,6 billones del proyecto de Petro. El Pacto Histórico alega que el ajuste se apoya en nuevo endeudamiento y que el 'Fondo Milagro' aparece en los anuncios pero no en una apropiación detallada que permita saber cuánto tendrá, de dónde saldrá, qué territorios cubrirá y qué metas debe cumplir. Hubo cuestionamientos incluso de congresistas dispuestos a colaborar con el Gobierno.",
-      "respuesta_adle": "El aumento busca corregir obligaciones reales que estaban ocultas o desatendidas y que dejaban desfinanciado el proyecto anterior.",
+      "alegato": "El ministro Miguel Gómez radicó un presupuesto de 634,9 billones de pesos, casi 60 billones más que los 575,6 billones del proyecto de Petro. El Pacto Histórico alega que el ajuste se apoya en nuevo endeudamiento y que el 'Fondo Milagro' aparece en los anuncios pero no en una apropiación detallada que permita saber cuánto tendrá, de dónde saldrá, qué territorios cubrirá y qué metas debe cumplir. Hubo cuestionamientos incluso de congresistas dispuestos a colaborar con el Gobierno. Trámite: el 15 de septiembre las comisiones económicas aprobaron el monto de 634,9 billones (Comisión Cuarta de Cámara 22 votos a favor y 6 en contra; Comisión Tercera de Senado 9 a 3). El 23 de septiembre aprobaron el articulado en primer debate. Según El Colombiano, el servicio de la deuda sube 54,7% (de 100,5 a 155,4 billones), mientras la inversión pública baja de 89,5 billones en 2026 a 86,9 billones en 2027 (4,1% del PIB). El representante David Racero (Pacto Histórico) anunció una demanda contra el monto, al sostener que la Constitución impide que la inversión baje frente al año anterior; congresistas de ese partido advirtieron sobre posibles ventas de activos estatales para financiarlo.",
+      "respuesta_adle": "El aumento busca corregir obligaciones reales que estaban ocultas o desatendidas y que dejaban desfinanciado el proyecto anterior. El ministro Gómez reconoció tras la aprobación del monto que el proyecto 'no es óptimo' y que requerirá modificaciones. El Gobierno insiste en que 'el presupuesto que recibíamos estaba desfinanciado en 30 billones, el cupo de crédito agotado en 94'. El ministro del Interior, Rodrigo Lara, dijo que la aprobación envía una señal de confianza a los mercados.",
       "estado": "Abierto",
       "verificacion": "Documentado",
       "gravedad": 3,
-      "actores": ["Miguel Gómez Martínez", "Pacto Histórico", "Comisiones económicas"],
-      "fuentes": ["Infobae"],
-      "enlaces": [{"t": "Infobae — obstáculos del presupuesto", "url": "https://www.infobae.com/colombia/2026/09/06/los-obstaculos-que-enfrenta-abelardo-de-la-espriella-para-aprobar-su-presupuesto-de-6349-billones/"}],
-      "etiquetas": ["presupuesto", "Fondo Milagro", "deuda"],
-      "notas": "Calendario: monto global antes del 15 de septiembre, plenarias desde el 25 de septiembre, trámite completo antes del 20 de octubre.",
-      "ultima_actualizacion": "2026-09-09"
+      "actores": [
+        "Miguel Gómez Martínez",
+        "Pacto Histórico",
+        "Comisiones económicas",
+        "David Racero",
+        "Rodrigo Lara (ministro del Interior)"
+      ],
+      "fuentes": [
+        "Infobae",
+        "El Colombiano",
+        "El Espectador",
+        "Portafolio"
+      ],
+      "enlaces": [
+        {
+          "t": "Infobae — obstáculos del presupuesto",
+          "url": "https://www.infobae.com/colombia/2026/09/06/los-obstaculos-que-enfrenta-abelardo-de-la-espriella-para-aprobar-su-presupuesto-de-6349-billones/"
+        },
+        {
+          "t": "El Colombiano — comisiones aprueban el Presupuesto 2027",
+          "url": "https://www.elcolombiano.com/negocios/comisiones-economicas-aprueban-presupuesto-2027-congreso-ME41458163"
+        }
+      ],
+      "etiquetas": [
+        "presupuesto",
+        "Fondo Milagro",
+        "deuda"
+      ],
+      "notas": "Aprobado en primer debate (monto 15 de septiembre, articulado 23 de septiembre). Siguen las plenarias; plazo legal del trámite: 20 de octubre. Ver E-14 (recorte de subsidios) y E-13 (recorte a la JEP) como componentes del ajuste. A vigilar: demanda anunciada por Racero.",
+      "ultima_actualizacion": "2026-09-25"
     },
     {
       "id": "E-04",
@@ -631,18 +1236,50 @@
       "fecha_texto": "28 de agosto de 2026",
       "periodo": "Gobierno 2026-2030",
       "tematica": "Economía y fiscal",
-      "caso": "Reconfiguración de la junta directiva de Ecopetrol",
-      "alegato": "El Gobierno propondrá el 15 de septiembre una reforma estatutaria que le permitiría reemplazar a casi todos los miembros actuales de la junta, que a su vez elegirá al próximo presidente de la petrolera. La plancha incluye a un asesor de campaña cuestionado. Cinco directivos salieron de vicepresidencias clave desde el 30 de agosto.",
-      "respuesta_adle": "Necesidad de imprimir un nuevo rumbo a la empresa tras cuestionamientos por contratos y licitaciones de la administración anterior.",
-      "estado": "Abierto",
+      "caso": "Ecopetrol: nueva junta y exgerente de campaña del presidente como cabeza de la petrolera",
+      "alegato": "El Gobierno propondrá el 15 de septiembre una reforma estatutaria que le permitiría reemplazar a casi todos los miembros actuales de la junta, que a su vez elegirá al próximo presidente de la petrolera. La plancha incluye a un asesor de campaña cuestionado. Cinco directivos salieron de vicepresidencias clave desde el 30 de agosto. Desenlace: la asamblea extraordinaria del 15 de septiembre renovó seis de los nueve integrantes de la junta; Carlos Suárez Rojas, estratega de la campaña de De la Espriella, quedó como presidente de la junta. El 24 de septiembre esa junta eligió por unanimidad como presidente de Ecopetrol a Joaquín Gutiérrez Caballero, gerente de la campaña presidencial (junto con Suárez) y antiguo secretario privado del presidente, que asume el 28 de septiembre. Varios medios señalan que Gutiérrez no tiene experiencia profesional ni académica en áreas técnicas de hidrocarburos; tiene negocios en salud, construcción y agricultura. Contexto: el presidente encargado Juan Carlos Hurtado renunció el 14 de septiembre, a pedido del entonces presidente de la junta Luis Felipe Henao, tras un audio revelado por El Tiempo en el que se hablaba de cargos y contratos con el empresario Manel Grau, cercano al expresidente Petro (hecho relativo a la administración anterior).",
+      "respuesta_adle": "Suárez, como presidente de la junta, dijo que buscaban 'un perfil con capacidad para articular a la empresa con diferentes sectores' y la compañía llamó a la nueva etapa 'el renacer de Ecopetrol'. La USO (sindicato petrolero) saludó la designación y dijo que el reto es 'recuperar la confianza'. La acción cerró el 24 de septiembre sin variación ($2.740).",
+      "estado": "Con decisión judicial o administrativa",
       "verificacion": "Documentado",
       "gravedad": 4,
-      "actores": ["Ecopetrol", "Ministerio de Hacienda", "Joaquín Gutiérrez"],
-      "fuentes": ["Infobae", "El Colombiano", "El Tiempo"],
-      "enlaces": [{"t": "Infobae — la plancha del Gobierno", "url": "https://www.infobae.com/colombia/2026/08/28/abelardo-de-la-espriella-buscara-quedarse-con-el-dominio-de-la-junta-directiva-de-ecopetrol-esta-es-la-plancha-que-incluye-al-polemico-asesor-de-su-campana/"}],
-      "etiquetas": ["Ecopetrol", "concentración de poder", "fecha clave"],
-      "notas": "Asamblea extraordinaria: 15 de septiembre de 2026.",
-      "ultima_actualizacion": "2026-09-09"
+      "actores": [
+        "Ecopetrol",
+        "Ministerio de Hacienda",
+        "Joaquín Gutiérrez",
+        "Joaquín Gutiérrez Caballero (presidente de Ecopetrol)",
+        "Carlos Suárez Rojas (presidente de la junta)",
+        "USO",
+        "Juan Carlos Hurtado"
+      ],
+      "fuentes": [
+        "Infobae",
+        "El Colombiano",
+        "El Tiempo",
+        "El Espectador",
+        "La Silla Vacía",
+        "El País (Cali)"
+      ],
+      "enlaces": [
+        {
+          "t": "Infobae — la plancha del Gobierno",
+          "url": "https://www.infobae.com/colombia/2026/08/28/abelardo-de-la-espriella-buscara-quedarse-con-el-dominio-de-la-junta-directiva-de-ecopetrol-esta-es-la-plancha-que-incluye-al-polemico-asesor-de-su-campana/"
+        },
+        {
+          "t": "Infobae — perfil de Joaquín Gutiérrez",
+          "url": "https://www.infobae.com/colombia/2026/09/24/joaquin-gutierrez-fue-elegido-como-el-nuevo-presidente-de-ecopetrol-este-es-su-perfil-y-trayectoria/"
+        },
+        {
+          "t": "El País (Cali) — los retos y las críticas por falta de experiencia",
+          "url": "https://www.elpais.com.co/economia/los-cinco-retos-que-joaquin-gutierrez-debera-enfrentar-en-su-llegada-a-la-presidencia-de-ecopetrol-2558.html"
+        }
+      ],
+      "etiquetas": [
+        "Ecopetrol",
+        "concentración de poder",
+        "fecha clave"
+      ],
+      "notas": "Paralelo que varios medios señalan: el antecesor en propiedad, Ricardo Roa, había sido gerente de la campaña de Petro y enfrentó imputaciones penales en el cargo. Joaquín Gutiérrez aparece también en F-05 (cercanía con el interventor de la Nueva EPS; negocios en salud). Ver E-07: en su posesión, el 25 de septiembre, el presidente anunció el levantamiento de restricciones a contratos de gas y petróleo.",
+      "ultima_actualizacion": "2026-09-25"
     },
     {
       "id": "E-05",
@@ -656,10 +1293,28 @@
       "estado": "Abierto",
       "verificacion": "Documentado",
       "gravedad": 3,
-      "actores": ["Luz Adriana Camargo", "José Manuel Restrepo", "Contraloría", "Procuraduría"],
-      "fuentes": ["El Tiempo", "El Colombiano", "Infobae"],
-      "enlaces": [{"t": "El Tiempo — las 10 denuncias más duras", "url": "https://www.eltiempo.com/politica/abelardo-de-la-espriella/las-10-denuncias-mas-duras-del-libro-de-la-verdad-del-gobierno-de-la-espriella-contra-la-administracion-petro-ungrd-colombia-mayor-y-fomag-3579152"}],
-      "etiquetas": ["contraofensiva", "UNGRD", "verificación pendiente"],
+      "actores": [
+        "Luz Adriana Camargo",
+        "José Manuel Restrepo",
+        "Contraloría",
+        "Procuraduría"
+      ],
+      "fuentes": [
+        "El Tiempo",
+        "El Colombiano",
+        "Infobae"
+      ],
+      "enlaces": [
+        {
+          "t": "El Tiempo — las 10 denuncias más duras",
+          "url": "https://www.eltiempo.com/politica/abelardo-de-la-espriella/las-10-denuncias-mas-duras-del-libro-de-la-verdad-del-gobierno-de-la-espriella-contra-la-administracion-petro-ungrd-colombia-mayor-y-fomag-3579152"
+        }
+      ],
+      "etiquetas": [
+        "contraofensiva",
+        "UNGRD",
+        "verificación pendiente"
+      ],
       "notas": "No es una polémica en su contra sino una acción suya, pero se registra porque su verificación por parte de los órganos de control será un indicador de si el uso del aparato judicial es técnico o político. La fiscal Camargo se comprometió a verificar pero pidió prudencia y respeto a las garantías procesales de los mencionados.",
       "ultima_actualizacion": "2026-09-09"
     },
@@ -669,18 +1324,49 @@
       "fecha_texto": "Agosto de 2026",
       "periodo": "Gobierno 2026-2030",
       "tematica": "Ambiente",
-      "caso": "Revocatoria de la prohibición de minería en Santurbán",
-      "alegato": "El Ministerio de Ambiente revocó la resolución que prohibía la minería en la quebrada La Baja del páramo de Santurbán.",
-      "respuesta_adle": "Sin pronunciamiento detallado registrado.",
-      "estado": "Sin investigación formal",
-      "verificacion": "Opinión / sin verificar",
+      "caso": "Santurbán: revocatoria de la reserva de La Baja, ministro impedido y ultimátum del Comité",
+      "alegato": "La Resolución 0994, expedida por el gobierno Petro el 6 de agosto (un día antes de la posesión), declaró reserva definitiva 1.499 hectáreas de la microcuenca de la quebrada La Baja, en el páramo de Santurbán, cerrándolas a nuevas concesiones de minería mediana y grande. Un juez administrativo de Bucaramanga dejó sin efecto esa delimitación parcial por vulnerar la participación ambiental y el debido proceso, y el ministro de Ambiente, Fabio Arjona, revocó la resolución argumentando vicios de trámite. Después, el Consejo de Ministros del 10 de septiembre declaró a Arjona impedido para decidir sobre Santurbán por conflicto de interés, tras una recusación del Comité para la Defensa del Agua y el Páramo de Santurbán; mediante el Decreto 1407 del 17 de septiembre, el presidente designó como ministro de Ambiente ad hoc para esa delimitación al ministro de Agricultura, Indalecio Dangond. El 23 de septiembre la asamblea del Comité dio plazo hasta el 13 de noviembre para que se reabra la consulta pública sobre La Baja, o convocará protestas nacionales frente al Ministerio de Ambiente; el Comité cuestiona que la reserva haya quedado sin efectos mientras se rehace el procedimiento.",
+      "respuesta_adle": "El Gobierno sostiene que el proceso debe continuar 'bajo criterios técnicos y jurídicos' y con participación de las comunidades, en cumplimiento de la sentencia T-361 de 2017.",
+      "estado": "Abierto",
+      "verificacion": "Documentado",
       "gravedad": 3,
-      "actores": ["Ministerio de Ambiente"],
-      "fuentes": ["Tintiando (editorial)"],
-      "enlaces": [{"t": "Tintiando — editorial Frivolidad", "url": "https://www.tintiando.com/2026/08/23/frivolidad/"}],
-      "etiquetas": ["páramos", "minería", "verificar"],
-      "notas": "Reportado únicamente por un editorial regional de opinión. Requiere confirmación con la resolución oficial antes de darlo por establecido.",
-      "ultima_actualizacion": "2026-09-04"
+      "actores": [
+        "Fabio Arjona (ministro de Ambiente)",
+        "Indalecio Dangond (ministro de Agricultura, ad hoc para Santurbán)",
+        "Comité para la Defensa del Agua y el Páramo de Santurbán",
+        "Aris Mining"
+      ],
+      "fuentes": [
+        "Cambio",
+        "El Tiempo",
+        "Melodía",
+        "Tintiando (editorial, reporte inicial)"
+      ],
+      "enlaces": [
+        {
+          "t": "Tintiando — editorial Frivolidad",
+          "url": "https://www.tintiando.com/2026/08/23/frivolidad/"
+        },
+        {
+          "t": "Cambio — ultimátum sobre Santurbán",
+          "url": "https://cambiocolombia.com/medio-ambiente/articulo/2026/9/ultimatum-al-gobierno-de-abelardo-de-la-espriella-sobre-santurban-debera-reabrir-la-consulta-publica"
+        },
+        {
+          "t": "Cambio — Arjona impedido",
+          "url": "https://cambiocolombia.com/medio-ambiente/articulo/2026/9/ministro-de-ambiente-fabio-arjona-no-podra-intervenir-en-la-delimitacion-del-paramo-de-santurban"
+        },
+        {
+          "t": "El Tiempo — juez suspendió la delimitación exprés",
+          "url": "https://www.eltiempo.com/colombia/santander/se-cayo-la-resolucion-sobre-delimitacion-expres-en-el-paramo-de-santurban-en-el-gobierno-de-petro-fallo-judicial-la-suspendio-3583703"
+        }
+      ],
+      "etiquetas": [
+        "páramos",
+        "minería",
+        "verificar"
+      ],
+      "notas": "Caso reclasificado de 'Opinión / sin verificar' a 'Documentado': el reporte inicial provenía de un editorial, y ahora está confirmado por Cambio y El Tiempo. Matiz importante: la revocatoria se produjo después de una decisión judicial contra la resolución del gobierno anterior, no fue solo una decisión política discrecional. El juez también cuestionó que la resolución se hubiera expedido con recusaciones pendientes contra la entonces ministra encargada Irene Vélez. Fecha a vigilar: 13 de noviembre de 2026. Relacionado con K-01 (Dangond).",
+      "ultima_actualizacion": "2026-09-25"
     },
     {
       "id": "E-07",
@@ -689,17 +1375,33 @@
       "periodo": "Gobierno 2026-2030",
       "tematica": "Ambiente",
       "caso": "Autorización del fracking",
-      "alegato": "Anunció en el discurso de posesión la autorización del 'fracking responsable y sostenible' para garantizar seguridad energética. Contradice sus propias columnas previas, en las que advertía sobre los riesgos de la industria petrolera.",
+      "alegato": "Anunció en el discurso de posesión la autorización del 'fracking responsable y sostenible' para garantizar seguridad energética. Contradice sus propias columnas previas, en las que advertía sobre los riesgos de la industria petrolera. El 25 de septiembre, en la posesión de Joaquín Gutiérrez como presidente de Ecopetrol, el presidente anunció el levantamiento de las restricciones vigentes a los contratos de gas y petróleo, la reapertura de licitaciones, la firma de nuevos contratos de exploración y el uso de técnicas no convencionales; según Vanguardia, la nueva administración de Ecopetrol tendría que liderar proyectos de fracking en el Magdalena Medio.",
       "respuesta_adle": "'Creo en la transición energética y estoy convencido de que debemos avanzar hacia fuentes de energía cada vez más eficientes y diversificadas'.",
       "estado": "Abierto",
       "verificacion": "Documentado",
       "gravedad": 3,
-      "actores": ["Ministerio de Minas"],
-      "fuentes": ["El País (Cali)", "El Colombiano", "Cambio"],
-      "enlaces": [],
-      "etiquetas": ["fracking", "transición energética", "contradicción"],
-      "notas": "",
-      "ultima_actualizacion": "2026-09-04"
+      "actores": [
+        "Ministerio de Minas"
+      ],
+      "fuentes": [
+        "El País (Cali)",
+        "El Colombiano",
+        "Cambio",
+        "Vanguardia"
+      ],
+      "enlaces": [
+        {
+          "t": "El País (Cali) — reactiva la exploración y el fracking",
+          "url": "https://www.elpais.com.co/colombia/abelardo-de-la-espriella-reactiva-la-exploracion-y-el-fracking-en-colombia-en-la-era-del-tigre-vamos-a-tener-soberania-energetica-2523.html"
+        }
+      ],
+      "etiquetas": [
+        "fracking",
+        "transición energética",
+        "contradicción"
+      ],
+      "notas": "Pasa de anuncio a instrucción de política con la nueva administración de Ecopetrol (ver E-04). A vigilar: primeras licitaciones y contratos, y la regulación que sustituya las restricciones levantadas.",
+      "ultima_actualizacion": "2026-09-25"
     },
     {
       "id": "E-08",
@@ -713,10 +1415,17 @@
       "estado": "Sin investigación formal",
       "verificacion": "Opinión / sin verificar",
       "gravedad": 3,
-      "actores": ["Ministerio de Trabajo"],
-      "fuentes": ["Tintiando (editorial)"],
+      "actores": [
+        "Ministerio de Trabajo"
+      ],
+      "fuentes": [
+        "Tintiando (editorial)"
+      ],
       "enlaces": [],
-      "etiquetas": ["derechos laborales", "verificar"],
+      "etiquetas": [
+        "derechos laborales",
+        "verificar"
+      ],
       "notas": "Reportado por editorial de opinión. Requiere confirmar cuáles normas específicas se derogaron.",
       "ultima_actualizacion": "2026-09-04"
     },
@@ -732,13 +1441,33 @@
       "estado": "Abierto",
       "verificacion": "Documentado",
       "gravedad": 4,
-      "actores": ["Julián Buitrago Arango", "Carlos Eduardo Sepúlveda", "Antonio Sanguino", "Colombiacheck"],
-      "fuentes": ["La Silla Vacía", "Cambio", "El Colombiano", "Infobae"],
-      "enlaces": [
-        {"t": "La Silla Vacía — la batalla cultural le ganó a la tecnocracia", "url": "https://www.lasillavacia.com/silla-nacional/en-el-dnp-de-abelardo-la-batalla-cultural-le-gano-a-la-tecnocracia/"},
-        {"t": "El Colombiano — por qué la polémica", "url": "https://www.elcolombiano.com/colombia/julian-buitrago-nombramiento-dnp-criticas-planeacion-nacional-GE40003544"}
+      "actores": [
+        "Julián Buitrago Arango",
+        "Carlos Eduardo Sepúlveda",
+        "Antonio Sanguino",
+        "Colombiacheck"
       ],
-      "etiquetas": ["DNP", "veto ideológico", "desinformación"],
+      "fuentes": [
+        "La Silla Vacía",
+        "Cambio",
+        "El Colombiano",
+        "Infobae"
+      ],
+      "enlaces": [
+        {
+          "t": "La Silla Vacía — la batalla cultural le ganó a la tecnocracia",
+          "url": "https://www.lasillavacia.com/silla-nacional/en-el-dnp-de-abelardo-la-batalla-cultural-le-gano-a-la-tecnocracia/"
+        },
+        {
+          "t": "El Colombiano — por qué la polémica",
+          "url": "https://www.elcolombiano.com/colombia/julian-buitrago-nombramiento-dnp-criticas-planeacion-nacional-GE40003544"
+        }
+      ],
+      "etiquetas": [
+        "DNP",
+        "veto ideológico",
+        "desinformación"
+      ],
       "notas": "Un editorial de opinión sostiene que en el retiro de Sepúlveda también habría pesado su orientación sexual; el dato no está confirmado por medios de referencia y no debe darse por establecido.",
       "ultima_actualizacion": "2026-09-04"
     },
@@ -754,10 +1483,23 @@
       "estado": "Abierto",
       "verificacion": "Documentado",
       "gravedad": 3,
-      "actores": ["Julián Buitrago Arango", "DNP"],
-      "fuentes": ["Cambio"],
-      "enlaces": [{"t": "Cambio — la reunión que desató la polémica", "url": "https://cambiocolombia.com/poder/articulo/2026/8/el-concepto-del-milagro-en-el-plan-de-desarrollo-la-reunion-del-dnp-que-desato-una-polemica"}],
-      "etiquetas": ["DNP", "Plan Nacional de Desarrollo"],
+      "actores": [
+        "Julián Buitrago Arango",
+        "DNP"
+      ],
+      "fuentes": [
+        "Cambio"
+      ],
+      "enlaces": [
+        {
+          "t": "Cambio — la reunión que desató la polémica",
+          "url": "https://cambiocolombia.com/poder/articulo/2026/8/el-concepto-del-milagro-en-el-plan-de-desarrollo-la-reunion-del-dnp-que-desato-una-polemica"
+        }
+      ],
+      "etiquetas": [
+        "DNP",
+        "Plan Nacional de Desarrollo"
+      ],
       "notas": "La consolidación del PND será la prueba de fuego del director. Documento clave a rastrear en los próximos meses.",
       "ultima_actualizacion": "2026-09-04"
     },
@@ -773,10 +1515,21 @@
       "estado": "Abierto",
       "verificacion": "Documentado",
       "gravedad": 5,
-      "actores": ["Didier Blanco", "Iván Cepeda", "Francia Márquez"],
-      "fuentes": ["El País (España)", "La Silla Vacía"],
+      "actores": [
+        "Didier Blanco",
+        "Iván Cepeda",
+        "Francia Márquez"
+      ],
+      "fuentes": [
+        "El País (España)",
+        "La Silla Vacía"
+      ],
       "enlaces": [],
-      "etiquetas": ["UNP", "protección de la oposición", "racismo"],
+      "etiquetas": [
+        "UNP",
+        "protección de la oposición",
+        "racismo"
+      ],
       "notas": "El riesgo específico es institucional: la UNP protege a líderes sociales, periodistas y opositores amenazados.",
       "ultima_actualizacion": "2026-09-04"
     },
@@ -792,10 +1545,22 @@
       "estado": "Abierto",
       "verificacion": "Documentado",
       "gravedad": 5,
-      "actores": ["Diana Bravo", "Jensy Osorio", "Andrés Barreto", "Julia Eva Pretelt"],
-      "fuentes": ["El País (España)", "Caracol Radio"],
+      "actores": [
+        "Diana Bravo",
+        "Jensy Osorio",
+        "Andrés Barreto",
+        "Julia Eva Pretelt"
+      ],
+      "fuentes": [
+        "El País (España)",
+        "Caracol Radio"
+      ],
       "enlaces": [],
-      "etiquetas": ["conflicto de interés", "SAE", "puerta giratoria"],
+      "etiquetas": [
+        "conflicto de interés",
+        "SAE",
+        "puerta giratoria"
+      ],
       "notas": "La SAE es una de las entidades con mayor exposición a conflictos de interés del Estado colombiano.",
       "ultima_actualizacion": "2026-09-04"
     },
@@ -811,10 +1576,21 @@
       "estado": "Abierto",
       "verificacion": "Documentado",
       "gravedad": 4,
-      "actores": ["Yoly Beatriz Illidge", "Joaquín Gutiérrez", "Roberto José Solano"],
-      "fuentes": ["El País (España)", "La Silla Vacía"],
+      "actores": [
+        "Yoly Beatriz Illidge",
+        "Joaquín Gutiérrez",
+        "Roberto José Solano"
+      ],
+      "fuentes": [
+        "El País (España)",
+        "La Silla Vacía"
+      ],
       "enlaces": [],
-      "etiquetas": ["nepotismo", "conflicto de interés", "salud"],
+      "etiquetas": [
+        "nepotismo",
+        "conflicto de interés",
+        "salud"
+      ],
       "notas": "",
       "ultima_actualizacion": "2026-09-04"
     },
@@ -830,10 +1606,22 @@
       "estado": "Abierto",
       "verificacion": "Documentado",
       "gravedad": 4,
-      "actores": ["Jaime Andrés Uribe", "Lina Garrido", "Gina Paola González Grau", "Manuel Alejandro Pretelt", "Ariel Ávila"],
-      "fuentes": ["El País (España)"],
+      "actores": [
+        "Jaime Andrés Uribe",
+        "Lina Garrido",
+        "Gina Paola González Grau",
+        "Manuel Alejandro Pretelt",
+        "Ariel Ávila"
+      ],
+      "fuentes": [
+        "El País (España)"
+      ],
       "enlaces": [],
-      "etiquetas": ["idoneidad", "Fondo Milagro", "tierras"],
+      "etiquetas": [
+        "idoneidad",
+        "Fondo Milagro",
+        "tierras"
+      ],
       "notas": "Ariel Ávila añade que Garrido pertenece al clan político de Facundo Castillo, exgobernador de Arauca investigado por corrupción y nexos con el ELN.",
       "ultima_actualizacion": "2026-09-04"
     },
@@ -849,10 +1637,26 @@
       "estado": "Abierto",
       "verificacion": "Documentado",
       "gravedad": 3,
-      "actores": ["Alexandra Falla", "Magda Yolima Amaya", "Andrés Camilo Pardo"],
-      "fuentes": ["Infobae", "El Tiempo", "El Colombiano"],
-      "enlaces": [{"t": "Infobae — nombramientos echados para atrás", "url": "https://www.infobae.com/colombia/2026/08/18/estos-fueron-los-nombramientos-que-tuvieron-que-echar-para-atras-en-el-gobierno-de-abelardo-de-la-espriella-situaciones-incompatibles-con-nuestros-principios-y-lineamientos/"}],
-      "etiquetas": ["depuración ideológica", "mérito"],
+      "actores": [
+        "Alexandra Falla",
+        "Magda Yolima Amaya",
+        "Andrés Camilo Pardo"
+      ],
+      "fuentes": [
+        "Infobae",
+        "El Tiempo",
+        "El Colombiano"
+      ],
+      "enlaces": [
+        {
+          "t": "Infobae — nombramientos echados para atrás",
+          "url": "https://www.infobae.com/colombia/2026/08/18/estos-fueron-los-nombramientos-que-tuvieron-que-echar-para-atras-en-el-gobierno-de-abelardo-de-la-espriella-situaciones-incompatibles-con-nuestros-principios-y-lineamientos/"
+        }
+      ],
+      "etiquetas": [
+        "depuración ideológica",
+        "mérito"
+      ],
       "notas": "Infobae precisa que no existe evidencia en documentos oficiales de que todas esas salidas respondan exclusivamente a vínculos con la administración anterior. El Ministerio de Agricultura además eliminó todas las publicaciones de los cuatro años previos en su web y redes.",
       "ultima_actualizacion": "2026-09-04"
     },
@@ -868,12 +1672,68 @@
       "estado": "Cerrado",
       "verificacion": "Documentado",
       "gravedad": 2,
-      "actores": ["Carolina Gómez", "Revista Raya"],
-      "fuentes": ["El Colombiano"],
-      "enlaces": [{"t": "El Colombiano — detalles de la declinación", "url": "https://www.elcolombiano.com/colombia/politica/carolina-gomez-declina-voceria-de-la-espriella-miller-soto-MH40479353"}],
-      "etiquetas": ["comunicaciones", "idoneidad"],
+      "actores": [
+        "Carolina Gómez",
+        "Revista Raya"
+      ],
+      "fuentes": [
+        "El Colombiano"
+      ],
+      "enlaces": [
+        {
+          "t": "El Colombiano — detalles de la declinación",
+          "url": "https://www.elcolombiano.com/colombia/politica/carolina-gomez-declina-voceria-de-la-espriella-miller-soto-MH40479353"
+        }
+      ],
+      "etiquetas": [
+        "comunicaciones",
+        "idoneidad"
+      ],
       "notas": "La Casa de Nariño estaría reestructurando su estrategia de comunicaciones.",
       "ultima_actualizacion": "2026-09-09"
+    },
+    {
+      "id": "F-09",
+      "fecha": "2026-09-24",
+      "fecha_texto": "17–24 de septiembre de 2026",
+      "periodo": "Gobierno 2026-2030",
+      "tematica": "Nombramientos",
+      "caso": "Presidente de Colpensiones sale a los pocos días tras una exposición cuestionada en el Senado",
+      "alegato": "Carlos René Montoya Muñoz fue elegido presidente de Colpensiones el 17 de septiembre por la junta directiva de la entidad, integrada en su mayoría (3 de 5) por delegados del Gobierno, según La Silla Vacía. El 23 de septiembre, con dos días en el cargo, compareció ante la Comisión Séptima del Senado y, según varios medios, tuvo dificultades para responder sobre el presupuesto 2027, el funcionamiento de la entidad y la reforma pensional, e incluso para diferenciar cifras de 2026 y 2027; senadores se opusieron a que una asesora interviniera en su lugar y la comisión lo volvió a citar para el 30 de septiembre. El 24 de septiembre el presidente le pidió la renuncia. Contexto: Colpensiones, que con la reforma pensional atendería a nueve de cada diez cotizantes, solicita aplazar su aplicación hasta abril de 2028 por riesgos operativos y fiscales. Montoya es abogado de la Universidad del Sinú, con especializaciones y unos 25 años de trayectoria, incluida la Auditoría General.",
+      "respuesta_adle": "Comunicado de Presidencia: 'El Presidente de la República, Abelardo De La Espriella, solicitó la renuncia del presidente de Colpensiones, Carlos René Montoya Muñoz, quien presentó y puso a disposición del Gobierno Nacional su dimisión'. El Gobierno dijo que la decisión busca proteger la estabilidad del sistema pensional y que activará los mecanismos para garantizar la continuidad institucional.",
+      "estado": "Cerrado",
+      "verificacion": "Documentado",
+      "gravedad": 2,
+      "actores": [
+        "Carlos René Montoya Muñoz",
+        "Comisión Séptima del Senado",
+        "Antonio Sanguino",
+        "Colpensiones"
+      ],
+      "fuentes": [
+        "La Silla Vacía",
+        "Portafolio",
+        "El Colombiano",
+        "Infobae",
+        "Semana"
+      ],
+      "enlaces": [
+        {
+          "t": "El Colombiano — solicitó la renuncia",
+          "url": "https://www.elcolombiano.com/negocios/renuncia-presidente-colpensiones-carlos-rene-montoya-HI41497819"
+        },
+        {
+          "t": "Infobae — reacciones: 'hubo un error del Gobierno'",
+          "url": "https://www.infobae.com/colombia/2026/09/25/luego-de-que-de-la-espriella-pidiera-la-renuncia-del-presidente-de-colpensiones-figuras-politicas-opinaron-hubo-un-error-del-gobierno/"
+        }
+      ],
+      "etiquetas": [
+        "idoneidad",
+        "pensiones",
+        "salida exprés"
+      ],
+      "notas": "El exministro Antonio Sanguino: 'Carlos René, el breve. Abelardo de la Espriella bate récord: un Presidente de Colpensiones que duró dos días'. También hubo críticas desde sectores afines al Gobierno. Lectura doble: la salida rápida puede verse como corrección ágil o como falla en la selección (ver F-06, idoneidad, y las salidas exprés de F-07 y del DANE en I-02). Pendiente: nombre del sucesor.",
+      "ultima_actualizacion": "2026-09-25"
     },
     {
       "id": "G-01",
@@ -887,14 +1747,42 @@
       "estado": "Con decisión judicial o administrativa",
       "verificacion": "Documentado",
       "gravedad": 4,
-      "actores": ["Jorge Eduardo Mora", "Gustavo Petro", "María José Pizarro", "Daniel Monroy", "Santiago Osorio Marín", "Javier Ricardo Cabrera Cruz"],
-      "fuentes": ["Infobae", "teleSUR", "Prensa Latina", "El Colombiano", "Vanguardia", "El Diario"],
-      "enlaces": [
-        {"t": "Infobae — políticos cuestionaron el video", "url": "https://www.infobae.com/colombia/2026/09/03/politicos-cuestionaron-a-abelardo-de-la-espriella-por-caminar-sobre-cadaveres-tras-bombardeo-a-las-disidencias-siguen-teniendo-dignidad/"},
-        {"t": "Vanguardia — el Gobierno gana la tutela definitiva", "url": "https://www.vanguardia.com/colombia/2026/09/23/gobierno-de-la-espriella-gana-tutela-por-difusion-de-imagenes-de-abatidos-en-operativos/"},
-        {"t": "El Diario — juez niega tutela pero pide moderaci\u00f3n", "url": "https://www.eldiario.com.co/actualidad/de-la-espriella-podra-seguir-apareciendo-entre-cadaveres-juez-niega-tutela-pero-pide-moderacion/"}
+      "actores": [
+        "Jorge Eduardo Mora",
+        "Gustavo Petro",
+        "María José Pizarro",
+        "Daniel Monroy",
+        "Santiago Osorio Marín",
+        "Javier Ricardo Cabrera Cruz"
       ],
-      "etiquetas": ["necropolítica", "dignidad humana", "comunicación de gobierno", "tutela"],
+      "fuentes": [
+        "Infobae",
+        "teleSUR",
+        "Prensa Latina",
+        "El Colombiano",
+        "Vanguardia",
+        "El Diario"
+      ],
+      "enlaces": [
+        {
+          "t": "Infobae — políticos cuestionaron el video",
+          "url": "https://www.infobae.com/colombia/2026/09/03/politicos-cuestionaron-a-abelardo-de-la-espriella-por-caminar-sobre-cadaveres-tras-bombardeo-a-las-disidencias-siguen-teniendo-dignidad/"
+        },
+        {
+          "t": "Vanguardia — el Gobierno gana la tutela definitiva",
+          "url": "https://www.vanguardia.com/colombia/2026/09/23/gobierno-de-la-espriella-gana-tutela-por-difusion-de-imagenes-de-abatidos-en-operativos/"
+        },
+        {
+          "t": "El Diario — juez niega tutela pero pide moderación",
+          "url": "https://www.eldiario.com.co/actualidad/de-la-espriella-podra-seguir-apareciendo-entre-cadaveres-juez-niega-tutela-pero-pide-moderacion/"
+        }
+      ],
+      "etiquetas": [
+        "necropolítica",
+        "dignidad humana",
+        "comunicación de gobierno",
+        "tutela"
+      ],
       "notas": "Petro: 'solo asesinos acostumbrados a asesinar pueden pasearse orondos y alegres entre los cadáveres'. Pizarro comparó la lógica con la de los falsos positivos: 'se reduce la seguridad al conteo de muertos'. Una semana antes el Gobierno había publicado imágenes de reclusos rapados en traslados penitenciarios, en la estética asociada a Nayib Bukele. Desenlace judicial: el representante Santiago Osorio Marín (Alianza Verde) y el ciudadano Javier Ricardo Cabrera Cruz presentaron una tutela contra las publicaciones de este video y del de G-06 (La Guajira). El 9 de septiembre el Juzgado Catorce Laboral del Circuito de Bogotá ordenó retirarlas temporalmente. El caso pasó al Juzgado Treinta Civil del Circuito de Bogotá, que el 23 de septiembre negó el amparo de forma definitiva: concluyó que los accionantes no tenían legitimidad para representar en general a los niños, niñas y adolescentes de Colombia, y que ningún familiar de los fallecidos había reclamado por la difusión. El fallo sí recomendó a la Presidencia comunicar los resultados de operaciones militares 'mediante recursos menos invasivos de la dignidad, memoria e imagen' de los fallecidos, aunque aclaró que esa exhortación no constituye una prohibición. Para cuando se resolvió la tutela, las publicaciones ya no estaban en las cuentas oficiales de Instagram de la Presidencia, aunque sí seguían en los perfiles personales del presidente.",
       "ultima_actualizacion": "2026-09-23"
     },
@@ -906,20 +1794,52 @@
       "tematica": "Seguridad y DDHH",
       "caso": "Muerte de menores en bombardeos: moción de censura a MinDefensa y suspensión judicial de operativos",
       "alegato": "Tres menores de edad murieron el 27 de agosto en una operación contra el bloque Jorge Suárez Briceño (disidencias de las Farc) en El Retorno, Guaviare, que dejó diez integrantes muertos en total; a ese hecho se suma otro bombardeo del 10 de agosto en Catatumbo (Norte de Santander) contra el ELN en el que murió un menor de 16 años. La bancada del Pacto Histórico presentó el 12 de septiembre una moción de censura contra el ministro de Defensa, Jorge Eduardo Mora, por su presunta responsabilidad política en la planeación, dirección y supervisión de esas operaciones. El Senado debatió la moción el 16 de septiembre y la votó el 23 de septiembre; la Cámara de Representantes citó por separado a Mora y debatió su propia moción el 22 de septiembre, pese a que el Senado ya había tramitado el mismo asunto. En paralelo, distintos jueces examinaron tutelas por los bombardeos: el Juzgado Tercero Penal del Circuito de San José del Guaviare ordenó el 5 de septiembre la suspensión provisional de los bombardeos en ese departamento, y el Juzgado 34 de Familia de Bogotá levantó esa suspensión el 16 de septiembre pero impuso condiciones para proteger a menores en zonas de operación.",
-      "respuesta_adle": "El ministro Mora sostuvo en el Senado que las operaciones se basaron en informes de inteligencia y cumplieron las normas del Derecho Internacional Humanitario (DIH): 'No descansaremos en nuestra misión de defender a los colombianos'. El Gobierno defiende en general la legitimidad del uso de la fuerza contra grupos que reclutan menores.",
+      "respuesta_adle": "El ministro Mora sostuvo en el Senado que las operaciones se basaron en informes de inteligencia y cumplieron las normas del Derecho Internacional Humanitario (DIH): 'No descansaremos en nuestra misión de defender a los colombianos'. El Gobierno defiende en general la legitimidad del uso de la fuerza contra grupos que reclutan menores. Tras la votación, Mora: 'Es un justo reconocimiento a los miles de soldados y policías que están trabajando por recuperar una tragedia que sucedió en el anterior gobierno'. En el debate: 'Paralizar la Fuerza Pública premia a los criminales que usan niños como escudos humanos'.",
       "estado": "Con decisión judicial o administrativa",
       "verificacion": "Documentado",
       "gravedad": 5,
-      "actores": ["Jennifer Pedraza", "Jorge Eduardo Mora", "Carlos Andrés Ríos", "Ariel Ávila", "Daniel Briceño", "Nicolás Barguil"],
-      "fuentes": ["Infobae", "Pulzo", "Minuto60", "Cámara de Representantes (comunicado oficial)"],
-      "enlaces": [
-        {"t": "Infobae — la exhibición de cadáveres", "url": "https://www.infobae.com/colombia/2026/09/03/petro-critico-a-de-la-espriella-por-la-exhibicion-de-cadaveres-de-criminales-de-las-disidencias-de-las-farc-hacer-de-la-muerte-un-trofeo/"},
-        {"t": "Infobae — la Cámara adelanta su propia moción pese al trámite en el Senado", "url": "https://www.infobae.com/colombia/2026/09/22/camara-de-representantes-realizara-mocion-de-censura-contra-el-ministro-de-defensa-jorge-mora-a-pesar-de-que-ya-hay-un-tramite-igual-en-el-senado/"},
-        {"t": "Cámara de Representantes — crónica del debate", "url": "https://www.camara.gov.co/plenaria-de-la-camara-realizo-el-debate-de-mocion-de-censura-al-ministro-de-la-defensa"}
+      "actores": [
+        "Jennifer Pedraza",
+        "Jorge Eduardo Mora",
+        "Carlos Andrés Ríos",
+        "Ariel Ávila",
+        "Daniel Briceño",
+        "Nicolás Barguil"
       ],
-      "etiquetas": ["menores reclutados", "control político", "DIH", "moción de censura"],
-      "notas": "Pedraza: 'los grupos son responsables de reclutarlos, sí; pero el Estado les falló al no protegerlos'. Es el segundo ministro del Gobierno en enfrentar una moción de censura, después de Beltrán en Vivienda (ver H-02). Según Infobae, el pronóstico de ambas mociones (Senado y Cámara) era desfavorable a la oposición, por lo que se esperaba que no prosperaran; pendiente confirmar el resultado final de la votación del 23 de septiembre. Daniel Briceño respaldó públicamente al ministro Mora y calificó de 'absurda' la moción del Pacto Histórico. El 13 de septiembre, ante la acumulación de fallos judiciales que han frenado operaciones aéreas con presencia de menores (cuatro fallos según el conteo de Semana), el presidente habló de una 'guerra judicial' y sostuvo: 'una cosa es el control judicial, otra, sustituir al Gobierno'. Defendió los bombardeos argumentando que no actuar 'produciría un incentivo perverso, premiaría precisamente al criminal que viola el derecho internacional humanitario reclutando niños'. Semana, en su sección de opinión/confidenciales, adoptó explícitamente el marco del Gobierno en una pieza que afirma que 'los beneficiados son los narcotraficantes, que están felices' con estas decisiones judiciales — una valoración editorial, no un hecho verificado.",
-      "ultima_actualizacion": "2026-09-23"
+      "fuentes": [
+        "Infobae",
+        "Pulzo",
+        "Minuto60",
+        "Cámara de Representantes (comunicado oficial)",
+        "Vanguardia",
+        "El Heraldo"
+      ],
+      "enlaces": [
+        {
+          "t": "Infobae — la exhibición de cadáveres",
+          "url": "https://www.infobae.com/colombia/2026/09/03/petro-critico-a-de-la-espriella-por-la-exhibicion-de-cadaveres-de-criminales-de-las-disidencias-de-las-farc-hacer-de-la-muerte-un-trofeo/"
+        },
+        {
+          "t": "Infobae — la Cámara adelanta su propia moción pese al trámite en el Senado",
+          "url": "https://www.infobae.com/colombia/2026/09/22/camara-de-representantes-realizara-mocion-de-censura-contra-el-ministro-de-defensa-jorge-mora-a-pesar-de-que-ya-hay-un-tramite-igual-en-el-senado/"
+        },
+        {
+          "t": "Cámara de Representantes — crónica del debate",
+          "url": "https://www.camara.gov.co/plenaria-de-la-camara-realizo-el-debate-de-mocion-de-censura-al-ministro-de-la-defensa"
+        },
+        {
+          "t": "Vanguardia — Senado niega la moción",
+          "url": "https://www.vanguardia.com/colombia/2026/09/23/senado-niega-mocion-de-censura-contra-ministro-de-defensa-jorge-mora-por-bombardeos-en-guaviare/"
+        }
+      ],
+      "etiquetas": [
+        "menores reclutados",
+        "control político",
+        "DIH",
+        "moción de censura"
+      ],
+      "notas": "Pedraza: 'los grupos son responsables de reclutarlos, sí; pero el Estado les falló al no protegerlos'. Es el segundo ministro del Gobierno en enfrentar una moción de censura, después de Beltrán en Vivienda (ver H-02). Según Infobae, el pronóstico de ambas mociones (Senado y Cámara) era desfavorable a la oposición, por lo que se esperaba que no prosperaran; el 23 de septiembre el Senado negó la moción con 65 votos en contra y 17 a favor, y con ello la Cámara quedó impedida para votar la suya sobre los mismos hechos. Daniel Briceño respaldó públicamente al ministro Mora y calificó de 'absurda' la moción del Pacto Histórico. El 13 de septiembre, ante la acumulación de fallos judiciales que han frenado operaciones aéreas con presencia de menores (cuatro fallos según el conteo de Semana), el presidente habló de una 'guerra judicial' y sostuvo: 'una cosa es el control judicial, otra, sustituir al Gobierno'. Defendió los bombardeos argumentando que no actuar 'produciría un incentivo perverso, premiaría precisamente al criminal que viola el derecho internacional humanitario reclutando niños'. Semana, en su sección de opinión/confidenciales, adoptó explícitamente el marco del Gobierno en una pieza que afirma que 'los beneficiados son los narcotraficantes, que están felices' con estas decisiones judiciales — una valoración editorial, no un hecho verificado.",
+      "ultima_actualizacion": "2026-09-25"
     },
     {
       "id": "G-03",
@@ -933,13 +1853,34 @@
       "estado": "Abierto",
       "verificacion": "Documentado",
       "gravedad": 5,
-      "actores": ["Ministerio de Defensa", "Gustavo Petro", "Iván Cepeda", "Daniel Briceño"],
-      "fuentes": ["Portafolio", "El Colombiano", "Infobae", "Semana", "Noticias Caracol"],
-      "enlaces": [
-        {"t": "El Colombiano — claves del decreto y la polémica", "url": "https://www.elcolombiano.com/colombia/porte-de-armas-condiciones-del-decreto-PO40829767"},
-        {"t": "Infobae — reacciones políticas", "url": "https://www.infobae.com/colombia/2026/09/08/asi-reacciono-el-pais-politico-tras-la-firma-del-decreto-que-levanta-la-suspension-para-el-porte-de-armas-de-fuego-en-colombia-no-contienen-la-violencia/"}
+      "actores": [
+        "Ministerio de Defensa",
+        "Gustavo Petro",
+        "Iván Cepeda",
+        "Daniel Briceño"
       ],
-      "etiquetas": ["porte de armas", "demandas anunciadas", "novedad"],
+      "fuentes": [
+        "Portafolio",
+        "El Colombiano",
+        "Infobae",
+        "Semana",
+        "Noticias Caracol"
+      ],
+      "enlaces": [
+        {
+          "t": "El Colombiano — claves del decreto y la polémica",
+          "url": "https://www.elcolombiano.com/colombia/porte-de-armas-condiciones-del-decreto-PO40829767"
+        },
+        {
+          "t": "Infobae — reacciones políticas",
+          "url": "https://www.infobae.com/colombia/2026/09/08/asi-reacciono-el-pais-politico-tras-la-firma-del-decreto-que-levanta-la-suspension-para-el-porte-de-armas-de-fuego-en-colombia-no-contienen-la-violencia/"
+        }
+      ],
+      "etiquetas": [
+        "porte de armas",
+        "demandas anunciadas",
+        "novedad"
+      ],
       "notas": "Petro respondió con dos palabras: 'la necropolítica'. Cepeda: 'agregar el porte legal de armas, amplio e indiscriminado, a una sociedad en la que han muerto asesinadas con armas de fuego cientos de miles de personas, es una decisión criminal'. Varios sectores anunciaron demandas contra el decreto.",
       "ultima_actualizacion": "2026-09-09"
     },
@@ -955,13 +1896,31 @@
       "estado": "Abierto",
       "verificacion": "Documentado",
       "gravedad": 4,
-      "actores": ["Consejo Nacional de Estupefacientes", "ANLA", "Corte Constitucional", "Irene Vélez"],
-      "fuentes": ["Infobae", "Cerosetenta (opinión)"],
-      "enlaces": [
-        {"t": "Infobae — críticas al retorno de las fumigaciones", "url": "https://www.infobae.com/colombia/2026/09/01/gabinete-a-la-sombra-de-ivan-cepeda-y-gustavo-petro-critico-nuevas-fumigaciones-para-erradicar-cultivos-ilicitos-que-anuncio-abelardo-de-la-espriella-ineficaz/"},
-        {"t": "Cerosetenta — Nuevas botellas para una vieja medicina", "url": "https://cerosetenta.uniandes.edu.co/nuevas-botellas-para-una-vieja-medicina/"}
+      "actores": [
+        "Consejo Nacional de Estupefacientes",
+        "ANLA",
+        "Corte Constitucional",
+        "Irene Vélez"
       ],
-      "etiquetas": ["glifosato", "cultivos ilícitos", "consulta previa"],
+      "fuentes": [
+        "Infobae",
+        "Cerosetenta (opinión)"
+      ],
+      "enlaces": [
+        {
+          "t": "Infobae — críticas al retorno de las fumigaciones",
+          "url": "https://www.infobae.com/colombia/2026/09/01/gabinete-a-la-sombra-de-ivan-cepeda-y-gustavo-petro-critico-nuevas-fumigaciones-para-erradicar-cultivos-ilicitos-que-anuncio-abelardo-de-la-espriella-ineficaz/"
+        },
+        {
+          "t": "Cerosetenta — Nuevas botellas para una vieja medicina",
+          "url": "https://cerosetenta.uniandes.edu.co/nuevas-botellas-para-una-vieja-medicina/"
+        }
+      ],
+      "etiquetas": [
+        "glifosato",
+        "cultivos ilícitos",
+        "consulta previa"
+      ],
       "notas": "El 'gabinete a la sombra' de la oposición la calificó de 'política ineficaz, riesgosa y profundamente injusta'. Punto de control: si la ANLA otorga o no el plan de manejo ambiental. Cerosetenta reforzó la crítica citando literatura empírica del CESED (Mejía, Restrepo y Rozo): asperjar una hectárea adicional reduciría la coca en apenas 0,022 a 0,03 hectáreas al año, con base en la franja de 10 km junto a la frontera con Ecuador que Colombia dejó de fumigar en 2006. Alrededor del 13 de septiembre, un juez de Puerto Asís suspendió los efectos de una resolución que fijaba un plan piloto para reiniciar la erradicación con glufosinato de amonio (un herbicida distinto al glifosato) en esa zona; Semana incluyó esta decisión dentro de lo que el Gobierno llama 'guerra judicial' (ver G-02).",
       "ultima_actualizacion": "2026-09-23"
     },
@@ -977,13 +1936,35 @@
       "estado": "Con decisión judicial o administrativa",
       "verificacion": "Documentado",
       "gravedad": 4,
-      "actores": ["Iván Cepeda", "Comisión Primera del Senado", "ELN", "Salvatore Mancuso", "Consejo de Estado"],
-      "fuentes": ["Infobae", "El Tiempo", "El País (Cali)", "Diario del Huila"],
-      "enlaces": [
-        {"t": "Infobae — Cepeda sobre la política de seguridad", "url": "https://www.infobae.com/colombia/2026/09/02/ivan-cepeda-critico-a-de-la-espriella-por-su-politica-de-seguridad-y-lucha-contra-el-narcotrafico-es-la-perpetuacion-del-desastre/"},
-        {"t": "El Tiempo — revoca designaci\u00f3n de Mancuso", "url": "https://www.eltiempo.com/politica/proceso-de-paz/gobierno-de-abelardo-de-la-espriella-revoco-la-designacion-de-salvatore-mancuso-como-gestor-de-paz-3588076"}
+      "actores": [
+        "Iván Cepeda",
+        "Comisión Primera del Senado",
+        "ELN",
+        "Salvatore Mancuso",
+        "Consejo de Estado"
       ],
-      "etiquetas": ["bombardeos", "paz total", "control político", "Mancuso"],
+      "fuentes": [
+        "Infobae",
+        "El Tiempo",
+        "El País (Cali)",
+        "Diario del Huila"
+      ],
+      "enlaces": [
+        {
+          "t": "Infobae — Cepeda sobre la política de seguridad",
+          "url": "https://www.infobae.com/colombia/2026/09/02/ivan-cepeda-critico-a-de-la-espriella-por-su-politica-de-seguridad-y-lucha-contra-el-narcotrafico-es-la-perpetuacion-del-desastre/"
+        },
+        {
+          "t": "El Tiempo — revoca designación de Mancuso",
+          "url": "https://www.eltiempo.com/politica/proceso-de-paz/gobierno-de-abelardo-de-la-espriella-revoco-la-designacion-de-salvatore-mancuso-como-gestor-de-paz-3588076"
+        }
+      ],
+      "etiquetas": [
+        "bombardeos",
+        "paz total",
+        "control político",
+        "Mancuso"
+      ],
       "notas": "Cepeda: retomar la vía de la fuerza es 'la perpetuación del desastre'; después añadió que el presidente 'se ufana de matar'. Pidió al Congreso abrir una discusión nacional sobre el rumbo de la política de seguridad. La suspensión cautelar del Consejo de Estado sobre la designación de Mancuso no era una decisión de fondo sobre la controversia, por lo que la revocatoria presidencial se produce en paralelo a ese proceso judicial, no como su resultado final. Mancuso había sido designado gestor de paz en 2023 tras ofrecer aportar verdad sobre el conflicto armado.",
       "ultima_actualizacion": "2026-09-23"
     },
@@ -999,13 +1980,30 @@
       "estado": "Con decisión judicial o administrativa",
       "verificacion": "Documentado",
       "gravedad": 4,
-      "actores": ["Naín Andrés Pérez Toncel (alias Bendito Menor)", "Rosa Angélica Tarazona (alias La Bebesita)"],
-      "fuentes": ["Público (España)", "Euronews"],
-      "enlaces": [
-        {"t": "Público — De la Espriella exhibe cad\u00e1veres en La Guajira", "url": "https://www.publico.es/internacional/espriella-exhibe-prensa-cadaveres-cuatro-personas-abatidas-guajira-criticas-oposicion.html"},
-        {"t": "Euronews \u2014 vuelve a mostrar cad\u00e1veres", "url": "https://es.euronews.com/2026/09/04/espriella-cadaveres-de-presuntos-narcoterroristas-abatidos"}
+      "actores": [
+        "Naín Andrés Pérez Toncel (alias Bendito Menor)",
+        "Rosa Angélica Tarazona (alias La Bebesita)"
       ],
-      "etiquetas": ["necropolítica", "La Guajira", "patrón repetido", "tutela"],
+      "fuentes": [
+        "Público (España)",
+        "Euronews"
+      ],
+      "enlaces": [
+        {
+          "t": "Público — De la Espriella exhibe cadáveres en La Guajira",
+          "url": "https://www.publico.es/internacional/espriella-exhibe-prensa-cadaveres-cuatro-personas-abatidas-guajira-criticas-oposicion.html"
+        },
+        {
+          "t": "Euronews — vuelve a mostrar cadáveres",
+          "url": "https://es.euronews.com/2026/09/04/espriella-cadaveres-de-presuntos-narcoterroristas-abatidos"
+        }
+      ],
+      "etiquetas": [
+        "necropolítica",
+        "La Guajira",
+        "patrón repetido",
+        "tutela"
+      ],
       "notas": "Confirma que la escena de G-01 no fue un hecho aislado sino un patrón de comunicación de gobierno: exhibir cuerpos como prueba de resultados de seguridad. Ver también G-09 (ultimátum a alias Pinocho) como parte del mismo estilo comunicativo. Este video (identificado en el proceso judicial como parte de la operación 'Centinela de la Patria') fue objeto de la misma tutela que el de G-01; ver el desenlace judicial completo (negación definitiva del amparo, 23 de septiembre) en las notas de ese caso.",
       "ultima_actualizacion": "2026-09-23"
     },
@@ -1021,13 +2019,30 @@
       "estado": "Abierto",
       "verificacion": "Documentado",
       "gravedad": 3,
-      "actores": ["Elsa Noguera", "Iván Cancino"],
-      "fuentes": ["Infobae", "Cerosetenta (opinión)"],
-      "enlaces": [
-        {"t": "Infobae \u2014 nuevo impulso al plan de megac\u00e1rceles", "url": "https://www.infobae.com/colombia/2026/09/15/abelardo-de-la-espriella-dio-un-nuevo-impulso-a-su-plan-de-construir-diez-megacarceles-de-maxima-seguridad-estos-son-los-empresarios-que-podrian-participar/"},
-        {"t": "Cerosetenta \u2014 No necesitamos m\u00e1s c\u00e1rceles", "url": "https://cerosetenta.uniandes.edu.co/no-necesitamos-mas-carceles-abelardo-de-la-espriella/"}
+      "actores": [
+        "Elsa Noguera",
+        "Iván Cancino"
       ],
-      "etiquetas": ["megacárceles", "CECOT", "privatización", "Bukele"],
+      "fuentes": [
+        "Infobae",
+        "Cerosetenta (opinión)"
+      ],
+      "enlaces": [
+        {
+          "t": "Infobae — nuevo impulso al plan de megacárceles",
+          "url": "https://www.infobae.com/colombia/2026/09/15/abelardo-de-la-espriella-dio-un-nuevo-impulso-a-su-plan-de-construir-diez-megacarceles-de-maxima-seguridad-estos-son-los-empresarios-que-podrian-participar/"
+        },
+        {
+          "t": "Cerosetenta — No necesitamos más cárceles",
+          "url": "https://cerosetenta.uniandes.edu.co/no-necesitamos-mas-carceles-abelardo-de-la-espriella/"
+        }
+      ],
+      "etiquetas": [
+        "megacárceles",
+        "CECOT",
+        "privatización",
+        "Bukele"
+      ],
       "notas": "Ver también G-10 (traslado de presos en Buenaventura) como parte de la misma política de mano dura penitenciaria. Pendiente: quiénes serán los adjudicatarios privados y el costo fiscal del plan.",
       "ultima_actualizacion": "2026-09-16"
     },
@@ -1043,13 +2058,32 @@
       "estado": "Abierto",
       "verificacion": "Documentado",
       "gravedad": 4,
-      "actores": ["Iván Cepeda", "Esmeralda Hernández", "María Fernanda Cabal"],
-      "fuentes": ["Vanguardia", "Semana", "Publimetro", "HSB Noticias"],
-      "enlaces": [
-        {"t": "Vanguardia \u2014 Cepeda arremete por el anuncio sobre universidades", "url": "https://www.vanguardia.com/colombia/2026/09/14/ivan-cepeda-arremete-contra-de-la-espriella-por-anuncio-sobre-las-universidades-rechazo-la-violacion-de-la-autonomia-universitaria/"},
-        {"t": "Semana \u2014 reacci\u00f3n de Cepeda al protocolo", "url": "https://www.semana.com/politica/articulo/ivan-cepeda-reacciono-a-anuncio-de-abelardo-de-la-espriella-sobre-protocolo-para-ingreso-a-universidades-durante-disturbios/202636/"}
+      "actores": [
+        "Iván Cepeda",
+        "Esmeralda Hernández",
+        "María Fernanda Cabal"
       ],
-      "etiquetas": ["autonomía universitaria", "artículo 69", "Policía"],
+      "fuentes": [
+        "Vanguardia",
+        "Semana",
+        "Publimetro",
+        "HSB Noticias"
+      ],
+      "enlaces": [
+        {
+          "t": "Vanguardia — Cepeda arremete por el anuncio sobre universidades",
+          "url": "https://www.vanguardia.com/colombia/2026/09/14/ivan-cepeda-arremete-contra-de-la-espriella-por-anuncio-sobre-las-universidades-rechazo-la-violacion-de-la-autonomia-universitaria/"
+        },
+        {
+          "t": "Semana — reacción de Cepeda al protocolo",
+          "url": "https://www.semana.com/politica/articulo/ivan-cepeda-reacciono-a-anuncio-de-abelardo-de-la-espriella-sobre-protocolo-para-ingreso-a-universidades-durante-disturbios/202636/"
+        }
+      ],
+      "etiquetas": [
+        "autonomía universitaria",
+        "artículo 69",
+        "Policía"
+      ],
       "notas": "Cepeda: 'es una abierta violación del artículo 69 de la Constitución'; recordó las víctimas de abuso policial durante el Paro Nacional y de intervenciones previas de la Fuerza Pública en universidades con estudiantes muertos. La senadora María Fernanda Cabal, del lado oficialista, celebró la medida. Pendiente: contenido definitivo del protocolo.",
       "ultima_actualizacion": "2026-09-16"
     },
@@ -1065,13 +2099,33 @@
       "estado": "Abierto",
       "verificacion": "Documentado",
       "gravedad": 5,
-      "actores": ["Claudia Sheinbaum", "Alejandro Eder", "UNGRD", "Silvia Ballén"],
-      "fuentes": ["El Diario", "Proceso", "France 24", "La Silla Vacía"],
-      "enlaces": [
-        {"t": "France 24 — ¿limitó el Gobierno la ayuda internacional?", "url": "https://www.france24.com/es/am%C3%A9rica-latina/20260815-terremoto-en-colombia-limit%C3%B3-el-nuevo-gobierno-la-ayuda-internacional"},
-        {"t": "Proceso — solo acepta ayuda de países aliados", "url": "https://www.proceso.com.mx/internacional/2026/8/13/de-la-espriella-solo-acepta-ayuda-de-rescatistas-de-paises-aliados-excluye-a-mexico-377944.html"}
+      "actores": [
+        "Claudia Sheinbaum",
+        "Alejandro Eder",
+        "UNGRD",
+        "Silvia Ballén"
       ],
-      "etiquetas": ["terremoto", "sesgo ideológico", "cooperación internacional"],
+      "fuentes": [
+        "El Diario",
+        "Proceso",
+        "France 24",
+        "La Silla Vacía"
+      ],
+      "enlaces": [
+        {
+          "t": "France 24 — ¿limitó el Gobierno la ayuda internacional?",
+          "url": "https://www.france24.com/es/am%C3%A9rica-latina/20260815-terremoto-en-colombia-limit%C3%B3-el-nuevo-gobierno-la-ayuda-internacional"
+        },
+        {
+          "t": "Proceso — solo acepta ayuda de países aliados",
+          "url": "https://www.proceso.com.mx/internacional/2026/8/13/de-la-espriella-solo-acepta-ayuda-de-rescatistas-de-paises-aliados-excluye-a-mexico-377944.html"
+        }
+      ],
+      "etiquetas": [
+        "terremoto",
+        "sesgo ideológico",
+        "cooperación internacional"
+      ],
       "notas": "El Gobierno aceptó primero equipos de EE.UU., El Salvador, Ecuador e Israel; El Salvador no tiene equipos certificados por la ONU. La Silla Vacía señala que la instrucción inicial de rechazo vino del último director de la UNGRD de Petro, y que el equipo de De la Espriella rectificó ante la magnitud de la catástrofe.",
       "ultima_actualizacion": "2026-09-04"
     },
@@ -1084,15 +2138,33 @@
       "caso": "El ministro de Vivienda de vacaciones en Santa Marta",
       "alegato": "Jaime Andrés Beltrán, con ocho días en el cargo y al frente de la respuesta habitacional al terremoto, fue fotografiado descansando en una playa de Santa Marta a una semana del sismo, con miles de damnificados sin casa.",
       "respuesta_adle": "Beltrán se disculpó públicamente: 'no solamente hay el deseo de trabajar por el país, sino también el deseo de disculparme con todas las familias'.",
-      "estado": "Abierto",
+      "estado": "Con decisión judicial o administrativa",
       "verificacion": "Documentado",
       "gravedad": 3,
-      "actores": ["Jaime Andrés Beltrán", "Jennifer Pedraza", "Daniel Briceño", "Andrés Forero"],
-      "fuentes": ["Mundiario", "Caracol"],
-      "enlaces": [{"t": "Mundiario — la escapada a la playa", "url": "https://www.mundiario.com/articulo/internacional/espriella-acorralado-escapada-playa-arrastra-ministro-mocion-censura/20260819054221436148.html"}],
-      "etiquetas": ["moción de censura", "terremoto"],
-      "notas": "Primera crisis política del Gobierno. Moción de censura en trámite. Críticas transversales: Pedraza pidió su destitución y desde el Centro Democrático Forero lamentó que 'el desatino de un ministro empañe la gestión del Gobierno'.",
-      "ultima_actualizacion": "2026-09-04"
+      "actores": [
+        "Jaime Andrés Beltrán",
+        "Jennifer Pedraza",
+        "Daniel Briceño",
+        "Andrés Forero"
+      ],
+      "fuentes": [
+        "Mundiario",
+        "Caracol",
+        "El Diario",
+        "El Heraldo"
+      ],
+      "enlaces": [
+        {
+          "t": "Mundiario — la escapada a la playa",
+          "url": "https://www.mundiario.com/articulo/internacional/espriella-acorralado-escapada-playa-arrastra-ministro-mocion-censura/20260819054221436148.html"
+        }
+      ],
+      "etiquetas": [
+        "moción de censura",
+        "terremoto"
+      ],
+      "notas": "Primera crisis política del Gobierno. Críticas transversales: Pedraza pidió su destitución y desde el Centro Democrático Forero lamentó que 'el desatino de un ministro empañe la gestión del Gobierno'. Desenlace: el 15 de septiembre el Senado negó la moción de censura con 61 votos en contra y 27 a favor; Beltrán sigue en el cargo. Fue la primera de dos mociones negadas al gabinete (la segunda, contra MinDefensa, ver G-02).",
+      "ultima_actualizacion": "2026-09-25"
     },
     {
       "id": "H-03",
@@ -1106,10 +2178,17 @@
       "estado": "Sin investigación formal",
       "verificacion": "Opinión / sin verificar",
       "gravedad": 2,
-      "actores": ["Alcaldes y gobernadores"],
-      "fuentes": ["Tintiando (editorial)"],
+      "actores": [
+        "Alcaldes y gobernadores"
+      ],
+      "fuentes": [
+        "Tintiando (editorial)"
+      ],
       "enlaces": [],
-      "etiquetas": ["terremoto", "verificar"],
+      "etiquetas": [
+        "terremoto",
+        "verificar"
+      ],
       "notas": "Contrapunto importante: La Silla Vacía, medio crítico del Gobierno, evaluó el manejo general como positivo, señalando que el presidente y sus ministros 'son visibles y se ven ejecutivos' y que 'han articulado muy bien la respuesta con las autoridades locales'.",
       "ultima_actualizacion": "2026-09-04"
     },
@@ -1125,10 +2204,25 @@
       "estado": "Sin investigación formal",
       "verificacion": "Opinión / sin verificar",
       "gravedad": 3,
-      "actores": ["Camila Zuluaga", "Ana Cristina Restrepo", "Gonzalo Córdoba", "Caracol"],
-      "fuentes": ["Volcánicas (opinión)"],
-      "enlaces": [{"t": "Volcánicas", "url": "https://volcanicas.com/censura-a-la-prensa-en-gobierno-de-abelardo-de-la-espriella-erosiona-la-democracia/"}],
-      "etiquetas": ["libertad de prensa", "verificar"],
+      "actores": [
+        "Camila Zuluaga",
+        "Ana Cristina Restrepo",
+        "Gonzalo Córdoba",
+        "Caracol"
+      ],
+      "fuentes": [
+        "Volcánicas (opinión)"
+      ],
+      "enlaces": [
+        {
+          "t": "Volcánicas",
+          "url": "https://volcanicas.com/censura-a-la-prensa-en-gobierno-de-abelardo-de-la-espriella-erosiona-la-democracia/"
+        }
+      ],
+      "etiquetas": [
+        "libertad de prensa",
+        "verificar"
+      ],
       "notas": "No hay evidencia de intervención gubernamental. Se registra como señal a monitorear, no como hecho probado. Indicador relacionado a vigilar: distribución de pauta oficial (Principio 13 de la Declaración de Principios de la CIDH).",
       "ultima_actualizacion": "2026-09-04"
     },
@@ -1144,15 +2238,43 @@
       "estado": "Abierto",
       "verificacion": "Documentado",
       "gravedad": 4,
-      "actores": ["FLIP", "María Jimena Duzán", "Vladimir Flórez (Vladdo)", "Ana Cristina Restrepo", "Camila Zuluaga"],
-      "fuentes": ["Infobae", "Cambio", "Volcánicas", "Partido Comunista Colombiano (opinión)"],
-      "enlaces": [
-        {"t": "Infobae — la Flip pide garantías reales", "url": "https://www.infobae.com/colombia/2026/09/10/la-flip-y-organizaciones-sociales-piden-garantias-para-la-libertad-de-prensa-al-gobierno-de-de-la-espriella-han-profundizado-la-autocensura/"},
-        {"t": "Cambio — exigencias de la FLIP", "url": "https://cambiocolombia.com/poder/articulo/2026/9/la-flip-le-exige-a-abelardo-de-la-espriella-garantias-reales-para-la-libertad-de-prensa-tras-un-mes-de-gobierno"},
-        {"t": "Volc\u00e1nicas \u2014 censura a la prensa erosiona la democracia", "url": "https://volcanicas.com/censura-a-la-prensa-en-gobierno-de-abelardo-de-la-espriella-erosiona-la-democracia/"},
-        {"t": "Cambio \u2014 De la Espriella impone un gobierno de una sola voz", "url": "https://cambiocolombia.com/poder/articulo/2026/9/de-la-espriella-impone-un-gobierno-de-una-sola-voz"}
+      "actores": [
+        "FLIP",
+        "María Jimena Duzán",
+        "Vladimir Flórez (Vladdo)",
+        "Ana Cristina Restrepo",
+        "Camila Zuluaga"
       ],
-      "etiquetas": ["FLIP", "emisoras de paz", "Directiva 01", "novedad"],
+      "fuentes": [
+        "Infobae",
+        "Cambio",
+        "Volcánicas",
+        "Partido Comunista Colombiano (opinión)"
+      ],
+      "enlaces": [
+        {
+          "t": "Infobae — la Flip pide garantías reales",
+          "url": "https://www.infobae.com/colombia/2026/09/10/la-flip-y-organizaciones-sociales-piden-garantias-para-la-libertad-de-prensa-al-gobierno-de-de-la-espriella-han-profundizado-la-autocensura/"
+        },
+        {
+          "t": "Cambio — exigencias de la FLIP",
+          "url": "https://cambiocolombia.com/poder/articulo/2026/9/la-flip-le-exige-a-abelardo-de-la-espriella-garantias-reales-para-la-libertad-de-prensa-tras-un-mes-de-gobierno"
+        },
+        {
+          "t": "Volcánicas — censura a la prensa erosiona la democracia",
+          "url": "https://volcanicas.com/censura-a-la-prensa-en-gobierno-de-abelardo-de-la-espriella-erosiona-la-democracia/"
+        },
+        {
+          "t": "Cambio — De la Espriella impone un gobierno de una sola voz",
+          "url": "https://cambiocolombia.com/poder/articulo/2026/9/de-la-espriella-impone-un-gobierno-de-una-sola-voz"
+        }
+      ],
+      "etiquetas": [
+        "FLIP",
+        "emisoras de paz",
+        "Directiva 01",
+        "novedad"
+      ],
       "notas": "Caso central: agrupa la Directiva Presidencial 01, el cierre de las emisoras de paz y su reapertura bajo otro nombre. Ver I-03 (Vladdo) e I-04 (Duzán) como episodios individuales dentro del mismo patrón. Volcánicas, citando un acta interna revelada por Caracol Radio, añade detalle previo a la Directiva 01: esa acta habría ordenado suspender ruedas de prensa y entrevistas con medios considerados 'no amigos' salvo autorización previa de Presidencia, excluir a los viceministros de toda vocería oficial, concentrar los anuncios en el propio presidente y en el abogado Miller Soto como vocero único (tres intervenciones diarias), y exigir que las entidades adscritas sometan sus comunicados a revisión antes de publicarlos. No está confirmado si esa acta es un borrador previo de la Directiva 01 o un documento aparte. Cambio documentó un caso concreto que ilustra el patrón: el director del DANE, Ricardo Valencia Ramírez, salió del cargo tras solo 26 días, oficialmente por haber dado una rueda de prensa sin autorización (31 de agosto). Cambio señala una contradicción cronológica en la justificación oficial: la Directiva Presidencial 01, que establece el requisito de autorización previa, se firmó el 3 de septiembre — después de la rueda de prensa que supuestamente motivó la salida. En su comunicado oficial del 14 de septiembre, la Presidencia dio dos razones para la salida de Valencia: que aseguró 'no había encontrado anomalía alguna' en los indicadores del DANE de julio (último mes del gobierno Petro) sin que se hubieran adelantado auditorías profundas previas, y que 'hizo caso omiso' de la Directiva 001 sobre relacionamiento con medios. En su reemplazo, el presidente designó al economista Juan Manuel Alvarado Nivia, con maestría de la Universidad del Norte y máster en la Universidad de Oxford; el Gobierno dijo conocer su trabajo por su participación en la organización de ayudas tras el terremoto del 10 de agosto. Ver también K-02 (veto informal a gremios) como parte del mismo patrón de control de mensaje y de interlocutores independientes.",
       "ultima_actualizacion": "2026-09-23"
     },
@@ -1168,10 +2290,20 @@
       "estado": "Sin investigación formal",
       "verificacion": "Denuncia periodística",
       "gravedad": 3,
-      "actores": ["Vladimir Flórez (Vladdo)", "Noticias RCN"],
-      "fuentes": ["Cambio", "Infobae"],
+      "actores": [
+        "Vladimir Flórez (Vladdo)",
+        "Noticias RCN"
+      ],
+      "fuentes": [
+        "Cambio",
+        "Infobae"
+      ],
       "enlaces": [],
-      "etiquetas": ["caricatura", "autocensura", "medios privados"],
+      "etiquetas": [
+        "caricatura",
+        "autocensura",
+        "medios privados"
+      ],
       "notas": "Análogo al caso I-01 (Mañanas Blu). Ninguno de los dos tiene una orden oficial comprobada; ambos alimentan el mismo patrón de indicios.",
       "ultima_actualizacion": "2026-09-13"
     },
@@ -1187,10 +2319,17 @@
       "estado": "Sin investigación formal",
       "verificacion": "Denuncia periodística",
       "gravedad": 3,
-      "actores": ["María Jimena Duzán"],
-      "fuentes": ["Infobae"],
+      "actores": [
+        "María Jimena Duzán"
+      ],
+      "fuentes": [
+        "Infobae"
+      ],
       "enlaces": [],
-      "etiquetas": ["YouTube", "censura digital"],
+      "etiquetas": [
+        "YouTube",
+        "censura digital"
+      ],
       "notas": "Reportado por Infobae como parte del recuento de la FLIP (caso I-02); no hay atribución de responsabilidad establecida.",
       "ultima_actualizacion": "2026-09-13"
     },
@@ -1207,9 +2346,19 @@
       "verificacion": "Documentado",
       "gravedad": 1,
       "actores": [],
-      "fuentes": ["Infobae"],
-      "enlaces": [{"t": "Infobae — renuncia a su primer sueldo", "url": "https://www.infobae.com/america/agencias/2026/09/13/de-la-espriella-renuncia-a-su-primer-sueldo-en-favor-de-dos-geriatricos-afectados-por-el-terremoto/"}],
-      "etiquetas": ["gesto simbólico", "austeridad"],
+      "fuentes": [
+        "Infobae"
+      ],
+      "enlaces": [
+        {
+          "t": "Infobae — renuncia a su primer sueldo",
+          "url": "https://www.infobae.com/america/agencias/2026/09/13/de-la-espriella-renuncia-a-su-primer-sueldo-en-favor-de-dos-geriatricos-afectados-por-el-terremoto/"
+        }
+      ],
+      "etiquetas": [
+        "gesto simbólico",
+        "austeridad"
+      ],
       "notas": "Se incluye como contrapunto directo a E-02 (vuelos por 1.117 millones, luego ampliados a 2.286 millones): el mismo mes en que se cuestiona su gasto en vuelos oficiales, anuncia un gesto de renuncia salarial. Útil para evaluar coherencia entre discurso y gasto.",
       "ultima_actualizacion": "2026-09-13"
     },
@@ -1220,21 +2369,45 @@
       "periodo": "Gobierno 2026-2030",
       "tematica": "Institucionalidad",
       "caso": "Recorte presupuestal a la JEP: choque con su presidente y escalada a la Corte Penal Internacional",
-      "alegato": "En el trámite del Presupuesto General de la Nación para 2027 (ver E-03), el senador Enrique Gómez, del partido Salvación Nacional y hermano del ministro de Hacienda Miguel Gómez, radicó dos proposiciones para trasladar recursos de la JEP al Consejo Superior de la Judicatura; el presidente respaldó la iniciativa. El presidente de la JEP, Alejandro Ramelli, lanzó el viernes 18 de septiembre un \u2018SOS\u2019 a la comunidad internacional y llevó sus preocupaciones ante la Corte Penal Internacional (CPI), advirtiendo sobre el impacto operativo del recorte. Las cifras difieren según la fuente: algunos medios hablan de un recorte de 100.000 millones de pesos (unos 31 millones de dólares) sobre los 947.642 millones solicitados por la JEP para 2027, mientras que un titular de Vanguardia menciona 170.000 millones; no fue posible confirmar cuál cifra es la vigente. El debate llega mientras la JEP, en paralelo, imputó cargos en el Caso 05 por persecución contra personas LGBTIQ+, y ocurre en el primer mes y medio de un Gobierno que en campaña propuso eliminar la JEP por completo, algo que no puede hacer unilateralmente porque el tribunal tiene rango constitucional.",
+      "alegato": "En el trámite del Presupuesto General de la Nación para 2027 (ver E-03), el senador Enrique Gómez, del partido Salvación Nacional y hermano del ministro de Hacienda Miguel Gómez, radicó dos proposiciones para trasladar recursos de la JEP al Consejo Superior de la Judicatura; el presidente respaldó la iniciativa. El presidente de la JEP, Alejandro Ramelli, lanzó el viernes 18 de septiembre un ‘SOS’ a la comunidad internacional y llevó sus preocupaciones ante la Corte Penal Internacional (CPI), advirtiendo sobre el impacto operativo del recorte. Las cifras difieren según la fuente: algunos medios hablan de un recorte de 100.000 millones de pesos (unos 31 millones de dólares) sobre los 947.642 millones solicitados por la JEP para 2027, mientras que un titular de Vanguardia menciona 170.000 millones; no fue posible confirmar cuál cifra es la vigente. El debate llega mientras la JEP, en paralelo, imputó cargos en el Caso 05 por persecución contra personas LGBTIQ+, y ocurre en el primer mes y medio de un Gobierno que en campaña propuso eliminar la JEP por completo, algo que no puede hacer unilateralmente porque el tribunal tiene rango constitucional.",
       "respuesta_adle": "'No es asfixia ni venganza'. En un extenso mensaje en X, el presidente sostuvo: 'Una reasignación fundada en las prioridades públicas no constituye una interferencia: es gobernar. No tengo una política de venganza contra la JEP'. Cuestionó los resultados de la jurisdicción: 'la JEP ha recibido más de tres billones de pesos desde 2018 (...) considero que el volumen de sus resultados judiciales no corresponde con el tamaño de su aparato burocrático'. Sobre la carta de Ramelli a la CPI: 'No comparto ni acepto el contenido, el alcance ni el tono de esa comunicación (...) hoy no existe una sola decisión de mi Gobierno que permita afirmar, irresponsablemente, que Colombia incumple sus compromisos internacionales'.",
       "estado": "Abierto",
       "verificacion": "Documentado",
       "gravedad": 4,
-      "actores": ["Alejandro Ramelli (presidente de la JEP)", "Enrique Gómez", "Miguel Gómez"],
-      "fuentes": ["Vanguardia", "El Espectador", "Cambio", "El Colombiano", "EFE"],
-      "enlaces": [
-        {"t": "Vanguardia — De la Espriella defiende el recorte", "url": "https://www.vanguardia.com/colombia/2026/09/21/de-la-espriella-defiende-recorte-de-100000-millones-al-presupuesto-de-la-jep-en-2027/"},
-        {"t": "El Espectador — \u00bfPor qu\u00e9 necesita m\u00e1s dinero?", "url": "https://www.elespectador.com/politica/de-la-espriella-respondio-al-presidente-de-la-jep-alejandro-ramelli-por-criticas-a-recorte-de-presupuesto-esto-dijo/"},
-        {"t": "Cambio — respuesta a Ramelli", "url": "https://cambiocolombia.com/pais/articulo/2026/9/no-es-asfixia-ni-venganza-de-la-espriella-al-presidente-de-la-jep-por-recorte-presupuestal"}
+      "actores": [
+        "Alejandro Ramelli (presidente de la JEP)",
+        "Enrique Gómez",
+        "Miguel Gómez"
       ],
-      "etiquetas": ["JEP", "presupuesto", "justicia transicional", "CPI"],
-      "notas": "Conecta directamente con E-03 (Presupuesto 2027) y con la promesa de campaña de eliminar la JEP (ver G-05). Tensión institucional de fondo: el Gobierno tiene la potestad constitucional de asignar presupuesto, pero la JEP es un organismo con autonomía constitucional ligado al cumplimiento de los acuerdos de paz. La Silla Vac\u00eda public\u00f3 un an\u00e1lisis de opini\u00f3n bajo el t\u00edtulo 'El Estado no es el partido de gobierno' advirtiendo sobre el riesgo de confundir los recursos del Estado con los intereses del movimiento gobernante. A vigilar: desenlace del tr\u00e1mite presupuestal y respuesta de la CPI.",
-      "ultima_actualizacion": "2026-09-23"
+      "fuentes": [
+        "Vanguardia",
+        "El Espectador",
+        "Cambio",
+        "El Colombiano",
+        "EFE"
+      ],
+      "enlaces": [
+        {
+          "t": "Vanguardia — De la Espriella defiende el recorte",
+          "url": "https://www.vanguardia.com/colombia/2026/09/21/de-la-espriella-defiende-recorte-de-100000-millones-al-presupuesto-de-la-jep-en-2027/"
+        },
+        {
+          "t": "El Espectador — ¿Por qué necesita más dinero?",
+          "url": "https://www.elespectador.com/politica/de-la-espriella-respondio-al-presidente-de-la-jep-alejandro-ramelli-por-criticas-a-recorte-de-presupuesto-esto-dijo/"
+        },
+        {
+          "t": "Cambio — respuesta a Ramelli",
+          "url": "https://cambiocolombia.com/pais/articulo/2026/9/no-es-asfixia-ni-venganza-de-la-espriella-al-presidente-de-la-jep-por-recorte-presupuestal"
+        }
+      ],
+      "etiquetas": [
+        "JEP",
+        "presupuesto",
+        "justicia transicional",
+        "CPI"
+      ],
+      "notas": "Conecta directamente con E-03 (Presupuesto 2027) y con la promesa de campaña de eliminar la JEP (ver G-05). Tensión institucional de fondo: el Gobierno tiene la potestad constitucional de asignar presupuesto, pero la JEP es un organismo con autonomía constitucional ligado al cumplimiento de los acuerdos de paz. La Silla Vacía publicó un análisis de opinión bajo el título 'El Estado no es el partido de gobierno' advirtiendo sobre el riesgo de confundir los recursos del Estado con los intereses del movimiento gobernante. A vigilar: desenlace del trámite presupuestal y respuesta de la CPI. Actualización: el Presupuesto 2027 aprobado en primer debate el 23 de septiembre incluye, según El Colombiano, un recorte de 170.000 millones de pesos a la JEP, lo que resuelve en favor de esa cifra la discrepancia registrada antes (100.000 frente a 170.000 millones). Cambio publicó un análisis titulado 'Los números no le dan la razón a De la Espriella en su pulso con la JEP'.",
+      "ultima_actualizacion": "2026-09-25"
     },
     {
       "id": "E-14",
@@ -1248,12 +2421,74 @@
       "estado": "Abierto",
       "verificacion": "Documentado",
       "gravedad": 4,
-      "actores": ["Miguel Gómez Martínez (ministro de Hacienda)", "María Nohemí Arboleda (ministra de Minas y Energía)", "Sara Jimena Castellanos", "DNP"],
-      "fuentes": ["La Silla Vacía"],
-      "enlaces": [{"t": "La Silla Vac\u00eda \u2014 Presupuesto de Abelardo pide cortar subsidios a los pobres en 40%", "url": "https://www.lasillavacia.com/silla-nacional/presupuesto-de-abelardo-pide-cortar-subsidios-a-los-pobres-en-40/"}],
-      "etiquetas": ["subsidios", "pobreza", "presupuesto 2027", "focalización"],
+      "actores": [
+        "Miguel Gómez Martínez (ministro de Hacienda)",
+        "María Nohemí Arboleda (ministra de Minas y Energía)",
+        "Sara Jimena Castellanos",
+        "DNP"
+      ],
+      "fuentes": [
+        "La Silla Vacía"
+      ],
+      "enlaces": [
+        {
+          "t": "La Silla Vacía — Presupuesto de Abelardo pide cortar subsidios a los pobres en 40%",
+          "url": "https://www.lasillavacia.com/silla-nacional/presupuesto-de-abelardo-pide-cortar-subsidios-a-los-pobres-en-40/"
+        }
+      ],
+      "etiquetas": [
+        "subsidios",
+        "pobreza",
+        "presupuesto 2027",
+        "focalización"
+      ],
       "notas": "Conecta directamente con E-03 (Presupuesto 2027) y E-13 (recorte a la JEP): los tres casos documentan de dónde sale el ajuste fiscal del Gobierno. La región Caribe es la más expuesta (los subsidios pesan 41% de su inversión); Atlántico es el departamento grande más golpeado. La ministra de Minas, María Nohemí Arboleda, advirtió el 9 de septiembre ante la Comisión Quinta de la Cámara que las tarifas de energía van a subir: 'Yo no les voy a prometer lo que no les puedo prometer'. La senadora Sara Jimena Castellanos (Partido Liberal) alertó que con lo asignado solo se podrán ejecutar 3,5 de los 12 ciclos previstos de Colombia Mayor. El presupuesto seguía en negociación en el Congreso al momento de esta nota; La Silla Vacía señala que el Gobierno mantiene abierta la opción de pagar menos deuda para recuperar el nivel de subsidios, pero no la ha usado. Nota de fuente única: por ahora solo está confirmado por La Silla Vacía; conviene buscar corroboración adicional en próximas actualizaciones.",
       "ultima_actualizacion": "2026-09-23"
+    },
+    {
+      "id": "E-15",
+      "fecha": "2026-09-21",
+      "fecha_texto": "21–24 de septiembre de 2026",
+      "periodo": "Gobierno 2026-2030",
+      "tematica": "Economía y fiscal",
+      "caso": "Cotización de una moneda protocolaria bañada en oro con un tigre y las iniciales 'A.D.L.E.'",
+      "alegato": "Cambio reveló que el Dapre abrió en SECOP una invitación a cotizar monedas protocolarias (Infobae habla de unas 100 unidades) para obsequiar en actos oficiales: 60 milímetros de diámetro, en zamak o bronce con baño de oro antiguo, con la cabeza de un tigre de ojos verde esmeralda, las iniciales 'A.D.L.E.', la frase 'Honor y lealtad' y la mención a la Jefatura para la Protección Presidencial. Es una práctica de gobiernos anteriores (Duque hizo dos compras de unos 42 millones en 2021; Petro contratos de 9,9, 5 y 11 millones en 2023, 2024 y 2025), pero Minuto60 señala que es la primera vez que se incluyen tantos elementos de la identidad política del mandatario. Congresistas del Pacto Histórico, como Alejandro Ocampo y Alfredo Mondragón, la criticaron en medio del discurso de austeridad.",
+      "respuesta_adle": "El representante Daniel Briceño (Centro Democrático) dijo que el director del Dapre, Carlos Ríos, le confirmó que 'el gobierno nacional no gastará plata de recursos públicos en monedas protocolarias. Lo que se publicó en SECOP es solo una cotización'. Hasta el cierre no hay un pronunciamiento oficial del Dapre sobre el estado del proceso.",
+      "estado": "Cerrado",
+      "verificacion": "Documentado",
+      "gravedad": 1,
+      "actores": [
+        "Dapre",
+        "Carlos Andrés Ríos (director del Dapre)",
+        "Daniel Briceño",
+        "Alejandro Ocampo",
+        "Alfredo Mondragón"
+      ],
+      "fuentes": [
+        "Cambio",
+        "Infobae",
+        "El Colombiano",
+        "Semana",
+        "El Universal",
+        "Minuto60"
+      ],
+      "enlaces": [
+        {
+          "t": "Infobae — su propia moneda bañada en oro",
+          "url": "https://www.infobae.com/colombia/2026/09/22/abelardo-de-la-espriella-tendria-su-propia-moneda-banada-en-oro-con-un-tigre-y-las-iniciales-del-presidente/"
+        },
+        {
+          "t": "El Universal — el Gobierno desistiría",
+          "url": "https://www.eluniversal.com.co/colombia/2026/09/24/gobierno-de-de-la-espriella-desistiria-de-moneda-protocolaria-banada-en-oro/"
+        }
+      ],
+      "etiquetas": [
+        "austeridad",
+        "símbolos personales",
+        "Dapre"
+      ],
+      "notas": "Marcado como 'Cerrado' por el desistimiento reportado, aunque este no ha sido confirmado oficialmente por el Dapre. Útil junto con E-02 (vuelos) y E-12 (renuncia al salario) para seguir la coherencia entre discurso de austeridad y gasto.",
+      "ultima_actualizacion": "2026-09-25"
     },
     {
       "id": "G-09",
@@ -1267,15 +2502,36 @@
       "estado": "Abierto",
       "verificacion": "Documentado",
       "gravedad": 3,
-      "actores": ["Fredy Castillo (alias Pinocho)", "Salud Hernández-Mora", "Naín Pérez Toncel (alias Bendito Menor)", "Rufino José Morales (alias Mario)", "alias Gonzalo Ochalo"],
-      "fuentes": ["Vanguardia", "Infobae", "Semana", "El Heraldo"],
-      "enlaces": [
-        {"t": "Vanguardia — ultimátum a Pinocho", "url": "https://www.vanguardia.com/colombia/2026/09/12/de-la-espriella-lanza-ultimatum-a-alias-pinocho-tiene-una-semana-para-entregarse/"},
-        {"t": "Infobae \u2014 nueva advertencia a Pinocho y jefes de bandas", "url": "https://www.infobae.com/colombia/2026/09/18/presidente-abelardo-de-la-espriella-le-lanzo-nueva-advertencia-a-alias-pinocho-y-a-jefes-de-bandas-delincuenciales-de-la-guajira-bandido-que-no-se-someta-sera-dado-de-baja/"}
+      "actores": [
+        "Fredy Castillo (alias Pinocho)",
+        "Salud Hernández-Mora",
+        "Naín Pérez Toncel (alias Bendito Menor)",
+        "Rufino José Morales (alias Mario)",
+        "alias Gonzalo Ochalo"
       ],
-      "etiquetas": ["gobierno vía redes sociales", "paz total", "ultimátum"],
-      "notas": "Ejemplo del patrón de gobernar mediante instrucciones públicas (X, ruedas de prensa) en vez de canales institucionales formales; ver también G-06 (exhibición de cadáveres en La Guajira, mismo escenario regional). El plazo original de una semana (vencía alrededor del 19 de septiembre) fue superado por la escalada del 17 de septiembre, que amplió el número de objetivos señalados públicamente por nombre. A vigilar: si se producen sometimientos, capturas o bajas de los mencionados, y cualquier cuestionamiento sobre el debido proceso de señalar públicamente objetivos con 'fecha de expiración'.",
-      "ultima_actualizacion": "2026-09-18"
+      "fuentes": [
+        "Vanguardia",
+        "Infobae",
+        "Semana",
+        "El Heraldo"
+      ],
+      "enlaces": [
+        {
+          "t": "Vanguardia — ultimátum a Pinocho",
+          "url": "https://www.vanguardia.com/colombia/2026/09/12/de-la-espriella-lanza-ultimatum-a-alias-pinocho-tiene-una-semana-para-entregarse/"
+        },
+        {
+          "t": "Infobae — nueva advertencia a Pinocho y jefes de bandas",
+          "url": "https://www.infobae.com/colombia/2026/09/18/presidente-abelardo-de-la-espriella-le-lanzo-nueva-advertencia-a-alias-pinocho-y-a-jefes-de-bandas-delincuenciales-de-la-guajira-bandido-que-no-se-someta-sera-dado-de-baja/"
+        }
+      ],
+      "etiquetas": [
+        "gobierno vía redes sociales",
+        "paz total",
+        "ultimátum"
+      ],
+      "notas": "Ejemplo del patrón de gobernar mediante instrucciones públicas (X, ruedas de prensa) en vez de canales institucionales formales; ver también G-06 (exhibición de cadáveres en La Guajira, mismo escenario regional). El plazo original de una semana (vencía alrededor del 19 de septiembre) fue superado por la escalada del 17 de septiembre, que amplió el número de objetivos señalados públicamente por nombre. A vigilar: si se producen sometimientos, capturas o bajas de los mencionados, y cualquier cuestionamiento sobre el debido proceso de señalar públicamente objetivos con 'fecha de expiración'. Actualización 25 de septiembre: según El País (Cali), alias Pinocho estaba en el campamento atacado el 21 de septiembre y habría huido gravemente herido hacia la Sierra Nevada; fue detenida su pareja. Ver G-11 y G-13.",
+      "ultima_actualizacion": "2026-09-25"
     },
     {
       "id": "G-10",
@@ -1289,10 +2545,25 @@
       "estado": "Abierto",
       "verificacion": "Documentado",
       "gravedad": 2,
-      "actores": ["Daniel Gutiérrez (Inpec)", "Jonathan Orobio (alias Menor)"],
-      "fuentes": ["El Universal", "El Heraldo"],
-      "enlaces": [{"t": "El Universal \u2014 De la Espriella endurece medidas en c\u00e1rceles", "url": "https://www.eluniversal.com.co/colombia/2026/09/15/de-la-espriella-endurece-medidas-en-carceles-que-no-entre-ni-la-senal-de-la-santa-cruz/"}],
-      "etiquetas": ["Buenaventura", "Inpec", "mano dura"],
+      "actores": [
+        "Daniel Gutiérrez (Inpec)",
+        "Jonathan Orobio (alias Menor)"
+      ],
+      "fuentes": [
+        "El Universal",
+        "El Heraldo"
+      ],
+      "enlaces": [
+        {
+          "t": "El Universal — De la Espriella endurece medidas en cárceles",
+          "url": "https://www.eluniversal.com.co/colombia/2026/09/15/de-la-espriella-endurece-medidas-en-carceles-que-no-entre-ni-la-senal-de-la-santa-cruz/"
+        }
+      ],
+      "etiquetas": [
+        "Buenaventura",
+        "Inpec",
+        "mano dura"
+      ],
       "notas": "Se enmarca en la misma política de endurecimiento penitenciario que el plan de las diez megacárceles (G-07).",
       "ultima_actualizacion": "2026-09-16"
     },
@@ -1303,22 +2574,51 @@
       "periodo": "Gobierno 2026-2030",
       "tematica": "Seguridad y DDHH",
       "caso": "El presidente patrulla Santa Marta con arma de fuego al cinto durante un paro armado",
-      "alegato": "Las Autodefensas Conquistadoras de la Sierra Nevada (ACSN, también conocidas como 'Los Pachenca') decretaron un paro armado de 48 horas en Santa Marta como retaliación por una operación de la Policía Nacional, coordinada con la Fiscalía y apoyada por la Fuerza Aérea, en la que murieron siete presuntos integrantes de la organización —entre ellos su cabecilla José Luis Pérez Villanueva, alias 'Cholo'— y otros tres fueron capturados; según el balance oficial se incautaron diez fusiles (entre ellos un Barrett calibre .50), dos lanzagranadas, dos pistolas y ocho granadas de 40 milímetros. Hubo quema de vehículos, cierre forzado de comercios e intimidación a transportadores. El presidente suspendió su agenda en Barranquilla, ordenó la militarización de Santa Marta y, la noche del 22 de septiembre, se puso un chaleco antibalas y recorrió personalmente varios barrios (Cristo Rey, Gaira, 11 de Noviembre) junto a la Policía y el Ejército. Las imágenes que él mismo publicó lo muestran con un arma de fuego visible en la cintura \u2014descrita por El Colombiano como 'una imagen inédita en un mandatario'\u2014, lo que abrió preguntas en varios medios sobre si un presidente colombiano tiene autorización legal para portar armas y bajo qué figura lo estaría haciendo, sin que se haya aclarado oficialmente de qué arma se trata ni su respaldo legal.",
+      "alegato": "Las Autodefensas Conquistadoras de la Sierra Nevada (ACSN, también conocidas como 'Los Pachenca') decretaron un paro armado de 48 horas en Santa Marta como retaliación por una operación de la Policía Nacional, coordinada con la Fiscalía y apoyada por la Fuerza Aérea, en la que murieron siete presuntos integrantes de la organización —entre ellos su cabecilla José Luis Pérez Villanueva, alias 'Cholo'— y otros tres fueron capturados; según el balance oficial se incautaron diez fusiles (entre ellos un Barrett calibre .50), dos lanzagranadas, dos pistolas y ocho granadas de 40 milímetros. Hubo quema de vehículos, cierre forzado de comercios e intimidación a transportadores. El presidente suspendió su agenda en Barranquilla, ordenó la militarización de Santa Marta y, la noche del 22 de septiembre, se puso un chaleco antibalas y recorrió personalmente varios barrios (Cristo Rey, Gaira, 11 de Noviembre) junto a la Policía y el Ejército. Las imágenes que él mismo publicó lo muestran con un arma de fuego visible en la cintura —descrita por El Colombiano como 'una imagen inédita en un mandatario'—, lo que abrió preguntas en varios medios sobre si un presidente colombiano tiene autorización legal para portar armas y bajo qué figura lo estaría haciendo, sin que se haya aclarado oficialmente de qué arma se trata ni su respaldo legal.",
       "respuesta_adle": "'Los vamos a cazar como ratas miserables'. Desde la Base Antinarcóticos No. 8, dirigiéndose directamente a las ACSN: 'Los vamos a poner a buen recaudo de la Justicia o los vamos a mandar al infierno en una bolsa como la que ven aquí. No vamos a permitir que los delincuentes sigan arrodillando al pueblo colombiano. Hoy más que nunca estoy firme por la patria y que viva Cristo Rey'. También dijo: 'El Estado, con toda su fuerza legítima, no dará un solo paso atrás ante sus cobardes amenazas' y, sobre los responsables: 'cuando esos bandidos se enfrentan a nuestra Fuerza Pública, ahí quedan, por eso acuden al terror. Tiran la piedra y esconden la mano'. Nombró públicamente a varios cabecillas de 'Los Pachenca' (alias Pinocho, Pati Liso, Flash y Jacob) y prometió: 'les garantizo su seguridad (...) tengan la certeza de que dentro de poco vamos a dar con los causantes de esa estrategia de terror'.",
       "estado": "Abierto",
       "verificacion": "Documentado",
       "gravedad": 3,
-      "actores": ["José Luis Pérez Villanueva (alias Cholo)", "alias Pinocho (Pachenca)", "Carlos Pinedo (alcalde de Santa Marta)"],
-      "fuentes": ["Semana", "La Silla Vacía", "El Colombiano", "Publimetro", "El Universal", "Infobae", "El País (Cali)", "NTN24"],
-      "enlaces": [
-        {"t": "La Silla Vac\u00eda \u2014 con arma en el cinto", "url": "https://www.lasillavacia.com/en-vivo/con-arma-en-cinto-abelardo-anuncia-medidas-de-seguridad-para-santa-marta/"},
-        {"t": "El Colombiano \u2014 el at\u00edpico patrullaje", "url": "https://www.elcolombiano.com/colombia/santa-marta-paro-armado-los-pachenca-abelardo-de-la-espriella-OA41412639"},
-        {"t": "Publimetro \u2014 \u00bfqu\u00e9 arma es y bajo qu\u00e9 autorizaci\u00f3n?", "url": "https://www.publimetro.co/noticias/2026/09/23/arma-en-la-cintura-el-detalle-que-llamo-la-atencion-en-el-video-de-de-la-espriella-durante-su-visita-a-santa-marta/"},
-        {"t": "El Pa\u00eds (Cali) \u2014 al infierno en una bolsa", "url": "https://www.elpais.com.co/colombia/de-la-espriella-anuncia-ofensiva-contra-las-acsn-tras-paro-armado-en-magdalena-los-vamos-a-mandar-al-infierno-en-una-bolsa-2226.html"}
+      "actores": [
+        "José Luis Pérez Villanueva (alias Cholo)",
+        "alias Pinocho (Pachenca)",
+        "Carlos Pinedo (alcalde de Santa Marta)"
       ],
-      "etiquetas": ["militarización", "arma de fuego", "personalización de la seguridad"],
-      "notas": "Conecta con el patrón retórico de G-06 y G-09, y con el decreto de levantamiento de restricciones al porte de armas (G-03): aquí es el propio presidente quien aparece armado en público. Hasta el cierre de este registro no se había establecido oficialmente qué arma porta, si es de su propiedad o bajo qué autorización específica, pregunta que motivó coberturas explicativas sobre el marco legal (ej. Infobae/Minuto60: '¿Tiene permitido el presidente de Colombia portar un arma de fuego?'). El paro armado fue anunciado por 48 horas específicamente como retaliación por la operación que mató a alias Cholo.",
-      "ultima_actualizacion": "2026-09-23"
+      "fuentes": [
+        "Semana",
+        "La Silla Vacía",
+        "El Colombiano",
+        "Publimetro",
+        "El Universal",
+        "Infobae",
+        "El País (Cali)",
+        "NTN24"
+      ],
+      "enlaces": [
+        {
+          "t": "La Silla Vacía — con arma en el cinto",
+          "url": "https://www.lasillavacia.com/en-vivo/con-arma-en-cinto-abelardo-anuncia-medidas-de-seguridad-para-santa-marta/"
+        },
+        {
+          "t": "El Colombiano — el atípico patrullaje",
+          "url": "https://www.elcolombiano.com/colombia/santa-marta-paro-armado-los-pachenca-abelardo-de-la-espriella-OA41412639"
+        },
+        {
+          "t": "Publimetro — ¿qué arma es y bajo qué autorización?",
+          "url": "https://www.publimetro.co/noticias/2026/09/23/arma-en-la-cintura-el-detalle-que-llamo-la-atencion-en-el-video-de-de-la-espriella-durante-su-visita-a-santa-marta/"
+        },
+        {
+          "t": "El País (Cali) — al infierno en una bolsa",
+          "url": "https://www.elpais.com.co/colombia/de-la-espriella-anuncia-ofensiva-contra-las-acsn-tras-paro-armado-en-magdalena-los-vamos-a-mandar-al-infierno-en-una-bolsa-2226.html"
+        }
+      ],
+      "etiquetas": [
+        "militarización",
+        "arma de fuego",
+        "personalización de la seguridad"
+      ],
+      "notas": "Conecta con el patrón retórico de G-06 y G-09, y con el decreto de levantamiento de restricciones al porte de armas (G-03): aquí es el propio presidente quien aparece armado en público. Hasta el cierre de este registro no se había establecido oficialmente qué arma porta, si es de su propiedad o bajo qué autorización específica, pregunta que motivó coberturas explicativas sobre el marco legal (ej. Infobae/Minuto60: '¿Tiene permitido el presidente de Colombia portar un arma de fuego?'). El paro armado fue anunciado por 48 horas específicamente como retaliación por la operación que mató a alias Cholo. Reacciones posteriores (según titulares de Semana, El Universal y Publimetro): la senadora María Fernanda Cabal y el Ministerio del Interior salieron en defensa de que el presidente portara el arma, mientras Petro lo cuestionó ('en vez de ir con pistola al cinto'). Las ACSN anunciaron que el paro armado se extendería hasta el viernes 25 de septiembre. El presidente ordenó trasladar a cárceles de máxima seguridad a 76 presuntos integrantes de las ACSN (El Heraldo). Ver G-13: la familia de uno de los siete muertos del operativo denuncia que era un civil.",
+      "ultima_actualizacion": "2026-09-25"
     },
     {
       "id": "J-01",
@@ -1332,13 +2632,29 @@
       "estado": "Abierto",
       "verificacion": "Documentado",
       "gravedad": 2,
-      "actores": ["Revista Cambio", "Rodrigo Uprimny"],
-      "fuentes": ["Cambio", "El Espectador", "Vanguardia"],
-      "enlaces": [
-        {"t": "Cambio — contradicciones del columnista y el candidato", "url": "https://cambiocolombia.com/constituyente-trump-abelardo-espriella-contradicciones-elecciones"},
-        {"t": "El Espectador — De la Espriella y la Constitución", "url": "https://www.elespectador.com/opinion/columnistas/rodrigo-uprimny/de-la-espriella-y-la-constitucion/"}
+      "actores": [
+        "Revista Cambio",
+        "Rodrigo Uprimny"
       ],
-      "etiquetas": ["coherencia", "constituyente"],
+      "fuentes": [
+        "Cambio",
+        "El Espectador",
+        "Vanguardia"
+      ],
+      "enlaces": [
+        {
+          "t": "Cambio — contradicciones del columnista y el candidato",
+          "url": "https://cambiocolombia.com/constituyente-trump-abelardo-espriella-contradicciones-elecciones"
+        },
+        {
+          "t": "El Espectador — De la Espriella y la Constitución",
+          "url": "https://www.elespectador.com/opinion/columnistas/rodrigo-uprimny/de-la-espriella-y-la-constitucion/"
+        }
+      ],
+      "etiquetas": [
+        "coherencia",
+        "constituyente"
+      ],
       "notas": "Uprimny añade que propuso sacar a Colombia del Sistema Interamericano de DD.HH., de la ONU y de la OEA, propuestas que considera claramente inconstitucionales pese a su declarado 'patriotismo constitucional'.",
       "ultima_actualizacion": "2026-09-04"
     },
@@ -1354,10 +2670,22 @@
       "estado": "Cerrado",
       "verificacion": "Documentado",
       "gravedad": 1,
-      "actores": ["Casa de Nariño"],
-      "fuentes": ["Infobae", "El Espectador"],
-      "enlaces": [{"t": "Infobae — se echó para atrás", "url": "https://www.infobae.com/colombia/2026/08/26/abelardo-de-la-espriella-se-echo-para-atras-y-despachara-desde-la-casa-de-narino-por-que-cambio-de-idea-de-gobernar-en-el-palacio-de-san-carlos/"}],
-      "etiquetas": ["simbolismo"],
+      "actores": [
+        "Casa de Nariño"
+      ],
+      "fuentes": [
+        "Infobae",
+        "El Espectador"
+      ],
+      "enlaces": [
+        {
+          "t": "Infobae — se echó para atrás",
+          "url": "https://www.infobae.com/colombia/2026/08/26/abelardo-de-la-espriella-se-echo-para-atras-y-despachara-desde-la-casa-de-narino-por-que-cambio-de-idea-de-gobernar-en-el-palacio-de-san-carlos/"
+        }
+      ],
+      "etiquetas": [
+        "simbolismo"
+      ],
       "notas": "Menor en sustancia, útil como registro del patrón de anuncios revertidos.",
       "ultima_actualizacion": "2026-09-04"
     },
@@ -1367,19 +2695,37 @@
       "fecha_texto": "8 de septiembre de 2026",
       "periodo": "Gobierno 2026-2030",
       "tematica": "Institucionalidad",
-      "caso": "MinAgricultura propone dejar de llamar \u2018campesinos\u2019 y usar \u2018empresarios del campo\u2019",
+      "caso": "MinAgricultura propone dejar de llamar ‘campesinos’ y usar ‘empresarios del campo’",
       "alegato": "Ante las comisiones económicas del Senado y la Cámara, el ministro de Agricultura y Desarrollo Rural, Indalecio Dangond, anunció que el Gobierno sustituirá la palabra 'campesino' por expresiones como 'productor agropecuario' o 'pequeño empresario del campo'. La representante María Fernanda Carrascal (Pacto Histórico) cuestionó la medida por desconocer una identidad construida durante décadas de lucha por la tierra; el representante Renzo García (Tolima) también defendió la permanencia del término, que tiene reconocimiento constitucional como sujeto de derechos ('campesinado').",
-      "respuesta_adle": "Dangond: 'No se van a llamar campesinos, se van a llamar pequeños empresarios del campo. Campesino es despectivo. Aquí vamos a elevarle el estatus a los que producen los alimentos del país'. Ante las críticas, precisó que el cambio de categorías no busca negar la existencia ni los derechos del campesinado: '\u2018Campesino\u2019 y \u2018productor agropecuario\u2019 no son sinónimos (...) reconocer las diferencias no divide al campo. Por el contrario, nos permite diseñar mejores políticas para todos'.",
+      "respuesta_adle": "Dangond: 'No se van a llamar campesinos, se van a llamar pequeños empresarios del campo. Campesino es despectivo. Aquí vamos a elevarle el estatus a los que producen los alimentos del país'. Ante las críticas, precisó que el cambio de categorías no busca negar la existencia ni los derechos del campesinado: '‘Campesino’ y ‘productor agropecuario’ no son sinónimos (...) reconocer las diferencias no divide al campo. Por el contrario, nos permite diseñar mejores políticas para todos'.",
       "estado": "Abierto",
       "verificacion": "Documentado",
       "gravedad": 2,
-      "actores": ["Indalecio Dangond (ministro de Agricultura)", "María Fernanda Carrascal", "Renzo García"],
-      "fuentes": ["Infobae", "Semana", "Pulzo"],
-      "enlaces": [
-        {"t": "Infobae \u2014 el Ministerio tuvo que salir a aclarar", "url": "https://www.infobae.com/colombia/2026/09/09/ministro-de-agricultura-propuso-cambiar-la-palabra-campesinos-para-elevarles-el-estatus-y-armo-polemica-el-ministerio-tuvo-que-salir-a-aclarar/"},
-        {"t": "Semana \u2014 as\u00ed lo explic\u00f3 el ministro", "url": "https://www.semana.com/confidenciales/articulo/gobierno-no-usara-la-palabra-campesino-asi-lo-explico-el-ministro-de-agricultura/202632/"}
+      "actores": [
+        "Indalecio Dangond (ministro de Agricultura)",
+        "María Fernanda Carrascal",
+        "Renzo García"
       ],
-      "etiquetas": ["campesinado", "lenguaje oficial", "identidad rural"],
+      "fuentes": [
+        "Infobae",
+        "Semana",
+        "Pulzo"
+      ],
+      "enlaces": [
+        {
+          "t": "Infobae — el Ministerio tuvo que salir a aclarar",
+          "url": "https://www.infobae.com/colombia/2026/09/09/ministro-de-agricultura-propuso-cambiar-la-palabra-campesinos-para-elevarles-el-estatus-y-armo-polemica-el-ministerio-tuvo-que-salir-a-aclarar/"
+        },
+        {
+          "t": "Semana — así lo explicó el ministro",
+          "url": "https://www.semana.com/confidenciales/articulo/gobierno-no-usara-la-palabra-campesino-asi-lo-explico-el-ministro-de-agricultura/202632/"
+        }
+      ],
+      "etiquetas": [
+        "campesinado",
+        "lenguaje oficial",
+        "identidad rural"
+      ],
       "notas": "Primer caso registrado bajo la letra K (gabinete y funcionarios), incorporada a partir de esta actualización a pedido del usuario para cubrir también polémicas de ministros, no solo del presidente. Clasificado en tematica 'Institucionalidad' por el trasfondo de reconocimiento constitucional del campesinado como sujeto de derechos; es un caso límite que también podría leerse como de política agropecuaria.",
       "ultima_actualizacion": "2026-09-23"
     },
@@ -1395,14 +2741,37 @@
       "estado": "Abierto",
       "verificacion": "Documentado",
       "gravedad": 3,
-      "actores": ["Bruce Mac Master (presidente de la Andi)", "Alejandro Gaviria", "Carolina Soto", "Vicky Dávila"],
-      "fuentes": ["La Silla Vacía", "Infobae", "Cambio"],
-      "enlaces": [
-        {"t": "La Silla Vac\u00eda \u2014 Abelardo va por la cabeza de la Andi", "url": "https://www.lasillavacia.com/silla-nacional/abelardo-va-por-la-cabeza-de-la-andi-y-pone-a-prueba-a-los-empresarios/"},
-        {"t": "Cambio \u2014 Mac Master sigue en la Andi pese a la presi\u00f3n", "url": "https://cambiocolombia.com/economia/articulo/2026/9/bruce-mac-master-seguira-al-frente-de-la-andi-pese-a-presiones-para-que-no-hubiera-reeleccion-tambien-hay-nueva-mesa-directiva"},
-        {"t": "Infobae \u2014 Gaviria arremete por el presunto veto", "url": "https://www.infobae.com/colombia/2026/09/22/exministro-alejandro-gaviria-arremetio-contra-abelardo-de-la-espriella-por-presunto-veto-a-bruce-mac-master-gobierno-cada-vez-mas-prepotente-aislado-e-ineficaz/"}
+      "actores": [
+        "Bruce Mac Master (presidente de la Andi)",
+        "Alejandro Gaviria",
+        "Carolina Soto",
+        "Vicky Dávila"
       ],
-      "etiquetas": ["gremios", "autonomía empresarial", "Andi", "veto informal"],
+      "fuentes": [
+        "La Silla Vacía",
+        "Infobae",
+        "Cambio"
+      ],
+      "enlaces": [
+        {
+          "t": "La Silla Vacía — Abelardo va por la cabeza de la Andi",
+          "url": "https://www.lasillavacia.com/silla-nacional/abelardo-va-por-la-cabeza-de-la-andi-y-pone-a-prueba-a-los-empresarios/"
+        },
+        {
+          "t": "Cambio — Mac Master sigue en la Andi pese a la presión",
+          "url": "https://cambiocolombia.com/economia/articulo/2026/9/bruce-mac-master-seguira-al-frente-de-la-andi-pese-a-presiones-para-que-no-hubiera-reeleccion-tambien-hay-nueva-mesa-directiva"
+        },
+        {
+          "t": "Infobae — Gaviria arremete por el presunto veto",
+          "url": "https://www.infobae.com/colombia/2026/09/22/exministro-alejandro-gaviria-arremetio-contra-abelardo-de-la-espriella-por-presunto-veto-a-bruce-mac-master-gobierno-cada-vez-mas-prepotente-aislado-e-ineficaz/"
+        }
+      ],
+      "etiquetas": [
+        "gremios",
+        "autonomía empresarial",
+        "Andi",
+        "veto informal"
+      ],
       "notas": "La Silla Vacía apunta dos posibles motivaciones: el respaldo de Mac Master a Paloma Valencia en campaña, y el malestar presidencial porque las donaciones empresariales de la Andi para el terremoto no se canalizaron a través de la fundación de la primera dama (esto último sin confirmar oficialmente). Se relaciona con el patrón de centralización de la comunicación oficial documentado en I-02 (Directiva Presidencial 01) y con el caso del director del DANE (ver actualización a I-02). A vigilar: si el veto se formaliza o se extiende a otros gremios.",
       "ultima_actualizacion": "2026-09-23"
     },
@@ -1418,13 +2787,34 @@
       "estado": "Cerrado",
       "verificacion": "Documentado",
       "gravedad": 2,
-      "actores": ["Julián Bedoya", "María Eugenia Lopera", "Rodrigo Lara (ministro del Interior)"],
-      "fuentes": ["El Tiempo", "Cambio", "El Heraldo", "El Espectador", "Infobae", "Semana"],
-      "enlaces": [
-        {"t": "El Tiempo \u2014 el presidente rechaza a Bedoya", "url": "https://www.eltiempo.com/politica/abelardo-de-la-espriella/polemico-julian-bedoya-intenta-llegar-a-la-coalicion-de-gobierno-y-el-presidente-de-la-espriella-lo-rechaza-no-habra-alianza-politiquera-con-usted-3586264"},
-        {"t": "Cambio \u2014 as\u00ed fue la rencilla", "url": "https://cambiocolombia.com/poder/articulo/2026/9/asi-fue-la-rencilla-entre-abelardo-de-la-espriella-y-julian-bedoya-por-el-acercamiento-de-renovacion-liberal"}
+      "actores": [
+        "Julián Bedoya",
+        "María Eugenia Lopera",
+        "Rodrigo Lara (ministro del Interior)"
       ],
-      "etiquetas": ["clientelismo", "coalición de gobierno", "Congreso"],
+      "fuentes": [
+        "El Tiempo",
+        "Cambio",
+        "El Heraldo",
+        "El Espectador",
+        "Infobae",
+        "Semana"
+      ],
+      "enlaces": [
+        {
+          "t": "El Tiempo — el presidente rechaza a Bedoya",
+          "url": "https://www.eltiempo.com/politica/abelardo-de-la-espriella/polemico-julian-bedoya-intenta-llegar-a-la-coalicion-de-gobierno-y-el-presidente-de-la-espriella-lo-rechaza-no-habra-alianza-politiquera-con-usted-3586264"
+        },
+        {
+          "t": "Cambio — así fue la rencilla",
+          "url": "https://cambiocolombia.com/poder/articulo/2026/9/asi-fue-la-rencilla-entre-abelardo-de-la-espriella-y-julian-bedoya-por-el-acercamiento-de-renovacion-liberal"
+        }
+      ],
+      "etiquetas": [
+        "clientelismo",
+        "coalición de gobierno",
+        "Congreso"
+      ],
       "notas": "Se incluye como ejemplo de cómo el presidente gestiona públicamente sus relaciones políticas, en tono confrontativo incluso con posibles aliados. No se trata de una denuncia de irregularidad del propio Gobierno, sino de un episodio de tensión política pública que retrata su estilo de gobernar.",
       "ultima_actualizacion": "2026-09-23"
     },
@@ -1440,15 +2830,87 @@
       "estado": "Abierto",
       "verificacion": "Documentado",
       "gravedad": 2,
-      "actores": ["Fredy Alexis Russi González", "Erika Tatiana Monroy Hurtado", "Edinson Yesid Medina Traslaviña", "Angi Jácome", "ELN"],
-      "fuentes": ["Vanguardia", "El Tiempo", "Infobae", "Pulzo", "Minuto60"],
-      "enlaces": [
-        {"t": "Vanguardia \u2014 no habr\u00e1 canje", "url": "https://www.vanguardia.com/colombia/2026/09/17/no-habra-canje-de-la-espriella-responde-al-eln-por-policias-secuestrados/"},
-        {"t": "El Tiempo \u2014 rechaza propuesta de intercambio", "url": "https://www.eltiempo.com/politica/abelardo-de-la-espriella/no-habra-canje-presidente-de-la-espriella-rechaza-propuesta-de-intercambio-del-eln-por-tres-miembros-de-la-dijin-que-secuestro-hace-un-mes-3586852"}
+      "actores": [
+        "Fredy Alexis Russi González",
+        "Erika Tatiana Monroy Hurtado",
+        "Edinson Yesid Medina Traslaviña",
+        "Angi Jácome",
+        "ELN"
       ],
-      "etiquetas": ["ELN", "secuestro", "Norte de Santander"],
+      "fuentes": [
+        "Vanguardia",
+        "El Tiempo",
+        "Infobae",
+        "Pulzo",
+        "Minuto60"
+      ],
+      "enlaces": [
+        {
+          "t": "Vanguardia — no habrá canje",
+          "url": "https://www.vanguardia.com/colombia/2026/09/17/no-habra-canje-de-la-espriella-responde-al-eln-por-policias-secuestrados/"
+        },
+        {
+          "t": "El Tiempo — rechaza propuesta de intercambio",
+          "url": "https://www.eltiempo.com/politica/abelardo-de-la-espriella/no-habra-canje-presidente-de-la-espriella-rechaza-propuesta-de-intercambio-del-eln-por-tres-miembros-de-la-dijin-que-secuestro-hace-un-mes-3586852"
+        }
+      ],
+      "etiquetas": [
+        "ELN",
+        "secuestro",
+        "Norte de Santander"
+      ],
       "notas": "A diferencia de otros casos de este rastreador, en la búsqueda no se encontró una reacción crítica organizada (de oposición, familiares o gremios policiales) contra esta decisión puntual; la cobertura reporta la postura presidencial de forma prácticamente unánime como una respuesta firme, sin cuestionamiento público documentado hasta el cierre de este registro. Se incluye por su relevancia como definición de política de seguridad (no negociación bajo ninguna circunstancia), no porque haya generado la controversia pública que sí tienen otros casos de este archivo. Relacionado con el patrón general de desmonte de la Paz Total (ver G-05).",
       "ultima_actualizacion": "2026-09-23"
+    },
+    {
+      "id": "G-13",
+      "fecha": "2026-09-21",
+      "fecha_texto": "21–25 de septiembre de 2026",
+      "periodo": "Gobierno 2026-2030",
+      "tematica": "Seguridad y DDHH",
+      "caso": "Madre denuncia que joven de 18 años muerto en el operativo contra alias Cholo era un civil",
+      "alegato": "Entre los siete muertos del operativo del 21 de septiembre en la vereda Quebrada del Sol, corregimiento de Guachaca (zona rural de Santa Marta), en el que murió alias Cholo, estaba Ricardo Andrés Rodríguez Martínez, de 18 años. Su madre y sus hermanas sostienen que era un obrero de finca sin vínculos con las ACSN y que murió injustamente; la madre lo calificó de falso positivo en un video viral ('Abelardo, te voy a denunciar, me mataste a mi hijo injustamente'). Familiares citados por Colombia Informa, medio alternativo, dicen que integrantes de las ACSN lo habrían retenido antes del operativo. El día de los hechos, fuentes policiales citadas por El Espectador dijeron en un reporte preliminar que entre los muertos podría estar un hijo de alias Pinocho, y Vanguardia publicó que así sería. El expresidente Petro compartió el video y afirmó que el Gobierno 'asesinó' a un 'joven campesino'.",
+      "respuesta_adle": "Ministerio de Defensa (comunicado del 24 de septiembre): identificó a Rodríguez Martínez como fallecido en la operación contra 'el grupo narcoterrorista' ACSN; precisó que 'ninguna fuente de la Fuerza Pública ha afirmado que fuera hijo de alias Pinocho' y que la información oficial debe provenir de fuentes institucionales; señaló que corresponde a la Fiscalía investigar las circunstancias de su muerte.",
+      "estado": "Abierto",
+      "verificacion": "Denuncia periodística",
+      "gravedad": 5,
+      "actores": [
+        "Ricardo Andrés Rodríguez Martínez",
+        "Jorge Eduardo Mora (ministro de Defensa)",
+        "Gustavo Petro",
+        "Fiscalía General de la Nación"
+      ],
+      "fuentes": [
+        "El Espectador",
+        "La Silla Vacía",
+        "Noticias Caracol",
+        "Publimetro",
+        "El Universal",
+        "El País (Cali)",
+        "Colombia Informa (medio alternativo)"
+      ],
+      "enlaces": [
+        {
+          "t": "El Espectador — MinDefensa aclara que no era hijo de Pinocho",
+          "url": "https://www.elespectador.com/judicial/mindefensa-aclara-que-joven-muerto-en-operativo-en-santa-marta-no-era-hijo-de-pinocho/"
+        },
+        {
+          "t": "Publimetro — la madre denuncia que era un civil",
+          "url": "https://www.publimetro.co/noticias/2026/09/23/falso-positivo-madre-de-joven-asesinado-en-operativo-contra-acsn-denuncia-que-su-hijo-era-un-civil/"
+        },
+        {
+          "t": "La Silla Vacía — MinDefensa niega versión",
+          "url": "https://www.lasillavacia.com/en-vivo/mindefensa-niega-que-hijo-de-pinocho-haya-muerto-en-operativo-contra-ascn/"
+        }
+      ],
+      "etiquetas": [
+        "posible ejecución extrajudicial",
+        "verificar",
+        "Santa Marta",
+        "ACSN"
+      ],
+      "notas": "La versión de la familia no ha sido confirmada de forma independiente (lo advierte Publimetro), y no está establecido qué institución causó la muerte. Tampoco el Gobierno ha presentado públicamente evidencia de su pertenencia a las ACSN. La confusión sobre el 'hijo de Pinocho' provino de fuentes policiales preliminares y de medios, no de un comunicado oficial. A vigilar: investigación de la Fiscalía y dictamen de Medicina Legal. Relacionado con G-11 (paro armado y patrullaje), G-09 (Pinocho) y el antecedente de exhibición de cuerpos en G-01/G-06.",
+      "ultima_actualizacion": "2026-09-25"
     }
   ]
 }
