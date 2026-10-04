@@ -3,7 +3,7 @@
     "titulo": "Rastreador de polémicas — Abelardo de la Espriella",
     "descripcion": "Registro de escándalos, controversias y cambios de rumbo. Periodo de seguimiento 2026-2030.",
     "version": "1.0",
-    "actualizado": "2026-09-25",
+    "actualizado": "2026-10-04",
     "responsable": "",
     "vocabulario": {
       "estado": [
@@ -647,7 +647,7 @@
       "periodo": "Gobierno 2026-2030",
       "tematica": "Institucionalidad",
       "caso": "Actos religiosos del presidente y laicidad del Estado (dos tutelas)",
-      "alegato": "La ceremonia en la Arena USC incluyó intervenciones de líderes religiosos. Un juez concluyó que se desconoció el deber de neutralidad religiosa del Estado. Segunda tutela, por un hecho distinto: durante la 'Gran velatón por las víctimas del terremoto' convocada por el Gobierno en la Plaza de Bolívar (29 de agosto según El Tiempo; algunos medios dicen 28), el presidente impuso una corona a una imagen de la Virgen de Fátima tras ser invitado por el presentador en razón de su cargo. El 15 de septiembre, el juez Ricardo Veloza Veloza (Juzgado 804 Transitorio de Familia de Bogotá) concedió en primera instancia la tutela del abogado Julio Jair Mizger Díaz, apoyada por la Asociación de Ateos de Bogotá, y ordenó al presidente abstenerse, en ejercicio de sus funciones, de participar en actos religiosos que impliquen adhesión o identificación del Estado con una confesión. El juez consideró legítima la finalidad solidaria del evento y precisó que el problema fue la participación activa en un acto inequívocamente religioso, no la asistencia; negó las peticiones de reparación simbólica y de oficiar a la Procuraduría. Se apoyó en la sentencia T-124 de 2021, que limitó a la entonces vicepresidenta Marta Lucía Ramírez por consagrar el país a la Virgen de Fátima.",
+      "alegato": "La ceremonia en la Arena USC incluyó intervenciones de líderes religiosos. Un juez concluyó que se desconoció el deber de neutralidad religiosa del Estado. Segunda tutela, por un hecho distinto: durante la 'Gran velatón por las víctimas del terremoto' convocada por el Gobierno en la Plaza de Bolívar (29 de agosto según El Tiempo; algunos medios dicen 28), el presidente impuso una corona a una imagen de la Virgen de Fátima tras ser invitado por el presentador en razón de su cargo. El 15 de septiembre, el juez Ricardo Veloza Veloza (Juzgado 804 Transitorio de Familia de Bogotá) concedió en primera instancia la tutela del abogado Julio Jair Mizger Díaz, apoyada por la Asociación de Ateos de Bogotá, y ordenó al presidente abstenerse, en ejercicio de sus funciones, de participar en actos religiosos que impliquen adhesión o identificación del Estado con una confesión. El juez consideró legítima la finalidad solidaria del evento y precisó que el problema fue la participación activa en un acto inequívocamente religioso, no la asistencia; negó las peticiones de reparación simbólica y de oficiar a la Procuraduría. Se apoyó en la sentencia T-124 de 2021, que limitó a la entonces vicepresidenta Marta Lucía Ramírez por consagrar el país a la Virgen de Fátima. Segunda instancia de la primera tutela: el 25 de septiembre, la Sala Quinta de Decisión Laboral del Tribunal Superior de Bogotá revocó el fallo que había ordenado al presidente y al presidente del Congreso, Honorio Henríquez, pedir disculpas por el acto religioso de la posesión, y negó el amparo. Consideró que la tutela no cumplía el requisito de subsidiariedad porque el accionante no presentó antes un derecho de petición, que 'no se adoptó una religión o iglesia oficial' y que la laicidad no implica silenciar las manifestaciones de fe ni prohibir toda expresión religiosa en espacios públicos; también se refirió a la expresión 'Viva Cristo Rey' y a la inviolabilidad parlamentaria. Para entonces, ambos ya habían ofrecido las disculpas ordenadas.",
       "respuesta_adle": "Acató la orden con una alocución de disculpas el 30 de agosto, pero cerró el mismo mensaje con '¡Que viva Cristo Rey! Que Dios bendiga a Colombia'. Simultáneamente impugnó el fallo con un escrito de 29 páginas: alega que la decisión no diferenció las obligaciones institucionales del jefe de Estado de sus derechos individuales como ciudadano. Su asesor Carlos Suárez pidió que el caso llegue a la Corte Constitucional. Sobre la segunda tutela, la Presidencia argumentó en el proceso que las expresiones de la velatón correspondían a 'espiritualidad y solidaridad general', sin imposición de ritos ni exclusión de participantes, y cuestionó que no se hubiera presentado antes un derecho de petición (argumento que el juez descartó). El fallo es de primera instancia e impugnable.",
       "estado": "Con decisión judicial o administrativa",
       "verificacion": "Documentado",
@@ -668,7 +668,8 @@
         "El Tiempo",
         "El Heraldo",
         "Cambio",
-        "Asuntos Legales"
+        "Asuntos Legales",
+        "Colombia.com"
       ],
       "enlaces": [
         {
@@ -686,6 +687,14 @@
         {
           "t": "Cambio — ¿tiene futuro el fallo?",
           "url": "https://cambiocolombia.com/poder/articulo/2026/9/tiene-futuro-el-fallo-que-le-ordena-a-abelardo-de-la-espriella-abstenerse-de-participar-en-actos-religiosos"
+        },
+        {
+          "t": "Infobae — el Tribunal revoca la tutela",
+          "url": "https://www.infobae.com/colombia/2026/09/25/tribunal-revoca-tutela-y-concluye-que-acto-religioso-de-de-la-espriella-no-vulnero-libertad-de-cultos/"
+        },
+        {
+          "t": "El Espectador — revocan fallo que ordenaba pedir perdón",
+          "url": "https://www.elespectador.com/judicial/tribunal-revoca-fallo-que-ordenaba-a-de-la-espriella-pedir-perdon-por-acto-religioso/"
         }
       ],
       "etiquetas": [
@@ -693,8 +702,8 @@
         "tutela",
         "conversión religiosa"
       ],
-      "notas": "Primera tutela (posesión): fecha límite de cumplimiento 30 de septiembre de 2026; impugnada, pendiente de segunda instancia. Segunda tutela (velatón): primera instancia del 15 de septiembre, revelada el 23-24 por El Tiempo. Expertos consultados por Cambio y El Tiempo coinciden en que el fallo sigue la jurisprudencia constitucional, aunque algunos señalan que la laicidad colombiana es menos estricta que la francesa y piden que la Corte Constitucional seleccione estos casos.",
-      "ultima_actualizacion": "2026-09-25"
+      "notas": "Estado de las dos tutelas: (1) Posesión: revocada en segunda instancia por el Tribunal Superior de Bogotá el 25 de septiembre; el amparo quedó negado. (2) Velatón y coronación de la Virgen de Fátima: fallo de primera instancia del 15 de septiembre a favor del accionante, impugnable. Corrección: en la actualización del 25 de septiembre este registro aún daba la primera tutela como vigente con plazo al 30 de septiembre; la revocatoria se produjo ese mismo 25 de septiembre. Columnas de opinión (por ejemplo, Diario del Huila) criticaron el fallo de segunda instancia. Relacionado con K-04: las nuevas tutelas contra el presidente se reparten ahora al Consejo de Estado.",
+      "ultima_actualizacion": "2026-10-04"
     },
     {
       "id": "D-01",
@@ -1092,6 +1101,55 @@
       "ultima_actualizacion": "2026-09-25"
     },
     {
+      "id": "D-11",
+      "fecha": "2026-09-28",
+      "fecha_texto": "28 de septiembre de 2026",
+      "periodo": "Gobierno 2026-2030",
+      "tematica": "Política exterior",
+      "caso": "El presidente celebra que EE.UU. revoque las visas de una senadora opositora y de un empresario, y menciona la lista OFAC",
+      "alegato": "El Departamento de Estado revocó las visas de la senadora Martha Isabel Peralta Epieyú (Pacto Histórico y MAIS) y del empresario Euclides Torres Romero —señalado en medios por presunta financiación de la campaña de Petro en 2022 y por contratación estatal—, junto con las de sus familiares directos, por presunta corrupción o narcotráfico, dentro de los compromisos de la alianza Escudo de las Américas, a la que Colombia se sumó en agosto. La medida incluyó a funcionarios y empresarios de Bolivia, Ecuador y Perú. Las revocatorias de visa no requieren decisión judicial ni pruebas públicas. El presidente celebró la decisión en X, dijo que 'apenas empieza' y mencionó la posible inclusión de personas en la lista OFAC. Según The Rio Times, ambos nombres figuraban en una lista de 23 personas que el propio De la Espriella divulgó públicamente en junio de 2026.",
+      "respuesta_adle": "'La lucha contra la corrupción, cáncer de la patria, es una bandera con la que estamos comprometidos los gobiernos de Colombia y de los Estados Unidos (...) La lista de la OFAC es otro camino para cerrarle la puerta a la impunidad y combatir la corrupción'. También dijo que quienes defraudan recursos públicos 'no pueden seguir disfrutando de sus pillajes'. La senadora Peralta dijo haberse enterado por los medios, preguntó '¿cuáles fueron los argumentos?' y anunció acciones institucionales y administrativas. Torres no se había pronunciado al cierre.",
+      "estado": "Abierto",
+      "verificacion": "Documentado",
+      "gravedad": 3,
+      "actores": [
+        "Martha Peralta Epieyú (senadora)",
+        "Euclides Torres Romero",
+        "Departamento de Estado de EE.UU."
+      ],
+      "fuentes": [
+        "El País (Cali)",
+        "Infobae",
+        "Semana",
+        "El Colombiano",
+        "El Universal",
+        "La FM",
+        "The Rio Times"
+      ],
+      "enlaces": [
+        {
+          "t": "El País (Cali) — 'apenas empieza'",
+          "url": "https://www.elpais.com.co/politica/de-la-espriella-por-revocatoria-de-visa-a-martha-peralta-apenas-empieza-2931.html"
+        },
+        {
+          "t": "El Colombiano — los otros sancionados en la región",
+          "url": "https://www.elcolombiano.com/colombia/martha-peralta-euclides-torres-visa-eeuu-revocada-estados-unidos-NB41628498"
+        },
+        {
+          "t": "The Rio Times — los nombres estaban en una lista del presidente",
+          "url": "https://www.riotimesonline.com/colombia-visa-revocations-president-list-2026"
+        }
+      ],
+      "etiquetas": [
+        "Estados Unidos",
+        "oposición",
+        "OFAC",
+        "Escudo de las Américas"
+      ],
+      "notas": "La tensión de fondo es que un presidente celebre y anuncie más sanciones de un gobierno extranjero contra una congresista de la oposición, por vía administrativa y sin proceso judicial en Colombia. El dato de que ambos nombres estaban en una lista divulgada por el presidente en junio proviene de The Rio Times (citando a Infobae); conviene verificarlo con la fuente original. Relacionado con D-04/D-05 (alineamiento con EE.UU.).",
+      "ultima_actualizacion": "2026-09-29"
+    },
+    {
       "id": "E-01",
       "fecha": "2026-08-07",
       "fecha_texto": "7 de agosto de 2026",
@@ -1325,7 +1383,7 @@
       "periodo": "Gobierno 2026-2030",
       "tematica": "Ambiente",
       "caso": "Santurbán: revocatoria de la reserva de La Baja, ministro impedido y ultimátum del Comité",
-      "alegato": "La Resolución 0994, expedida por el gobierno Petro el 6 de agosto (un día antes de la posesión), declaró reserva definitiva 1.499 hectáreas de la microcuenca de la quebrada La Baja, en el páramo de Santurbán, cerrándolas a nuevas concesiones de minería mediana y grande. Un juez administrativo de Bucaramanga dejó sin efecto esa delimitación parcial por vulnerar la participación ambiental y el debido proceso, y el ministro de Ambiente, Fabio Arjona, revocó la resolución argumentando vicios de trámite. Después, el Consejo de Ministros del 10 de septiembre declaró a Arjona impedido para decidir sobre Santurbán por conflicto de interés, tras una recusación del Comité para la Defensa del Agua y el Páramo de Santurbán; mediante el Decreto 1407 del 17 de septiembre, el presidente designó como ministro de Ambiente ad hoc para esa delimitación al ministro de Agricultura, Indalecio Dangond. El 23 de septiembre la asamblea del Comité dio plazo hasta el 13 de noviembre para que se reabra la consulta pública sobre La Baja, o convocará protestas nacionales frente al Ministerio de Ambiente; el Comité cuestiona que la reserva haya quedado sin efectos mientras se rehace el procedimiento.",
+      "alegato": "La Resolución 0994, expedida por el gobierno Petro el 6 de agosto (un día antes de la posesión), declaró reserva definitiva 1.499 hectáreas de la microcuenca de la quebrada La Baja, en el páramo de Santurbán, cerrándolas a nuevas concesiones de minería mediana y grande. Un juez administrativo de Bucaramanga dejó sin efecto esa delimitación parcial por vulnerar la participación ambiental y el debido proceso, y el ministro de Ambiente, Fabio Arjona, revocó la resolución argumentando vicios de trámite. Después, el Consejo de Ministros del 10 de septiembre declaró a Arjona impedido para decidir sobre Santurbán por conflicto de interés, tras una recusación del Comité para la Defensa del Agua y el Páramo de Santurbán; mediante el Decreto 1407 del 17 de septiembre, el presidente designó como ministro de Ambiente ad hoc para esa delimitación al ministro de Agricultura, Indalecio Dangond. El 23 de septiembre la asamblea del Comité dio plazo hasta el 13 de noviembre para que se reabra la consulta pública sobre La Baja, o convocará protestas nacionales frente al Ministerio de Ambiente; el Comité cuestiona que la reserva haya quedado sin efectos mientras se rehace el procedimiento. Nueva decisión (28-29 de septiembre): el ministro de Agricultura, Indalecio Dangond, actuando como ministro de Ambiente ad hoc, revocó la Resolución 0970, que en agosto de 2026 había modificado el área y la cartografía de la reserva temporal de Santurbán; el trámite vuelve al proceso definido en marzo de 2025. El Ministerio invocó el numeral 1 del artículo 93 de la Ley 1437 de 2011, que permite revocar actos 'manifiestamente contrarios' a la Constitución o la ley. El Comité de Santurbán afirmó que el Gobierno ha dejado sin efecto tres resoluciones de protección del agua en sus primeros dos meses.",
       "respuesta_adle": "El Gobierno sostiene que el proceso debe continuar 'bajo criterios técnicos y jurídicos' y con participación de las comunidades, en cumplimiento de la sentencia T-361 de 2017.",
       "estado": "Abierto",
       "verificacion": "Documentado",
@@ -1340,7 +1398,8 @@
         "Cambio",
         "El Tiempo",
         "Melodía",
-        "Tintiando (editorial, reporte inicial)"
+        "Tintiando (editorial, reporte inicial)",
+        "Infobae"
       ],
       "enlaces": [
         {
@@ -1358,6 +1417,10 @@
         {
           "t": "El Tiempo — juez suspendió la delimitación exprés",
           "url": "https://www.eltiempo.com/colombia/santander/se-cayo-la-resolucion-sobre-delimitacion-expres-en-el-paramo-de-santurban-en-el-gobierno-de-petro-fallo-judicial-la-suspendio-3583703"
+        },
+        {
+          "t": "Infobae — anuló la Resolución 0970",
+          "url": "https://infobae.com/colombia/2026/09/29/gobierno-de-abelardo-de-la-espriella-tomo-trascendental-decision-sobre-la-proteccion-de-la-reserva-ecologica-en-santurban-anulo-decision-de-la-administracion-petro"
         }
       ],
       "etiquetas": [
@@ -1366,7 +1429,7 @@
         "verificar"
       ],
       "notas": "Caso reclasificado de 'Opinión / sin verificar' a 'Documentado': el reporte inicial provenía de un editorial, y ahora está confirmado por Cambio y El Tiempo. Matiz importante: la revocatoria se produjo después de una decisión judicial contra la resolución del gobierno anterior, no fue solo una decisión política discrecional. El juez también cuestionó que la resolución se hubiera expedido con recusaciones pendientes contra la entonces ministra encargada Irene Vélez. Fecha a vigilar: 13 de noviembre de 2026. Relacionado con K-01 (Dangond).",
-      "ultima_actualizacion": "2026-09-25"
+      "ultima_actualizacion": "2026-09-29"
     },
     {
       "id": "E-07",
@@ -1622,8 +1685,8 @@
         "Fondo Milagro",
         "tierras"
       ],
-      "notas": "Ariel Ávila añade que Garrido pertenece al clan político de Facundo Castillo, exgobernador de Arauca investigado por corrupción y nexos con el ELN.",
-      "ultima_actualizacion": "2026-09-04"
+      "notas": "Ariel Ávila añade que Garrido pertenece al clan político de Facundo Castillo, exgobernador de Arauca investigado por corrupción y nexos con el ELN. Según Cambio (2 de octubre), el Fondo Milagro aún no tiene gerente formalizado, porque la designación depende de la firma de la fiducia; ver H-04.",
+      "ultima_actualizacion": "2026-10-04"
     },
     {
       "id": "F-07",
@@ -1725,6 +1788,10 @@
         {
           "t": "Infobae — reacciones: 'hubo un error del Gobierno'",
           "url": "https://www.infobae.com/colombia/2026/09/25/luego-de-que-de-la-espriella-pidiera-la-renuncia-del-presidente-de-colpensiones-figuras-politicas-opinaron-hubo-un-error-del-gobierno/"
+        },
+        {
+          "t": "El Tiempo — Beatriz Eugenia Vélez, nueva presidenta",
+          "url": "https://www.eltiempo.com/politica/abelardo-de-la-espriella/beatriz-eugenia-velez-es-la-nueva-directora-de-colpensiones-presidente-abelardo-de-la-espriella-anuncia-designacion-tras-relevo-expres-en-la-entidad-3589200"
         }
       ],
       "etiquetas": [
@@ -1732,8 +1799,8 @@
         "pensiones",
         "salida exprés"
       ],
-      "notas": "El exministro Antonio Sanguino: 'Carlos René, el breve. Abelardo de la Espriella bate récord: un Presidente de Colpensiones que duró dos días'. También hubo críticas desde sectores afines al Gobierno. Lectura doble: la salida rápida puede verse como corrección ágil o como falla en la selección (ver F-06, idoneidad, y las salidas exprés de F-07 y del DANE en I-02). Pendiente: nombre del sucesor.",
-      "ultima_actualizacion": "2026-09-25"
+      "notas": "El exministro Antonio Sanguino: 'Carlos René, el breve. Abelardo de la Espriella bate récord: un Presidente de Colpensiones que duró dos días'. También hubo críticas desde sectores afines al Gobierno. Lectura doble: la salida rápida puede verse como corrección ágil o como falla en la selección (ver F-06, idoneidad, y las salidas exprés de F-07 y del DANE en I-02). Pendiente: nombre del sucesor. Sucesora: el 26 de septiembre el presidente designó a Beatriz Eugenia Vélez Vengoechea, abogada con experiencia en seguridad social, derecho laboral y gestión de riesgos. Según La República, la presidencia de Colpensiones dura en promedio 21 meses. Colpensiones debe además conseguir unos 5 billones de pesos para cubrir las mesadas de noviembre y diciembre.",
+      "ultima_actualizacion": "2026-10-04"
     },
     {
       "id": "G-01",
@@ -2193,6 +2260,54 @@
       "ultima_actualizacion": "2026-09-04"
     },
     {
+      "id": "H-04",
+      "fecha": "2026-10-02",
+      "fecha_texto": "2 de octubre de 2026 (casi dos meses después del terremoto)",
+      "periodo": "Gobierno 2026-2030",
+      "tematica": "Gestión de emergencias",
+      "caso": "El Fondo Milagro sigue sin operar: sin fiducia, sin gerente formal y sin recursos transferidos",
+      "alegato": "Cambio reveló, con base en una respuesta del Ministerio de Hacienda del 30 de septiembre, que casi dos meses después del terremoto del 10 de agosto (335 muertos, según Infobae) el Fondo Milagro —anunciado el 12 de agosto y creado por el Decreto 1379 del 9 de septiembre como patrimonio autónomo a cargo de Hacienda— no ha firmado el contrato de fiducia mercantil, no tiene gerente formalizado ni consejo directivo instalado, no tiene manual de contratación (en elaboración, sin borrador) y no ha recibido ni un peso de los 624.600 millones incorporados al presupuesto de 2026 el 17 de septiembre. El Gobierno pidió además al Congreso 2,7 billones adicionales para el fondo el 29 de septiembre. La Patria (Manizales) había reportado el 20 de septiembre que a Caldas no habían llegado recursos y no tenía gerente regional.",
+      "respuesta_adle": "El Gobierno sostiene que la reconstrucción ya entró en una nueva etapa y ha anunciado subsidios, un programa de empleo para damnificados y un Plan Marshall para el Chocó. No se registró una explicación oficial específica sobre la demora en la fiducia al cierre de este registro.",
+      "estado": "Abierto",
+      "verificacion": "Documentado",
+      "gravedad": 4,
+      "actores": [
+        "Ministerio de Hacienda",
+        "Miguel Gómez Martínez",
+        "Jaime Andrés Uribe"
+      ],
+      "fuentes": [
+        "Cambio",
+        "Infobae",
+        "El Diario",
+        "La Patria",
+        "Caracol Radio",
+        "The Rio Times"
+      ],
+      "enlaces": [
+        {
+          "t": "Cambio — el Fondo Milagro sigue en el papel",
+          "url": "https://cambiocolombia.com/primicia-el-fondo-milagro-sigue-en-el-papel-sin-gerente-manual-de-contratacion-ni-recursos-propios-para-atender-la-emergencia"
+        },
+        {
+          "t": "Infobae — crecen los interrogantes",
+          "url": "https://www.infobae.com/colombia/2026/10/03/fondo-milagro-anunciado-por-de-la-espriella-aun-no-arranca-crecen-interrogantes-sobre-los-624600-millones-destinados-a-la-reconstruccion-tras-el-terremoto/"
+        },
+        {
+          "t": "La Patria — no llega a Caldas",
+          "url": "https://www.lapatria.com/caldas/fondo-milagro-propuesta-que-aun-no-llega-caldas-para-su-reconstruccion-por-el-terremoto-asi"
+        }
+      ],
+      "etiquetas": [
+        "Fondo Milagro",
+        "reconstrucción",
+        "terremoto",
+        "ejecución"
+      ],
+      "notas": "Matiz: los recursos no se han perdido; siguen en las cuentas de Hacienda a la espera de la fiducia. El fondo se presentó con una partida de unos 30 billones; lo efectivamente presupuestado hasta ahora son 624.600 millones más los 2,7 billones solicitados. Relacionado con F-06 (gerente sin experiencia ni título), E-03 (presupuesto) y H-03 (visitas sin ayudas concretas, reporte de opinión). A vigilar: firma de la fiducia y primeras transferencias.",
+      "ultima_actualizacion": "2026-10-04"
+    },
+    {
       "id": "I-01",
       "fecha": "2026-08-31",
       "fecha_texto": "31 de agosto de 2026",
@@ -2491,6 +2606,97 @@
       "ultima_actualizacion": "2026-09-25"
     },
     {
+      "id": "E-16",
+      "fecha": "2026-09-27",
+      "fecha_texto": "27 de septiembre de 2026",
+      "periodo": "Gobierno 2026-2030",
+      "tematica": "Economía y fiscal",
+      "caso": "Alocución: conversaciones con el FMI, 'la peor crisis fiscal de la historia' y propuesta de castigo atenuado a acusados de corrupción",
+      "alegato": "En una alocución televisada, el presidente ordenó al ministro de Hacienda, Miguel Gómez, iniciar conversaciones con el Fondo Monetario Internacional para una 'salida negociada a la crisis', afirmó que la situación fiscal es 'la más crítica de toda nuestra historia' y responsabilizó al gobierno Petro de sobreendeudamiento y despilfarro. Al cierre no hay un nuevo crédito aprobado ni un programa de ajuste acordado con el FMI. En la misma intervención pidió a la justicia que, de ser posible, negocie con investigados por corrupción del gobierno anterior, que tendrían 'un castigo atenuado', y presentó resultados de seguridad.",
+      "respuesta_adle": "'El saldo está en rojo'. El Gobierno sostiene que el Estado tiene dificultades para cubrir a la vez el servicio de la deuda y los gastos de funcionamiento.",
+      "estado": "Abierto",
+      "verificacion": "Documentado",
+      "gravedad": 2,
+      "actores": [
+        "Miguel Gómez Martínez (ministro de Hacienda)",
+        "FMI",
+        "Gustavo Petro",
+        "Pacto Histórico"
+      ],
+      "fuentes": [
+        "Infobae",
+        "Semana",
+        "EFE",
+        "La Silla Vacía"
+      ],
+      "enlaces": [
+        {
+          "t": "Infobae — conversaciones con el FMI",
+          "url": "https://www.infobae.com/colombia/2026/09/28/abelardo-de-la-espriella-busca-una-salida-a-la-crisis-fiscal-y-ordena-abrir-conversaciones-con-el-fmi-el-saldo-esta-en-rojo/"
+        },
+        {
+          "t": "Infobae — rechazo del Pacto Histórico",
+          "url": "https://infobae.com/colombia/2026/09/29/pacto-historico-rechazo-el-acercamiento-del-gobierno-de-abelardo-de-la-espriella-al-fmi-nos-dejo-una-deuda-en-la-pandemia"
+        },
+        {
+          "t": "Semana — la réplica de Petro",
+          "url": "https://www.semana.com/politica/articulo/gustavo-petro-replica-la-alocucion-de-abelardo-de-la-espriella-con-senalamientos-que-ya-habia-hecho-no-se-venga-a-limpiar-sus-unas-con-mi-honradez/202603/"
+        }
+      ],
+      "etiquetas": [
+        "FMI",
+        "déficit fiscal",
+        "corrupción",
+        "disputa de cifras"
+      ],
+      "notas": "Reacciones: el Pacto Histórico rechazó el acercamiento al FMI y calificó las acusaciones de que el gobierno anterior se 'robó todo' como parte de una estrategia del 'fascismo reaccionario'. Petro replicó: 'No se venga a limpiar sus uñas con mi honradez', recomendó reducir el déficit y bajar la tasa de interés de la deuda, y pidió 'no acabe con la paz'. La calificación de 'peor crisis fiscal de la historia' es una afirmación política del Gobierno, disputada por la oposición; se registra como tal. Relacionado con E-03, E-05 (Libro de la Verdad) y E-14.",
+      "ultima_actualizacion": "2026-09-29"
+    },
+    {
+      "id": "E-17",
+      "fecha": "2026-10-01",
+      "fecha_texto": "30 de septiembre – 2 de octubre de 2026",
+      "periodo": "Gobierno 2026-2030",
+      "tematica": "Economía y fiscal",
+      "caso": "El presidente revierte en menos de 24 horas el alza de la gasolina anunciada por sus propios ministerios",
+      "alegato": "El 30 de septiembre los ministerios de Minas y Energía y de Hacienda anunciaron un aumento de 46 pesos por galón de gasolina corriente para octubre (0,29%), por la actualización del precio reconocido a los productores de etanol, que el Ministerio justificó como alivio al sector de la caña en el Valle del Cauca, golpeado por el terremoto. El 1 de octubre el presidente escribió que citó a la ministra María Nohemí Arboleda 'luego de enterarme del aumento' y le pidió revertirlo; el 2 de octubre el Ministerio oficializó la reversión. El reconocimiento a los productores de etanol se mantiene y la Nación asumirá unos 8.300 millones de pesos durante octubre para cubrir la diferencia. La decisión se produce días después de que el presidente describiera la situación fiscal como 'la más crítica de toda nuestra historia' (E-16).",
+      "respuesta_adle": "'Los colombianos merecen respuestas y no pueden ser sorprendidos con decisiones que afecten su bolsillo sin recibir explicaciones'. 'La instrucción que he dado es buscar una salida articulada entre todas las entidades del Gobierno y explicar, de manera transparente y pedagógica, las realidades del mercado antes de tomar decisiones'. El Ministerio de Minas: 'En adelante, ninguna decisión que toque el bolsillo se adoptará sin una explicación clara, transparente'.",
+      "estado": "Cerrado",
+      "verificacion": "Documentado",
+      "gravedad": 2,
+      "actores": [
+        "María Nohemí Arboleda (ministra de Minas y Energía)",
+        "Ministerio de Hacienda"
+      ],
+      "fuentes": [
+        "La FM",
+        "Vanguardia",
+        "Portafolio",
+        "El Universal",
+        "El Diario",
+        "EFE",
+        "Caracol Radio"
+      ],
+      "enlaces": [
+        {
+          "t": "La FM — reversó el aumento de $46",
+          "url": "https://www.lafm.com.co/economia/gobierno-reversa-precio-de-gasolina-para-octubre-412746"
+        },
+        {
+          "t": "Portafolio — el Gobierno acata la instrucción",
+          "url": "https://www.portafolio.co/energia/gasolina-no-subira-46-por-galon-en-octubre-gobierno-acata-instruccion-de-de-la-espriella-y-reversa-el-ajuste-503709"
+        }
+      ],
+      "etiquetas": [
+        "gasolina",
+        "coordinación del gabinete",
+        "subsidios",
+        "reversión"
+      ],
+      "notas": "Lectura doble: puede verse como protección del bolsillo de los consumidores o como falla de coordinación interna (el presidente dice haberse enterado después del anuncio de dos de sus ministerios) y como un gasto adicional en medio del ajuste fiscal y las conversaciones con el FMI. Relacionado con E-14 (recorte de subsidios en el Presupuesto 2027) y E-16. Pendiente: las 'soluciones permanentes' anunciadas frente al alza internacional del petróleo.",
+      "ultima_actualizacion": "2026-10-04"
+    },
+    {
       "id": "G-09",
       "fecha": "2026-09-12",
       "fecha_texto": "12 de septiembre de 2026",
@@ -2523,6 +2729,10 @@
         {
           "t": "Infobae — nueva advertencia a Pinocho y jefes de bandas",
           "url": "https://www.infobae.com/colombia/2026/09/18/presidente-abelardo-de-la-espriella-le-lanzo-nueva-advertencia-a-alias-pinocho-y-a-jefes-de-bandas-delincuenciales-de-la-guajira-bandido-que-no-se-someta-sera-dado-de-baja/"
+        },
+        {
+          "t": "El Universal — recompensa por Pinocho",
+          "url": "https://www.eluniversal.com.co/colombia/2026/09/28/de-la-espriella-lanza-ultimatum-a-alias-pinocho-y-ofrece-millonaria-recompensa/"
         }
       ],
       "etiquetas": [
@@ -2530,8 +2740,8 @@
         "paz total",
         "ultimátum"
       ],
-      "notas": "Ejemplo del patrón de gobernar mediante instrucciones públicas (X, ruedas de prensa) en vez de canales institucionales formales; ver también G-06 (exhibición de cadáveres en La Guajira, mismo escenario regional). El plazo original de una semana (vencía alrededor del 19 de septiembre) fue superado por la escalada del 17 de septiembre, que amplió el número de objetivos señalados públicamente por nombre. A vigilar: si se producen sometimientos, capturas o bajas de los mencionados, y cualquier cuestionamiento sobre el debido proceso de señalar públicamente objetivos con 'fecha de expiración'. Actualización 25 de septiembre: según El País (Cali), alias Pinocho estaba en el campamento atacado el 21 de septiembre y habría huido gravemente herido hacia la Sierra Nevada; fue detenida su pareja. Ver G-11 y G-13.",
-      "ultima_actualizacion": "2026-09-25"
+      "notas": "Ejemplo del patrón de gobernar mediante instrucciones públicas (X, ruedas de prensa) en vez de canales institucionales formales; ver también G-06 (exhibición de cadáveres en La Guajira, mismo escenario regional). El plazo original de una semana (vencía alrededor del 19 de septiembre) fue superado por la escalada del 17 de septiembre, que amplió el número de objetivos señalados públicamente por nombre. A vigilar: si se producen sometimientos, capturas o bajas de los mencionados, y cualquier cuestionamiento sobre el debido proceso de señalar públicamente objetivos con 'fecha de expiración'. Actualización 25 de septiembre: según El País (Cali), alias Pinocho estaba en el campamento atacado el 21 de septiembre y habría huido gravemente herido hacia la Sierra Nevada; fue detenida su pareja. Ver G-11 y G-13. Actualización 28 de septiembre: el Gobierno ofreció una recompensa de 3.000 millones de pesos por información sobre alias Pinocho. El presidente: 'Si Pinocho cree que se va a escapar por La Guajira, por Venezuela, que se vaya bajando de ese bus'. Balance oficial: 23 capturados en operaciones contra las ACSN (18 en Magdalena y 5 en La Guajira). El patrón se repitió el 2 de octubre en Sucre: tras la muerte de alias Terry (Clan del Golfo), el presidente dijo de los cabecillas alias Felipe y alias Sebastián: 'Tienen fecha de expiración, o se someten o serán dados de baja'.",
+      "ultima_actualizacion": "2026-10-04"
     },
     {
       "id": "G-10",
@@ -2610,6 +2820,10 @@
         {
           "t": "El País (Cali) — al infierno en una bolsa",
           "url": "https://www.elpais.com.co/colombia/de-la-espriella-anuncia-ofensiva-contra-las-acsn-tras-paro-armado-en-magdalena-los-vamos-a-mandar-al-infierno-en-una-bolsa-2226.html"
+        },
+        {
+          "t": "Infobae — Estaré al frente de los operativos",
+          "url": "https://www.infobae.com/colombia/2026/09/28/abelardo-de-la-espriella-se-dirigio-ante-el-pais-para-defender-su-politica-de-seguridad-estare-al-frente-de-los-operativos/"
         }
       ],
       "etiquetas": [
@@ -2617,8 +2831,8 @@
         "arma de fuego",
         "personalización de la seguridad"
       ],
-      "notas": "Conecta con el patrón retórico de G-06 y G-09, y con el decreto de levantamiento de restricciones al porte de armas (G-03): aquí es el propio presidente quien aparece armado en público. Hasta el cierre de este registro no se había establecido oficialmente qué arma porta, si es de su propiedad o bajo qué autorización específica, pregunta que motivó coberturas explicativas sobre el marco legal (ej. Infobae/Minuto60: '¿Tiene permitido el presidente de Colombia portar un arma de fuego?'). El paro armado fue anunciado por 48 horas específicamente como retaliación por la operación que mató a alias Cholo. Reacciones posteriores (según titulares de Semana, El Universal y Publimetro): la senadora María Fernanda Cabal y el Ministerio del Interior salieron en defensa de que el presidente portara el arma, mientras Petro lo cuestionó ('en vez de ir con pistola al cinto'). Las ACSN anunciaron que el paro armado se extendería hasta el viernes 25 de septiembre. El presidente ordenó trasladar a cárceles de máxima seguridad a 76 presuntos integrantes de las ACSN (El Heraldo). Ver G-13: la familia de uno de los siete muertos del operativo denuncia que era un civil.",
-      "ultima_actualizacion": "2026-09-25"
+      "notas": "Conecta con el patrón retórico de G-06 y G-09, y con el decreto de levantamiento de restricciones al porte de armas (G-03): aquí es el propio presidente quien aparece armado en público. Hasta el cierre de este registro no se había establecido oficialmente qué arma porta, si es de su propiedad o bajo qué autorización específica, pregunta que motivó coberturas explicativas sobre el marco legal (ej. Infobae/Minuto60: '¿Tiene permitido el presidente de Colombia portar un arma de fuego?'). El paro armado fue anunciado por 48 horas específicamente como retaliación por la operación que mató a alias Cholo. Reacciones posteriores (según titulares de Semana, El Universal y Publimetro): la senadora María Fernanda Cabal y el Ministerio del Interior salieron en defensa de que el presidente portara el arma, mientras Petro lo cuestionó ('en vez de ir con pistola al cinto'). Las ACSN anunciaron que el paro armado se extendería hasta el viernes 25 de septiembre. El presidente ordenó trasladar a cárceles de máxima seguridad a 76 presuntos integrantes de las ACSN (El Heraldo). Ver G-13: la familia de uno de los siete muertos del operativo denuncia que era un civil. En su alocución del 27 de septiembre el presidente defendió su presencia en los operativos: 'Estaré al frente de los operativos', 'Yo no me escondo, yo doy la cara', y dijo que si las circunstancias lo requieren recurrirá a 'las armas legítimas de la República'. La agencia EFE describió el estilo —pistola al cinto, radioteléfono y acompañamiento de operaciones— como rasgo de su política de seguridad.",
+      "ultima_actualizacion": "2026-09-29"
     },
     {
       "id": "J-01",
@@ -2735,22 +2949,30 @@
       "fecha_texto": "Septiembre de 2026 (reportado el 22)",
       "periodo": "Gobierno 2026-2030",
       "tematica": "Institucionalidad",
-      "caso": "Veto informal a Bruce Mac Master (presidente de la Andi) y precedente de Carolina Soto en la CCI",
-      "alegato": "La Silla Vacía verificó que existe un veto informal del Gobierno hacia Bruce Mac Master, presidente de la Andi (el gremio empresarial más influyente del país): no ha sido una orden directa del presidente a sus ministros ni bajó al nivel de viceministros, pero el mensaje de no reunirse con él circula informalmente en el gabinete. La periodista Vicky Dávila fue la primera en reportar, citando fuentes del Gobierno, que 'ningún ministro se puede reunir' con Mac Master y que se evaluaba ampliar el veto a la junta directiva. Pese a ello, la junta de la Andi ratificó a Mac Master en el cargo el 8 de septiembre. El caso tiene un precedente más claro documentado por Cambio: dos semanas antes, Carolina Soto había sido designada presidenta ejecutiva de la Cámara Colombiana de la Infraestructura (CCI) y renunció al cargo un día después, en medio de una presión del Gobierno que, según Cambio, esta vez sí quedó registrada por escrito.",
-      "respuesta_adle": "No se ha conocido una confirmación oficial de la Casa de Nariño sobre una prohibición a sus ministros para reunirse con el dirigente gremial. El exministro Alejandro Gaviria, sin nombrar directamente al presidente, calificó al Ejecutivo de 'cada vez más prepotente, aislado e ineficaz' y afirmó: 'la orden es clara: no hablar con los gremios, periodistas o empresarios que muestren alguna independencia'.",
-      "estado": "Abierto",
+      "caso": "Veto informal y renuncia de Bruce Mac Master a la Andi; presión sobre gremios",
+      "alegato": "La Silla Vacía verificó que existe un veto informal del Gobierno hacia Bruce Mac Master, presidente de la Andi (el gremio empresarial más influyente del país): no ha sido una orden directa del presidente a sus ministros ni bajó al nivel de viceministros, pero el mensaje de no reunirse con él circula informalmente en el gabinete. La periodista Vicky Dávila fue la primera en reportar, citando fuentes del Gobierno, que 'ningún ministro se puede reunir' con Mac Master y que se evaluaba ampliar el veto a la junta directiva. Pese a ello, la junta de la Andi ratificó a Mac Master en el cargo el 8 de septiembre. El caso tiene un precedente más claro documentado por Cambio: dos semanas antes, Carolina Soto había sido designada presidenta ejecutiva de la Cámara Colombiana de la Infraestructura (CCI) y renunció al cargo un día después, en medio de una presión del Gobierno que, según Cambio, esta vez sí quedó registrada por escrito. Desenlace: Mac Master renunció el 1 de octubre a la presidencia de la Andi, que ocupaba desde diciembre de 2013. En su carta (conocida primero por Caracol Radio y Cambio) afirmó que 'múltiples presiones han afectado la capacidad de la Andi de actuar libremente y cumplir su misión con autonomía' y que su salida busca proteger al gremio. Según La Silla Vacía, los afiliados terminaron cediendo a la presión del veto y a la falta de acceso a los funcionarios del Gobierno, y Mac Master perdió apoyo interno. En las semanas previas salieron de la Andi Incauca, Providencia y Sucroal, y Coca-Cola Femsa se retiró de su Cámara de Bebidas. La Andi Santander pidió a la junta no aceptar la renuncia. En la Cámara Colombiana de la Infraestructura, tras la renuncia de Carolina Soto, la junta eligió a la economista Tatyana Orozco, descrita por Infobae como un perfil respaldado por el Gobierno.",
+      "respuesta_adle": "No se ha conocido una confirmación oficial de la Casa de Nariño sobre una prohibición a sus ministros para reunirse con el dirigente gremial. El exministro Alejandro Gaviria, sin nombrar directamente al presidente, calificó al Ejecutivo de 'cada vez más prepotente, aislado e ineficaz' y afirmó: 'la orden es clara: no hablar con los gremios, periodistas o empresarios que muestren alguna independencia'. Tras la renuncia, el ministro del Interior, Rodrigo Lara, dijo que se trató de 'una decisión autónoma' del gremio.",
+      "estado": "Sin investigación formal",
       "verificacion": "Documentado",
       "gravedad": 3,
       "actores": [
         "Bruce Mac Master (presidente de la Andi)",
         "Alejandro Gaviria",
         "Carolina Soto",
-        "Vicky Dávila"
+        "Vicky Dávila",
+        "Rodrigo Lara (ministro del Interior)",
+        "Tatyana Orozco",
+        "Incauca",
+        "Andi Santander",
+        "Fabio Arias (CUT)"
       ],
       "fuentes": [
         "La Silla Vacía",
         "Infobae",
-        "Cambio"
+        "Cambio",
+        "Caracol Radio",
+        "Semana",
+        "Pulzo"
       ],
       "enlaces": [
         {
@@ -2764,6 +2986,18 @@
         {
           "t": "Infobae — Gaviria arremete por el presunto veto",
           "url": "https://www.infobae.com/colombia/2026/09/22/exministro-alejandro-gaviria-arremetio-contra-abelardo-de-la-espriella-por-presunto-veto-a-bruce-mac-master-gobierno-cada-vez-mas-prepotente-aislado-e-ineficaz/"
+        },
+        {
+          "t": "La Silla Vacía — tras pulso con Abelardo, Mac Master renuncia",
+          "url": "https://www.lasillavacia.com/en-vivo/tras-pulso-con-abelardo-bruce-mac-master-deja-la-presidencia-de-la-andi/"
+        },
+        {
+          "t": "Cambio — la carta de renuncia",
+          "url": "https://cambiocolombia.com/empresas/articulo/2026/10/bruce-mac-master-renuncio-a-la-presidencia-de-la-andi-tras-semanas-de-tensiones-con-el-gobierno-de-de-la-espriella"
+        },
+        {
+          "t": "Infobae — la CUT denuncia alineamiento con el Gobierno",
+          "url": "https://www.infobae.com/colombia/2026/10/02/presindente-de-la-cut-aseguro-que-el-abelardo-de-la-espriella-se-esta-tomando-la-central-obrera-una-nueva-correlacion-de-fuerzas/"
         }
       ],
       "etiquetas": [
@@ -2772,8 +3006,8 @@
         "Andi",
         "veto informal"
       ],
-      "notas": "La Silla Vacía apunta dos posibles motivaciones: el respaldo de Mac Master a Paloma Valencia en campaña, y el malestar presidencial porque las donaciones empresariales de la Andi para el terremoto no se canalizaron a través de la fundación de la primera dama (esto último sin confirmar oficialmente). Se relaciona con el patrón de centralización de la comunicación oficial documentado en I-02 (Directiva Presidencial 01) y con el caso del director del DANE (ver actualización a I-02). A vigilar: si el veto se formaliza o se extiende a otros gremios.",
-      "ultima_actualizacion": "2026-09-23"
+      "notas": "La Silla Vacía apunta dos posibles motivaciones: el respaldo de Mac Master a Paloma Valencia en campaña, y el malestar presidencial porque las donaciones empresariales de la Andi para el terremoto no se canalizaron a través de la fundación de la primera dama (esto último sin confirmar oficialmente). Se relaciona con el patrón de centralización de la comunicación oficial documentado en I-02 (Directiva Presidencial 01) y con el caso del director del DANE (ver actualización a I-02). A vigilar: si el veto se formaliza o se extiende a otros gremios. Episodio relacionado en el mundo sindical, sin evidencia de acción directa del Gobierno: el presidente de la CUT, Fabio Arias, firmó una declaración según la cual 11 de los 21 integrantes del Comité Ejecutivo estarían alineados con el presidente, lo que a su juicio 'pone en tela de juicio el accionar de oposición de la CUT'. Es la versión de una de las partes de una disputa interna. El caso Mac Master es el desenlace más visible del patrón de presión informal sobre actores independientes; el debate sobre la libertad gremial sigue abierto.",
+      "ultima_actualizacion": "2026-10-04"
     },
     {
       "id": "K-03",
@@ -2869,8 +3103,8 @@
       "periodo": "Gobierno 2026-2030",
       "tematica": "Seguridad y DDHH",
       "caso": "Madre denuncia que joven de 18 años muerto en el operativo contra alias Cholo era un civil",
-      "alegato": "Entre los siete muertos del operativo del 21 de septiembre en la vereda Quebrada del Sol, corregimiento de Guachaca (zona rural de Santa Marta), en el que murió alias Cholo, estaba Ricardo Andrés Rodríguez Martínez, de 18 años. Su madre y sus hermanas sostienen que era un obrero de finca sin vínculos con las ACSN y que murió injustamente; la madre lo calificó de falso positivo en un video viral ('Abelardo, te voy a denunciar, me mataste a mi hijo injustamente'). Familiares citados por Colombia Informa, medio alternativo, dicen que integrantes de las ACSN lo habrían retenido antes del operativo. El día de los hechos, fuentes policiales citadas por El Espectador dijeron en un reporte preliminar que entre los muertos podría estar un hijo de alias Pinocho, y Vanguardia publicó que así sería. El expresidente Petro compartió el video y afirmó que el Gobierno 'asesinó' a un 'joven campesino'.",
-      "respuesta_adle": "Ministerio de Defensa (comunicado del 24 de septiembre): identificó a Rodríguez Martínez como fallecido en la operación contra 'el grupo narcoterrorista' ACSN; precisó que 'ninguna fuente de la Fuerza Pública ha afirmado que fuera hijo de alias Pinocho' y que la información oficial debe provenir de fuentes institucionales; señaló que corresponde a la Fiscalía investigar las circunstancias de su muerte.",
+      "alegato": "Entre los siete muertos del operativo del 21 de septiembre en la vereda Quebrada del Sol, corregimiento de Guachaca (zona rural de Santa Marta), en el que murió alias Cholo, estaba Ricardo Andrés Rodríguez Martínez, de 18 años. Su madre y sus hermanas sostienen que era un obrero de finca sin vínculos con las ACSN y que murió injustamente; la madre lo calificó de falso positivo en un video viral ('Abelardo, te voy a denunciar, me mataste a mi hijo injustamente'). Familiares citados por Colombia Informa, medio alternativo, dicen que integrantes de las ACSN lo habrían retenido antes del operativo. El día de los hechos, fuentes policiales citadas por El Espectador dijeron en un reporte preliminar que entre los muertos podría estar un hijo de alias Pinocho, y Vanguardia publicó que así sería. El expresidente Petro compartió el video y afirmó que el Gobierno 'asesinó' a un 'joven campesino'. Desarrollos posteriores: la Defensoría del Pueblo acompañó a la familia, gestionó ante la Fiscalía y Medicina Legal el acceso a información y la entrega del cuerpo, y pidió 'una investigación rigurosa que permita establecer qué ocurrió'. Circularon en redes fotografías que mostrarían al joven armado y con prendas militares; Cambio y La FM reportan que son falsas y que en una el rostro habría sido alterado con inteligencia artificial. La familia afirma que Medicina Legal le informó que el joven tenía un solo impacto de bala en el pecho, y que debió esperar varios días para recibir el cuerpo; fue sepultado el 28 de septiembre. Hay discrepancia en los reportes sobre qué fuerza dirigió la operación: Cambio indica que fue la Dirección de Antinarcóticos de la Policía con apoyo de la Fiscalía y la Fuerza Aérea, mientras otros medios hablan del Ejército.",
+      "respuesta_adle": "Ministerio de Defensa (comunicado del 24 de septiembre): identificó a Rodríguez Martínez como fallecido en la operación contra 'el grupo narcoterrorista' ACSN; precisó que 'ninguna fuente de la Fuerza Pública ha afirmado que fuera hijo de alias Pinocho' y que la información oficial debe provenir de fuentes institucionales; señaló que corresponde a la Fiscalía investigar las circunstancias de su muerte. Según Cambio, el Ministerio no explicó qué papel habría tenido el joven en los hechos.",
       "estado": "Abierto",
       "verificacion": "Denuncia periodística",
       "gravedad": 5,
@@ -2878,7 +3112,10 @@
         "Ricardo Andrés Rodríguez Martínez",
         "Jorge Eduardo Mora (ministro de Defensa)",
         "Gustavo Petro",
-        "Fiscalía General de la Nación"
+        "Fiscalía General de la Nación",
+        "Defensoría del Pueblo",
+        "Iris Marín (defensora del Pueblo)",
+        "Medicina Legal"
       ],
       "fuentes": [
         "El Espectador",
@@ -2887,7 +3124,11 @@
         "Publimetro",
         "El Universal",
         "El País (Cali)",
-        "Colombia Informa (medio alternativo)"
+        "Colombia Informa (medio alternativo)",
+        "Cambio",
+        "Infobae",
+        "El Tiempo",
+        "La FM"
       ],
       "enlaces": [
         {
@@ -2901,6 +3142,14 @@
         {
           "t": "La Silla Vacía — MinDefensa niega versión",
           "url": "https://www.lasillavacia.com/en-vivo/mindefensa-niega-que-hijo-de-pinocho-haya-muerto-en-operativo-contra-ascn/"
+        },
+        {
+          "t": "Cambio — lo que se sabe y las versiones falsas",
+          "url": "https://cambiocolombia.com/pais/articulo/2026/9/lo-que-se-sabe-de-la-muerte-del-joven-ricardo-andres-rodriguez-martinez-en-operativo-contra-alias-cholo"
+        },
+        {
+          "t": "El Tiempo — la Defensoría acompaña el esclarecimiento",
+          "url": "https://www.eltiempo.com/justicia/paz-y-derechos-humanos/defensoria-lidera-esclarecimiento-de-la-muerte-de-ricardo-andres-rodriguez-durante-operativo-contra-alias-cholo-y-los-pachenca-3589553"
         }
       ],
       "etiquetas": [
@@ -2909,8 +3158,102 @@
         "Santa Marta",
         "ACSN"
       ],
-      "notas": "La versión de la familia no ha sido confirmada de forma independiente (lo advierte Publimetro), y no está establecido qué institución causó la muerte. Tampoco el Gobierno ha presentado públicamente evidencia de su pertenencia a las ACSN. La confusión sobre el 'hijo de Pinocho' provino de fuentes policiales preliminares y de medios, no de un comunicado oficial. A vigilar: investigación de la Fiscalía y dictamen de Medicina Legal. Relacionado con G-11 (paro armado y patrullaje), G-09 (Pinocho) y el antecedente de exhibición de cuerpos en G-01/G-06.",
-      "ultima_actualizacion": "2026-09-25"
+      "notas": "Preguntas abiertas, según Cambio, que dependen de la Fiscalía y Medicina Legal: cómo murió, si estaba armado, si intentó entregarse (como afirma su familia) y qué hacía en la finca el día del operativo. El dato del impacto único de bala proviene de la familia y no de un informe oficial publicado. La versión de la familia no ha sido confirmada de forma independiente, y el Gobierno tampoco ha presentado evidencia pública de su pertenencia a las ACSN. La confusión sobre el 'hijo de Pinocho' provino de fuentes policiales preliminares y de medios. Relacionado con G-11, G-09 y G-01/G-06.",
+      "ultima_actualizacion": "2026-09-29"
+    },
+    {
+      "id": "K-04",
+      "fecha": "2026-09-28",
+      "fecha_texto": "28 de septiembre de 2026",
+      "periodo": "Gobierno 2026-2030",
+      "tematica": "Institucionalidad",
+      "caso": "Decreto 1446: las tutelas contra el presidente vuelven al Consejo de Estado",
+      "alegato": "El presidente y el ministro de Justicia, Iván Cancino, firmaron el Decreto 1446 de 2026, que modifica el Decreto 1069 de 2015 para que las tutelas contra actuaciones u omisiones del presidente en ejercicio de sus funciones se repartan en primera instancia al Consejo de Estado. Revierte una regla de 2025 del gobierno Petro que las enviaba a jueces de circuito, de menor jerarquía. Según La Silla Vacía, el decreto estaba listo desde inicios de mes, y son tres cambios a estas reglas en diez años. Se expide después de que jueces de circuito fallaran en primera instancia en contra del presidente dos tutelas por laicidad (C-03) —la primera fue revocada por el Tribunal Superior de Bogotá el 25 de septiembre—, aunque también le fallaron a favor la de las imágenes de cadáveres (G-01).",
+      "respuesta_adle": "El decreto afirma que 'no se funda en una falta de idoneidad de los jueces del circuito ni atribuye al Consejo de Estado una competencia constitucional exclusiva', y que solo fija pautas de reparto sin modificar competencias, instancias ni recursos. El Gobierno argumenta que el reparto debe quedar en un órgano de alto nivel.",
+      "estado": "Con decisión judicial o administrativa",
+      "verificacion": "Documentado",
+      "gravedad": 2,
+      "actores": [
+        "Iván Cancino (ministro de Justicia)",
+        "Consejo de Estado"
+      ],
+      "fuentes": [
+        "La Silla Vacía",
+        "El Colombiano",
+        "El Espectador",
+        "Infobae",
+        "El Universal"
+      ],
+      "enlaces": [
+        {
+          "t": "La Silla Vacía — el Consejo de Estado volverá a estudiar las tutelas",
+          "url": "https://www.lasillavacia.com/en-vivo/consejo-de-estado-volvera-a-estudiar-las-tutelas-contra-el-presidente/"
+        },
+        {
+          "t": "Infobae — el Gobierno cambia el reparto",
+          "url": "https://www.infobae.com/colombia/2026/09/28/el-gobierno-cambia-el-reparto-de-tutelas-contra-el-presidente-ahora-llegaran-al-consejo-de-estado/"
+        }
+      ],
+      "etiquetas": [
+        "tutela",
+        "Consejo de Estado",
+        "reglas de juego"
+      ],
+      "notas": "La Silla Vacía aclara que el cambio no crea un fuero especial ni modifica las reglas constitucionales de la tutela; el argumento contrario señala que el Consejo de Estado ya revisa los actos administrativos del presidente, lo que podría generar impedimentos. El Gobierno anterior también cambió esta regla a su favor en 2025. Registrado por ser una modificación de las reglas de control judicial sobre el propio presidente tras fallos adversos.",
+      "ultima_actualizacion": "2026-10-04"
+    },
+    {
+      "id": "K-05",
+      "fecha": "2026-10-03",
+      "fecha_texto": "3–4 de octubre de 2026",
+      "periodo": "Gobierno 2026-2030",
+      "tematica": "Institucionalidad",
+      "caso": "'Voy por él y por toda su bandola': el presidente contra el rector de la Universidad de Córdoba",
+      "alegato": "En un evento en Montería (inauguración del estadio de béisbol Luis Nieto), el presidente acusó públicamente al rector de la Universidad de Córdoba, Jairo Miguel Torres Oviedo, de corrupción y politiquería, y de haber cambiado normas del Estatuto General y los periodos de la rectoría para permanecer en el cargo, que según él ocupa de manera 'ilegal'. Instruyó a la ministra de Educación, Ilva Myriam Hoyos, a realizar el lunes una visita de inspección y vigilancia y 'adoptar las medidas que correspondan sobre la rectoría, sus elecciones y el cumplimiento de los estatutos'; pidió a la fiscal general priorizar las denuncias penales contra 'ese sujeto y la bandola que lo secunda' y a la Procuraduría agilizar el proceso disciplinario, cuyo archivo fue revocado el 30 de julio. Se dirigió al rector: 'Usted no merece estar sentado en esa silla'.",
+      "respuesta_adle": "Presidente: 'Que se apriete el rector, porque voy por él y por toda su bandola, como que me llamo Abelardo De La Espriella, el Tigre que vino a liberar a la Universidad de Córdoba' y 'no voy a permitir que se la siga robando el rector y la bandola que lo secunda'. Al día siguiente, en su mensaje 'Se les acabó la fiesta', dijo: 'La autonomía universitaria se respeta', y defendió que no aceptará que la permanencia de una persona en un cargo 'se construya a fuerza de cambiar las normas'. El rector Torres Oviedo rechazó categóricamente los señalamientos, según IFM Noticias.",
+      "estado": "Abierto",
+      "verificacion": "Denuncia periodística",
+      "gravedad": 3,
+      "actores": [
+        "Jairo Miguel Torres Oviedo (rector Universidad de Córdoba)",
+        "Ilva Myriam Hoyos (ministra de Educación)",
+        "Fiscalía General de la Nación",
+        "Procuraduría",
+        "Yahir Acuña",
+        "Ivaldo Torres Chávez"
+      ],
+      "fuentes": [
+        "Presidencia (comunicado oficial)",
+        "Semana",
+        "La FM",
+        "El Heraldo",
+        "Pulzo",
+        "IFM Noticias",
+        "Vanguardia",
+        "El Tiempo"
+      ],
+      "enlaces": [
+        {
+          "t": "Presidencia — comunicado oficial",
+          "url": "https://www.presidencia.gov.co/prensa/Paginas/Presidente-De-La-Espriella-denuncio-corrupcion-y-politiqueria-en-la-Universidad-de-Cordoba-y-ordeno-realizar-261003.aspx"
+        },
+        {
+          "t": "Semana — 'Usted no merece estar sentado en esa silla'",
+          "url": "https://www.semana.com/politica/articulo/usted-no-merece-estar-sentado-en-esa-silla-presidente-abelardo-de-la-espriella-al-rector-de-la-universidad-de-cordoba/202611/"
+        },
+        {
+          "t": "La FM — pide a la Fiscalía priorizar denuncias",
+          "url": "https://www.lafm.com.co/actualidad/abelardo-de-la-espriella-pide-a-fiscalia-priorizar-denuncias-presunta-corrupcion-universidad-cordoba-412917"
+        }
+      ],
+      "etiquetas": [
+        "autonomía universitaria",
+        "señalamientos públicos",
+        "Córdoba",
+        "Fiscalía"
+      ],
+      "notas": "Verificación marcada como 'Denuncia periodística' porque las acusaciones de corrupción contra el rector no tienen decisión judicial; lo documentado es la intervención presidencial. La tensión de fondo: un presidente señalando por nombre a un funcionario, pidiendo a la Fiscalía y a la Procuraduría priorizar casos concretos y ordenando una inspección a una universidad autónoma; ver también G-08 (protocolo de Policía en universidades). Episodios del mismo fin de semana: el 4 de octubre cuestionó públicamente al alcalde de Sincelejo, Yahir Acuña ('No puedo ignorar sus antecedentes ni las investigaciones (...) que rodean su trayectoria'), y según Semana pidió al ministro del Interior declarar insubsistente el nombramiento en el Gobierno del exrector de la Universidad de Pamplona Ivaldo Torres Chávez, cuya elección había anulado el Consejo de Estado (dato pendiente de confirmar con otra fuente).",
+      "ultima_actualizacion": "2026-10-04"
     }
   ]
 }
