@@ -3,7 +3,7 @@
     "titulo": "Rastreador de polémicas — Abelardo de la Espriella",
     "descripcion": "Registro de escándalos, controversias y cambios de rumbo. Periodo de seguimiento 2026-2030.",
     "version": "1.0",
-    "actualizado": "2026-10-04",
+    "actualizado": "2026-10-05",
     "responsable": "",
     "vocabulario": {
       "estado": [
@@ -2314,32 +2314,40 @@
       "periodo": "Gobierno 2026-2030",
       "tematica": "Prensa y libertad de expresión",
       "caso": "Salida del aire de Mañanas Blu 10:30",
-      "alegato": "El programa conducido por Camila Zuluaga y Ana Cristina Restrepo, ambas críticas del presidente, salió del aire de forma abrupta sin despedida ni anuncio. La decisión fue comunicada al equipo por el presidente de Caracol Televisión, Gonzalo Córdoba, después de la última emisión.",
-      "respuesta_adle": "Las versiones oficiales de la empresa adjudican la decisión a falta de audiencia y dificultades con anunciantes. El Gobierno no ha intervenido públicamente.",
+      "alegato": "El programa conducido por Camila Zuluaga y Ana Cristina Restrepo, ambas críticas del presidente, salió del aire de forma abrupta sin despedida ni anuncio. La decisión fue comunicada al equipo por el presidente de Caracol Televisión, Gonzalo Córdoba, después de la última emisión. En una conversación con Daniel Coronell, Ana Cristina Restrepo afirmó que el programa fue cancelado porque resultaba incómodo para el presidente y su Gobierno. Según Infobae, La Silla Vacía confirmó con dos fuentes conocedoras de la decisión que desde el Gobierno había habido señales de inconformidad con el programa. Durante la campaña, Camila Zuluaga había denunciado que De la Espriella dio instrucciones a su equipo para no concederle entrevistas.",
+      "respuesta_adle": "Caracol Televisión, dueña de Blu Radio, no emitió un comunicado público con una explicación oficial; versiones de la empresa atribuyeron la decisión a falta de audiencia y dificultades con anunciantes. El Gobierno no se ha pronunciado públicamente.",
       "estado": "Sin investigación formal",
-      "verificacion": "Opinión / sin verificar",
+      "verificacion": "Denuncia periodística",
       "gravedad": 3,
       "actores": [
         "Camila Zuluaga",
         "Ana Cristina Restrepo",
         "Gonzalo Córdoba",
-        "Caracol"
+        "Caracol",
+        "Daniel Coronell",
+        "La Silla Vacía"
       ],
       "fuentes": [
-        "Volcánicas (opinión)"
+        "Volcánicas (opinión)",
+        "Infobae",
+        "La Silla Vacía"
       ],
       "enlaces": [
         {
           "t": "Volcánicas",
           "url": "https://volcanicas.com/censura-a-la-prensa-en-gobierno-de-abelardo-de-la-espriella-erosiona-la-democracia/"
+        },
+        {
+          "t": "Infobae — Restrepo: el programa fue cancelado por presión",
+          "url": "https://www.infobae.com/colombia/2026/09/02/ana-cristina-restrepo-aseguro-que-su-programa-en-blu-radio-fue-cancelado-por-presion-del-gobierno-de-abelardo-de-la-espriella-le-incomodaba/"
         }
       ],
       "etiquetas": [
         "libertad de prensa",
         "verificar"
       ],
-      "notas": "No hay evidencia de intervención gubernamental. Se registra como señal a monitorear, no como hecho probado. Indicador relacionado a vigilar: distribución de pauta oficial (Principio 13 de la Declaración de Principios de la CIDH).",
-      "ultima_actualizacion": "2026-09-04"
+      "notas": "Reclasificado de 'Opinión / sin verificar' a 'Denuncia periodística': además del testimonio de una de las afectadas, hay confirmación de La Silla Vacía con dos fuentes sobre señales de inconformidad del Gobierno. No hay evidencia pública de una orden directa ni de un mecanismo concreto de presión. Indicador relacionado a vigilar: distribución de pauta oficial (Principio 13 de la Declaración de Principios de la CIDH). Ver I-02, I-03 y K-02 (patrón de presión informal sobre actores independientes).",
+      "ultima_actualizacion": "2026-10-05"
     },
     {
       "id": "I-02",
@@ -3209,8 +3217,8 @@
       "periodo": "Gobierno 2026-2030",
       "tematica": "Institucionalidad",
       "caso": "'Voy por él y por toda su bandola': el presidente contra el rector de la Universidad de Córdoba",
-      "alegato": "En un evento en Montería (inauguración del estadio de béisbol Luis Nieto), el presidente acusó públicamente al rector de la Universidad de Córdoba, Jairo Miguel Torres Oviedo, de corrupción y politiquería, y de haber cambiado normas del Estatuto General y los periodos de la rectoría para permanecer en el cargo, que según él ocupa de manera 'ilegal'. Instruyó a la ministra de Educación, Ilva Myriam Hoyos, a realizar el lunes una visita de inspección y vigilancia y 'adoptar las medidas que correspondan sobre la rectoría, sus elecciones y el cumplimiento de los estatutos'; pidió a la fiscal general priorizar las denuncias penales contra 'ese sujeto y la bandola que lo secunda' y a la Procuraduría agilizar el proceso disciplinario, cuyo archivo fue revocado el 30 de julio. Se dirigió al rector: 'Usted no merece estar sentado en esa silla'.",
-      "respuesta_adle": "Presidente: 'Que se apriete el rector, porque voy por él y por toda su bandola, como que me llamo Abelardo De La Espriella, el Tigre que vino a liberar a la Universidad de Córdoba' y 'no voy a permitir que se la siga robando el rector y la bandola que lo secunda'. Al día siguiente, en su mensaje 'Se les acabó la fiesta', dijo: 'La autonomía universitaria se respeta', y defendió que no aceptará que la permanencia de una persona en un cargo 'se construya a fuerza de cambiar las normas'. El rector Torres Oviedo rechazó categóricamente los señalamientos, según IFM Noticias.",
+      "alegato": "En un evento en Montería (inauguración del estadio de béisbol Luis Nieto), el presidente acusó públicamente al rector de la Universidad de Córdoba, Jairo Miguel Torres Oviedo, de corrupción y politiquería, y de haber cambiado normas del Estatuto General y los periodos de la rectoría para permanecer en el cargo, que según él ocupa de manera 'ilegal'. Instruyó a la ministra de Educación, Ilva Myriam Hoyos, a realizar el lunes una visita de inspección y vigilancia y 'adoptar las medidas que correspondan sobre la rectoría, sus elecciones y el cumplimiento de los estatutos'; pidió a la fiscal general priorizar las denuncias penales contra 'ese sujeto y la bandola que lo secunda' y a la Procuraduría agilizar el proceso disciplinario, cuyo archivo fue revocado el 30 de julio. Se dirigió al rector: 'Usted no merece estar sentado en esa silla'. Contexto judicial que matiza la acusación de ilegalidad: según El Universal, los cuestionamientos del presidente se producen después de que la Sección Quinta del Consejo de Estado declarara legal la elección de Torres Oviedo, que cursa su tercer periodo (2026-2031); según Colombinews, en ese proceso se consideró permitido, en virtud de la autonomía universitaria, que el rector hubiera firmado nombramientos de funcionarios que luego participaron en su designación. La visita de inspección del Ministerio de Educación empezó el 5 de octubre y durará unos dos días.",
+      "respuesta_adle": "Presidente: 'Que se apriete el rector, porque voy por él y por toda su bandola, como que me llamo Abelardo De La Espriella, el Tigre que vino a liberar a la Universidad de Córdoba' y 'no voy a permitir que se la siga robando el rector y la bandola que lo secunda'. Al día siguiente, en su mensaje 'Se les acabó la fiesta', dijo: 'La autonomía universitaria se respeta', y defendió que no aceptará que la permanencia de una persona en un cargo 'se construya a fuerza de cambiar las normas'. El rector Torres Oviedo rechazó categóricamente los señalamientos, según IFM Noticias. El rector, ante la llegada de la delegación: 'Aquí no hay nada que ocultar'; dijo que la universidad entregará toda la información y documentación requerida. El expresidente Petro salió en defensa del rector.",
       "estado": "Abierto",
       "verificacion": "Denuncia periodística",
       "gravedad": 3,
@@ -3220,7 +3228,9 @@
         "Fiscalía General de la Nación",
         "Procuraduría",
         "Yahir Acuña",
-        "Ivaldo Torres Chávez"
+        "Ivaldo Torres Chávez",
+        "Gustavo Petro",
+        "Consejo de Estado (Sección Quinta)"
       ],
       "fuentes": [
         "Presidencia (comunicado oficial)",
@@ -3230,7 +3240,12 @@
         "Pulzo",
         "IFM Noticias",
         "Vanguardia",
-        "El Tiempo"
+        "El Tiempo",
+        "El Universal",
+        "Chicanoticias (Montería)",
+        "Diario del Sur",
+        "Colombia.com",
+        "Colombinews"
       ],
       "enlaces": [
         {
@@ -3244,6 +3259,14 @@
         {
           "t": "La FM — pide a la Fiscalía priorizar denuncias",
           "url": "https://www.lafm.com.co/actualidad/abelardo-de-la-espriella-pide-a-fiscalia-priorizar-denuncias-presunta-corrupcion-universidad-cordoba-412917"
+        },
+        {
+          "t": "El Universal — inspección tras fallo del Consejo de Estado",
+          "url": "https://www.eluniversal.com.co/colombia/2026/10/03/de-la-espriella-ordena-inspeccion-a-la-universidad-de-cordoba-y-cuestiona-a-su-rector/"
+        },
+        {
+          "t": "Chicanoticias — \"Aquí no hay nada que ocultar\"",
+          "url": "https://www.chicanoticias.com/2026/10/05/no-hay-nada-que-ocultar-rector/"
         }
       ],
       "etiquetas": [
@@ -3252,8 +3275,106 @@
         "Córdoba",
         "Fiscalía"
       ],
-      "notas": "Verificación marcada como 'Denuncia periodística' porque las acusaciones de corrupción contra el rector no tienen decisión judicial; lo documentado es la intervención presidencial. La tensión de fondo: un presidente señalando por nombre a un funcionario, pidiendo a la Fiscalía y a la Procuraduría priorizar casos concretos y ordenando una inspección a una universidad autónoma; ver también G-08 (protocolo de Policía en universidades). Episodios del mismo fin de semana: el 4 de octubre cuestionó públicamente al alcalde de Sincelejo, Yahir Acuña ('No puedo ignorar sus antecedentes ni las investigaciones (...) que rodean su trayectoria'), y según Semana pidió al ministro del Interior declarar insubsistente el nombramiento en el Gobierno del exrector de la Universidad de Pamplona Ivaldo Torres Chávez, cuya elección había anulado el Consejo de Estado (dato pendiente de confirmar con otra fuente).",
-      "ultima_actualizacion": "2026-10-04"
+      "notas": "Verificación marcada como 'Denuncia periodística' porque las acusaciones de corrupción contra el rector no tienen decisión judicial; lo documentado es la intervención presidencial. Dato clave para la lectura del caso: el presidente califica de 'ilegal' una elección que el Consejo de Estado declaró legal; persiste un proceso disciplinario en la Procuraduría cuyo archivo fue revocado el 30 de julio. La tensión de fondo: un presidente señalando por nombre a un funcionario, pidiendo a la Fiscalía y a la Procuraduría priorizar casos concretos y ordenando una inspección a una universidad autónoma; ver también G-08 (protocolo de Policía en universidades). Los episodios del mismo fin de semana con el alcalde de Sincelejo y el exrector de la Universidad de Pamplona quedaron registrados en K-06. A vigilar: resultado de la visita de inspección.",
+      "ultima_actualizacion": "2026-10-05"
+    },
+    {
+      "id": "K-06",
+      "fecha": "2026-10-04",
+      "fecha_texto": "3–5 de octubre de 2026",
+      "periodo": "Gobierno 2026-2030",
+      "tematica": "Institucionalidad",
+      "caso": "'Se les acabó la fiesta': Bloque de Búsqueda contra la Corrupción, agentes encubiertos y señalamientos públicos a funcionarios",
+      "alegato": "En una carta abierta publicada en X el 4 de octubre, el presidente anunció la creación de un 'Bloque de Búsqueda contra la Corrupción', designó a la magistrada Cristina Lombana como secretaria de Transparencia ('la zarina anticorrupción de este gobierno') y afirmó que ya se trabaja con 'agentes encubiertos' dentro de la administración pública para investigar corrupción, sin detallar bajo qué figura legal operan ni qué entidad los coordina. En la misma ofensiva señaló públicamente al alcalde de Sincelejo, Yahir Acuña —procesado ante la Corte Suprema—, y anunció controles para que recursos nacionales destinados a Sincelejo no queden bajo control de la Alcaldía; según Infobae, afirmó que Acuña tendría 13 procesos por corrupción. También contó que pidió al ministro del Interior, Rodrigo Lara, declarar insubsistente 'ipso facto' el nombramiento en el Gobierno del exrector de la Universidad de Pamplona Ivaldo Torres Chávez, cuya elección como rector había anulado el Consejo de Estado.",
+      "respuesta_adle": "'Mi deber es proteger los recursos de la Nación (...) No puedo ignorar sus antecedentes ni las investigaciones y actuaciones públicas que rodean su trayectoria' (sobre Acuña). 'Ese corrupto rompió la confianza y la lealtad y no podía seguir en su cargo. Le pedí al ministro del Interior, Rodrigo Lara, que declarara insubsistente, ipso facto, su nombramiento. Así se hizo' (sobre Torres Chávez); añadió que él no es juez, pero decide quién merece su confianza. 'Los corruptos están acostumbrados a dejar en la miseria al pueblo y a disfrutar su botín en países desarrollados: se les acaba su Disney World'. Dijo que remitirá los indicios a Fiscalía, Procuraduría y Contraloría.",
+      "estado": "Abierto",
+      "verificacion": "Documentado",
+      "gravedad": 3,
+      "actores": [
+        "Cristina Lombana (secretaria de Transparencia)",
+        "Yahir Acuña (alcalde de Sincelejo)",
+        "Ivaldo Torres Chávez",
+        "Rodrigo Lara (ministro del Interior)"
+      ],
+      "fuentes": [
+        "Vanguardia",
+        "El Universal",
+        "Infobae",
+        "El Tiempo",
+        "Noticias Caracol",
+        "Colombia.com",
+        "EFE"
+      ],
+      "enlaces": [
+        {
+          "t": "Vanguardia — agentes encubiertos y Bloque de Búsqueda",
+          "url": "https://www.vanguardia.com/colombia/2026/10/04/se-les-acabo-la-fiesta-abelardo-de-la-espriella-anuncia-bloque-de-busqueda-contra-la-corrupcion/"
+        },
+        {
+          "t": "Infobae — ultimátum al alcalde de Sincelejo",
+          "url": "https://infobae.com/colombia/2026/10/04/abelardo-de-la-espriella-lanzo-ultimatum-al-alcalde-de-sincelejo-por-presunta-corrupcion-en-la-ciudad-se-acabo-la-politiqueria"
+        },
+        {
+          "t": "El Tiempo — cuestionamiento a Yahir Acuña",
+          "url": "https://www.eltiempo.com/politica/abelardo-de-la-espriella/presidente-abelardo-de-la-espriella-lanza-duro-cuestionamiento-contra-yahir-acuna-alcalde-de-sincelejo-por-sus-actuaciones-publicas-se-lo-dije-3591102"
+        }
+      ],
+      "etiquetas": [
+        "anticorrupción",
+        "agentes encubiertos",
+        "señalamientos públicos",
+        "Lombana"
+      ],
+      "notas": "Lo que se registra no es la lucha anticorrupción en sí, sino tres aspectos discutibles: (1) los 'agentes encubiertos' anunciados sin marco legal ni entidad responsable conocida; (2) el señalamiento público y por nombre de funcionarios electos o designados por parte del presidente, antes de decisiones judiciales; y (3) la designación de una magistrada como secretaria de Transparencia (pendiente confirmar si dejó su cargo en la Corte). Yahir Acuña sí tiene procesos ante la Corte Suprema (Cambio documentó una resolución de situación jurídica por presuntos nexos con Los Rastrojos Costeños), pero la cifra de '13 procesos' proviene del presidente y no se verificó de forma independiente. No se encontró respuesta pública de Acuña al cierre. Ver K-05 (Universidad de Córdoba) y E-05 (Libro de la Verdad).",
+      "ultima_actualizacion": "2026-10-05"
+    },
+    {
+      "id": "K-07",
+      "fecha": "2026-10-03",
+      "fecha_texto": "3–5 de octubre de 2026",
+      "periodo": "Gobierno 2026-2030",
+      "tematica": "Economía y fiscal",
+      "caso": "MinAgricultura a los arroceros: 'No siembren arroz, no es negocio; siembren marañón'",
+      "alegato": "En un encuentro con productores de La Guajira y el Cesar en Urumita, reportado por Caracol Radio, el ministro de Agricultura, Indalecio Dangond, dijo: 'El arroz ya no es negocio. No siembren arroz, no es negocio el arroz. Es muy riesgoso, necesita mucha agua. Siembren marañón, el marañón da rentabilidad por encima del 24%'. La frase llegó en plena crisis del sector por bajos precios, importaciones y los efectos de El Niño: según El Tiempo, en el primer semestre de 2026 se sembraron 93.002 hectáreas menos que en igual periodo de 2025. El presidente de Fedearroz, César Augusto Saavedra, cuestionó la posición del ministro, y hay otro frente abierto porque el Ministerio ordenó revisar los recursos parafiscales del gremio. Críticos recordaron además que Dangond derogó las Áreas de Protección para la Producción de Alimentos (APPA).",
+      "respuesta_adle": "Dangond: 'Tomaron un video de unas declaraciones que di en La Guajira, lo editaron y le están haciendo creer al país que yo dije que no se podía sembrar más arroz'. Precisó que 'el arroz que no se puede seguir sembrando es el de La Guajira porque es ineficiente', pues los arroceros de Fonseca suman más de cinco quiebras seguidas pese al agua del distrito de riego del río Ranchería, y que con rendimientos de 8 o 9 toneladas por hectárea y costos superiores a 10 millones 'el precio no da'. Fernando Murillo, del Consejo Nacional del Arroz, le dio crédito a la aclaración: 'Lo cogieron fuera de contexto'.",
+      "estado": "Abierto",
+      "verificacion": "Documentado",
+      "gravedad": 2,
+      "actores": [
+        "Indalecio Dangond (ministro de Agricultura)",
+        "César Augusto Saavedra (Fedearroz)",
+        "Fernando Murillo (Consejo Nacional del Arroz)"
+      ],
+      "fuentes": [
+        "Caracol Radio",
+        "El Colombiano",
+        "El Heraldo",
+        "Noticias RCN",
+        "El Tiempo",
+        "El Espectador",
+        "Minuto60"
+      ],
+      "enlaces": [
+        {
+          "t": "El Colombiano — la polémica frase",
+          "url": "https://www.elcolombiano.com/negocios/minagricultura-no-siembren-arroz-maranon-fedearroz-BE41899008"
+        },
+        {
+          "t": "El Heraldo — la aclaración del ministro",
+          "url": "https://www.elheraldo.co/colombia/2026/10/05/minagricultura-aclara-que-el-arroz-que-no-se-puede-seguir-sembrando-es-el-de-la-guajira-por-bajos-rendimientos/"
+        },
+        {
+          "t": "El Tiempo — los reclamos de los arroceros",
+          "url": "https://www.eltiempo.com/economia/sectores/los-reclamos-de-los-arroceros-al-gobierno-en-cuales-hay-respuestas-y-en-cuales-no-3591365"
+        }
+      ],
+      "etiquetas": [
+        "arroz",
+        "sector agropecuario",
+        "declaraciones de ministros"
+      ],
+      "notas": "Hay discrepancia en la cifra citada de rentabilidad del marañón (24% en la mayoría de reportes, 34% en El Tiempo). Segunda polémica del ministro Dangond tras K-01 (campesinos/'empresarios del campo'); también actúa como ministro de Ambiente ad hoc para Santurbán (E-06). Varios medios recogen que algunos dirigentes arroceros que celebraron la elección del presidente ahora critican a su ministro.",
+      "ultima_actualizacion": "2026-10-05"
     }
   ]
 }
