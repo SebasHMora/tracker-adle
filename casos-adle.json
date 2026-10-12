@@ -3,7 +3,7 @@
     "titulo": "Rastreador de polémicas — Abelardo de la Espriella",
     "descripcion": "Registro de escándalos, controversias y cambios de rumbo. Periodo de seguimiento 2026-2030.",
     "version": "1.0",
-    "actualizado": "2026-10-05",
+    "actualizado": "2026-10-12",
     "responsable": "",
     "vocabulario": {
       "estado": [
@@ -1150,6 +1150,160 @@
       "ultima_actualizacion": "2026-09-29"
     },
     {
+      "id": "D-12",
+      "fecha": "2026-10-08",
+      "fecha_texto": "8 de octubre de 2026",
+      "periodo": "Gobierno 2026-2030",
+      "tematica": "Género",
+      "caso": "Colombia vuelve a adherir al Consenso de Ginebra, declaración que sostiene que no existe un derecho internacional al aborto",
+      "alegato": "El embajador de Colombia ante la OEA, Alejandro Ordóñez, anunció en Washington la adhesión del país al Consenso de Ginebra, una declaración política no vinculante de 47 Estados, coordinada por el Departamento de Salud de EE. UU., que afirma que no existe un derecho internacional al aborto ni obligación de los Estados de promoverlo o facilitarlo. Colombia ya había adherido en 2022 bajo el gobierno Duque (también con Ordóñez en la OEA) y se retiró meses después, bajo el gobierno Petro. La adhesión ocurre en un país donde la Corte Constitucional (sentencia C-055 de 2022) despenalizó el aborto hasta la semana 24 y lo permite después bajo tres causales. Cambio recordó que Ordóñez se ha opuesto al aborto, la eutanasia, el matrimonio igualitario y la adopción por parejas del mismo sexo.",
+      "respuesta_adle": "Ordóñez: 'No tiene efectos jurídicos, tiene efectos políticos'. La Cancillería precisó que la adhesión no modifica la legislación nacional ni la jurisprudencia de las altas cortes, ni cambia por sí misma el acceso a la interrupción voluntaria del embarazo; la describe como un 'compromiso político y diplomático' que amplía las alianzas del país, dentro de una política exterior basada en la soberanía nacional.",
+      "estado": "Sin investigación formal",
+      "verificacion": "Documentado",
+      "gravedad": 3,
+      "actores": [
+        "Alejandro Ordóñez (embajador ante la OEA)",
+        "Cancillería"
+      ],
+      "fuentes": [
+        "Cambio",
+        "El Colombiano",
+        "El Heraldo",
+        "Infobae",
+        "La Silla Vacía",
+        "ACI Prensa (agencia católica)"
+      ],
+      "enlaces": [
+        {
+          "t": "Cambio — Colombia vuelve al Consenso de Ginebra",
+          "url": "https://cambiocolombia.com/poder/articulo/2026/10/colombia-vuelve-al-consenso-de-ginebra-la-declaracion-que-niega-la-existencia-de-un-derecho-internacional-al-aborto"
+        },
+        {
+          "t": "El Colombiano — qué implica la adhesión",
+          "url": "https://www.elcolombiano.com/colombia/colombia-aborto-que-implica-adhesion-consenso-ginebra-DH42108568"
+        },
+        {
+          "t": "El Heraldo — Colombia se suma al Consenso de Ginebra",
+          "url": "https://www.elheraldo.co/colombia/2026/10/09/colombia-se-suma-al-consenso-de-ginebra-esta-sostiene-que-no-existe-un-derecho-internacional-al-aborto/"
+        },
+        {
+          "t": "Infobae — adhesión con postura sobre el aborto",
+          "url": "https://www.infobae.com/colombia/2026/10/09/colombia-se-adhirio-al-consenso-de-ginebra-con-tajante-postura-no-existe-un-derecho-internacional-al-aborto/"
+        }
+      ],
+      "etiquetas": [
+        "aborto",
+        "Consenso de Ginebra",
+        "derechos sexuales y reproductivos",
+        "OEA",
+        "giro de política"
+      ],
+      "notas": "Se registra como cambio de rumbo en política exterior respecto al gobierno anterior, en la línea de D-08 (retiro de la Equal Rights Coalition). Al cierre, los reportes consultados (Cambio, El Colombiano, El Heraldo) no recogían pronunciamientos nombrados de organizaciones de mujeres, Defensoría o congresistas; actualizar cuando los haya. Clasificado con prefijo D porque el acto es diplomático; la temática de fondo es de género.",
+      "ultima_actualizacion": "2026-10-10"
+    },
+    {
+      "id": "D-13",
+      "fecha": "2026-10-07",
+      "fecha_texto": "5–7 de octubre de 2026",
+      "periodo": "Gobierno 2026-2030",
+      "tematica": "Política exterior",
+      "caso": "El presidente respalda públicamente a Flávio Bolsonaro en plena campaña presidencial de Brasil",
+      "alegato": "Tras la primera vuelta en Brasil (4 de octubre; Flávio Bolsonaro cerca del 47% y Lula da Silva cerca del 45%, según Publimetro), De la Espriella publicó en X un mensaje dedicado al candidato: 'El verdadero cambio es derrotar a la izquierda' y 'Um grande abraço, amigo'. El 7 de octubre participó con él en un enlace virtual de unos 20 minutos sobre crimen organizado, transmitido por YouTube como 'encuentro histórico', en el que lo llamó 'un guerrero de la democracia', dio por hecho su triunfo, lo invitó a Bogotá y expresó admiración por Jair Bolsonaro, condenado en Brasil a 27 años de prisión por el intento de golpe de enero de 2023 (según Proceso). La segunda vuelta, entre Flávio Bolsonaro y Lula, es el 25 de octubre. Proceso (México) tituló que el presidente 'se mete a la campaña en Brasil'.",
+      "respuesta_adle": "En el diálogo dijo: 'Terrorista que no se someta lo voy a dar de baja' y 'Cuando el Estado se decide, nunca pierde'. Presentó la contienda como también 'espiritual' y afirmó que Dios intervendrá a favor de Brasil. No se registró una explicación de la Presidencia o la Cancillería sobre la conveniencia diplomática del respaldo.",
+      "estado": "Sin investigación formal",
+      "verificacion": "Documentado",
+      "gravedad": 2,
+      "actores": [
+        "Flávio Bolsonaro (candidato presidencial, Brasil)",
+        "Luiz Inácio Lula da Silva (presidente de Brasil)"
+      ],
+      "fuentes": [
+        "Publimetro",
+        "Proceso (México)",
+        "Infobae",
+        "Semana",
+        "La Silla Vacía"
+      ],
+      "enlaces": [
+        {
+          "t": "Publimetro — respaldo a Flávio Bolsonaro tras la primera vuelta",
+          "url": "https://www.publimetro.co/noticias/2026/10/05/el-verdadero-cambio-es-derrotar-a-la-izquierda-de-la-espriella-respalda-a-flavio-bolsonaro-en-brasil/"
+        },
+        {
+          "t": "Proceso — De la Espriella aparece en YouTube con Bolsonaro",
+          "url": "https://www.proceso.com.mx/internacional/2026/10/8/de-la-espriella-se-mete-a-la-campana-en-brasil-y-aparece-en-youtube-con-bolsonaro-381470.html"
+        },
+        {
+          "t": "Infobae — diálogo con Flávio Bolsonaro",
+          "url": "https://www.infobae.com/colombia/2026/10/08/abelardo-de-la-espriella-se-rebelo-nuevamente-contra-criticas-por-haber-caminado-entre-cadaveres-en-bolsas-mas-lo-voy-a-hacer/"
+        },
+        {
+          "t": "Semana — relato sobre alias Araña en el diálogo",
+          "url": "https://www.semana.com/politica/articulo/abelardo-de-la-espriella-revelo-detalles-de-una-conversacion-que-tuvo-con-alias-arana-a-pocos-minutos-de-ser-extraditado-a-ee-uu/202650/"
+        },
+        {
+          "t": "La Silla Vacía — entrevista con Flávio Bolsonaro",
+          "url": "https://www.lasillavacia.com/en-vivo/diario-del-gobierno-de-abelardo-fuego-amigo-contra-rodrigo-lara/"
+        }
+      ],
+      "etiquetas": [
+        "Brasil",
+        "Bolsonaro",
+        "elecciones extranjeras",
+        "alineamiento ideológico"
+      ],
+      "notas": "Lo que se registra es el respaldo de un jefe de Estado en funciones a un candidato extranjero en medio de la campaña; al cierre no se encontró reacción oficial del gobierno de Brasil ni de la oposición colombiana en los reportes consultados. Contexto comparable: en 2026 Lula advirtió que 'nadie de afuera' interferirá en la política de Brasil, en respuesta a Javier Milei (La Gaceta). En el mismo diálogo el presidente reiteró su postura sobre los videos entre cadáveres (ver G-01) y relató una conversación con alias Araña antes de su extradición (relato del presidente, sin verificación independiente). Proceso es un medio mexicano de línea crítica. Según La Silla Vacía, fue la primera entrevista que el presidente concedió desde su posesión; le dijo a Bolsonaro: 'Te voy a acompañar de corazón: te espero aquí y hacemos una bilateral'.",
+      "ultima_actualizacion": "2026-10-12"
+    },
+    {
+      "id": "D-14",
+      "fecha": "2026-10-06",
+      "fecha_texto": "6 de octubre de 2026",
+      "periodo": "Gobierno 2026-2030",
+      "tematica": "Política exterior",
+      "caso": "'No soy la clase de presidente que abandona a sus héroes': asistencia del Estado a exmilitares procesados en EE. UU. por el magnicidio en Haití",
+      "alegato": "El presidente ordenó a los ministros de Defensa, Jorge Mora, y de Justicia, Iván Cancino, prestar asistencia jurídica a los exmilitares colombianos detenidos en EE. UU. por el asesinato del presidente de Haití Jovenel Moïse (julio de 2021), y ofreció apoyo económico a sus familias. Cambio cifra en 17 los procesados y La Silla Vacía en 18. Fueron trasladados de Haití a Miami el 21 de septiembre, donde la Fiscalía del Distrito Sur de Florida los acusa de conspiración para matar o secuestrar fuera de EE. UU. y apoyo material a un delito con resultado de muerte (penas de hasta cadena perpetua). En mayo de 2026 un jurado de Miami condenó a cuatro organizadores vinculados a la empresa CTU; otros dos colombianos, Germán Rivera y Mario Antonio Palacio, ya fueron condenados a cadena perpetua. La fiscalía sostiene que a los colombianos se les dijo que era una operación legal de arresto.",
+      "respuesta_adle": "'No soy la clase de presidente que abandona a sus héroes cuando enfrentan dificultades'; 'No pueden pagar justos por pecadores'; 'Quiero saber exactamente qué ocurrió y que se esclarezca la responsabilidad individual de cada uno'. Dijo que no pueden pagar su defensa. La Cancillería mantendrá la asistencia consular.",
+      "estado": "Sin investigación formal",
+      "verificacion": "Documentado",
+      "gravedad": 2,
+      "actores": [
+        "Jorge Mora (ministro de Defensa)",
+        "Iván Cancino (ministro de Justicia)",
+        "Exmilitares colombianos procesados en Miami"
+      ],
+      "fuentes": [
+        "Cambio",
+        "La Silla Vacía",
+        "Vanguardia",
+        "Noticias RCN",
+        "NTN24"
+      ],
+      "enlaces": [
+        {
+          "t": "Cambio — defensa jurídica para procesados por magnicidio en Haití",
+          "url": "https://cambiocolombia.com/poder/articulo/2026/10/no-soy-la-clase-de-presidente-que-abandona-a-sus-heroes-de-la-espriella-ordena-defensa-juridica-para-exmilitares-procesados-por-magnicidio-en-haiti/"
+        },
+        {
+          "t": "La Silla Vacía — exmilitares, capturas y consulta previa",
+          "url": "https://www.lasillavacia.com/en-vivo/diario-del-gobierno-de-abelardo-exmilitares-capturas-y-consulta-previa/"
+        },
+        {
+          "t": "Vanguardia — apoyo a militares detenidos en EE. UU.",
+          "url": "https://www.vanguardia.com/mundo/2026/10/06/caso-jovenel-moise-gobierno-anuncia-apoyo-a-militares-colombianos-detenidos-en-ee-uu/"
+        }
+      ],
+      "etiquetas": [
+        "Haití",
+        "Jovenel Moïse",
+        "exmilitares",
+        "asistencia jurídica",
+        "recursos públicos"
+      ],
+      "notas": "Lo que se registra es la decisión de destinar apoyo estatal a la defensa de procesados por un magnicidio en el exterior, y la calificación presidencial de 'héroes'; Cambio anota que todos son retirados de las Fuerzas Militares. Al cierre no se encontraron críticas nombradas ni el monto o mecanismo del apoyo. La Silla Vacía recordó que el presidente ya había pedido apoyo para el coronel (r) Luis Alfonso Plazas Vega, absuelto en Miami en el caso del Palacio de Justicia. Discrepancia en el número de procesados (17 según Cambio, 18 según La Silla Vacía).",
+      "ultima_actualizacion": "2026-10-12"
+    },
+    {
       "id": "E-01",
       "fecha": "2026-08-07",
       "fecha_texto": "7 de agosto de 2026",
@@ -1336,8 +1490,8 @@
         "concentración de poder",
         "fecha clave"
       ],
-      "notas": "Paralelo que varios medios señalan: el antecesor en propiedad, Ricardo Roa, había sido gerente de la campaña de Petro y enfrentó imputaciones penales en el cargo. Joaquín Gutiérrez aparece también en F-05 (cercanía con el interventor de la Nueva EPS; negocios en salud). Ver E-07: en su posesión, el 25 de septiembre, el presidente anunció el levantamiento de restricciones a contratos de gas y petróleo.",
-      "ultima_actualizacion": "2026-09-25"
+      "notas": "Paralelo que varios medios señalan: el antecesor en propiedad, Ricardo Roa, había sido gerente de la campaña de Petro y enfrentó imputaciones penales en el cargo. Joaquín Gutiérrez aparece también en F-05 (cercanía con el interventor de la Nueva EPS; negocios en salud). Ver E-07: en su posesión, el 25 de septiembre, el presidente anunció el levantamiento de restricciones a contratos de gas y petróleo. Ver I-05: el presidente de la junta, Carlos Suárez, respondió con una carta pública a una investigación de La Silla Vacía sobre su designación previa como directivo de la minera Copper Giant.",
+      "ultima_actualizacion": "2026-10-10"
     },
     {
       "id": "E-05",
@@ -1642,20 +1796,26 @@
       "actores": [
         "Yoly Beatriz Illidge",
         "Joaquín Gutiérrez",
-        "Roberto José Solano"
+        "Roberto José Solano",
+        "María Paula Tejada (presidenta de Findeter)"
       ],
       "fuentes": [
         "El País (España)",
         "La Silla Vacía"
       ],
-      "enlaces": [],
+      "enlaces": [
+        {
+          "t": "La Silla Vacía — nueva presidenta de Findeter",
+          "url": "https://www.lasillavacia.com/en-vivo/diario-del-gobierno-de-abelardo-otra-semana-de-tension-con-los-gremios/"
+        }
+      ],
       "etiquetas": [
         "nepotismo",
         "conflicto de interés",
         "salud"
       ],
-      "notas": "",
-      "ultima_actualizacion": "2026-09-04"
+      "notas": " Actualización (2 de octubre): la junta de Findeter aprobó el nombramiento de María Paula Tejada como presidenta; según La Silla Vacía, es amiga del presidente y fue una de las líderes de su campaña en Córdoba (ella misma dijo tener 'un grado de amistad' con él). Findeter ejecuta contratos de otras entidades, como Invías, mediante convenios interadministrativos.",
+      "ultima_actualizacion": "2026-10-12"
     },
     {
       "id": "F-06",
@@ -1803,6 +1963,106 @@
       "ultima_actualizacion": "2026-10-04"
     },
     {
+      "id": "F-10",
+      "fecha": "2026-10-09",
+      "fecha_texto": "9 de octubre de 2026",
+      "periodo": "Gobierno 2026-2030",
+      "tematica": "Nombramientos",
+      "caso": "Embajadas para el hermano del presidente del Partido Conservador y para el exgerente de la campaña del No",
+      "alegato": "La Presidencia publicó las hojas de vida y declaraciones de conflicto de intereses de nuevos aspirantes a embajadas: Alberto Rafael Cepeda Sarabia, hermano de Efraín Cepeda, presidente del Partido Conservador, para Italia (inversionista inmobiliario y miembro de juntas directivas, según su declaración; El Espectador no detalla experiencia diplomática); el exsenador conservador Camilo Chavarro, para una embajada no precisada; y el exsenador Juan Carlos Vélez Uribe para Ecuador, con beneplácito del gobierno de Daniel Noboa. Vélez fue gerente de la campaña del 'No' en el plebiscito de 2016 y, tras el resultado, dijo en una entrevista que la campaña buscó que la gente fuera a 'votar verracos', declaraciones que el Centro Democrático desautorizó. El Espectador presentó los nombres como 'cuotas conservadoras' y recordó el papel de Efraín Cepeda en el Congreso, incluida la elección del nuevo CNE.",
+      "respuesta_adle": "Sin respuesta pública registrada sobre los criterios de selección. La Presidencia publicó las declaraciones de conflicto de intereses de los aspirantes.",
+      "estado": "Sin investigación formal",
+      "verificacion": "Documentado",
+      "gravedad": 2,
+      "actores": [
+        "Alberto Rafael Cepeda Sarabia",
+        "Efraín Cepeda (presidente del Partido Conservador)",
+        "Juan Carlos Vélez Uribe",
+        "Camilo Chavarro"
+      ],
+      "fuentes": [
+        "El Espectador",
+        "El Colombiano",
+        "Infobae",
+        "Pulzo",
+        "La Silla Vacía"
+      ],
+      "enlaces": [
+        {
+          "t": "El Espectador — hermano de Efraín Cepeda sería embajador en Italia",
+          "url": "https://www.elespectador.com/politica/hermano-de-efrain-cepeda-alberto-rafael-seria-embajador-de-de-la-espriella-en-italia-hay-mas-cuotas-conservadoras/"
+        },
+        {
+          "t": "El Colombiano — Juan Carlos Vélez, embajador ante Ecuador",
+          "url": "https://www.elcolombiano.com/colombia/gobierno-abelardo-de-la-espriella-juan-carlos-velez-embajador-ecuador-AH42108800"
+        },
+        {
+          "t": "Infobae — hoja de vida de Juan Carlos Vélez",
+          "url": "https://www.infobae.com/colombia/2026/10/09/presidencia-publico-la-hoja-de-vida-de-juan-carlos-velez-seria-el-proximo-embajador-de-colombia-en-ecuador/"
+        }
+      ],
+      "etiquetas": [
+        "embajadas",
+        "cuotas políticas",
+        "Partido Conservador",
+        "servicio exterior"
+      ],
+      "notas": "Los nombramientos de embajadores son facultad discrecional del presidente; lo que se registra es el señalamiento periodístico de que responden a cuotas partidistas y la ausencia de experiencia diplomática reportada. Al cierre no se encontraron críticas formales de partidos de oposición. Ver F-05 (familiares y allegados en cargos) y D-12 (Alejandro Ordóñez en la OEA).",
+      "ultima_actualizacion": "2026-10-10"
+    },
+    {
+      "id": "F-11",
+      "fecha": "2026-10-03",
+      "fecha_texto": "3–8 de octubre de 2026",
+      "periodo": "Gobierno 2026-2030",
+      "tematica": "Nombramientos",
+      "caso": "Director de Bomberos sale a los 26 días y la Presidencia reversa un contrato en MinInterior; aliados del Gobierno critican a Lara",
+      "alegato": "El 3 de octubre el presidente pidió por X al ministro del Interior, Rodrigo Lara, declarar insubsistente a Germán Miranda, director nacional de Bomberos posesionado el 7 de septiembre, por hechos que calificó 'de la mayor gravedad', sin detallarlos. Según Cambio, La FM divulgó audios en los que Miranda habla de un caso de la Fiscalía relacionado con los bomberos de Envigado (no se sabe cuándo se grabaron ni está establecido que se haya pedido o pagado dinero), y la Contraloría le sigue un proceso de responsabilidad fiscal por un posible detrimento de unos 115 millones de pesos. Es el segundo alto funcionario que sale a los 26 días, después del director del DANE, Ricardo Valencia. Días después, La Silla Vacía confirmó que la Presidencia ordenó no ejecutar un contrato de asesoría jurídica por 60 millones de pesos y tres meses firmado en el Ministerio del Interior con el exmagistrado del CNE Altus Baquero. Cuentas afines al presidente acusaron a Lara de abrir 'la puerta de atrás' al petrismo, señalando también a su jefe de comunicaciones, José Borbón, asesor en entidades del gobierno anterior. El País América reportó que al menos tres personas actuaban en direcciones del Ministerio presentándose como funcionarios sin estar nombradas.",
+      "respuesta_adle": "Presidente: pidió la insubsistencia por hechos 'de la mayor gravedad'. Lara dijo que la decisión sobre Miranda se tomó de inmediato y, ante las críticas, anunció ahorros de 103.000 millones de pesos por la terminación de 557 contratos heredados, que calificó de 'politiquería'. No se registraron razones oficiales para revertir el contrato de Baquero.",
+      "estado": "Con decisión judicial o administrativa",
+      "verificacion": "Documentado",
+      "gravedad": 2,
+      "actores": [
+        "Germán Miranda (exdirector nacional de Bomberos)",
+        "Altus Baquero (exmagistrado del CNE)",
+        "Rodrigo Lara (ministro del Interior)",
+        "José Borbón"
+      ],
+      "fuentes": [
+        "Cambio",
+        "La Silla Vacía",
+        "La FM",
+        "Publimetro",
+        "El País América"
+      ],
+      "enlaces": [
+        {
+          "t": "Cambio — Germán Miranda, segundo alto funcionario que sale a los 26 días",
+          "url": "https://cambiocolombia.com/pais/articulo/2026/10/german-miranda-el-segundo-alto-funcionario-que-de-la-espriella-saca-a-los-26-dias-de-nombrado/"
+        },
+        {
+          "t": "La Silla Vacía — el reversazo a Altus Baquero",
+          "url": "https://www.lasillavacia.com/en-vivo/diario-del-gobierno-de-abelardo-el-reversazo-a-altus-baquero/"
+        },
+        {
+          "t": "La Silla Vacía — fuego amigo contra Rodrigo Lara",
+          "url": "https://www.lasillavacia.com/en-vivo/diario-del-gobierno-de-abelardo-fuego-amigo-contra-rodrigo-lara/"
+        },
+        {
+          "t": "Publimetro — así cayó el director nacional de Bomberos",
+          "url": "https://www.publimetro.co/bogota/2026/10/03/abelardo-de-la-espriella-dio-una-orden-en-x-a-una-salida-inmediata-asi-cayo-el-director-nacional-de-bomberos/"
+        }
+      ],
+      "etiquetas": [
+        "insubsistencia",
+        "reversazo",
+        "rotación de funcionarios",
+        "MinInterior"
+      ],
+      "notas": "Al cierre, Miranda no se había pronunciado públicamente. El 10 de octubre el Gobierno divulgó presuntas anomalías en la Dirección de Bomberos durante el gobierno Petro (Infobae), hecho relativo a la administración anterior. Ver K-06 (insubsistencia de Ivaldo Torres Chávez por orden pública del presidente) y F-09 (Colpensiones).",
+      "ultima_actualizacion": "2026-10-12"
+    },
+    {
       "id": "G-01",
       "fecha": "2026-09-02",
       "fecha_texto": "2 de septiembre de 2026",
@@ -1828,7 +2088,8 @@
         "Prensa Latina",
         "El Colombiano",
         "Vanguardia",
-        "El Diario"
+        "El Diario",
+        "Proceso (México)"
       ],
       "enlaces": [
         {
@@ -1842,6 +2103,14 @@
         {
           "t": "El Diario — juez niega tutela pero pide moderación",
           "url": "https://www.eldiario.com.co/actualidad/de-la-espriella-podra-seguir-apareciendo-entre-cadaveres-juez-niega-tutela-pero-pide-moderacion/"
+        },
+        {
+          "t": "Infobae — \"Más lo voy a hacer\"",
+          "url": "https://www.infobae.com/colombia/2026/10/08/abelardo-de-la-espriella-se-rebelo-nuevamente-contra-criticas-por-haber-caminado-entre-cadaveres-en-bolsas-mas-lo-voy-a-hacer/"
+        },
+        {
+          "t": "El Colombiano — defiende caminar entre cadáveres",
+          "url": "https://www.elcolombiano.com/colombia/de-la-espriella-defiende-caminar-sobre-cadaveres-MB42075696"
         }
       ],
       "etiquetas": [
@@ -1850,8 +2119,8 @@
         "comunicación de gobierno",
         "tutela"
       ],
-      "notas": "Petro: 'solo asesinos acostumbrados a asesinar pueden pasearse orondos y alegres entre los cadáveres'. Pizarro comparó la lógica con la de los falsos positivos: 'se reduce la seguridad al conteo de muertos'. Una semana antes el Gobierno había publicado imágenes de reclusos rapados en traslados penitenciarios, en la estética asociada a Nayib Bukele. Desenlace judicial: el representante Santiago Osorio Marín (Alianza Verde) y el ciudadano Javier Ricardo Cabrera Cruz presentaron una tutela contra las publicaciones de este video y del de G-06 (La Guajira). El 9 de septiembre el Juzgado Catorce Laboral del Circuito de Bogotá ordenó retirarlas temporalmente. El caso pasó al Juzgado Treinta Civil del Circuito de Bogotá, que el 23 de septiembre negó el amparo de forma definitiva: concluyó que los accionantes no tenían legitimidad para representar en general a los niños, niñas y adolescentes de Colombia, y que ningún familiar de los fallecidos había reclamado por la difusión. El fallo sí recomendó a la Presidencia comunicar los resultados de operaciones militares 'mediante recursos menos invasivos de la dignidad, memoria e imagen' de los fallecidos, aunque aclaró que esa exhortación no constituye una prohibición. Para cuando se resolvió la tutela, las publicaciones ya no estaban en las cuentas oficiales de Instagram de la Presidencia, aunque sí seguían en los perfiles personales del presidente.",
-      "ultima_actualizacion": "2026-09-23"
+      "notas": "Petro: 'solo asesinos acostumbrados a asesinar pueden pasearse orondos y alegres entre los cadáveres'. Pizarro comparó la lógica con la de los falsos positivos: 'se reduce la seguridad al conteo de muertos'. Una semana antes el Gobierno había publicado imágenes de reclusos rapados en traslados penitenciarios, en la estética asociada a Nayib Bukele. Desenlace judicial: el representante Santiago Osorio Marín (Alianza Verde) y el ciudadano Javier Ricardo Cabrera Cruz presentaron una tutela contra las publicaciones de este video y del de G-06 (La Guajira). El 9 de septiembre el Juzgado Catorce Laboral del Circuito de Bogotá ordenó retirarlas temporalmente. El caso pasó al Juzgado Treinta Civil del Circuito de Bogotá, que el 23 de septiembre negó el amparo de forma definitiva: concluyó que los accionantes no tenían legitimidad para representar en general a los niños, niñas y adolescentes de Colombia, y que ningún familiar de los fallecidos había reclamado por la difusión. El fallo sí recomendó a la Presidencia comunicar los resultados de operaciones militares 'mediante recursos menos invasivos de la dignidad, memoria e imagen' de los fallecidos, aunque aclaró que esa exhortación no constituye una prohibición. Para cuando se resolvió la tutela, las publicaciones ya no estaban en las cuentas oficiales de Instagram de la Presidencia, aunque sí seguían en los perfiles personales del presidente. Actualización (7–8 de octubre): en un diálogo transmitido con el candidato brasileño Flávio Bolsonaro (ver D-13), el presidente se refirió a las críticas por caminar entre cadáveres: 'Mientras más deje de gustarle eso a la izquierda, pues más lo voy a hacer'.",
+      "ultima_actualizacion": "2026-10-10"
     },
     {
       "id": "G-02",
@@ -2262,19 +2531,22 @@
     {
       "id": "H-04",
       "fecha": "2026-10-02",
-      "fecha_texto": "2 de octubre de 2026 (casi dos meses después del terremoto)",
+      "fecha_texto": "2–9 de octubre de 2026 (casi dos meses después del terremoto)",
       "periodo": "Gobierno 2026-2030",
       "tematica": "Gestión de emergencias",
-      "caso": "El Fondo Milagro sigue sin operar: sin fiducia, sin gerente formal y sin recursos transferidos",
+      "caso": "Fondo Milagro: casi dos meses sin operar; arranca el 7 de octubre con fiducia contratada de forma directa",
       "alegato": "Cambio reveló, con base en una respuesta del Ministerio de Hacienda del 30 de septiembre, que casi dos meses después del terremoto del 10 de agosto (335 muertos, según Infobae) el Fondo Milagro —anunciado el 12 de agosto y creado por el Decreto 1379 del 9 de septiembre como patrimonio autónomo a cargo de Hacienda— no ha firmado el contrato de fiducia mercantil, no tiene gerente formalizado ni consejo directivo instalado, no tiene manual de contratación (en elaboración, sin borrador) y no ha recibido ni un peso de los 624.600 millones incorporados al presupuesto de 2026 el 17 de septiembre. El Gobierno pidió además al Congreso 2,7 billones adicionales para el fondo el 29 de septiembre. La Patria (Manizales) había reportado el 20 de septiembre que a Caldas no habían llegado recursos y no tenía gerente regional.",
-      "respuesta_adle": "El Gobierno sostiene que la reconstrucción ya entró en una nueva etapa y ha anunciado subsidios, un programa de empleo para damnificados y un Plan Marshall para el Chocó. No se registró una explicación oficial específica sobre la demora en la fiducia al cierre de este registro.",
+      "respuesta_adle": "El Gobierno sostiene que la reconstrucción ya entró en una nueva etapa y ha anunciado subsidios, un programa de empleo para damnificados y un Plan Marshall para el Chocó. No se registró una explicación oficial específica sobre la demora en la fiducia al cierre de este registro. El presidente atribuyó la demora a la 'paquidermia del Estado'. Hacienda justificó la contratación directa de Fiducoldex por la emergencia, con criterios de liquidez, endeudamiento y eficiencia; descartó a Fiduprevisora por administrar ya varios patrimonios públicos grandes.",
       "estado": "Abierto",
       "verificacion": "Documentado",
       "gravedad": 4,
       "actores": [
         "Ministerio de Hacienda",
         "Miguel Gómez Martínez",
-        "Jaime Andrés Uribe"
+        "Jaime Andrés Uribe",
+        "Fiducoldex",
+        "Jaime Andrés Uribe Tamayo (gerente del Fondo Milagro)",
+        "Catherine Juvinao (representante)"
       ],
       "fuentes": [
         "Cambio",
@@ -2282,7 +2554,9 @@
         "El Diario",
         "La Patria",
         "Caracol Radio",
-        "The Rio Times"
+        "The Rio Times",
+        "Bloomberg Línea",
+        "El Espectador"
       ],
       "enlaces": [
         {
@@ -2296,16 +2570,29 @@
         {
           "t": "La Patria — no llega a Caldas",
           "url": "https://www.lapatria.com/caldas/fondo-milagro-propuesta-que-aun-no-llega-caldas-para-su-reconstruccion-por-el-terremoto-asi"
+        },
+        {
+          "t": "Bloomberg Línea — COP$248 millones al mes a Fiducoldex",
+          "url": "https://www.bloomberglinea.com/latinoamerica/colombia/fondo-milagro-el-gobierno-pagara-cop248-millones-al-mes-a-fiducoldex-para-administrar-la-reconstruccion/"
+        },
+        {
+          "t": "Infobae — urgencia para adicionar el PGN 2026",
+          "url": "https://www.infobae.com/colombia/2026/10/09/gobierno-de-la-espriella-solicito-con-urgencia-al-congreso-tramitar-modificacion-del-pgn-2026-aumentaria-a-637-billones/"
+        },
+        {
+          "t": "El Espectador — consejo de ministros del 6 de octubre",
+          "url": "https://www.elespectador.com/politica/este-gobierno-no-se-deja-amenazar-presidente-por-las-marchas-que-anuncio-la-oposicion/"
         }
       ],
       "etiquetas": [
         "Fondo Milagro",
         "reconstrucción",
         "terremoto",
-        "ejecución"
+        "ejecución",
+        "contratación directa"
       ],
-      "notas": "Matiz: los recursos no se han perdido; siguen en las cuentas de Hacienda a la espera de la fiducia. El fondo se presentó con una partida de unos 30 billones; lo efectivamente presupuestado hasta ahora son 624.600 millones más los 2,7 billones solicitados. Relacionado con F-06 (gerente sin experiencia ni título), E-03 (presupuesto) y H-03 (visitas sin ayudas concretas, reporte de opinión). A vigilar: firma de la fiducia y primeras transferencias.",
-      "ultima_actualizacion": "2026-10-04"
+      "notas": "Matiz: los recursos no se han perdido; siguen en las cuentas de Hacienda a la espera de la fiducia. El fondo se presentó con una partida de unos 30 billones; lo efectivamente presupuestado hasta ahora son 624.600 millones más los 2,7 billones solicitados. Relacionado con F-06 (gerente sin experiencia ni título), E-03 (presupuesto) y H-03 (visitas sin ayudas concretas, reporte de opinión). A vigilar: firma de la fiducia y primeras transferencias. Actualización (6–9 de octubre): el fondo empezó a operar el 7 de octubre con 1 billón de pesos, administrado por Fiducoldex —escogida por contratación directa— y con Jaime Andrés Uribe Tamayo como gerente. La comisión fija es de 142 salarios mínimos mensuales, unos 248,6 millones de pesos al mes (Bloomberg Línea). El Decreto 1488 del 6 de octubre adicionó 624.656 millones al presupuesto, y el 9 de octubre el Gobierno pidió con mensaje de urgencia adicionar 2,7 billones al Presupuesto 2026 para el fondo, financiados con ingresos estimados del Decreto Legislativo 1419. La representante Catherine Juvinao (Alianza Verde) cuestionó el costo de la fiducia antes de que se ejecuten obras y que el contrato no tenga valor total en el SECOP ni duración fija (Infobae).",
+      "ultima_actualizacion": "2026-10-10"
     },
     {
       "id": "I-01",
@@ -2455,6 +2742,49 @@
       ],
       "notas": "Reportado por Infobae como parte del recuento de la FLIP (caso I-02); no hay atribución de responsabilidad establecida.",
       "ultima_actualizacion": "2026-09-13"
+    },
+    {
+      "id": "I-05",
+      "fecha": "2026-10-05",
+      "fecha_texto": "5–6 de octubre de 2026",
+      "periodo": "Gobierno 2026-2030",
+      "tematica": "Prensa y libertad de expresión",
+      "caso": "El presidente de la junta de Ecopetrol, Carlos Suárez, llama 'activistas' a La Silla Vacía y Cambio y anuncia una 'respuesta política'",
+      "alegato": "Carlos Suárez, estratega de la campaña presidencial y presidente de la junta directiva de Ecopetrol desde septiembre (ver E-04), publicó una carta abierta titulada 'De tú a tú, querida Juanita León', dirigida a la directora de La Silla Vacía. Llamó al medio 'portal activista', a León 'actriz política', y escribió que la publicación 'decidió comportarse como un actor político' y que 'los actores políticos reciben respuesta política'. En X llamó 'activistas que se disfrazan de periodistas' a La Silla Vacía, a León y a la revista Cambio, e incluyó a esta en un 'coro'. La carta siguió a una investigación de La Silla Vacía (27 de septiembre) sobre su designación como directivo de Copper Giant, minera de cobre en Mocoa cuyo mayor accionista es Serafino Iacono, empresario mencionado en escándalos de Ecopetrol; según Cambio, Suárez renunció a esa junta antes de llegar a Ecopetrol sin explicar el posible conflicto. Suárez anunció además que hablará sobre la financiación de La Silla Vacía.",
+      "respuesta_adle": "Suárez dijo que se apartará de cualquier decisión de la junta de Ecopetrol relacionada con la familia León y presentó un conteo propio de 74 publicaciones sobre él entre diciembre de 2025 y octubre de 2026. La Silla Vacía respondió que la empresa familiar de León fue vendida en 2021 y que la familia no tiene participación en contratos estatales desde entonces. Sin respuesta pública registrada del presidente a la petición de la FLIP.",
+      "estado": "Sin investigación formal",
+      "verificacion": "Documentado",
+      "gravedad": 3,
+      "actores": [
+        "Carlos Suárez (presidente de la junta de Ecopetrol)",
+        "Juanita León (directora de La Silla Vacía)",
+        "La Silla Vacía",
+        "Cambio",
+        "FLIP"
+      ],
+      "fuentes": [
+        "Cambio",
+        "Minuto60",
+        "La Silla Vacía"
+      ],
+      "enlaces": [
+        {
+          "t": "Cambio — la FLIP responde a Carlos Suárez",
+          "url": "https://cambiocolombia.com/pais/articulo/2026/10/la-prensa-no-se-convierte-en-adversaria-del-gobierno-por-investigarlo-la-flip-responde-a-carlos-suarez-por-sus-ataques-a-la-silla-vacia-y-cambio"
+        },
+        {
+          "t": "Minuto60 — qué dijo Carlos Suárez",
+          "url": "https://minuto60.com/colombia/que-dijo-carlos-suarez-silla-vacia-que-lo-rechazo-flip/16627"
+        }
+      ],
+      "etiquetas": [
+        "estigmatización de prensa",
+        "Ecopetrol",
+        "FLIP",
+        "conflicto de intereses"
+      ],
+      "notas": "La FLIP rechazó los señalamientos: 'La prensa no se convierte en adversaria del Gobierno por investigarlo'; calificó de 'especialmente preocupante' la anunciada 'respuesta política' desde la presidencia de la junta de Ecopetrol, pidió al Gobierno rechazarlos públicamente y contabilizó 14 agresiones contra la prensa desde enero por parte del presidente y su entorno. Nota de transparencia: La Silla Vacía y Cambio son a la vez fuentes habituales de este tracker y partes del caso. Ver I-02 y E-04.",
+      "ultima_actualizacion": "2026-10-10"
     },
     {
       "id": "E-12",
@@ -2920,18 +3250,20 @@
       "caso": "MinAgricultura propone dejar de llamar ‘campesinos’ y usar ‘empresarios del campo’",
       "alegato": "Ante las comisiones económicas del Senado y la Cámara, el ministro de Agricultura y Desarrollo Rural, Indalecio Dangond, anunció que el Gobierno sustituirá la palabra 'campesino' por expresiones como 'productor agropecuario' o 'pequeño empresario del campo'. La representante María Fernanda Carrascal (Pacto Histórico) cuestionó la medida por desconocer una identidad construida durante décadas de lucha por la tierra; el representante Renzo García (Tolima) también defendió la permanencia del término, que tiene reconocimiento constitucional como sujeto de derechos ('campesinado').",
       "respuesta_adle": "Dangond: 'No se van a llamar campesinos, se van a llamar pequeños empresarios del campo. Campesino es despectivo. Aquí vamos a elevarle el estatus a los que producen los alimentos del país'. Ante las críticas, precisó que el cambio de categorías no busca negar la existencia ni los derechos del campesinado: '‘Campesino’ y ‘productor agropecuario’ no son sinónimos (...) reconocer las diferencias no divide al campo. Por el contrario, nos permite diseñar mejores políticas para todos'.",
-      "estado": "Abierto",
+      "estado": "Con decisión judicial o administrativa",
       "verificacion": "Documentado",
       "gravedad": 2,
       "actores": [
         "Indalecio Dangond (ministro de Agricultura)",
         "María Fernanda Carrascal",
-        "Renzo García"
+        "Renzo García",
+        "Miguel Ángel Grisales (representante)"
       ],
       "fuentes": [
         "Infobae",
         "Semana",
-        "Pulzo"
+        "Pulzo",
+        "La Silla Vacía"
       ],
       "enlaces": [
         {
@@ -2941,15 +3273,24 @@
         {
           "t": "Semana — así lo explicó el ministro",
           "url": "https://www.semana.com/confidenciales/articulo/gobierno-no-usara-la-palabra-campesino-asi-lo-explico-el-ministro-de-agricultura/202632/"
+        },
+        {
+          "t": "La Silla Vacía — juez ordena a Dangond disculparse",
+          "url": "https://www.lasillavacia.com/?p=450733"
+        },
+        {
+          "t": "Infobae — ultimátum del juez",
+          "url": "https://www.infobae.com/colombia/2026/09/23/indalecio-dangond-ministro-de-agricultura-tendra-que-retratarse-por-aseguar-que-la-palabra-campesinos-era-despectiva-juez-le-dio-un-ultimatum/"
         }
       ],
       "etiquetas": [
         "campesinado",
         "lenguaje oficial",
-        "identidad rural"
+        "identidad rural",
+        "tutela"
       ],
-      "notas": "Primer caso registrado bajo la letra K (gabinete y funcionarios), incorporada a partir de esta actualización a pedido del usuario para cubrir también polémicas de ministros, no solo del presidente. Clasificado en tematica 'Institucionalidad' por el trasfondo de reconocimiento constitucional del campesinado como sujeto de derechos; es un caso límite que también podría leerse como de política agropecuaria.",
-      "ultima_actualizacion": "2026-09-23"
+      "notas": "Primer caso registrado bajo la letra K (gabinete y funcionarios), incorporada a partir de esta actualización a pedido del usuario para cubrir también polémicas de ministros, no solo del presidente. Clasificado en tematica 'Institucionalidad' por el trasfondo de reconocimiento constitucional del campesinado como sujeto de derechos; es un caso límite que también podría leerse como de política agropecuaria. Desenlace judicial (23 de septiembre): por tutela del representante Miguel Ángel Grisales (Pacto Histórico), el Juzgado 46 Laboral del Circuito de Bogotá ordenó al ministro disculparse en 48 horas por calificar de despectivo el término 'campesino' y aclarar que 'campesino', 'campesina' y 'campesinado' siguen siendo parte del lenguaje del Estado; el fallo no le prohíbe usar 'pequeños empresarios del campo' (La Silla Vacía). No se encontró confirmación de si el ministro cumplió la orden o la impugnó. Ver K-07.",
+      "ultima_actualizacion": "2026-10-12"
     },
     {
       "id": "K-02",
@@ -3170,6 +3511,243 @@
       "ultima_actualizacion": "2026-09-29"
     },
     {
+      "id": "G-14",
+      "fecha": "2026-10-08",
+      "fecha_texto": "30 de septiembre – 9 de octubre de 2026",
+      "periodo": "Gobierno 2026-2030",
+      "tematica": "Seguridad y DDHH",
+      "caso": "Decreto de protesta: el Gobierno modifica el protocolo de 2021 y permite intervenir sin agotar el diálogo, días antes de las marchas del 14 de octubre",
+      "alegato": "El Ministerio del Interior publicó el 30 de septiembre un borrador que modifica y adiciona el Decreto 003 de 2021 (protocolo de la protesta). Según Cambio, el diálogo deja de ser condición previa para intervenir: ante armas, explosivos, retenciones, ataques a personas o bienes o destrucción de infraestructura, la autoridad podría actuar contra los involucrados sin agotar prevención, diálogo y mediación, dejando constancia en el PMU. Introduce el principio de 'equilibrio constitucional' (protesta frente a vida, salud, movilidad y trabajo), ocho causales para dar por terminado el diálogo, cinco niveles de reacción y 'corredores solidarios' contra bloqueos permanentes de vías y carriles de TransMilenio. El ministro Rodrigo Lara lo anunció el 8 de octubre y dijo que pasaría a firma presidencial; al 9 de octubre los medios lo reportaban pendiente de firma. Se conoce días antes de la movilización del 14 de octubre convocada por la CUT, Fecode, el Cric, el Pacto Histórico y el expresidente Petro. El 6 de octubre el presidente anunció además que revisará 'contrato por contrato y convenio por convenio' cerca de 1,13 billones de pesos reportados como entregados al Cric.",
+      "respuesta_adle": "Lara: 'Ni un derecho menos para quien protesta, ni un espacio más para quien no esté'; el objetivo es 'separar la protesta pacífica de los actos violentos y proteger la protesta pacífica'. Sostiene que el decreto responde a la sentencia de tutela de la Corte Suprema de 2021 que ordenó precisar las reglas del uso de la fuerza. El presidente: garantizará la protesta pacífica, pero el Gobierno 'no se deja amenazar ni intimidar ni presionar de nadie' y no permitirá bloqueos ni violencia; distinguió entre los pueblos indígenas y el Cric.",
+      "estado": "Sin investigación formal",
+      "verificacion": "Documentado",
+      "gravedad": 3,
+      "actores": [
+        "Rodrigo Lara (ministro del Interior)",
+        "Cric",
+        "CUT",
+        "Fecode",
+        "Gustavo Petro (expresidente)",
+        "Jennifer Pedraza (senadora)"
+      ],
+      "fuentes": [
+        "Cambio",
+        "El Espectador",
+        "El Colombiano",
+        "El Universal",
+        "Vanguardia",
+        "El Heraldo",
+        "Semana",
+        "Publimetro",
+        "Infobae",
+        "EFE"
+      ],
+      "enlaces": [
+        {
+          "t": "Cambio — el borrador permite intervenir sin agotar el diálogo",
+          "url": "https://cambiocolombia.com/poder/articulo/2026/9/decreto-de-protestas-gobierno-de-la-espriella-propone-intervenir-sin-agotar-el-dialogo"
+        },
+        {
+          "t": "El Espectador — Lara defiende el decreto",
+          "url": "https://www.elespectador.com/politica/lara-defiende-decreto-para-regular-la-protesta-y-actuacion-de-fuerza-publica-de-la-espriella-firmara-decreto/"
+        },
+        {
+          "t": "El Colombiano — decreto antes de las marchas de la oposición",
+          "url": "https://www.elcolombiano.com/colombia/protesta-decreto-gobierno-abelardo-de-la-espriella-rodrigo-lara-gustavo-petro-marchas-14-de-octubre-HG42111350"
+        },
+        {
+          "t": "El Universal — qué pasará con los bloqueos",
+          "url": "https://www.eluniversal.com.co/colombia/2026/10/08/gobierno-de-de-la-espriella-prepara-decreto-sobre-protestas-que-pasara-con-los-bloqueos/"
+        },
+        {
+          "t": "El Espectador — \"Este Gobierno no se deja amenazar\"",
+          "url": "https://www.elespectador.com/politica/este-gobierno-no-se-deja-amenazar-presidente-por-las-marchas-que-anuncio-la-oposicion/"
+        },
+        {
+          "t": "Publimetro — línea roja a las protestas y revisión de recursos del Cric",
+          "url": "https://www.publimetro.co/barranquilla/2026/10/07/abelardo-de-la-espriella-pone-una-linea-roja-a-las-protestas-este-gobierno-no-se-deja-intimidar/"
+        },
+        {
+          "t": "El Heraldo — protesta bajo nuevas reglas",
+          "url": "https://www.elheraldo.co/colombia/2026/10/04/protesta-bajo-nuevas-reglas-el-pulso-por-los-bloqueos-y-la-fuerza-publica/"
+        },
+        {
+          "t": "Infobae/EFE — primera gran protesta",
+          "url": "https://www.infobae.com/america/agencias/2026/10/11/de-la-espriella-con-dos-meses-en-el-poder-afronta-esta-semana-su-primera-gran-protesta/"
+        },
+        {
+          "t": "El Universal — sectores que se movilizarán",
+          "url": "https://www.eluniversal.com.co/colombia/2026/10/11/protestas-en-colombia-los-sectores-que-se-movilizaran-contra-de-la-espriella/"
+        }
+      ],
+      "etiquetas": [
+        "protesta social",
+        "Decreto 003 de 2021",
+        "Fuerza Pública",
+        "Cric",
+        "marchas 14 de octubre"
+      ],
+      "notas": "Críticas registradas: la exdefensora de Bogotá Lina García dijo que el borrador 'vulnera el principio de gradualidad' y cuestionó si define con claridad qué es violencia; la senadora Jennifer Pedraza (Dignidad y Compromiso) dijo que el Gobierno 'sigue viendo la protesta como un problema' y anunció demanda ante el Consejo de Estado si se expide; Petro lo calificó de herramienta de 'represión'. Respaldos: el gobernador de Antioquia, Andrés Julián Rendón, y el general (r) Eliécer Camacho. La CGT se apartó de las marchas; la CUT está dividida (11 de 21 miembros del comité ejecutivo del lado del Gobierno, según El Espectador). El Universal recordó la muerte de Donovan Balanta el 20 de septiembre en un procedimiento policial en Bogotá. A vigilar: firma y número del decreto, demanda y desarrollo de las marchas. Ver G-15 (registro de guardias indígenas) y G-08 (protocolo para universidades). Actualización (11 de octubre): al cierre, ninguno de los reportes consultados (EFE, El Universal) confirmaba la firma ni el número del decreto, anunciada para el 9 de octubre. Para el 14 de octubre, Fecode convocó a los docentes (salud del magisterio, derechos laborales, reconstrucción de escuelas tras el terremoto) y rechazó una 'campaña de estigmatización'; la ADE anunció paro de 24 horas en Bogotá; cuatro organizaciones indígenas encabezadas por el Cric se reúnen en el Cauca. Edinson Peña (Cric): 'La protesta es el único instrumento que nos queda a los pueblos indígenas'. Se menciona un posible paro nacional en noviembre, sin fecha. Ver G-16 (Estatuto Antiterrorista).",
+      "ultima_actualizacion": "2026-10-12"
+    },
+    {
+      "id": "G-15",
+      "fecha": "2026-10-01",
+      "fecha_texto": "1 de octubre de 2026",
+      "periodo": "Gobierno 2026-2030",
+      "tematica": "Seguridad y DDHH",
+      "caso": "Borrador de decreto para crear un sistema de información sobre las guardias indígenas",
+      "alegato": "El Ministerio del Interior publicó para comentarios un borrador de decreto que crea un Sistema de Información sobre Guardias Indígenas. Según La Silla Vacía, las guardias tendrían que reportar el acto de reconocimiento comunitario, el pueblo y territorio, el nombre de la guardia, el número de integrantes y los datos de contacto de su coordinador. El Cric y otras organizaciones advierten riesgos de vigilancia, seguimiento y estigmatización, y sostienen que las guardias responden a sus comunidades y no al gobierno de turno. El exviceministro Gabriel Rondón afirmó que se expidió sin consulta previa y que puede ser demandado, y sugirió una conexión con el borrador de decreto de protesta (G-14), dado que las guardias suelen participar en movilizaciones.",
+      "respuesta_adle": "El Ministerio del Interior sostiene que la información estatal sobre las guardias está fragmentada, lo que dificulta coordinar medidas de fortalecimiento, protección y reparación. El borrador aclara que no incluye listados nominales y que ninguna entidad podrá exigir el registro como condición para el reconocimiento o el acceso a protección o reparación. El presidente ha dicho que garantiza la consulta previa, con reglas que eviten que intermediarios la distorsionen.",
+      "estado": "Sin investigación formal",
+      "verificacion": "Documentado",
+      "gravedad": 3,
+      "actores": [
+        "Rodrigo Lara (ministro del Interior)",
+        "Cric",
+        "Iris Marín (defensora del Pueblo)",
+        "Gabriel Rondón (exviceministro)"
+      ],
+      "fuentes": [
+        "La Silla Vacía",
+        "El Espectador"
+      ],
+      "enlaces": [
+        {
+          "t": "La Silla Vacía — sistema de información sobre guardias indígenas",
+          "url": "https://www.lasillavacia.com/?p=452447"
+        }
+      ],
+      "etiquetas": [
+        "guardia indígena",
+        "pueblos indígenas",
+        "consulta previa",
+        "Cric"
+      ],
+      "notas": "La defensora del Pueblo, Iris Marín: 'La Guardia Indígena no necesita ser vigilada, caracterizada ni administrada por el Estado'. El Espectador se refirió a la medida como un 'censo de guardias indígenas'. Es un borrador: a vigilar si se expide, si se surte consulta previa y si se demanda. Relacionado con G-14.",
+      "ultima_actualizacion": "2026-10-10"
+    },
+    {
+      "id": "G-16",
+      "fecha": "2026-10-06",
+      "fecha_texto": "6–11 de octubre de 2026",
+      "periodo": "Gobierno 2026-2030",
+      "tematica": "Seguridad y DDHH",
+      "caso": "Estatuto Antiterrorista: registro nacional de organizaciones terroristas, nuevos delitos y facultades extraordinarias",
+      "alegato": "Caracol Radio conoció un borrador de 116 páginas (más de 130 artículos, según Minuto60) de un proyecto de ley estatutaria liderado por el ministro del Interior, Rodrigo Lara. Según El Universal, el texto define el terrorismo como un acto individual o colectivo que produce 'miedo, pánico y zozobra'; crea un Registro Nacional de Organizaciones y Actores Terroristas, decidido por el Consejo de Seguridad Nacional mediante acto administrativo, con congelamiento de bienes e inhabilidad para contratar con el Estado (con solicitud de retiro y apelación ante el Consejo de Estado); agrava penas en un tercio para conductas que beneficien a actores listados (incluidas asonadas y ataques a infraestructura crítica); habilita bombardeos contra esos grupos; crea un Alto Comisionado contra el Terrorismo adscrito al Dapre con seis meses de facultades extraordinarias para el presidente; establece un régimen carcelario especial para cabecillas; y traslada al Consejo de Estado, en primera instancia, las tutelas contra el presidente o el sector Defensa por operaciones militares. Colombia Reports, citando a Cepeda, señala además un delito de 'manipulación de la población civil' para quien promueva, financie, organice o dirija aglomeraciones. El Espectador reportó que la UNODC y la Embajada de EE. UU. revisaban el texto. Su presentación al Consejo Superior de Política Criminal, prevista para el 8 de octubre, se aplazó al 15 de octubre.",
+      "respuesta_adle": "Lara: 'Los únicos que deben temerlo son las organizaciones terroristas'; ningún expresidente, partido ni opositor 'tiene nada que temer'. Dijo que el texto que circula 'es aún preliminar' y que se le agregaron elementos contra las finanzas ilegales; pidió no dejarse 'meter cuentos de la oposición'. Sobre la participación de EE. UU. y la ONU: 'Son comentarios para mejorar el texto', no una revisión.",
+      "estado": "Sin investigación formal",
+      "verificacion": "Documentado",
+      "gravedad": 4,
+      "actores": [
+        "Rodrigo Lara (ministro del Interior)",
+        "Iván Cepeda (senador)",
+        "Pacto Histórico",
+        "UNODC",
+        "Embajada de EE. UU."
+      ],
+      "fuentes": [
+        "Caracol Radio",
+        "El Universal",
+        "Minuto60",
+        "Semana",
+        "La Silla Vacía",
+        "El Espectador",
+        "Colombia Reports",
+        "La Jornada (México)",
+        "EFE"
+      ],
+      "enlaces": [
+        {
+          "t": "El Universal — los cambios que propone el Estatuto",
+          "url": "https://www.eluniversal.com.co/colombia/2026/10/06/estatuto-antiterrorista-estos-son-los-cambios-que-propone-el-gobierno-de-la-espriella/"
+        },
+        {
+          "t": "Minuto60 — precisiones del ministro Lara",
+          "url": "https://www.minuto60.com/politica/estatuto-antiterrorista-mininterior-hace-precisiones-proyecto/16788"
+        },
+        {
+          "t": "Semana — Cepeda convoca a unir fuerzas contra el Estatuto",
+          "url": "https://www.semana.com/politica/articulo/ivan-cepeda-dice-que-unira-fuerzas-contra-el-estatuto-antiterrorista-de-de-la-espriella-e-invita-a-reunir-a-movimientos-sociales/202630/"
+        },
+        {
+          "t": "La Silla Vacía — Diario del gobierno (7 oct.)",
+          "url": "https://www.lasillavacia.com/en-vivo/diario-del-gobierno-de-abelardo-el-reversazo-a-altus-baquero/"
+        },
+        {
+          "t": "Colombia Reports — críticas de la oposición",
+          "url": "https://colombiareports.com/colombias-draft-antiterrorist-statute-creates-foundations-of-dictatorial-and-inquisitorial-regime-opposition/"
+        },
+        {
+          "t": "La Jornada — De la Espriella va por estatuto antiterrorista",
+          "url": "https://www.jornada.com.mx/2026/10/11/mundo/018n1mun?partner=rss"
+        }
+      ],
+      "etiquetas": [
+        "estatuto antiterrorista",
+        "terrorismo",
+        "lista de organizaciones",
+        "libertades civiles",
+        "ley estatutaria"
+      ],
+      "notas": "Críticas: Iván Cepeda (Pacto Histórico) dijo que 'cualquier ciudadano que ejerza legítimamente la crítica al Gobierno será catalogado como terrorista', que el proyecto 'convierte a Colombia en una dictadura', y afirmó que crea el delito político, legaliza la tortura y anula el debido proceso; el Pacto Histórico lo llamó 'modelo inquisitorial'. Estas son lecturas de la oposición sobre un borrador aún no radicado; el texto oficial no se ha publicado. La Silla Vacía recordó que el gobierno Uribe intentó sin éxito una medida similar. Al ser ley estatutaria requiere mayoría absoluta, trámite en una legislatura y control previo de la Corte Constitucional. La Jornada (México, línea de izquierda) cita al politólogo Horacio Duque. Relacionado con G-14 (decreto de protesta) y K-04 (tutelas contra operaciones). A vigilar: Consejo de Política Criminal del 15 de octubre y radicación.",
+      "ultima_actualizacion": "2026-10-12"
+    },
+    {
+      "id": "G-17",
+      "fecha": "2026-10-08",
+      "fecha_texto": "6–12 de octubre de 2026",
+      "periodo": "Gobierno 2026-2030",
+      "tematica": "Institucionalidad",
+      "caso": "El Gobierno anuncia que 'remoldeará' el Acuerdo de Paz; el informe de la ONU dice que aún no ha expuesto su enfoque de implementación",
+      "alegato": "Según Vanguardia, el canciller Omar Bula le dijo al Reino Unido —que lleva el expediente de Colombia en el Consejo de Seguridad— que el Gobierno quiere 'remoldear' el Acuerdo de 2016 según las prioridades presidenciales; la revisión cubre PDET, PNIS, reincorporación, reforma rural y justicia transicional (JEP). El informe trimestral del secretario general sobre la Misión de Verificación (27 de junio–26 de septiembre), publicado el 8 de octubre y que se presenta el 12 de octubre en Nueva York, advierte que el Gobierno 'todavía no ha expuesto cuál es su enfoque general para implementar el Acuerdo Final de Paz'; señala déficit de fondos en la Agencia para la Reincorporación (ARN) que el presupuesto 2027 podría profundizar; la suspensión por 90 días de nuevas medidas de tierras en el Ministerio de Agricultura; el fin de los diálogos con grupos armados y su clasificación como terroristas; y registra 8 excombatientes asesinados en el periodo (501 desde 2016) y 40 denuncias de asesinatos de líderes sociales (7 verificadas). El mandato de la Misión vence el 31 de octubre.",
+      "respuesta_adle": "El embajador ante la ONU, Mauricio Gaona, dijo que el Gobierno aplicará la Constitución y respetará el derecho internacional. Según el informe, el Gobierno manifestó su intención de cumplir la Constitución y las obligaciones jurídicas del Acuerdo, aunque revisará ciertos elementos; Guterres 'acoge con satisfacción' su apertura al diálogo. Sobre tierras, el ministro Dangond justificó en agosto la suspensión por compras de predios sin pagar y giros sin verificación de títulos, y anunció una auditoría forense.",
+      "estado": "Sin investigación formal",
+      "verificacion": "Documentado",
+      "gravedad": 3,
+      "actores": [
+        "Omar Bula (canciller)",
+        "Mauricio Gaona (embajador ante la ONU)",
+        "Misión de Verificación de la ONU",
+        "Indalecio Dangond (ministro de Agricultura)",
+        "ARN"
+      ],
+      "fuentes": [
+        "Vanguardia",
+        "Cambio",
+        "El Colombiano",
+        "La FM",
+        "Naciones Unidas (informe del secretario general)"
+      ],
+      "enlaces": [
+        {
+          "t": "Vanguardia — cambios al Acuerdo de Paz y la ONU",
+          "url": "https://www.vanguardia.com/colombia/2026/10/06/de-la-espriella-alista-cambios-al-acuerdo-de-paz-y-la-onu-sera-escenario-de-la-discusion/"
+        },
+        {
+          "t": "Cambio — la ONU pide continuidad en el Acuerdo",
+          "url": "https://cambiocolombia.com/poder/articulo/2026/10/la-onu-le-pide-a-de-la-espriella-continuidad-en-el-acuerdo-de-paz-los-proximos-anos-seran-decisivos"
+        },
+        {
+          "t": "El Colombiano — claves del informe de la Misión",
+          "url": "https://www.elcolombiano.com/colombia/acuerdo-paz-colombia-claves-informe-mision-verificacion-onu-IP42098000"
+        },
+        {
+          "t": "La FM — suspensión de 90 días de entrega y titulación de tierras",
+          "url": "https://www.lafm.com.co/politica/minagricultura-suspendera-entrega-y-titulacion-de-tierras-407342"
+        }
+      ],
+      "etiquetas": [
+        "Acuerdo de Paz",
+        "ONU",
+        "reincorporación",
+        "reforma rural",
+        "tierras"
+      ],
+      "notas": "Leonardo González (Indepaz) consideró válida una revisión después de una década pero advirtió problemas de implementación; Laura Bonilla (Fundación Pares) señaló a la JEP como principal punto de tensión. El Acto Legislativo 02 de 2017 obliga a que las actuaciones del Estado guarden coherencia con el Acuerdo y se cumplan de buena fe. La suspensión de tierras se anunció el 10 de agosto (La FM no precisa si cubre la restitución). Relacionado con E-13 (recorte a la JEP), G-05 (desmonte de la Paz Total) y E-03 (presupuesto). A vigilar: sesión del Consejo de Seguridad del 12 de octubre y renovación del mandato de la Misión.",
+      "ultima_actualizacion": "2026-10-12"
+    },
+    {
       "id": "K-04",
       "fecha": "2026-09-28",
       "fecha_texto": "28 de septiembre de 2026",
@@ -3267,6 +3845,10 @@
         {
           "t": "Chicanoticias — \"Aquí no hay nada que ocultar\"",
           "url": "https://www.chicanoticias.com/2026/10/05/no-hay-nada-que-ocultar-rector/"
+        },
+        {
+          "t": "La Silla Vacía — el presidente contra el rector de UniCórdoba",
+          "url": "https://www.lasillavacia.com/?p=453017"
         }
       ],
       "etiquetas": [
@@ -3275,8 +3857,8 @@
         "Córdoba",
         "Fiscalía"
       ],
-      "notas": "Verificación marcada como 'Denuncia periodística' porque las acusaciones de corrupción contra el rector no tienen decisión judicial; lo documentado es la intervención presidencial. Dato clave para la lectura del caso: el presidente califica de 'ilegal' una elección que el Consejo de Estado declaró legal; persiste un proceso disciplinario en la Procuraduría cuyo archivo fue revocado el 30 de julio. La tensión de fondo: un presidente señalando por nombre a un funcionario, pidiendo a la Fiscalía y a la Procuraduría priorizar casos concretos y ordenando una inspección a una universidad autónoma; ver también G-08 (protocolo de Policía en universidades). Los episodios del mismo fin de semana con el alcalde de Sincelejo y el exrector de la Universidad de Pamplona quedaron registrados en K-06. A vigilar: resultado de la visita de inspección.",
-      "ultima_actualizacion": "2026-10-05"
+      "notas": "Verificación marcada como 'Denuncia periodística' porque las acusaciones de corrupción contra el rector no tienen decisión judicial; lo documentado es la intervención presidencial. Dato clave para la lectura del caso: el presidente califica de 'ilegal' una elección que el Consejo de Estado declaró legal; persiste un proceso disciplinario en la Procuraduría cuyo archivo fue revocado el 30 de julio. La tensión de fondo: un presidente señalando por nombre a un funcionario, pidiendo a la Fiscalía y a la Procuraduría priorizar casos concretos y ordenando una inspección a una universidad autónoma; ver también G-08 (protocolo de Policía en universidades). Los episodios del mismo fin de semana con el alcalde de Sincelejo y el exrector de la Universidad de Pamplona quedaron registrados en K-06. A vigilar: resultado de la visita de inspección. Seguimiento (10 de octubre): no se encontraron resultados públicos de la visita de inspección del Ministerio de Educación iniciada el 5 de octubre.",
+      "ultima_actualizacion": "2026-10-10"
     },
     {
       "id": "K-06",
@@ -3303,7 +3885,9 @@
         "El Tiempo",
         "Noticias Caracol",
         "Colombia.com",
-        "EFE"
+        "EFE",
+        "La Silla Vacía",
+        "Colombia One"
       ],
       "enlaces": [
         {
@@ -3317,6 +3901,14 @@
         {
           "t": "El Tiempo — cuestionamiento a Yahir Acuña",
           "url": "https://www.eltiempo.com/politica/abelardo-de-la-espriella/presidente-abelardo-de-la-espriella-lanza-duro-cuestionamiento-contra-yahir-acuna-alcalde-de-sincelejo-por-sus-actuaciones-publicas-se-lo-dije-3591102"
+        },
+        {
+          "t": "Vanguardia — Acuña responde al presidente",
+          "url": "https://www.vanguardia.com/politica/2026/10/04/me-rehuso-a-creer-que-me-quieran-meter-en-una-bolsa-alcalde-yahir-acuna-le-responde-a-de-la-espriella/"
+        },
+        {
+          "t": "La Silla Vacía — Lombana, secretaria de Transparencia",
+          "url": "https://www.lasillavacia.com/?p=451928"
         }
       ],
       "etiquetas": [
@@ -3325,8 +3917,8 @@
         "señalamientos públicos",
         "Lombana"
       ],
-      "notas": "Lo que se registra no es la lucha anticorrupción en sí, sino tres aspectos discutibles: (1) los 'agentes encubiertos' anunciados sin marco legal ni entidad responsable conocida; (2) el señalamiento público y por nombre de funcionarios electos o designados por parte del presidente, antes de decisiones judiciales; y (3) la designación de una magistrada como secretaria de Transparencia (pendiente confirmar si dejó su cargo en la Corte). Yahir Acuña sí tiene procesos ante la Corte Suprema (Cambio documentó una resolución de situación jurídica por presuntos nexos con Los Rastrojos Costeños), pero la cifra de '13 procesos' proviene del presidente y no se verificó de forma independiente. No se encontró respuesta pública de Acuña al cierre. Ver K-05 (Universidad de Córdoba) y E-05 (Libro de la Verdad).",
-      "ultima_actualizacion": "2026-10-05"
+      "notas": "Lo que se registra no es la lucha anticorrupción en sí, sino tres aspectos discutibles: (1) los 'agentes encubiertos' anunciados sin marco legal ni entidad responsable conocida; (2) el señalamiento público y por nombre de funcionarios electos o designados por parte del presidente, antes de decisiones judiciales; y (3) la designación de una magistrada como secretaria de Transparencia (según La Silla Vacía, asumiría el 8 de octubre, al terminar su periodo en la Sala de Instrucción de la Corte Suprema; hace un mes cuatro magistrados pidieron a la Procuraduría investigarla por presuntas irregularidades en el caso de la senadora Martha Peralta). Yahir Acuña sí tiene procesos ante la Corte Suprema (Cambio documentó una resolución de situación jurídica por presuntos nexos con Los Rastrojos Costeños), pero la cifra de '13 procesos' proviene del presidente y no se verificó de forma independiente. Respuesta de Acuña (4 de octubre, Vanguardia): dijo que el video del choque en el evento de Coveñas está 'editado y manipulado digitalmente', pidió publicar la grabación completa, afirmó que fue intimidado con fusiles y que se le negó 'el legítimo derecho a la réplica'; pidió respetar la presunción de inocencia ('No hay investigados de segunda, investigados de primera'), señaló que su llamado a juicio está recurrido y no en firme, y cuestionó que el presidente antes reconociera los resultados de seguridad de Sincelejo. Ver K-05 (Universidad de Córdoba) y E-05 (Libro de la Verdad).",
+      "ultima_actualizacion": "2026-10-10"
     },
     {
       "id": "K-07",
@@ -3343,7 +3935,9 @@
       "actores": [
         "Indalecio Dangond (ministro de Agricultura)",
         "César Augusto Saavedra (Fedearroz)",
-        "Fernando Murillo (Consejo Nacional del Arroz)"
+        "Fernando Murillo (Consejo Nacional del Arroz)",
+        "Fedearroz",
+        "César Saavedra (presidente de la junta de Fedearroz)"
       ],
       "fuentes": [
         "Caracol Radio",
@@ -3352,7 +3946,8 @@
         "Noticias RCN",
         "El Tiempo",
         "El Espectador",
-        "Minuto60"
+        "Minuto60",
+        "La Silla Vacía"
       ],
       "enlaces": [
         {
@@ -3366,6 +3961,10 @@
         {
           "t": "El Tiempo — los reclamos de los arroceros",
           "url": "https://www.eltiempo.com/economia/sectores/los-reclamos-de-los-arroceros-al-gobierno-en-cuales-hay-respuestas-y-en-cuales-no-3591365"
+        },
+        {
+          "t": "La Silla Vacía — marañón y choque con Fedearroz",
+          "url": "https://www.lasillavacia.com/?p=453120"
         }
       ],
       "etiquetas": [
@@ -3373,8 +3972,55 @@
         "sector agropecuario",
         "declaraciones de ministros"
       ],
-      "notas": "Hay discrepancia en la cifra citada de rentabilidad del marañón (24% en la mayoría de reportes, 34% en El Tiempo). Segunda polémica del ministro Dangond tras K-01 (campesinos/'empresarios del campo'); también actúa como ministro de Ambiente ad hoc para Santurbán (E-06). Varios medios recogen que algunos dirigentes arroceros que celebraron la elección del presidente ahora critican a su ministro.",
-      "ultima_actualizacion": "2026-10-05"
+      "notas": "Hay discrepancia en la cifra citada de rentabilidad del marañón (24% en la mayoría de reportes, 34% en El Tiempo). Segunda polémica del ministro Dangond tras K-01 (campesinos/'empresarios del campo'); también actúa como ministro de Ambiente ad hoc para Santurbán (E-06). Varios medios recogen que algunos dirigentes arroceros que celebraron la elección del presidente ahora critican a su ministro. Contexto adicional (La Silla Vacía, 5 de octubre): críticas del representante Julio Roberto Salazar (Conservador) —el problema no se resuelve pidiendo abandonar un cultivo estratégico para la seguridad alimentaria— y del senador Alejandro Ocampo (Pacto Histórico), quien advirtió que el marañón tarda entre cinco y siete años en producir. El ministro anunció una auditoría a los recursos parafiscales que maneja Fedearroz (más de 20.000 millones al año); César Saavedra, presidente de la junta de Fedearroz, dijo que el Ministerio busca 'el muerto río arriba'. Al cierre, Dangond no se había reunido con el gremio.",
+      "ultima_actualizacion": "2026-10-10"
+    },
+    {
+      "id": "K-08",
+      "fecha": "2026-10-06",
+      "fecha_texto": "6–8 de octubre de 2026",
+      "periodo": "Gobierno 2026-2030",
+      "tematica": "Institucionalidad",
+      "caso": "La primera dama responde por su viaje a la Semana de la Moda de París: 'Puedo ir a París y a donde quiera en el mundo con mi plata'",
+      "alegato": "La primera dama, Ana Lucía Pineda, viajó a París durante la Semana de la Moda para presentar el proyecto 'Territorios Vivos' con artesanía y moda colombianas, acompañada por las gestoras sociales de Valledupar (Milena Serrano Loaiza) y del Valle (Jimena Toro, hermana de la gobernadora Dilian Francisca Toro); según ella, en el marco de un evento de Asodamas. El senador Alejandro Ocampo (Pacto Histórico) pidió al Dapre información sobre los costos del desplazamiento. Según El País (Cali), el proyecto cuenta con el respaldo de Serfinanza, De la Espriella Lawyers (la firma fundada por el presidente), Patprimo, Argos y Claro.",
+      "respuesta_adle": "Pineda, en un comentario en una publicación de La Silla Vacía en Instagram: 'Pagué todo con recursos propios. Puedo ir a París y a donde quiera en el mundo con mi plata'. No se registró respuesta formal del Dapre a la solicitud del senador al cierre.",
+      "estado": "Sin investigación formal",
+      "verificacion": "Documentado",
+      "gravedad": 1,
+      "actores": [
+        "Ana Lucía Pineda (primera dama)",
+        "Alejandro Ocampo (senador)",
+        "De la Espriella Lawyers"
+      ],
+      "fuentes": [
+        "El País (Cali)",
+        "La Silla Vacía",
+        "El Colombiano",
+        "Minuto30",
+        "El Universal"
+      ],
+      "enlaces": [
+        {
+          "t": "El País — la primera dama responde por su viaje a París",
+          "url": "https://www.elpais.com.co/colombia/primera-dama-ana-lucia-pineda-responde-por-su-viaje-a-paris-pague-todo-con-recursos-propios-0726.html"
+        },
+        {
+          "t": "El Colombiano — viaje con recursos propios",
+          "url": "https://www.elcolombiano.com/inicio/ana-lucia-pineda-viaje-paris-semana-moda-recursos-propios-FF42035716"
+        },
+        {
+          "t": "La Silla Vacía — Diario del gobierno (7 oct.)",
+          "url": "https://www.lasillavacia.com/en-vivo/diario-del-gobierno-de-abelardo-el-reversazo-a-altus-baquero/"
+        }
+      ],
+      "etiquetas": [
+        "primera dama",
+        "viajes",
+        "gestoras sociales",
+        "conflicto de intereses"
+      ],
+      "notas": "No hay evidencia publicada de uso de recursos públicos; la primera dama afirma que pagó con recursos propios y el senador Ocampo reconoció que tiene derecho a viajes institucionales pagados por el Estado. Lo que se registra es la solicitud de información pendiente y el patrocinio del proyecto por empresas privadas, entre ellas la firma de abogados fundada por el presidente (ver F-04, puerta giratoria con la firma). La primera dama no es funcionaria del alto gobierno; se incluye bajo K por su rol institucional como gestora social.",
+      "ultima_actualizacion": "2026-10-12"
     }
   ]
 }
