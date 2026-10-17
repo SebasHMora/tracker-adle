@@ -3,7 +3,7 @@
     "titulo": "Rastreador de polémicas — Abelardo de la Espriella",
     "descripcion": "Registro de escándalos, controversias y cambios de rumbo. Periodo de seguimiento 2026-2030.",
     "version": "1.0",
-    "actualizado": "2026-10-12",
+    "actualizado": "2026-10-16",
     "responsable": "",
     "vocabulario": {
       "estado": [
@@ -785,8 +785,8 @@
         "cooperación militar",
         "Jerusalén"
       ],
-      "notas": "Delegaciones israelíes de Defensa y Cancillería visitan Colombia en septiembre. Restrepo viaja a Israel en octubre. Interés declarado: tecnología antidrones y ciberseguridad.",
-      "ultima_actualizacion": "2026-09-09"
+      "notas": "Delegaciones israelíes de Defensa y Cancillería visitan Colombia en septiembre. Restrepo viaja a Israel en octubre. Interés declarado: tecnología antidrones y ciberseguridad. Actualización: la embajada en Jerusalén se inauguró el 14 de octubre de 2026; ver D-15 (protesta de Egipto y declaración de 18 países).",
+      "ultima_actualizacion": "2026-10-16"
     },
     {
       "id": "D-03",
@@ -1304,6 +1304,60 @@
       "ultima_actualizacion": "2026-10-12"
     },
     {
+      "id": "D-15",
+      "fecha": "2026-10-14",
+      "fecha_texto": "14–16 de octubre de 2026",
+      "periodo": "Gobierno 2026-2030",
+      "tematica": "Política exterior",
+      "caso": "Colombia inaugura su embajada en Jerusalén; Egipto convoca al encargado de negocios colombiano en protesta",
+      "alegato": "El 14 de octubre el canciller Omar Bula y el canciller israelí Gideon Sa'ar inauguraron la embajada de Colombia en Jerusalén Occidental, encabezada por la embajadora Tania Gilinski; según El Heraldo, es la décima embajada en esa ciudad. El traslado desde Tel Aviv había sido anunciado en julio, tras el restablecimiento de relaciones con Israel (ver D-02). El Heraldo recuerda que la ONU y la mayoría de la comunidad internacional consideran Jerusalén Oriental territorio ocupado. El 15 de octubre el Ministerio de Exteriores de Egipto convocó al encargado de negocios de Colombia, Carlos Colmenares Castro, para transmitirle una 'enérgica protesta' y un 'rechazo rotundo', calificó la medida de unilateral, 'inaceptable', 'nula y sin ninguna validez jurídica', y pidió a Colombia abstenerse de medidas que socaven la solución de dos Estados. El 16 de octubre, 18 países árabes y musulmanes emitieron una declaración conjunta según la cual cualquier medida que altere el estatus de Jerusalén es nula. El Espectador había señalado en julio que la decisión pone en duda el alcance del reconocimiento de Palestina como Estado, vigente desde 2018.",
+      "respuesta_adle": "Bula: 'un paso decisivo para estrechar la hermandad y los vínculos entre nuestros pueblos'. Sa'ar: 'Es una victoria de la lucha diplomática por nuestra historia'. Sin respuesta pública registrada del Gobierno colombiano a la protesta de Egipto y a la declaración conjunta al cierre.",
+      "estado": "Sin investigación formal",
+      "verificacion": "Documentado",
+      "gravedad": 3,
+      "actores": [
+        "Omar Bula (canciller)",
+        "Tania Gilinski (embajadora en Israel)",
+        "Gideon Sa'ar (canciller de Israel)",
+        "Gobierno de Egipto"
+      ],
+      "fuentes": [
+        "El Heraldo",
+        "Infobae/EFE",
+        "Semana",
+        "El Tiempo",
+        "Cancillería",
+        "El Espectador"
+      ],
+      "enlaces": [
+        {
+          "t": "El Heraldo — Colombia inaugura embajada en Jerusalén",
+          "url": "https://www.elheraldo.co/colombia/2026/10/14/colombia-inaugura-embajada-en-jerusalen-es-una-victoria-de-la-lucha-diplomatica-por-nuestra-historia/"
+        },
+        {
+          "t": "Infobae/EFE — Egipto convoca al encargado de negocios de Colombia",
+          "url": "https://www.infobae.com/america/agencias/2026/10/16/egipto-convoca-al-encargado-de-negocios-de-colombia-en-protesta-por-la-apertura-de-su-embajada-en-jerusalen/"
+        },
+        {
+          "t": "Cancillería — comunicado de inauguración",
+          "url": "https://www.cancilleria.gov.co/sala-de-prensa/noticias/colombia-inaugura-su-embajada-en-jerusalen-y-consolida-una-nueva-etapa-en-la-relacion-bilateral-con-israel"
+        },
+        {
+          "t": "El Espectador — dudas sobre el reconocimiento a Palestina (julio)",
+          "url": "https://www.elespectador.com/mundo/mas-paises/anuncios-diplomaticos-de-de-la-espriella-ponen-en-duda-el-reconocimiento-a-palestina/"
+        }
+      ],
+      "etiquetas": [
+        "Israel",
+        "Jerusalén",
+        "Palestina",
+        "Egipto",
+        "mundo árabe"
+      ],
+      "notas": "Fuente primaria: comunicado de la Cancillería. Concreción del anuncio registrado en D-02. A vigilar: respuesta de Colombia a Egipto y a la declaración conjunta, y posibles efectos comerciales o diplomáticos con países árabes.",
+      "ultima_actualizacion": "2026-10-16"
+    },
+    {
       "id": "E-01",
       "fecha": "2026-08-07",
       "fecha_texto": "7 de agosto de 2026",
@@ -1432,6 +1486,10 @@
         {
           "t": "El Colombiano — comisiones aprueban el Presupuesto 2027",
           "url": "https://www.elcolombiano.com/negocios/comisiones-economicas-aprueban-presupuesto-2027-congreso-ME41458163"
+        },
+        {
+          "t": "El Colombiano — Presupuesto 2027 con recorte de $8,36 billones en deuda",
+          "url": "https://www.elcolombiano.com/negocios/presupuesto-2027-recorte-deuda-publica-8-billones-terremoto-colombia-EB42255098"
         }
       ],
       "etiquetas": [
@@ -1439,8 +1497,8 @@
         "Fondo Milagro",
         "deuda"
       ],
-      "notas": "Aprobado en primer debate (monto 15 de septiembre, articulado 23 de septiembre). Siguen las plenarias; plazo legal del trámite: 20 de octubre. Ver E-14 (recorte de subsidios) y E-13 (recorte a la JEP) como componentes del ajuste. A vigilar: demanda anunciada por Racero.",
-      "ultima_actualizacion": "2026-09-25"
+      "notas": "Aprobado en primer debate (monto 15 de septiembre, articulado 23 de septiembre). Siguen las plenarias; plazo legal del trámite: 20 de octubre. Ver E-14 (recorte de subsidios) y E-13 (recorte a la JEP) como componentes del ajuste. A vigilar: demanda anunciada por Racero. Actualización (14 de octubre): se radicó la ponencia para segundo debate en el Senado. Mantiene el monto de 634,9 billones, pero baja el servicio de la deuda de 152,4 a 144,1 billones (-8,36 billones); 6 billones irían a damnificados del terremoto y gestión del riesgo, 4,5 billones más a MinHacienda y 3 billones a subsidios de energía y gas. Hernando Zuleta (Uniandes) y José Roberto Acosta cuestionaron financiar la emergencia aplazando deuda; el déficit de 2027 se proyecta en 9,5% del PIB, según Zuleta. Plazo: 20 de octubre; si no se aprueba, el Gobierno lo expide por decreto.",
+      "ultima_actualizacion": "2026-10-16"
     },
     {
       "id": "E-04",
@@ -1968,7 +2026,7 @@
       "fecha_texto": "9 de octubre de 2026",
       "periodo": "Gobierno 2026-2030",
       "tematica": "Nombramientos",
-      "caso": "Embajadas para el hermano del presidente del Partido Conservador y para el exgerente de la campaña del No",
+      "caso": "Embajadas para el hermano del presidente del Partido Conservador, el exgerente de la campaña del No y un socio del presidente sancionado en primera instancia",
       "alegato": "La Presidencia publicó las hojas de vida y declaraciones de conflicto de intereses de nuevos aspirantes a embajadas: Alberto Rafael Cepeda Sarabia, hermano de Efraín Cepeda, presidente del Partido Conservador, para Italia (inversionista inmobiliario y miembro de juntas directivas, según su declaración; El Espectador no detalla experiencia diplomática); el exsenador conservador Camilo Chavarro, para una embajada no precisada; y el exsenador Juan Carlos Vélez Uribe para Ecuador, con beneplácito del gobierno de Daniel Noboa. Vélez fue gerente de la campaña del 'No' en el plebiscito de 2016 y, tras el resultado, dijo en una entrevista que la campaña buscó que la gente fuera a 'votar verracos', declaraciones que el Centro Democrático desautorizó. El Espectador presentó los nombres como 'cuotas conservadoras' y recordó el papel de Efraín Cepeda en el Congreso, incluida la elección del nuevo CNE.",
       "respuesta_adle": "Sin respuesta pública registrada sobre los criterios de selección. La Presidencia publicó las declaraciones de conflicto de intereses de los aspirantes.",
       "estado": "Sin investigación formal",
@@ -1978,14 +2036,18 @@
         "Alberto Rafael Cepeda Sarabia",
         "Efraín Cepeda (presidente del Partido Conservador)",
         "Juan Carlos Vélez Uribe",
-        "Camilo Chavarro"
+        "Camilo Chavarro",
+        "Juan Carlos Gossaín (exgobernador de Bolívar)"
       ],
       "fuentes": [
         "El Espectador",
         "El Colombiano",
         "Infobae",
         "Pulzo",
-        "La Silla Vacía"
+        "La Silla Vacía",
+        "Vanguardia",
+        "El Universal",
+        "Caracol Radio"
       ],
       "enlaces": [
         {
@@ -1999,6 +2061,14 @@
         {
           "t": "Infobae — hoja de vida de Juan Carlos Vélez",
           "url": "https://www.infobae.com/colombia/2026/10/09/presidencia-publico-la-hoja-de-vida-de-juan-carlos-velez-seria-el-proximo-embajador-de-colombia-en-ecuador/"
+        },
+        {
+          "t": "Vanguardia — Gossaín, exgobernador sancionado, llegaría a Francia",
+          "url": "https://www.vanguardia.com/colombia/2026/10/08/juan-carlos-gossain-exgobernador-sancionado-por-el-cartel-de-la-hemofilia-llegaria-a-la-embajada-en-francia/"
+        },
+        {
+          "t": "El Universal — Gossaín habla de su nombramiento",
+          "url": "https://www.eluniversal.com.co/cartagena/2026/10/10/gossain-habla-de-su-nombramiento-como-embajador-de-colombia-en-francia/"
         }
       ],
       "etiquetas": [
@@ -2007,8 +2077,8 @@
         "Partido Conservador",
         "servicio exterior"
       ],
-      "notas": "Los nombramientos de embajadores son facultad discrecional del presidente; lo que se registra es el señalamiento periodístico de que responden a cuotas partidistas y la ausencia de experiencia diplomática reportada. Al cierre no se encontraron críticas formales de partidos de oposición. Ver F-05 (familiares y allegados en cargos) y D-12 (Alejandro Ordóñez en la OEA).",
-      "ultima_actualizacion": "2026-10-10"
+      "notas": "Los nombramientos de embajadores son facultad discrecional del presidente; lo que se registra es el señalamiento periodístico de que responden a cuotas partidistas y la ausencia de experiencia diplomática reportada. Al cierre no se encontraron críticas formales de partidos de oposición. Ver F-05 (familiares y allegados en cargos) y D-12 (Alejandro Ordóñez en la OEA). Actualización (8–10 de octubre): Juan Carlos Gossaín, exgobernador de Bolívar (2012-2015), será embajador en Francia (pendiente beneplácito). Según Vanguardia, tiene vínculos personales y de negocios con el presidente: es socio de Dominio de la Espriella S.A.S. y habría cofundado con su esposa la Fundación Becas Educativas Abelardo de la Espriella. En noviembre de 2022 la Procuraduría lo sancionó en primera instancia con destitución e inhabilidad de 10 años en el caso del 'cartel de la hemofilia' (pagos por más de 16.000 millones a dos IPS sin relación contractual); la nota no precisa el estado actual de esa sanción. Gossaín: 'Una vez que se surtan todos los trámites y se oficialice vamos a trabajar por resultados'; no se refirió a la sanción.",
+      "ultima_actualizacion": "2026-10-16"
     },
     {
       "id": "F-11",
@@ -2061,6 +2131,48 @@
       ],
       "notas": "Al cierre, Miranda no se había pronunciado públicamente. El 10 de octubre el Gobierno divulgó presuntas anomalías en la Dirección de Bomberos durante el gobierno Petro (Infobae), hecho relativo a la administración anterior. Ver K-06 (insubsistencia de Ivaldo Torres Chávez por orden pública del presidente) y F-09 (Colpensiones).",
       "ultima_actualizacion": "2026-10-12"
+    },
+    {
+      "id": "F-12",
+      "fecha": "2026-10-08",
+      "fecha_texto": "8 de octubre de 2026",
+      "periodo": "Gobierno 2026-2030",
+      "tematica": "Nombramientos",
+      "caso": "La ministra de las Culturas, Paola Holguín, se presentaba como magíster sin haber recibido el título",
+      "alegato": "Cambio reveló, con base en un derecho de petición de la senadora Jennifer Pedraza a la Universidad Pontificia Bolivariana (UPB), que la ministra de las Culturas, Paola Holguín, no obtuvo el título de la maestría en Estudios Políticos con el que aparecía en sus redes y en las del Ministerio. La UPB rectificó una publicación del 18 de julio que la presentaba como graduada del pregrado y del posgrado: solo se graduó de Comunicación Social–Periodismo; cursó y aprobó las asignaturas de la maestría, pero la universidad 'no ha otorgado' ese título. Su hoja de vida en el SIGEP sí indica que no se graduó. También se la ha presentado como magíster en Seguridad y Defensa Nacionales de la Escuela Superior de Guerra, título que no aparece soportado en su hoja de vida y que los medios consultados no verificaron. El equipo de Pedraza lo describió como una 'práctica reiterada' de inflar hojas de vida en altos cargos.",
+      "respuesta_adle": "Holguín: 'NO me gradué, a pesar de haber aprobado todas las materias y el trabajo de grado'. Dijo que en sus documentos públicos 'es claro' que es egresada o que cursó la maestría, compartió un certificado con el título de su tesis ('Hacia una definición estratégica del terrorismo'), criticó el 'show mediático' y pidió separar este debate de la evaluación de su gestión.",
+      "estado": "Sin investigación formal",
+      "verificacion": "Documentado",
+      "gravedad": 2,
+      "actores": [
+        "Paola Holguín (ministra de las Culturas)",
+        "Jennifer Pedraza (senadora)",
+        "Universidad Pontificia Bolivariana"
+      ],
+      "fuentes": [
+        "Cambio",
+        "Portafolio",
+        "Publimetro",
+        "Blu Radio",
+        "La Silla Vacía"
+      ],
+      "enlaces": [
+        {
+          "t": "Cambio — la ministra no tendría títulos que dice poseer",
+          "url": "https://cambiocolombia.com/poder/articulo/2026/10/paola-holguin-ministra-de-las-culturas-no-tendria-titulos-universitarios-que-asegura-poseer-en-su-hoja-de-vida"
+        },
+        {
+          "t": "Portafolio — rectificación de la UPB",
+          "url": "https://www.portafolio.co/economia/gobierno/paola-holguin-ministra-de-las-culturas-no-obtuvo-titulo-de-maestria-segun-rectificacion-de-la-upb-504136"
+        }
+      ],
+      "etiquetas": [
+        "hoja de vida",
+        "títulos académicos",
+        "MinCulturas"
+      ],
+      "notas": "Portafolio precisa que la maestría no es requisito constitucional para ser ministra (arts. 207 y 177), por lo que el hecho no invalida el nombramiento; lo pendiente es corregir las publicaciones que la presentan como magíster. La Silla Vacía tituló después que 'tampoco es egresada' de la maestría en Seguridad y Defensa; no se pudo consultar el contenido de esa nota. Ver K-10 (Museo Nacional, ejecutado por su ministerio) y F-06 (perfiles cuestionados).",
+      "ultima_actualizacion": "2026-10-16"
     },
     {
       "id": "G-01",
@@ -2785,6 +2897,93 @@
       ],
       "notas": "La FLIP rechazó los señalamientos: 'La prensa no se convierte en adversaria del Gobierno por investigarlo'; calificó de 'especialmente preocupante' la anunciada 'respuesta política' desde la presidencia de la junta de Ecopetrol, pidió al Gobierno rechazarlos públicamente y contabilizó 14 agresiones contra la prensa desde enero por parte del presidente y su entorno. Nota de transparencia: La Silla Vacía y Cambio son a la vez fuentes habituales de este tracker y partes del caso. Ver I-02 y E-04.",
       "ultima_actualizacion": "2026-10-10"
+    },
+    {
+      "id": "I-06",
+      "fecha": "2026-10-12",
+      "fecha_texto": "11–13 de octubre de 2026",
+      "periodo": "Gobierno 2026-2030",
+      "tematica": "Prensa y libertad de expresión",
+      "caso": "La Presidencia pide a la Fiscalía actuar contra el caricaturista Matador por mensajes sobre la primera dama; la Fiscalía abre indagación por injuria agravada",
+      "alegato": "El 11 de octubre el caricaturista Matador (Julio César González) publicó en X una imagen de la primera dama, Ana Lucía Pineda, con las palabras 'ratita' y 'pati raquítica', mientras preguntaba por las ayudas para los damnificados del terremoto en Pereira. La Presidencia emitió un comunicado firmado por todos los ministros y altos funcionarios que calificó los mensajes de misóginos, afirmó que 'la misoginia no puede disfrazarse de humor' ni ampararse en la libre expresión, y pidió a la Fiscalía investigar. De la Espriella Lawyers, la firma fundada por el presidente, anunció 'acciones legales'. El 13 de octubre la Fiscalía abrió de oficio una indagación por presunta injuria agravada, asignada al Grupo de Violencias Basadas en Género. Matador había pedido protección a la FLIP el 3 de octubre por amenazas de muerte, y el 13 de octubre denunció que un funcionario de la UNP ordenó a sus escoltas dejarlo solo (ver G-18).",
+      "respuesta_adle": "Comunicado de la Presidencia: rechazó el término 'ratita' y la alusión al aspecto físico como misoginia, aclaró que las críticas de Matador no cuestionaban 'sus ideas, sus decisiones ni su trabajo', y sostuvo que ninguna mujer debe enfrentar humillación como condición para ejercer liderazgo. Matador respondió que no critica a la primera dama por ser mujer, sino por los recursos recibidos por su fundación mientras su ciudad sigue afectada.",
+      "estado": "Abierto",
+      "verificacion": "Documentado",
+      "gravedad": 3,
+      "actores": [
+        "Matador (Julio César González, caricaturista)",
+        "Ana Lucía Pineda (primera dama)",
+        "Fiscalía",
+        "De la Espriella Lawyers"
+      ],
+      "fuentes": [
+        "La Silla Vacía",
+        "Cambio",
+        "Blu Radio",
+        "Publimetro",
+        "NTN24"
+      ],
+      "enlaces": [
+        {
+          "t": "La Silla Vacía — comunicado de la Presidencia sobre Matador",
+          "url": "https://www.lasillavacia.com/?p=454320"
+        },
+        {
+          "t": "Cambio — Fiscalía investiga a Matador",
+          "url": "https://cambiocolombia.com/fiscalia-investiga-a-matador-por-violencia-contra-la-mujer-tras-sus-mensajes-contra-la-primera-dama/"
+        },
+        {
+          "t": "Blu Radio — Presidencia pide a la Fiscalía evaluar el caso",
+          "url": "https://www.bluradio.com/nacion/presidencia-rechaza-comentarios-de-matador-contra-primera-dama-y-pide-a-fiscalia-evaluar-el-caso-rg10"
+        },
+        {
+          "t": "Publimetro — la firma del presidente anuncia acciones",
+          "url": "https://www.publimetro.co/entretenimiento/2026/10/13/firma-de-abogados-del-presidente-de-la-espriella-podria-emprender-acciones-legales-contra-matador-por-comentarios-sobre-la-primera-dama/"
+        }
+      ],
+      "etiquetas": [
+        "caricatura",
+        "misoginia",
+        "injuria",
+        "Fiscalía",
+        "primera dama"
+      ],
+      "notas": "El caso tiene dos dimensiones que se registran por separado de cualquier juicio: (1) el contenido de los mensajes, que la Presidencia y otras voces (incluido el caricaturista Vladdo, según Publimetro) rechazaron por aludir al físico de la primera dama; y (2) el uso del aparato estatal —comunicado de todo el gabinete y solicitud a la Fiscalía— contra un caricaturista crítico. Al cierre no se encontró pronunciamiento de la FLIP sobre este episodio. Ver K-09 (fundación de la primera dama), I-03 (Vladdo) y I-05.",
+      "ultima_actualizacion": "2026-10-16"
+    },
+    {
+      "id": "I-07",
+      "fecha": "2026-10-15",
+      "fecha_texto": "15–16 de octubre de 2026",
+      "periodo": "Gobierno 2026-2030",
+      "tematica": "Prensa y libertad de expresión",
+      "caso": "El presidente plantea que la prensa puede servir 'involuntariamente' a la propaganda terrorista; la FLIP responde que traslada la responsabilidad a las víctimas",
+      "alegato": "En la inauguración de la nueva sede de la Casa Editorial El Tiempo, el presidente dijo que en algunos casos los medios pueden servir sin quererlo a la propaganda de los criminales, por ejemplo con entrevistas y espacios a estas estructuras que, según él, no aportan 'elementos útiles para comprender los hechos', y que pueden convertirse en 'tribunas' para 'difundir amenazas, justificar sus crímenes o imponer su relato'. Preguntó: '¿Dónde termina el legítimo deber de informar sobre un terrorista y dónde comienza el riesgo de servir involuntariamente a su estrategia de propaganda?'. La FLIP respondió que esas afirmaciones 'trasladan a las víctimas la responsabilidad por la violencia que enfrentan' y recordó que ha documentado 425 agresiones de grupos armados contra la prensa entre 2022 y octubre de 2026 (326 amenazas, 25 desplazamientos, 4 asesinatos y 8 exilios).",
+      "respuesta_adle": "En el mismo discurso, el presidente defendió la investigación periodística sobre las organizaciones terroristas —su financiación, estructuras y crímenes— y pidió distinguirla de lo que amplifica su imagen. Sin respuesta pública registrada a la FLIP, que reiteró una solicitud de reunión pendiente desde el 9 de septiembre.",
+      "estado": "Sin investigación formal",
+      "verificacion": "Documentado",
+      "gravedad": 2,
+      "actores": [
+        "FLIP",
+        "Casa Editorial El Tiempo"
+      ],
+      "fuentes": [
+        "Infobae"
+      ],
+      "enlaces": [
+        {
+          "t": "Infobae — la FLIP rechaza declaraciones del presidente",
+          "url": "https://www.infobae.com/colombia/2026/10/16/la-flip-rechazo-declaraciones-de-de-la-espriella-sobre-el-uso-de-la-prensa-por-parte-de-grupos-armados-traslada-a-las-victimas-la-responsabilidad/"
+        }
+      ],
+      "etiquetas": [
+        "cubrimiento del conflicto",
+        "FLIP",
+        "terrorismo",
+        "periodismo"
+      ],
+      "notas": "La FLIP pidió al presidente 'abstenerse de asociar el cubrimiento del conflicto con la promoción del terrorismo'. Relacionado con G-16: el borrador del Estatuto Antiterrorista incluye figuras de colaboración que la oposición teme que alcancen a periodistas. Ver I-02 y I-05.",
+      "ultima_actualizacion": "2026-10-16"
     },
     {
       "id": "E-12",
@@ -3513,13 +3712,13 @@
     {
       "id": "G-14",
       "fecha": "2026-10-08",
-      "fecha_texto": "30 de septiembre – 9 de octubre de 2026",
+      "fecha_texto": "30 de septiembre – 16 de octubre de 2026",
       "periodo": "Gobierno 2026-2030",
       "tematica": "Seguridad y DDHH",
-      "caso": "Decreto de protesta: el Gobierno modifica el protocolo de 2021 y permite intervenir sin agotar el diálogo, días antes de las marchas del 14 de octubre",
+      "caso": "Decreto 1525 de 2026: el Gobierno modifica el protocolo de protesta y permite intervenir sin agotar el diálogo",
       "alegato": "El Ministerio del Interior publicó el 30 de septiembre un borrador que modifica y adiciona el Decreto 003 de 2021 (protocolo de la protesta). Según Cambio, el diálogo deja de ser condición previa para intervenir: ante armas, explosivos, retenciones, ataques a personas o bienes o destrucción de infraestructura, la autoridad podría actuar contra los involucrados sin agotar prevención, diálogo y mediación, dejando constancia en el PMU. Introduce el principio de 'equilibrio constitucional' (protesta frente a vida, salud, movilidad y trabajo), ocho causales para dar por terminado el diálogo, cinco niveles de reacción y 'corredores solidarios' contra bloqueos permanentes de vías y carriles de TransMilenio. El ministro Rodrigo Lara lo anunció el 8 de octubre y dijo que pasaría a firma presidencial; al 9 de octubre los medios lo reportaban pendiente de firma. Se conoce días antes de la movilización del 14 de octubre convocada por la CUT, Fecode, el Cric, el Pacto Histórico y el expresidente Petro. El 6 de octubre el presidente anunció además que revisará 'contrato por contrato y convenio por convenio' cerca de 1,13 billones de pesos reportados como entregados al Cric.",
       "respuesta_adle": "Lara: 'Ni un derecho menos para quien protesta, ni un espacio más para quien no esté'; el objetivo es 'separar la protesta pacífica de los actos violentos y proteger la protesta pacífica'. Sostiene que el decreto responde a la sentencia de tutela de la Corte Suprema de 2021 que ordenó precisar las reglas del uso de la fuerza. El presidente: garantizará la protesta pacífica, pero el Gobierno 'no se deja amenazar ni intimidar ni presionar de nadie' y no permitirá bloqueos ni violencia; distinguió entre los pueblos indígenas y el Cric.",
-      "estado": "Sin investigación formal",
+      "estado": "Abierto",
       "verificacion": "Documentado",
       "gravedad": 3,
       "actores": [
@@ -3528,7 +3727,9 @@
         "CUT",
         "Fecode",
         "Gustavo Petro (expresidente)",
-        "Jennifer Pedraza (senadora)"
+        "Jennifer Pedraza (senadora)",
+        "Gregorio Eljach (procurador)",
+        "Policía Nacional"
       ],
       "fuentes": [
         "Cambio",
@@ -3578,6 +3779,30 @@
         {
           "t": "El Universal — sectores que se movilizarán",
           "url": "https://www.eluniversal.com.co/colombia/2026/10/11/protestas-en-colombia-los-sectores-que-se-movilizaran-contra-de-la-espriella/"
+        },
+        {
+          "t": "Cambio — demandas al decreto ante el Consejo de Estado",
+          "url": "https://cambiocolombia.com/pais/articulo/2026/10/demanda-al-decreto-de-protesta-social-llega-al-consejo-de-estado-es-regresivo-e-inconstitucional"
+        },
+        {
+          "t": "La Silla Vacía — firma del Decreto 1525",
+          "url": "https://www.lasillavacia.com/?p=454619"
+        },
+        {
+          "t": "Valora Analitik — texto del Decreto 1525 (PDF)",
+          "url": "https://www.valoraanalitik.com/wp-content/uploads/2026/10/DECRETO-No.-1525-DEL-13-DE-OCTUBRE-DE-2026-1791934766080.pdf"
+        },
+        {
+          "t": "Infobae — balance presidencial de las marchas",
+          "url": "https://www.infobae.com/colombia/2026/10/15/abelardo-de-la-espriella-le-resto-importancia-a-las-marchas-contra-su-gobierno-y-entrego-balance-de-la-jornada-es-una-pequena-minoria-la-que-quiere-parar-a-colombia/"
+        },
+        {
+          "t": "El Universal — \"cero tolerancia contra el terrorismo urbano\"",
+          "url": "https://www.eluniversal.com.co/colombia/2026/10/14/cero-tolerancia-contra-el-terrorismo-urbano-de-la-espriella-tras-las-marchas-en-colombia/"
+        },
+        {
+          "t": "La Silla Vacía — vuelve el Esmad",
+          "url": "https://www.lasillavacia.com/en-vivo/vuelve-el-esmad-policia-firmo-la-resolucion-que-reemplaza-la-undmo/"
         }
       ],
       "etiquetas": [
@@ -3585,10 +3810,12 @@
         "Decreto 003 de 2021",
         "Fuerza Pública",
         "Cric",
-        "marchas 14 de octubre"
+        "marchas 14 de octubre",
+        "Decreto 1525 de 2026",
+        "Esmad"
       ],
-      "notas": "Críticas registradas: la exdefensora de Bogotá Lina García dijo que el borrador 'vulnera el principio de gradualidad' y cuestionó si define con claridad qué es violencia; la senadora Jennifer Pedraza (Dignidad y Compromiso) dijo que el Gobierno 'sigue viendo la protesta como un problema' y anunció demanda ante el Consejo de Estado si se expide; Petro lo calificó de herramienta de 'represión'. Respaldos: el gobernador de Antioquia, Andrés Julián Rendón, y el general (r) Eliécer Camacho. La CGT se apartó de las marchas; la CUT está dividida (11 de 21 miembros del comité ejecutivo del lado del Gobierno, según El Espectador). El Universal recordó la muerte de Donovan Balanta el 20 de septiembre en un procedimiento policial en Bogotá. A vigilar: firma y número del decreto, demanda y desarrollo de las marchas. Ver G-15 (registro de guardias indígenas) y G-08 (protocolo para universidades). Actualización (11 de octubre): al cierre, ninguno de los reportes consultados (EFE, El Universal) confirmaba la firma ni el número del decreto, anunciada para el 9 de octubre. Para el 14 de octubre, Fecode convocó a los docentes (salud del magisterio, derechos laborales, reconstrucción de escuelas tras el terremoto) y rechazó una 'campaña de estigmatización'; la ADE anunció paro de 24 horas en Bogotá; cuatro organizaciones indígenas encabezadas por el Cric se reúnen en el Cauca. Edinson Peña (Cric): 'La protesta es el único instrumento que nos queda a los pueblos indígenas'. Se menciona un posible paro nacional en noviembre, sin fecha. Ver G-16 (Estatuto Antiterrorista).",
-      "ultima_actualizacion": "2026-10-12"
+      "notas": "Críticas registradas: la exdefensora de Bogotá Lina García dijo que el borrador 'vulnera el principio de gradualidad' y cuestionó si define con claridad qué es violencia; la senadora Jennifer Pedraza (Dignidad y Compromiso) dijo que el Gobierno 'sigue viendo la protesta como un problema' y anunció demanda ante el Consejo de Estado si se expide; Petro lo calificó de herramienta de 'represión'. Respaldos: el gobernador de Antioquia, Andrés Julián Rendón, y el general (r) Eliécer Camacho. La CGT se apartó de las marchas; la CUT está dividida (11 de 21 miembros del comité ejecutivo del lado del Gobierno, según El Espectador). El Universal recordó la muerte de Donovan Balanta el 20 de septiembre en un procedimiento policial en Bogotá. A vigilar: firma y número del decreto, demanda y desarrollo de las marchas. Ver G-15 (registro de guardias indígenas) y G-08 (protocolo para universidades). Actualización (11 de octubre): al cierre, ninguno de los reportes consultados (EFE, El Universal) confirmaba la firma ni el número del decreto, anunciada para el 9 de octubre. Para el 14 de octubre, Fecode convocó a los docentes (salud del magisterio, derechos laborales, reconstrucción de escuelas tras el terremoto) y rechazó una 'campaña de estigmatización'; la ADE anunció paro de 24 horas en Bogotá; cuatro organizaciones indígenas encabezadas por el Cric se reúnen en el Cauca. Edinson Peña (Cric): 'La protesta es el único instrumento que nos queda a los pueblos indígenas'. Se menciona un posible paro nacional en noviembre, sin fecha. Ver G-16 (Estatuto Antiterrorista). Actualización (13–16 de octubre): el presidente firmó el Decreto 1525 de 2026 el 13 de octubre, un día antes de las marchas. Ese mismo día la Policía expidió la Resolución 03226, que crea la Unidad Nacional Antidisturbios (Unadi) y restituye el nombre Esmad, derogando la resolución de 2022 que lo había renombrado Undmo; da 90 días para la nueva estructura. Demandas ante el Consejo de Estado: Jennifer Pedraza pidió la nulidad (argumenta que según el art. 37 de la Constitución solo una ley estatutaria puede limitar la protesta, y que la consulta duró siete días); Laura Beltrán y Daniel Monroy (Pacto Histórico) anunciaron nulidad, tutela y solicitud de suspensión provisional; Alejandro Ocampo citó la sentencia C-223 de 2017. El procurador Gregorio Eljach dijo que la protesta está protegida pero no es absoluta. Balance de las marchas del 14 de octubre (más de diez ciudades, con Petro en Bogotá): según el presidente, 62.000 participantes, 98% pacíficas, seis intervenciones de la Undmo (Bogotá, Ibagué, Popayán, Medellín) y seis capturas por vandalismo según El Universal; dijo que 'es una pequeña minoría la que quiere parar a Colombia' y anunció 'cero tolerancia contra el terrorismo urbano'. La Silla Vacía reportó que en la jornada no se vio mayor uso de la fuerza. Se discute un paro nacional en noviembre, sin fecha.",
+      "ultima_actualizacion": "2026-10-16"
     },
     {
       "id": "G-15",
@@ -3644,7 +3871,9 @@
         "Iván Cepeda (senador)",
         "Pacto Histórico",
         "UNODC",
-        "Embajada de EE. UU."
+        "Embajada de EE. UU.",
+        "Consejo Superior de Política Criminal",
+        "Iris Marín (defensora del Pueblo)"
       ],
       "fuentes": [
         "Caracol Radio",
@@ -3681,6 +3910,10 @@
         {
           "t": "La Jornada — De la Espriella va por estatuto antiterrorista",
           "url": "https://www.jornada.com.mx/2026/10/11/mundo/018n1mun?partner=rss"
+        },
+        {
+          "t": "La Silla Vacía — Consejo de Política Criminal avala el estatuto",
+          "url": "https://www.lasillavacia.com/en-vivo/consejo-de-politica-criminal-avala-estatuto-antiterrorista-de-abelardo/"
         }
       ],
       "etiquetas": [
@@ -3690,8 +3923,8 @@
         "libertades civiles",
         "ley estatutaria"
       ],
-      "notas": "Críticas: Iván Cepeda (Pacto Histórico) dijo que 'cualquier ciudadano que ejerza legítimamente la crítica al Gobierno será catalogado como terrorista', que el proyecto 'convierte a Colombia en una dictadura', y afirmó que crea el delito político, legaliza la tortura y anula el debido proceso; el Pacto Histórico lo llamó 'modelo inquisitorial'. Estas son lecturas de la oposición sobre un borrador aún no radicado; el texto oficial no se ha publicado. La Silla Vacía recordó que el gobierno Uribe intentó sin éxito una medida similar. Al ser ley estatutaria requiere mayoría absoluta, trámite en una legislatura y control previo de la Corte Constitucional. La Jornada (México, línea de izquierda) cita al politólogo Horacio Duque. Relacionado con G-14 (decreto de protesta) y K-04 (tutelas contra operaciones). A vigilar: Consejo de Política Criminal del 15 de octubre y radicación.",
-      "ultima_actualizacion": "2026-10-12"
+      "notas": "Críticas: Iván Cepeda (Pacto Histórico) dijo que 'cualquier ciudadano que ejerza legítimamente la crítica al Gobierno será catalogado como terrorista', que el proyecto 'convierte a Colombia en una dictadura', y afirmó que crea el delito político, legaliza la tortura y anula el debido proceso; el Pacto Histórico lo llamó 'modelo inquisitorial'. Estas son lecturas de la oposición sobre un borrador aún no radicado; el texto oficial no se ha publicado. La Silla Vacía recordó que el gobierno Uribe intentó sin éxito una medida similar. Al ser ley estatutaria requiere mayoría absoluta, trámite en una legislatura y control previo de la Corte Constitucional. La Jornada (México, línea de izquierda) cita al politólogo Horacio Duque. Relacionado con G-14 (decreto de protesta) y K-04 (tutelas contra operaciones). A vigilar: Consejo de Política Criminal del 15 de octubre y radicación. Actualización (15–16 de octubre): el Consejo Superior de Política Criminal avaló el proyecto con unos 11 votos a favor y 3 en contra —Corte Suprema, Defensoría del Pueblo y Pacto Histórico—, según La FM citada por La Silla Vacía. Lara: 'Extraordinario, extraordinario' y habló de 'la solidez y garantías que muestra este estatuto'. Pasará a revisión de la oficina jurídica de Presidencia y luego se radicará en el Congreso. Laura Bonilla (Pares) dijo que está diseñado a la medida de los 'superpoderes' del presidente de EE. UU.",
+      "ultima_actualizacion": "2026-10-16"
     },
     {
       "id": "G-17",
@@ -3710,14 +3943,17 @@
         "Mauricio Gaona (embajador ante la ONU)",
         "Misión de Verificación de la ONU",
         "Indalecio Dangond (ministro de Agricultura)",
-        "ARN"
+        "ARN",
+        "Miroslav Jenča (jefe de la Misión de Verificación)"
       ],
       "fuentes": [
         "Vanguardia",
         "Cambio",
         "El Colombiano",
         "La FM",
-        "Naciones Unidas (informe del secretario general)"
+        "Naciones Unidas (informe del secretario general)",
+        "Infobae",
+        "El Heraldo"
       ],
       "enlaces": [
         {
@@ -3735,6 +3971,14 @@
         {
           "t": "La FM — suspensión de 90 días de entrega y titulación de tierras",
           "url": "https://www.lafm.com.co/politica/minagricultura-suspendera-entrega-y-titulacion-de-tierras-407342"
+        },
+        {
+          "t": "Infobae — el Gobierno propone que la Misión deje de verificar la reforma rural",
+          "url": "https://www.infobae.com/colombia/2026/10/12/gobierno-de-la-espriella-propone-que-la-mision-de-la-onu-deje-de-verificar-la-reforma-rural-una-naturaleza-distinta/"
+        },
+        {
+          "t": "El Heraldo — la ONU pide definir cómo se implementará el Acuerdo",
+          "url": "https://www.elheraldo.co/colombia/2026/10/12/la-onu-pide-al-gobierno-de-la-espriella-definir-como-implementara-el-acuerdo-de-paz-en-colombia/"
         }
       ],
       "etiquetas": [
@@ -3744,8 +3988,51 @@
         "reforma rural",
         "tierras"
       ],
-      "notas": "Leonardo González (Indepaz) consideró válida una revisión después de una década pero advirtió problemas de implementación; Laura Bonilla (Fundación Pares) señaló a la JEP como principal punto de tensión. El Acto Legislativo 02 de 2017 obliga a que las actuaciones del Estado guarden coherencia con el Acuerdo y se cumplan de buena fe. La suspensión de tierras se anunció el 10 de agosto (La FM no precisa si cubre la restitución). Relacionado con E-13 (recorte a la JEP), G-05 (desmonte de la Paz Total) y E-03 (presupuesto). A vigilar: sesión del Consejo de Seguridad del 12 de octubre y renovación del mandato de la Misión.",
-      "ultima_actualizacion": "2026-10-12"
+      "notas": "Leonardo González (Indepaz) consideró válida una revisión después de una década pero advirtió problemas de implementación; Laura Bonilla (Fundación Pares) señaló a la JEP como principal punto de tensión. El Acto Legislativo 02 de 2017 obliga a que las actuaciones del Estado guarden coherencia con el Acuerdo y se cumplan de buena fe. La suspensión de tierras se anunció el 10 de agosto (La FM no precisa si cubre la restitución). Relacionado con E-13 (recorte a la JEP), G-05 (desmonte de la Paz Total) y E-03 (presupuesto). A vigilar: sesión del Consejo de Seguridad del 12 de octubre y renovación del mandato de la Misión. Actualización (12 de octubre, Consejo de Seguridad): el canciller Bula pidió prorrogar el mandato de la Misión pero excluir de él la reforma rural integral, por tener 'una naturaleza distinta', y mantener el monitoreo de reincorporación y garantías de seguridad. Dinamarca rechazó la propuesta ('la aplicación continuada de reforma rural seguirá contribuyendo a la paz y seguridad'); EE. UU. dijo que el cumplimiento integral es esencial y valoró los primeros 70 días del Gobierno. Miroslav Jenča pidió planes concretos con financiación y coordinación, y señaló que los integrantes de grupos armados pasaron de unos 15.000 a 28.000 desde 2022. El Consejo decidirá sobre el mandato el 30 de octubre.",
+      "ultima_actualizacion": "2026-10-16"
+    },
+    {
+      "id": "G-18",
+      "fecha": "2026-10-15",
+      "fecha_texto": "15 de octubre de 2026",
+      "periodo": "Gobierno 2026-2030",
+      "tematica": "Seguridad y DDHH",
+      "caso": "'Cualquier peludo hace un video y dice que lo amenazaron': el presidente ordena revisar los esquemas de protección",
+      "alegato": "Durante una visita al Ministerio del Interior, el presidente ordenó revisar los esquemas de protección del Estado y retirar los que no tengan justificación, como parte de su política de austeridad. Dijo: 'Cualquier peludo hace un video y dice que lo amenazaron para que el Estado le ponga un esquema de protección'. No precisó cuántos esquemas podrían retirarse ni el plazo. Dos días antes, el caricaturista Matador había denunciado en X que un alto funcionario de la UNP ordenó a sus escoltas dejarlo solo (ver I-06); Publimetro señala que no hay pruebas públicas de esa versión y la UNP no se pronunció. En septiembre ya se había reportado el retiro del esquema de Levy Rincón, quien responsabilizó al presidente de cualquier atentado en su contra.",
+      "respuesta_adle": "El presidente afirmó que la protección se mantendrá para quienes realmente la necesiten, sin importar su posición política.",
+      "estado": "Sin investigación formal",
+      "verificacion": "Documentado",
+      "gravedad": 2,
+      "actores": [
+        "Unidad Nacional de Protección",
+        "Rodrigo Lara (ministro del Interior)"
+      ],
+      "fuentes": [
+        "Chicanoticias",
+        "Publimetro"
+      ],
+      "enlaces": [
+        {
+          "t": "Chicanoticias — \"Cualquier peludo hace un video\"",
+          "url": "https://www.chicanoticias.com/2026/10/15/de-la-espriella-162/"
+        },
+        {
+          "t": "Publimetro — Matador denuncia retiro de su seguridad",
+          "url": "https://www.publimetro.co/entretenimiento/2026/10/13/matador-aseguro-que-de-la-espriella-tiene-afan-de-empacarlo-en-una-bolsa-blanca-tras-problemas-con-su-seguridad/"
+        },
+        {
+          "t": "Publimetro — Levy Rincón tras retiro de su esquema (septiembre)",
+          "url": "https://www.publimetro.co/noticias/2026/09/14/levy-rincon-culpo-a-de-la-espriella-de-cualquier-atentado-que-le-hagan-tras-retiro-de-su-esquema-de-seguridad/"
+        }
+      ],
+      "etiquetas": [
+        "UNP",
+        "esquemas de protección",
+        "austeridad",
+        "líderes sociales"
+      ],
+      "notas": "Contexto: el informe de la ONU de octubre registró 40 denuncias de asesinatos de líderes sociales en el trimestre (ver G-17), y la FLIP documenta 326 amenazas contra periodistas por grupos armados desde 2022 (ver I-07). Al cierre no se encontraron reacciones nombradas a la frase. Ver F-03 (dirección de la UNP). Fuente principal regional (Chicanoticias, Montería); buscar confirmación en medios nacionales en el próximo corte.",
+      "ultima_actualizacion": "2026-10-16"
     },
     {
       "id": "K-04",
@@ -4021,6 +4308,117 @@
       ],
       "notas": "No hay evidencia publicada de uso de recursos públicos; la primera dama afirma que pagó con recursos propios y el senador Ocampo reconoció que tiene derecho a viajes institucionales pagados por el Estado. Lo que se registra es la solicitud de información pendiente y el patrocinio del proyecto por empresas privadas, entre ellas la firma de abogados fundada por el presidente (ver F-04, puerta giratoria con la firma). La primera dama no es funcionaria del alto gobierno; se incluye bajo K por su rol institucional como gestora social.",
       "ultima_actualizacion": "2026-10-12"
+    },
+    {
+      "id": "K-09",
+      "fecha": "2026-10-16",
+      "fecha_texto": "24 de agosto – 16 de octubre de 2026",
+      "periodo": "Gobierno 2026-2030",
+      "tematica": "Institucionalidad",
+      "caso": "Fundación de la primera dama: dos meses de preguntas sin respuesta y rendición de cuentas por $54.607 millones en donaciones privadas",
+      "alegato": "La Fundación Colombia Luz y Sonrisas, creada por la primera dama Ana Lucía Pineda el 7 de julio y de la que es representante legal, recaudó donaciones de la campaña 'Colombia, Un Solo Corazón' para damnificados del terremoto. El senador Alejandro Ocampo (Pacto Histórico) pidió al Dapre el 24 de agosto información sobre lo recaudado y gastado; al no recibir respuesta presentó una tutela, admitida el 22 de septiembre, y pidió auditorías a Procuraduría y Contraloría. El 13 de octubre la DIAN confirmó que la fundación tiene RUT vigente y está en el Régimen Tributario Especial, por lo que puede recibir donaciones. El 16 de octubre la fundación publicó su rendición de cuentas: 54.607 millones de pesos de origen privado, de los cuales el 81% aportó el Grupo Gilinski; según El Colombiano, se han ejecutado cerca de 11.900 millones (la nota no es clara sobre las cifras de administración) y el resto permanece disponible para reconstrucción.",
+      "respuesta_adle": "Pineda: no tiene 'nada que ocultar'; decidió con su junta reservar los recursos para la fase de reconstrucción, en alianza con tres constructoras y con selección de familias junto a los alcaldes. Sostuvo que, como fundación y no ministerio, no estaba obligada a presentar ese balance, pero decidió hacerlo, y vinculó parte de los cuestionamientos a la Presidencia de su esposo. La fundación: 'Reafirmamos nuestro compromiso con la transparencia'.",
+      "estado": "Abierto",
+      "verificacion": "Documentado",
+      "gravedad": 2,
+      "actores": [
+        "Ana Lucía Pineda (primera dama)",
+        "Fundación Colombia Luz y Sonrisas",
+        "Alejandro Ocampo (senador)",
+        "Grupo Gilinski",
+        "DIAN"
+      ],
+      "fuentes": [
+        "Cambio",
+        "El Colombiano",
+        "La Silla Vacía",
+        "Infobae",
+        "Semana",
+        "Pulzo"
+      ],
+      "enlaces": [
+        {
+          "t": "Cambio — la fundación puede recibir donaciones pero no revela cuánto ha recaudado",
+          "url": "https://cambiocolombia.com/poder/articulo/2026/10/la-fundacion-de-la-primera-dama-puede-recibir-donaciones-pero-sigue-sin-revelar-cuanto-ha-recaudado"
+        },
+        {
+          "t": "El Colombiano — más de $54.000 millones en aportes privados",
+          "url": "https://www.elcolombiano.com/colombia/fundacion-primera-dama-reporta-mas-de-54000-millones-aportes-privados-terremoto-PA42353396"
+        },
+        {
+          "t": "Infobae — rendición de cuentas de la fundación",
+          "url": "https://www.infobae.com/colombia/2026/10/16/primera-dama-ana-lucia-pineda-rindio-cuentas-de-su-fundacion-mas-de-54000-millones-en-donaciones-privadas-para-la-reconstruccion-tras-el-terremoto/"
+        }
+      ],
+      "etiquetas": [
+        "primera dama",
+        "donaciones",
+        "transparencia",
+        "terremoto",
+        "Fondo Milagro"
+      ],
+      "notas": "No hay indicios publicados de manejo irregular; lo que se registra es la demora en informar sobre recursos donados para una emergencia pública y la tutela pendiente. Si se toma la cifra de ejecución citada por El Colombiano (cerca de 11.900 millones), equivaldría a alrededor del 22% de lo recaudado a dos meses del terremoto; la cifra debe confirmarse con el informe original. El caso se cruza con I-06 (Matador cuestionó estos recursos) y K-08 (viaje a París). Comparable con H-04 (Fondo Milagro, recursos públicos). A vigilar: fallo de la tutela de Ocampo y auditoría externa.",
+      "ultima_actualizacion": "2026-10-16"
+    },
+    {
+      "id": "K-10",
+      "fecha": "2026-10-15",
+      "fecha_texto": "15–16 de octubre de 2026",
+      "periodo": "Gobierno 2026-2030",
+      "tematica": "Institucionalidad",
+      "caso": "'Que desaparezca de los lugares públicos': orden de retirar imágenes de Carlos Pizarro y desmonte de unas 30 piezas del Museo Nacional",
+      "alegato": "El 15 de octubre, acompañado por la ministra de las Culturas, Paola Holguín, el presidente ordenó retirar imágenes y referencias a Carlos Pizarro, excomandante del M-19, de los espacios institucionales del Gobierno: 'Le he dado instrucciones a la señora ministra para que toda esa oda al terrorismo (...) desaparezca de los lugares públicos'. Ese mismo día se denunció el retiro de al menos 30 piezas de tres salas del Museo Nacional, principalmente de 'Hacer sociedad' y 'Memoria y Nación', entre ellas, según Infobae, una bandera del orgullo LGBT, material de la marcha LGBT de 2006, un impreso sobre derechos reproductivos, un afiche de campaña de Bernardo Jaramillo Ossa (UP), un afiche de Pizarro, un brazalete de la AD M-19 y objetos de la Constitución de 1991 y del Acuerdo de Paz, como el tarjetón de la Séptima Papeleta. El guion de 'Hacer sociedad' había sido revisado en 2019. Pizarro firmó la paz del M-19 en 1990 y fue asesinado ese año siendo candidato presidencial; en 2024 el Estado reconoció responsabilidad en su magnicidio.",
+      "respuesta_adle": "Presidente: 'Aquí nunca más los terroristas tendrán un lugar como si de próceres de la patria se tratara'. Holguín: el Museo Nacional 'NO consiste en servir como instrumento de adoctrinamiento político' ni puede ser 'un espacio de apología al delito o revictimización'; debe proteger a los niños 'del acceso a material sensible'; la museología y curaduría 'están siendo evaluados y rediseñados'.",
+      "estado": "Sin investigación formal",
+      "verificacion": "Documentado",
+      "gravedad": 3,
+      "actores": [
+        "Paola Holguín (ministra de las Culturas)",
+        "Museo Nacional",
+        "María del Mar Pizarro",
+        "Colombia Diversa"
+      ],
+      "fuentes": [
+        "El Universal",
+        "Semana",
+        "Infobae",
+        "Pulzo",
+        "La Silla Vacía",
+        "NTN24",
+        "Cambio"
+      ],
+      "enlaces": [
+        {
+          "t": "El Universal — orden de retirar lo alusivo a Carlos Pizarro",
+          "url": "https://www.eluniversal.com.co/colombia/2026/10/15/de-la-espriella-ordena-retirar-todo-lo-alusivo-a-carlos-pizarro-de-espacios-publicos/"
+        },
+        {
+          "t": "Infobae — la ministra justifica el desmonte de 30 obras",
+          "url": "https://www.infobae.com/colombia/2026/10/16/ministra-de-cultura-paola-holguin-justifico-el-desmonte-de-30-obras-que-estaban-expuesta-en-el-museo-nacional-adoctrinamiento-politico/"
+        },
+        {
+          "t": "Semana — pronunciamiento de la ministra",
+          "url": "https://www.semana.com/politica/articulo/ministra-paola-holguin-se-pronuncio-sobre-el-museo-nacional-tras-orden-que-le-dio-abelardo-de-la-espriella/202653/"
+        },
+        {
+          "t": "Pulzo — responde la hija de Carlos Pizarro",
+          "url": "https://www.pulzo.com/nacion/maria-mar-pizarro-responde-espriella-por-orden-sobre-carlos-pizarro-PP5331512"
+        },
+        {
+          "t": "Cambio — el Estado asume responsabilidad en el magnicidio de Pizarro (2024)",
+          "url": "https://cambiocolombia.com/poder/articulo/2024/11/colombia-asume-por-primera-vez-su-responsabilidad-en-el-magnicidio-de-carlos-pizarro"
+        }
+      ],
+      "etiquetas": [
+        "memoria histórica",
+        "Museo Nacional",
+        "Carlos Pizarro",
+        "M-19",
+        "LGBTIQ+",
+        "curaduría"
+      ],
+      "notas": "María del Mar Pizarro: 'el cariño de este país por mi padre no yace en objetos o esculturas'; dijo que la historia recordará al Gobierno por su retroceso en libertades. Marcela Sánchez (Colombia Diversa) habló de un 'borrado'. Según fuentes del museo citadas por La Silla Vacía, la selección la hicieron el secretario general del Ministerio, Julián Sterling, y la directora encargada, Katia González. El Gobierno no ha publicado inventario de las piezas retiradas. Contexto judicial: el 30 de septiembre el Consejo de Estado suspendió provisionalmente la declaratoria del sombrero de Pizarro como patrimonio (Resolución 218 de 2024), decisión que no ordena retirar sus imágenes. Ver D-08 (retiro de la coalición LGBTIQ+) y F-12.",
+      "ultima_actualizacion": "2026-10-16"
     }
   ]
 }
